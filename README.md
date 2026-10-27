@@ -1,6 +1,6 @@
 # dsm-sa-8241
 
-Dover Street Market（日本）の新着ページを5分おきに確認し、新商品が出たら ntfy でスマホに通知します。
+DSM・NEIGHBORHOOD・CIBONE の新着を5分おきに確認し、新商品が出たら ntfy でスマホに通知します。監視先は `watch.py` の `SITES` に追加できます。
 
 - 監視プログラム: `watch.py`
 - 自動実行の設定: `.github/workflows/watch.yml`

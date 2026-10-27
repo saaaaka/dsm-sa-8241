@@ -1,4 +1,4 @@
-name: DSM新着チェック
+name: 新着チェック
 
 on:
   schedule:

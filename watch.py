@@ -1,4 +1,10 @@
-"""Dover Street Market (JP) の新着ページを確認し、新商品があれば ntfy でスマホに通知する。"""
+"""複数ショップの新着を確認し、新商品があれば ntfy でスマホに通知する。
+
+監視先を増やすときは SITES に1行追加する。
+  type="shopify" : Shopify製ショップ（url は products.json の場所）
+  type="cibone"  : CIBONE の新着一覧ページ
+"""
+import html
 import json
 import os
 import re
@@ -6,8 +12,20 @@ import sys
 import urllib.parse
 import urllib.request
 
-BASE = "https://shop-jp.doverstreetmarket.com"
-COLLECTION = "whats-new"
+SITES = [
+    {"name": "DSM", "type": "shopify",
+     "base": "https://shop-jp.doverstreetmarket.com",
+     "json": "/collections/whats-new/products.json?limit=250",
+     "page": "/collections/whats-new"},
+    {"name": "NEIGHBORHOOD", "type": "shopify",
+     "base": "https://www.neighborhood.jp",
+     "json": "/products.json?limit=250",
+     "page": "/"},
+    {"name": "CIBONE", "type": "cibone",
+     "base": "https://www.cibone.com",
+     "page": "/category/NEW/"},
+]
+
 SEEN_FILE = "seen.json"
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
@@ -19,32 +37,33 @@ def get(url):
         return r.read().decode("utf-8", errors="replace")
 
 
-def fetch_products():
-    """{id: {"title", "url", "price"}} を返す。まずShopifyのJSON、だめならHTMLから拾う。"""
-    try:
-        data = json.loads(get(f"{BASE}/collections/{COLLECTION}/products.json?limit=250"))
-        items = {}
-        for p in data.get("products", []):
-            v = (p.get("variants") or [{}])[0]
-            items[str(p["id"])] = {
-                "title": f'{p.get("vendor", "")} {p.get("title", "")}'.strip(),
-                "url": f'{BASE}/products/{p["handle"]}',
-                "price": v.get("price", ""),
-            }
-        if items:
-            return items
-    except Exception as e:  # JSONが無いサイト構成ならHTMLへ
-        print(f"JSON取得失敗、HTMLで再試行: {e}")
-
-    html = get(f"{BASE}/collections/{COLLECTION}")
+def fetch_shopify(site):
+    data = json.loads(get(site["base"] + site["json"]))
     items = {}
-    for handle in re.findall(r'href="(?:/collections/[^"/]+)?/products/([^"?#/]+)', html):
-        items[handle] = {
-            "title": urllib.parse.unquote(handle).replace("-", " "),
-            "url": f"{BASE}/products/{handle}",
-            "price": "",
+    for p in data.get("products", []):
+        v = (p.get("variants") or [{}])[0]
+        price = v.get("price", "")
+        if price:
+            price = f"¥{int(float(price)):,}"
+        items[str(p["id"])] = {
+            "title": f'{p.get("vendor", "")} {p.get("title", "")}'.strip(),
+            "url": f'{site["base"]}/products/{p["handle"]}',
+            "price": price,
         }
     return items
+
+
+def fetch_cibone(site):
+    page = get(site["base"] + site["page"])
+    items = {}
+    pattern = (r'<a href="(https://www\.cibone\.com/category/NEW/(\d+)\.html)" title="([^"]*)">'
+               r'.*?<span class="price_en">([^<]*)</span>')
+    for url, pid, title, price in re.findall(pattern, page, re.S):
+        items[pid] = {"title": html.unescape(title), "url": url, "price": price.strip()}
+    return items
+
+
+FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone}
 
 
 def notify(title, body, click):
@@ -55,7 +74,7 @@ def notify(title, body, click):
         f"https://ntfy.sh/{NTFY_TOPIC}",
         data=body.encode("utf-8"),
         headers={
-            "Title": urllib.parse.quote(title),  # 日本語ヘッダー対策
+            "Title": urllib.parse.quote(title),
             "Click": click,
             "Priority": "high",
             "Tags": "shopping_bags",
@@ -65,28 +84,52 @@ def notify(title, body, click):
     urllib.request.urlopen(req, timeout=30)
 
 
+def load_seen():
+    if not os.path.exists(SEEN_FILE):
+        return {}
+    data = json.load(open(SEEN_FILE))
+    if isinstance(data, list):  # 旧形式（DSMのみ）からの移行
+        return {"DSM": data}
+    return data
+
+
 def main():
-    products = fetch_products()
-    if not products:
-        print("商品が1件も取れませんでした。サイト構成が変わった可能性があります。")
+    seen = load_seen()
+    errors = 0
+    for site in SITES:
+        name = site["name"]
+        try:
+            products = FETCHERS[site["type"]](site)
+        except Exception as e:
+            print(f"[{name}] 取得失敗: {e}")
+            errors += 1
+            continue
+        if not products:
+            print(f"[{name}] 商品が取れませんでした（ページ構成が変わった可能性）")
+            errors += 1
+            continue
+
+        page_url = site["base"] + site["page"]
+        first_run = name not in seen
+        known = set(seen.get(name, []))
+        new_ids = [pid for pid in products if pid not in known]
+
+        if first_run:
+            notify(f"{name} 監視スタート", f"現在の {len(products)} 件を記録しました。次回から新商品を通知します。", page_url)
+        elif new_ids:
+            for pid in new_ids[:10]:
+                p = products[pid]
+                notify(f"{name} 新商品", f"{p['title']} {p['price']}".strip(), p["url"])
+            if len(new_ids) > 10:
+                notify(f"{name} 新商品", f"ほかに {len(new_ids) - 10} 件追加されています", page_url)
+
+        print(f"[{name}] 取得 {len(products)} 件 / 新規 {len(new_ids)} 件")
+        seen[name] = sorted(known | set(products))
+
+    with open(SEEN_FILE, "w") as f:
+        json.dump(seen, f, ensure_ascii=False, indent=0)
+    if errors == len(SITES):
         sys.exit(1)
-
-    first_run = not os.path.exists(SEEN_FILE)
-    seen = set() if first_run else set(json.load(open(SEEN_FILE)))
-    new_ids = [pid for pid in products if pid not in seen]
-
-    if first_run:
-        notify("DSM監視スタート", f"現在の新着 {len(products)} 件を記録しました。次回から新商品を通知します。", f"{BASE}/collections/{COLLECTION}")
-    elif new_ids:
-        for pid in new_ids[:10]:  # 一度に大量追加されたときは先頭10件だけ個別通知
-            p = products[pid]
-            price = f"¥{p['price']}" if p["price"] else ""
-            notify("DSM 新商品", f"{p['title']} {price}".strip(), p["url"])
-        if len(new_ids) > 10:
-            notify("DSM 新商品", f"ほかに {len(new_ids) - 10} 件追加されています", f"{BASE}/collections/{COLLECTION}")
-
-    print(f"取得 {len(products)} 件 / 新規 {len(new_ids)} 件")
-    json.dump(sorted(seen | set(products)), open(SEEN_FILE, "w"), ensure_ascii=False, indent=0)
 
 
 if __name__ == "__main__":
