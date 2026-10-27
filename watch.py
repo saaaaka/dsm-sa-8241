@@ -24,6 +24,9 @@ SITES = [
     {"name": "CIBONE", "type": "cibone",
      "base": "https://www.cibone.com",
      "page": "/category/NEW/"},
+    {"name": "THE TOKYO", "type": "thetokyo",
+     "base": "https://the-tokyo.jp",
+     "page": "/shop/e/eTT-M-N-A_ssd/?f12=0"},
 ]
 
 SEEN_FILE = "seen.json"
@@ -63,7 +66,18 @@ def fetch_cibone(site):
     return items
 
 
-FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone}
+def fetch_thetokyo(site):
+    page = get(site["base"] + site["page"])
+    items = {}
+    pattern = (r'<a href="(/shop/g/g([0-9A-Za-z]+)/)"[^>]*>.*?<div class="name-til"><p>([^<]*)</p>'
+               r'.*?<div class="type-til"><p>([^<]*)</p>.*?goods-price">([^<]*)<')
+    for path, pid, brand, name, price in re.findall(pattern, page, re.S):
+        items[pid] = {"title": html.unescape(f"{brand} {name}").strip(),
+                      "url": site["base"] + path, "price": price.strip()}
+    return items
+
+
+FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone, "thetokyo": fetch_thetokyo}
 
 
 def notify(title, body, click):
@@ -117,11 +131,11 @@ def main():
         if first_run:
             notify(f"{name} 監視スタート", f"現在の {len(products)} 件を記録しました。次回から新商品を通知します。", page_url)
         elif new_ids:
-            for pid in new_ids[:10]:
-                p = products[pid]
+            unique = list({products[pid]["title"]: products[pid] for pid in reversed(new_ids)}.values())[::-1]
+            for p in unique[:10]:  # 色違いなど同名商品は1通にまとめる
                 notify(f"{name} 新商品", f"{p['title']} {p['price']}".strip(), p["url"])
-            if len(new_ids) > 10:
-                notify(f"{name} 新商品", f"ほかに {len(new_ids) - 10} 件追加されています", page_url)
+            if len(unique) > 10:
+                notify(f"{name} 新商品", f"ほかに {len(unique) - 10} 件追加されています", page_url)
 
         print(f"[{name}] 取得 {len(products)} 件 / 新規 {len(new_ids)} 件")
         seen[name] = sorted(known | set(products))
