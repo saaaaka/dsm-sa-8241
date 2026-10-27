@@ -3,6 +3,8 @@
 監視先を増やすときは SITES に1行追加する。
   type="shopify" : Shopify製ショップ（url は products.json の場所）
   type="cibone"  : CIBONE の新着一覧ページ
+  type="rss"     : WordPressなどのRSSフィード（feed にフィードの場所）
+  type="links"   : 普通のページ。pattern に合うリンクが増えたら通知する
 """
 import html
 import json
@@ -27,6 +29,28 @@ SITES = [
     {"name": "THE TOKYO", "type": "thetokyo",
      "base": "https://the-tokyo.jp",
      "page": "/shop/e/eTT-M-N-A_ssd/?f12=0"},
+    {"name": "HUMAN MADE", "type": "shopify",
+     "base": "https://www.humanmade.jp",
+     "json": "/products.json?limit=250",
+     "page": "/"},
+    {"name": "MOC-O", "type": "shopify",
+     "base": "https://store.moc-o.com",
+     "json": "/collections/new-1/products.json?limit=250",
+     "page": "/collections/new-1"},
+    {"name": "メガホビ 遊戯王", "type": "links", "label": "更新",
+     "base": "https://www.megahobby.jp",
+     "page": "/event/mh_yugioh/",
+     # ページ内の megahobby / megahouse へのリンクが増えたら通知
+     "pattern": r"^https?://(?:www\.)?(?:megahobby\.jp|megahouse\.co\.jp)/(?!event/mh_yugioh/?$).+"},
+    {"name": "電撃ホビー デジモン", "type": "rss", "label": "新着記事",
+     "base": "https://hobby.dengeki.com",
+     "feed": "/tag/digimon/feed/",
+     "page": "/tag/digimon/"},
+    {"name": "コナミスタイル", "type": "links",
+     "base": "https://www.konamistyle.jp",
+     "page": "/products/list.php?mode=search&category_id=1001063",
+     # 商品ページへのリンク（product_id を商品IDとして使う）
+     "pattern": r"/products/detail(?:\.php\?product_id=|/)(\d+)"},
 ]
 
 SEEN_FILE = "seen.json"
@@ -89,7 +113,30 @@ def fetch_rss(site):
     return items
 
 
-FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone, "thetokyo": fetch_thetokyo, "rss": fetch_rss}
+def fetch_links(site):
+    """普通のHTMLページ。pattern に合うリンクを1件として扱う（括弧があればその部分をIDにする）"""
+    page_url = site["base"] + site["page"]
+    page = get(page_url)
+    items = {}
+    for href, inner in re.findall(r'<a\b[^>]*?href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', page, re.S | re.I):
+        url = urllib.parse.urljoin(page_url, html.unescape(href)).split("#")[0]
+        m = re.search(site["pattern"], url)
+        if not m:
+            continue
+        pid = m.group(1) if m.groups() else url
+        title = " ".join(html.unescape(re.sub(r"<[^>]+>", " ", inner)).split())
+        if not title:  # 画像だけのリンクは alt を使う
+            alt = re.search(r'alt=["\']([^"\']*)["\']', inner)
+            title = html.unescape(alt.group(1)).strip() if alt else ""
+        if pid not in items or (title and not items[pid]["title"]):
+            items[pid] = {"title": title, "url": url, "price": ""}
+    for p in items.values():
+        p["title"] = p["title"] or p["url"]
+    return items
+
+
+FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone, "thetokyo": fetch_thetokyo,
+            "rss": fetch_rss, "links": fetch_links}
 
 
 def notify(title, body, click):
@@ -149,7 +196,8 @@ def main():
             if len(unique) > 10:
                 notify(f"{name} {site.get('label', '新商品')}", f"ほかに {len(unique) - 10} 件追加されています", page_url)
 
-        print(f"[{name}] 取得 {len(products)} 件 / 新規 {len(new_ids)} 件")
+        sample = " | ".join(p["title"][:30] for p in list(products.values())[:3])
+        print(f"[{name}] 取得 {len(products)} 件 / 新規 {len(new_ids)} 件 例: {sample}")
         seen[name] = sorted(known | set(products))
 
     with open(SEEN_FILE, "w") as f:
