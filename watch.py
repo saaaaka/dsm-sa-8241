@@ -37,11 +37,11 @@ SITES = [
      "base": "https://store.moc-o.com",
      "json": "/collections/new-1/products.json?limit=250",
      "page": "/collections/new-1"},
-    {"name": "メガホビ 遊戯王", "type": "links", "label": "更新",
+    {"name": "メガホビ 遊戯王", "type": "links",
      "base": "https://www.megahobby.jp",
      "page": "/event/mh_yugioh/",
-     # ページ内の megahobby / megahouse へのリンクが増えたら通知
-     "pattern": r"^https?://(?:www\.)?(?:megahobby\.jp|megahouse\.co\.jp)/(?!event/mh_yugioh/?$).+"},
+     # ページ内の商品ページへのリンクが増えたら通知
+     "pattern": r"megahobby\.jp/products/item/(\d+)/"},
     {"name": "電撃ホビー デジモン", "type": "rss", "label": "新着記事",
      "base": "https://hobby.dengeki.com",
      "feed": "/tag/digimon/feed/",
@@ -168,6 +168,7 @@ def load_seen():
 
 def main():
     seen = load_seen()
+    status = {}
     errors = 0
     for site in SITES:
         name = site["name"]
@@ -175,10 +176,12 @@ def main():
             products = FETCHERS[site["type"]](site)
         except Exception as e:
             print(f"[{name}] 取得失敗: {e}")
+            status[name] = f"取得失敗: {e}"
             errors += 1
             continue
         if not products:
             print(f"[{name}] 商品が取れませんでした（ページ構成が変わった可能性）")
+            status[name] = "0件（ページ構成が変わった可能性）"
             errors += 1
             continue
 
@@ -198,10 +201,13 @@ def main():
 
         sample = " | ".join(p["title"][:30] for p in list(products.values())[:3])
         print(f"[{name}] 取得 {len(products)} 件 / 新規 {len(new_ids)} 件 例: {sample}")
+        status[name] = f"OK {len(products)}件"
         seen[name] = sorted(known | set(products))
 
     with open(SEEN_FILE, "w") as f:
         json.dump(seen, f, ensure_ascii=False, indent=0)
+    with open("status.json", "w") as f:  # 各サイトの最新の取得結果（GitHub上で確認用）
+        json.dump(status, f, ensure_ascii=False, indent=1)
     if errors == len(SITES):
         sys.exit(1)
 
