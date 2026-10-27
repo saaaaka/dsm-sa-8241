@@ -29,10 +29,6 @@ SITES = [
     {"name": "THE TOKYO", "type": "thetokyo",
      "base": "https://the-tokyo.jp",
      "page": "/shop/e/eTT-M-N-A_ssd/?f12=0"},
-    {"name": "HUMAN MADE", "type": "shopify",
-     "base": "https://www.humanmade.jp",
-     "json": "/products.json?limit=250",
-     "page": "/"},
     {"name": "MOC-O", "type": "shopify",
      "base": "https://store.moc-o.com",
      "json": "/collections/new-1/products.json?limit=250",
@@ -46,12 +42,10 @@ SITES = [
      "base": "https://hobby.dengeki.com",
      "feed": "/tag/digimon/feed/",
      "page": "/tag/digimon/"},
-    {"name": "コナミスタイル", "type": "links",
-     "base": "https://www.konamistyle.jp",
-     "page": "/products/list.php?mode=search&category_id=1001063",
-     # 商品ページへのリンク（product_id を商品IDとして使う）
-     "pattern": r"/products/detail(?:\.php\?product_id=|/)(\d+)"},
 ]
+
+# 監視できなかったサイト（GitHub Actions からのアクセスが 403 で拒否される）:
+#   HUMAN MADE (www.humanmade.jp)、コナミスタイル (www.konamistyle.jp)、ARKnets
 
 SEEN_FILE = "seen.json"
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
