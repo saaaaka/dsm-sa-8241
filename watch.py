@@ -78,7 +78,8 @@ def fetch_shopify(site):
             "title": f'{p.get("vendor", "")} {p.get("title", "")}'.strip(),
             "url": f'{site["base"]}/products/{p["handle"]}',
             "price": price,
-            "published": p.get("published_at") or p.get("created_at") or "",
+            # published_at は再公開・再入荷で更新されるので、変わらない created_at（登録日）を使う
+            "published": p.get("created_at") or p.get("published_at") or "",
         }
     return items
 
@@ -142,7 +143,7 @@ FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone, "thetokyo": fetch_
             "rss": fetch_rss, "links": fetch_links}
 
 
-RECENT_DAYS = 3  # 公開日が分かるサイトは、この日数より古い商品は通知しない
+RECENT_DAYS = 3  # 登録日が分かるサイトは、この日数より古い商品は通知しない
 
 
 def is_recent(item):
