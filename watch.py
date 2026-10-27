@@ -77,7 +77,19 @@ def fetch_thetokyo(site):
     return items
 
 
-FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone, "thetokyo": fetch_thetokyo}
+def fetch_rss(site):
+    """WordPressなどのRSSフィード（新着記事）"""
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(get(site["base"] + site["feed"]))
+    items = {}
+    for it in root.iter("item"):
+        link = (it.findtext("link") or "").strip()
+        pid = (it.findtext("guid") or link).strip()
+        items[pid] = {"title": (it.findtext("title") or "").strip(), "url": link, "price": ""}
+    return items
+
+
+FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone, "thetokyo": fetch_thetokyo, "rss": fetch_rss}
 
 
 def notify(title, body, click):
@@ -133,9 +145,9 @@ def main():
         elif new_ids:
             unique = list({products[pid]["title"]: products[pid] for pid in reversed(new_ids)}.values())[::-1]
             for p in unique[:10]:  # 色違いなど同名商品は1通にまとめる
-                notify(f"{name} 新商品", f"{p['title']} {p['price']}".strip(), p["url"])
+                notify(f"{name} {site.get('label', '新商品')}", f"{p['title']} {p['price']}".strip(), p["url"])
             if len(unique) > 10:
-                notify(f"{name} 新商品", f"ほかに {len(unique) - 10} 件追加されています", page_url)
+                notify(f"{name} {site.get('label', '新商品')}", f"ほかに {len(unique) - 10} 件追加されています", page_url)
 
         print(f"[{name}] 取得 {len(products)} 件 / 新規 {len(new_ids)} 件")
         seen[name] = sorted(known | set(products))
