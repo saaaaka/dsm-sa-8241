@@ -59,7 +59,7 @@ NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ja"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ja", "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read().decode("utf-8", errors="replace")
 
