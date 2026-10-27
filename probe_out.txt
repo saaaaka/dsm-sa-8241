@@ -1,0 +1,37 @@
+
+===== https://www.neighborhood.jp/ -> 200 https://www.neighborhood.jp/ len 308299
+shopify
+TITLE ['NEIGHBORHOOD']
+LINKPATTERNS [('/X/X', 118), ('//www.X.jp/cdn/X/t/1/X/X.X.js', 11), ('/X/X/X', 11), ('/X/all', 10), ('//www.X.jp/cdn/X/t/1/X/X.css', 6), ('X://www.X.com/X/', 6), ('X://cdn.X.com/X/X/X/X/X.X.js', 5), ('X:X(0);', 5), ('/X/srl', 4), ('/X/tee', 4), ('X://www.X.jp/', 3), ('X://X.X.com', 3), ('/', 3), ('X://X.X.jp/', 2), ('/X', 2), ('X://X.com/X', 2), ('X://use.X.com/X/v5.8.2/css/all.css', 1), ('//www.X.jp/cdn/X/t/1/X/X.ico', 1), ('//www.X.jp/cdn/X/t/1/X/X.png', 1), ('//www.X.jp/cdn/X/t/1/X/X.X.css', 1), ('//www.X.jp/cdn/X/t/1/X/X.X.X.X.css', 1), ('//www.X.jp/cdn/X/t/1/X/X@X.X@X.X@X.X@X.X.X@X.X@X.X.js', 1), ('//www.X.jp/cdn/X/t/1/X/X@X.X.js', 1), ('//www.X.jp/cdn/X/t/1/X/X.X.X.js', 1), ('//www.X.jp/cdn/X/t/1/X/X@X.X@X.X.js', 1)]
+HEAD <!doctype html> <html class="no-js supports-no-cookies" lang="ja"> <head><script data-source-attribution="shopify.exit_interstitial">(()=>{var s=Function.prototype.bind.bind(Function.prototype.call),yt=(l,r)=>{for(let f=l;f;f=Object.getPrototypeOf(f)){let y=Object.getOwnPropertyDescriptor(f,r);if(y)return y}throw new TypeError(`${r} is not defined`)},u=(l,r)=>s(yt(l,r).get),B=(l,r)=>s(yt(l,r).set)
+SAMPLES ['//www.neighborhood.jp/cdn/shop/t/1/assets/vendors@template.addresses@template.collection@template.login@template.page.dealer@template.product@template.search.js?v=18821001363610669921571377173', '//www.neighborhood.jp/cdn/shop/t/1/assets/template.product.js?v=174699558912731254081715062268', '/products/26213nh-knm02', '/products/262pcnh-st06', '/products/262pcnh-st12', '/products/262aqnh-ptm07', '/products/262xbnh-ptm02', '/products/262xbnh-ptm05', '/products/262ygnh-ht09', '/products/261ygnh-ht06', '/products/262tqnh-cg01', '/products/262zanh-ac01', '/products/262yjnh-ac01', '/products/262aqnh-shm08', '/products/262tsnh-shm06']
+
+===== https://www.neighborhood.jp/products.json?limit=3 -> 200 https://www.neighborhood.jp/products.json?limit=3 len 49903
+shopify
+TITLE []
+LINKPATTERNS []
+HEAD {"products":[{"id":9132648562886,"title":"NH . TEE LS-17","handle":"262pcnh-lt17_os","body_html":"\u003cp\u003eコットン天竺のオリジナルボディを使用したロングスリーブTシャツ。グラフィックをプリント。ワンウォッシュ仕上げ。\u003c\/p\u003e","published_at":"2026-10-26T19:18:53+09:00","created_at":"2026-10-26T16:27:14+09:00","updated_at":"2026-10-27T10:36:53+09:00","vendor":"NEIGHBORHOOD","product_type":"TEE \/ KNIT \/ CUT SEWN","tags":["260822","262OS限定展開
+JSON {"products":[{"id":9132648562886,"title":"NH . TEE LS-17","handle":"262pcnh-lt17_os","body_html":"\u003cp\u003eコットン天竺のオリジナルボディを使用したロングスリーブTシャツ。グラフィックをプリント。ワンウォッシュ仕上げ。\u003c\/p\u003e","published_at":"2026-10-26T19:18:53+09:00","created_at":"2026-10-26T16:27:14+09:00","updated_at":"2026-10-27T10:36:53+09:00","vendor":"NEIGHBORHOOD","product_type":"TEE \/ KNIT \/ CUT SEWN","tags":["260822","262OS限定展開","26AW","26AW8月公開","26AW立上公開","[COLLECTION]ALL BRANDS","[COLLECTION]NEIGHBORHOOD","[COLLECTION]TEE","gift","inline","neighborhood","original","tee"],"variants":[{"id":48418164342982,"title":"BLACK \/ XS","option1":"BLACK","option2":"XS","option3":null,"sku":"262PCNH-LT17_BLACK_XS","requires_shipping":true,"taxable":true,"featured_image":{"id":42392162631878,"product_id":9132648562886,"position":2
+SAMPLES []
+
+===== https://www.cibone.com/category/NEW/ -> 200 https://www.cibone.com/category/NEW/ len 134205
+not-shopify-marker
+TITLE ['NEW | 【公式】CIBONE オンラインストア']
+LINKPATTERNS [('X://www.X.com/X/X/', 211), ('X://www.X.com/X/NEW/X.X', 60), ('X://www.X.com/ext/X.X', 28), ('X/X/', 25), ('X://www.X.com/X.X', 21), ('X:X(0);', 17), ('X://www.X.com/X/NEW/', 9), ('X.X', 5), ('X://www.X.com/', 3), ('X://X.X/X', 2), ('X/SL/', 2), ('ext/X.X', 2), ('X://www.X.com/ext/X/X.X', 2), ('X://www.X.com/ext/X.X#X', 2), ('X://www.X.com/X/CUP/', 2), ('X://www.X.com/X/POT/', 2), ('X://www.X.com/X/PEN/', 2), ('X://www.X.com/X/BAG/', 2), ('X://www.X.jp/X/', 2), ('X://X.net/X/X/All', 2), ('X://www.X.jp/', 2), ('/X/X/X/X/css/X.css', 1), ('/X/X/X/X/X.ico', 1), ('ext/X.X#X', 1), ('X/BF/', 1)]
+HEAD <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <meta name="format-detection" content="telephone=no" /> <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" /> <title>NEW | 【公式】CIBONE オンラインストア</title> <link href="/client_info/CIBONE/view/userweb/css/sty
+SAMPLES ['https://www.cibone.com/item_list.html?siborikomi_clear=1&amp;keyword=', 'item_list.html?siborikomi_clear=1&keyword=BLACKFRIDAY', 'https://www.cibone.com/topics_detail.html?info_id=1168', 'https://www.cibone.com/item_list.html?siborikomi_clear=1&amp;keyword=', 'https://www.cibone.com/topics_detail.html?info_id=1168', 'https://www.cibone.com/item_list.html?siborikomi_clear=1&amp;keyword=', 'https://www.cibone.com/category/NEW/?SEARCH_MAX_ROW_LIST=60&amp;item_list_mode=2&amp;sort_order=1&amp;request=page&amp;next_page=2', 'https://www.cibone.com/category/NEW/?SEARCH_MAX_ROW_LIST=60&amp;item_list_mode=2&amp;sort_order=1&amp;request=page&amp;next_page=3', 'https://www.cibone.com/category/NEW/?SEARCH_MAX_ROW_LIST=60&amp;item_list_mode=2&amp;sort_order=1&amp;request=page&amp;next_page=4', 'https://www.cibone.com/category/NEW/?SEARCH_MAX_ROW_LIST=60&amp;item_list_mode=2&amp;sort_order=1&amp;request=page&amp;next_page=5', 'https://www.cibone.com/category/NEW/?SEARCH_MAX_ROW_LIST=60&amp;item_list_mode=2&amp;sort_order=1&amp;request=page&amp;next_page=2', 'https://www.cibone.com/item_detail_search.html']
+
+===== https://www.cibone.com/products.json?limit=3 -> 404 https://www.cibone.com/products.json?limit=3 len 19
+not-shopify-marker
+TITLE []
+LINKPATTERNS []
+HEAD HTTP Error 404: 404
+JSON HTTP Error 404: 404
+SAMPLES []
+
+===== https://www.arknets.co.jp/goods/search.aspx?gender=men&goods_type=newarrival&search=x -> 202 https://www.arknets.co.jp/goods/search.aspx?gender=men&goods_type=newarrival&search=x len 0
+not-shopify-marker
+TITLE []
+LINKPATTERNS []
+HEAD 
+SAMPLES []
