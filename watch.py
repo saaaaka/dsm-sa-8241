@@ -6,6 +6,7 @@
   type="rss"     : WordPressなどのRSSフィード（feed にフィードの場所）
   type="links"   : 普通のページ。pattern に合うリンクが増えたら通知する
 """
+import datetime
 import html
 import json
 import os
@@ -59,9 +60,16 @@ def get(url):
 
 
 def fetch_shopify(site):
-    data = json.loads(get(site["base"] + site["json"]))
+    # 1回で取れるのは最大250件なので、ページを進めて全件を取る
+    products = []
+    for page in range(1, 21):
+        data = json.loads(get(f'{site["base"]}{site["json"]}&page={page}'))
+        batch = data.get("products", [])
+        products += batch
+        if len(batch) < 250:
+            break
     items = {}
-    for p in data.get("products", []):
+    for p in products:
         v = (p.get("variants") or [{}])[0]
         price = v.get("price", "")
         if price:
@@ -70,6 +78,7 @@ def fetch_shopify(site):
             "title": f'{p.get("vendor", "")} {p.get("title", "")}'.strip(),
             "url": f'{site["base"]}/products/{p["handle"]}',
             "price": price,
+            "published": p.get("published_at") or p.get("created_at") or "",
         }
     return items
 
@@ -133,19 +142,32 @@ FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone, "thetokyo": fetch_
             "rss": fetch_rss, "links": fetch_links}
 
 
+RECENT_DAYS = 3  # 公開日が分かるサイトは、この日数より古い商品は通知しない
+
+
+def is_recent(item):
+    """公開日が分からない場合は新しいものとして扱う"""
+    if not item.get("published"):
+        return True
+    try:
+        published = datetime.datetime.fromisoformat(item["published"])
+    except ValueError:
+        return True
+    now = datetime.datetime.now(datetime.timezone.utc)
+    return now - published <= datetime.timedelta(days=RECENT_DAYS)
+
+
 def notify(title, body, click):
     if not NTFY_TOPIC:
         print("NTFY_TOPIC未設定のため通知スキップ:", title, body)
         return
+    # JSONで送ると日本語のタイトルもそのまま表示される
+    payload = {"topic": NTFY_TOPIC, "title": title, "message": body,
+               "click": click, "priority": 4, "tags": ["shopping_bags"]}
     req = urllib.request.Request(
-        f"https://ntfy.sh/{NTFY_TOPIC}",
-        data=body.encode("utf-8"),
-        headers={
-            "Title": urllib.parse.quote(title),
-            "Click": click,
-            "Priority": "high",
-            "Tags": "shopping_bags",
-        },
+        "https://ntfy.sh/",
+        data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
         method="POST",
     )
     urllib.request.urlopen(req, timeout=30)
@@ -183,11 +205,15 @@ def main():
         first_run = name not in seen
         known = set(seen.get(name, []))
         new_ids = [pid for pid in products if pid not in known]
+        # 並び順の変化などで古い商品が初めて見えただけの場合は通知しない
+        notify_ids = [pid for pid in new_ids if is_recent(products[pid])]
+        if len(notify_ids) < len(new_ids):
+            print(f"[{name}] 古い商品 {len(new_ids) - len(notify_ids)} 件は通知せず記録のみ")
 
         if first_run:
             notify(f"{name} 監視スタート", f"現在の {len(products)} 件を記録しました。次回から新商品を通知します。", page_url)
-        elif new_ids:
-            unique = list({products[pid]["title"]: products[pid] for pid in reversed(new_ids)}.values())[::-1]
+        elif notify_ids:
+            unique = list({products[pid]["title"]: products[pid] for pid in reversed(notify_ids)}.values())[::-1]
             for p in unique[:10]:  # 色違いなど同名商品は1通にまとめる
                 notify(f"{name} {site.get('label', '新商品')}", f"{p['title']} {p['price']}".strip(), p["url"])
             if len(unique) > 10:
