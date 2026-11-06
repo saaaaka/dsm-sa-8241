@@ -43,10 +43,21 @@ SITES = [
      "base": "https://hobby.dengeki.com",
      "feed": "/tag/digimon/feed/",
      "page": "/tag/digimon/"},
+    {"name": "コナミスタイル", "type": "links",
+     "base": "https://www.konamistyle.jp",
+     "page": "/products/list.php?mode=search&category_id=1001063",
+     "pattern": r"konamistyle\.jp/products/detail\.php\?product_id=(\d+)"},
+    {"name": "わこうねっと", "type": "links", "label": "新着記事",
+     "base": "https://www.wako.life",
+     "page": "/",
+     "pattern": r"wako\.life/\?p=(\d+)$",
+     # サイドバーの人気記事・コメント欄の古い記事は通知しない（記事番号が今までより大きいものだけ通知）
+     "newer_only": True},
 ]
 
 # 監視できなかったサイト（GitHub Actions からのアクセスが 403 で拒否される）:
-#   HUMAN MADE (www.humanmade.jp)、コナミスタイル (www.konamistyle.jp)、ARKnets
+#   HUMAN MADE (www.humanmade.jp)、ARKnets
+#   コナミスタイルも以前は 403 だったが、カテゴリ指定のページで再挑戦中（status.json で確認）
 
 SEEN_FILE = "seen.json"
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
@@ -208,6 +219,9 @@ def main():
         new_ids = [pid for pid in products if pid not in known]
         # 並び順の変化などで古い商品が初めて見えただけの場合は通知しない
         notify_ids = [pid for pid in new_ids if is_recent(products[pid])]
+        if site.get("newer_only") and known:
+            top = max((int(k) for k in known if k.isdigit()), default=0)
+            notify_ids = [pid for pid in notify_ids if pid.isdigit() and int(pid) > top]
         if len(notify_ids) < len(new_ids):
             print(f"[{name}] 古い商品 {len(new_ids) - len(notify_ids)} 件は通知せず記録のみ")
 
