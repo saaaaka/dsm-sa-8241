@@ -12,12 +12,6 @@ with sync_playwright() as p:
         links = set(re.findall(r'href="([^"]*goods/detail[^"]*)"', h, re.I))
         print(i, "len", len(h), "title", pg.title(), "detail links", len(links))
         if len(h)>100000: break
-    import collections
-    hs = re.findall(r'href="([^"]+)"', h)
-    print(collections.Counter(re.sub(r"[0-9]+","N",x)[:60] for x in hs).most_common(40))
-    gs=[x for x in hs if "/g/" in x or "goods" in x]
-    print(gs[:15])
-    t = gs[5] if len(gs)>5 else "block-goods-list"
-    i = h.find(t)
-    print(h[max(0,i-800):i+3000])
+    i = h.find('href="/g/g')
+    print(h[max(0,i-1500):i+3500])
     b.close()
