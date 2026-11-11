@@ -5,6 +5,7 @@
   type="cibone"  : CIBONE の新着一覧ページ
   type="rss"     : WordPressなどのRSSフィード（feed にフィードの場所）
   type="links"   : 普通のページ。pattern に合うリンクが増えたら通知する
+  type="arknets" : ARKnets。ブラウザ確認（AWS WAF）があるので Playwright で開く
 """
 import datetime
 import html
@@ -53,10 +54,14 @@ SITES = [
      "pattern": r"wako\.life/\?p=(\d+)$",
      # サイドバーの人気記事・コメント欄の古い記事は通知しない（記事番号が今までより大きいものだけ通知）
      "newer_only": True},
+    {"name": "ARKnets", "type": "arknets",
+     "base": "https://www.arknets.co.jp",
+     "page": "/goods/search.aspx?gender=men&goods_type=newarrival&search=x&ps=90"},
 ]
 
 # 監視できなかったサイト（GitHub Actions からのアクセスが 403 で拒否される）:
-#   HUMAN MADE (www.humanmade.jp)、ARKnets
+#   HUMAN MADE (www.humanmade.jp)
+#   ARKnets はブラウザ確認があるため、Playwright（本物のブラウザ）で取得している
 #   コナミスタイルも以前は 403 だったが、カテゴリ指定のページで再挑戦中（status.json で確認）
 
 SEEN_FILE = "seen.json"
@@ -150,8 +155,38 @@ def fetch_links(site):
     return items
 
 
+def fetch_arknets(site):
+    """ARKnets はブラウザ確認（JavaScript）を通らないと中身が返らないので、Playwright で開く"""
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        try:
+            pg = browser.new_page(locale="ja-JP", user_agent=(
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"))
+            pg.goto(site["base"] + site["page"], wait_until="domcontentloaded", timeout=60000)
+            page = ""
+            for _ in range(8):  # 確認が終わって商品一覧が出るまで待つ
+                pg.wait_for_timeout(3000)
+                page = pg.content()
+                if "block-thumbnail-t--goods-name" in page:
+                    break
+        finally:
+            browser.close()
+    items = {}
+    pattern = (r'<dl class="block-thumbnail-t--goods\b.*?<a href="(/g/g([^"/]+)/)"'
+               r'.*?block-thumbnail-t--goods-name"><a [^>]*>([^<]*)</a>'
+               r'.*?variation-name"><a [^>]*>([^<]*)</a>'
+               r'.*?goods-price">\s*([^<]*?)\s*<')
+    for path, pid, brand, name, price in re.findall(pattern, page, re.S):
+        items[pid] = {"title": html.unescape(f"{brand} {name}").strip(),
+                      "url": site["base"] + path, "price": price.replace("￥", "¥")}
+    return items
+
+
 FETCHERS = {"shopify": fetch_shopify, "cibone": fetch_cibone, "thetokyo": fetch_thetokyo,
-            "rss": fetch_rss, "links": fetch_links}
+            "rss": fetch_rss, "links": fetch_links,
+            "arknets": fetch_arknets}
 
 
 RECENT_DAYS = 3  # 登録日が分かるサイトは、この日数より古い商品は通知しない
