@@ -5,6 +5,7 @@
   type="cibone"  : CIBONE の新着一覧ページ
   type="rss"     : WordPressなどのRSSフィード（feed にフィードの場所）
   type="links"   : 普通のページ。pattern に合うリンクが増えたら通知する
+                   （"browser": True でブラウザ（Playwright）で開く。403 で弾かれるサイト用）
   type="arknets" : ARKnets。ブラウザ確認（AWS WAF）があるので Playwright で開く
 """
 import datetime
@@ -47,7 +48,9 @@ SITES = [
     {"name": "コナミスタイル", "type": "links",
      "base": "https://www.konamistyle.jp",
      "page": "/products/list.php?mode=search&category_id=1001063",
-     "pattern": r"konamistyle\.jp/products/detail\.php\?product_id=(\d+)"},
+     "pattern": r"konamistyle\.jp/products/detail\.php\?product_id=(\d+)",
+     # 普通のアクセスだと 403 になるので、ARKnets と同じくブラウザで開く
+     "browser": True, "ready": "detail.php?product_id="},
     {"name": "わこうねっと", "type": "links", "label": "新着記事",
      "base": "https://www.wako.life",
      "page": "/",
@@ -62,7 +65,7 @@ SITES = [
 # 監視できなかったサイト（GitHub Actions からのアクセスが 403 で拒否される）:
 #   HUMAN MADE (www.humanmade.jp)
 #   ARKnets はブラウザ確認があるため、Playwright（本物のブラウザ）で取得している
-#   コナミスタイルも以前は 403 だったが、カテゴリ指定のページで再挑戦中（status.json で確認）
+#   コナミスタイルも普通のアクセスだと 403 なので、Playwright で取得している
 
 SEEN_FILE = "seen.json"
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
@@ -133,10 +136,34 @@ def fetch_rss(site):
     return items
 
 
+def get_browser(url, ready):
+    """本物のブラウザ（Playwright）でページを開き、ready の文字が出るまで待ってHTMLを返す"""
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        try:
+            pg = browser.new_page(locale="ja-JP", user_agent=(
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"))
+            resp = pg.goto(url, wait_until="domcontentloaded", timeout=60000)
+            page = ""
+            for _ in range(8):  # 確認が終わって中身が出るまで待つ
+                pg.wait_for_timeout(3000)
+                page = pg.content()
+                if ready in page:
+                    break
+            else:
+                if resp is not None and resp.status >= 400:
+                    raise RuntimeError(f"ブラウザでも HTTP {resp.status}")
+        finally:
+            browser.close()
+    return page
+
+
 def fetch_links(site):
     """普通のHTMLページ。pattern に合うリンクを1件として扱う（括弧があればその部分をIDにする）"""
     page_url = site["base"] + site["page"]
-    page = get(page_url)
+    page = get_browser(page_url, site.get("ready", "")) if site.get("browser") else get(page_url)
     items = {}
     for href, inner in re.findall(r'<a\b[^>]*?href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', page, re.S | re.I):
         url = urllib.parse.urljoin(page_url, html.unescape(href)).split("#")[0]
