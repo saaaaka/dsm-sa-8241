@@ -10,6 +10,11 @@
   「見放題」の作品のうち、まだ一度も見たことのない作品でスコアが MIN_SCORE 以上なら通知する。
   （レンタル・購入のみの作品は対象外。レンタルから見放題に変わった作品は新着として扱う）
   初回は「今ある作品」を記録するだけで通知しない（大量通知を防ぐため）。
+  すでに他の契約中サブスクで見放題だった作品は通知しない:
+    ・作品ページの配信情報を見て、新しく入ったサービス以外の契約中サブスクでも
+      見放題なら対象外
+    ・ドラマ・アニメは、同じタイトルを別ページで記録済みなら対象外
+      （Filmarks はサービスごとに別ページを作ることがあるため）
 
 サブスクを増やす／減らすときは SERVICES を編集する。
   Filmarks の URL の slug: prime_video / netflix / unext / disneyplus / hulu
@@ -30,6 +35,13 @@ SERVICES = {
     "netflix": "Netflix",
     "unext": "U-NEXT",
     "disneyplus": "ディズニープラス",
+}
+# 作品ページでの表記ゆれ（表示名 -> 作品ページに出る名前）
+SERVICE_ALIASES = {
+    "Prime Video": ["Prime Video", "Amazon Prime Video", "プライムビデオ"],
+    "Netflix": ["Netflix"],
+    "U-NEXT": ["U-NEXT"],
+    "ディズニープラス": ["ディズニープラス", "Disney+", "Disney Plus"],
 }
 KINDS = {
     "list": "映画",
@@ -59,6 +71,25 @@ SCORE = re.compile(r'c-rating__score[^>]*>\s*([0-9]\.[0-9]|-)')
 TITLE = re.compile(r'p-content-cassette__title[^>]*>(.*?)</h3>', re.S)
 IMG_ALT = re.compile(r'<img[^>]*alt="([^"]+)"')
 MARKS = re.compile(r'action--mark[^>]*>\s*<span>(\d+)')
+VOD_BLOCK = re.compile(r'<a[^>]*class="c2-list-vod-detail[^"]*"[^>]*data-gtm-info="([^"]+)"(.*?)</a>', re.S)
+
+
+def norm(s):
+    return re.sub(r"[\s　・:：!！?？+＋\-－~～()（）「」『』]", "", s).lower()
+
+
+ALIAS_TO_SERVICE = {norm(a): name for name, al in SERVICE_ALIASES.items() for a in al}
+
+
+def svod_services(path):
+    """作品ページから、契約中サブスクのうち見放題で配信しているサービス名を返す。
+    読めなかったときは None。"""
+    page = get(BASE + path)
+    blocks = VOD_BLOCK.findall(page)
+    if not blocks:
+        return None
+    return {ALIAS_TO_SERVICE[norm(name)] for name, body in blocks
+            if "c2-tag-svod" in body and norm(name) in ALIAS_TO_SERVICE}
 
 
 def get(url):
@@ -197,11 +228,27 @@ def main():
         return
 
     pending = state.setdefault("pending", {})
+    # ドラマ・アニメは同じ作品がサービスごとに別ページになっていることがあるので、タイトルでも照合
+    known_titles = {norm(w["title"]) for p, w in seen.items() if not p.startswith("/movies/")}
     for path, f in found.items():
         if path in seen:
             continue
-        seen[path] = {"title": f["title"], "first_seen": today}
+        seen[path] = {"title": f["title"], "first_seen": today, "services": f["services"]}
         if f["notifiable"] and f["score"] is not None and f["score"] >= MIN_SCORE:
+            if not path.startswith("/movies/") and norm(f["title"]) in known_titles:
+                print("記録済みの作品なので対象外:", f["title"])
+                continue
+            try:
+                avail = svod_services(path)
+                time.sleep(1)
+            except Exception as e:
+                avail = None
+                print("作品ページを読めませんでした:", f["title"], e)
+            if avail is not None:
+                others = avail - set(f["services"])
+                if others:
+                    print("他の契約中サブスクで見放題なので対象外:", f["title"], "/".join(sorted(others)))
+                    continue
             pending[path] = {k: f[k] for k in ("title", "kind", "services", "score", "marks")}
             pending[path]["added"] = today
             print("今週の追加に記録:", f["title"], f["score"])
