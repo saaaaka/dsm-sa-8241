@@ -1,0 +1,35 @@
+name: Filmarks 新着チェック
+
+on:
+  schedule:
+    - cron: "13 3,10 * * *"   # 毎日 12:13 と 19:13（日本時間）
+  workflow_dispatch:           # 手動でも実行できる
+
+permissions:
+  contents: write
+
+concurrency:
+  group: filmarks-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 新着の高評価作品を確認して通知
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python filmarks.py
+      - name: 確認済みリストを保存
+        run: |
+          git config user.name "filmarks-bot"
+          git config user.email "filmarks-bot@users.noreply.github.com"
+          git add filmarks_seen.json
+          git diff --cached --quiet && exit 0
+          git commit -m "filmarks_seen.json 更新"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done

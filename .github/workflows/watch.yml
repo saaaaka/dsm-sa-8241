@@ -32,4 +32,4 @@ jobs:
           git config user.name "dsm-bot"
           git config user.email "dsm-bot@users.noreply.github.com"
           git add seen.json status.json
-          git diff --cached --quiet || (git commit -m "seen.json 更新" && git push)
+          git diff --cached --quiet || (git commit -m "seen.json 更新" && (git push || (git pull --rebase -q && git push)))
