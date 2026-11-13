@@ -9,7 +9,7 @@ DSM・NEIGHBORHOOD・CIBONE・THE TOKYO・MOC-O・コナミスタイル・わこ
 
 ## Filmarks 新着通知
 
-Prime Video・Netflix・U-NEXT・ディズニープラスに新しく入った映画・ドラマ・アニメのうち、Filmarks のスコアが 3.9 以上の作品を、毎日チェックしてため、毎週金曜11時30分にスコア順のランキングで1通通知します。全件は `filmarks_weekly.md` で見られます（通知をタップで開きます）。
+Prime Video・Netflix・U-NEXT・ディズニープラスに新しく入った映画・ドラマ・アニメのうち、Filmarks のスコアが 3.8 以上の作品を、毎日チェックしてため、毎週金曜11時30分にスコア順のランキングで1通通知します。全件は `filmarks_weekly.md` で見られます（通知をタップで開きます）。
 すでに他の契約中サブスクで見放題だった作品（別のサブスクに追加されただけのもの）は通知しません。
 
 - 監視プログラム: `filmarks.py`（サブスクやスコアの基準は冒頭の `SERVICES` / `MIN_SCORE` で変更）
