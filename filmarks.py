@@ -45,6 +45,12 @@ SEEN_FILE = "filmarks_seen.json"
 REPORT_FILE = "filmarks_weekly.md"
 REPORT_URL = "https://github.com/saaaaka/dsm-sa-8241/blob/main/filmarks_weekly.md"
 REPORT = os.environ.get("REPORT", "") == "1"
+# SAMPLE=1: 見た目確認用。各一覧の1ページ目にある★基準以上の作品でランキングを作る（記録は変えない）
+SAMPLE = os.environ.get("SAMPLE", "") == "1"
+if SAMPLE:
+    PAGES = 1
+    REPORT_FILE = "filmarks_sample.md"
+    REPORT_URL = REPORT_URL.replace("filmarks_weekly.md", REPORT_FILE)
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
@@ -113,9 +119,9 @@ def notify(title, body, click):
     urllib.request.urlopen(req, timeout=30)
 
 
-def send_report(pending, today):
+def send_report(pending, today, label="今週の追加"):
     ranked = sorted(pending.items(), key=lambda kv: (-kv[1]["score"], -kv[1]["marks"]))
-    lines = [f"# Filmarks 今週の追加（{today}）", "",
+    lines = [f"# Filmarks {label}（{today}）", "",
              f"契約中のサブスクで見放題になった、スコア{MIN_SCORE}以上の作品です（スコア順）。", ""]
     if ranked:
         lines += ["| 順位 | 作品 | 種類 | 配信 | スコア |", "|---:|---|---|---|---:|"]
@@ -132,7 +138,7 @@ def send_report(pending, today):
                          for i, (_, p) in enumerate(ranked[:MAX_LINES], 1))
         if len(ranked) > MAX_LINES:
             body += f"\n…ほか{len(ranked) - MAX_LINES}作品（タップで全件）"
-        notify(f"今週の追加 {len(ranked)}作品", body, REPORT_URL)
+        notify(f"{label} {len(ranked)}作品", body, REPORT_URL)
     else:
         notify("今週の追加 0作品", f"スコア{MIN_SCORE}以上の新着はありませんでした。", REPORT_URL)
 
@@ -183,6 +189,12 @@ def main():
     if not found:
         print("エラー:\n" + "\n".join(errors))
         sys.exit(1)
+
+    if SAMPLE:
+        hits = {p: f for p, f in found.items() if f["score"] is not None and f["score"] >= MIN_SCORE}
+        send_report(hits, today, "（サンプル）今週の追加")
+        print(f"サンプル: {len(hits)}件")
+        return
 
     pending = state.setdefault("pending", {})
     for path, f in found.items():
