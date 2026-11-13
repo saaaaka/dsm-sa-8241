@@ -15,4 +15,5 @@ Prime Video・Netflix・U-NEXT・ディズニープラスに新しく入った�
 - 監視プログラム: `filmarks.py`（サブスクやスコアの基準は冒頭の `SERVICES` / `MIN_SCORE` で変更）
 - 自動実行の設定: `.github/workflows/filmarks.yml`
 - 確認済み作品のリスト: `filmarks_seen.json`（自動更新）
+- 韓国のドラマ・映画は通知しません（`EXCLUDE_COUNTRIES` で変更）
 - 初回は今ある作品を記録するだけで、「監視を開始しました」と1通だけ届きます

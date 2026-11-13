@@ -15,6 +15,7 @@
       見放題なら対象外
     ・ドラマ・アニメは、同じタイトルを別ページで記録済みなら対象外
       （Filmarks はサービスごとに別ページを作ることがあるため）
+    ・韓国のドラマ・映画は通知しない（EXCLUDE_COUNTRIES）
     ・さらにドラマ・アニメは Filmarks の検索で同じタイトルの別ページを探し、
       そちらで他の契約中サブスクが見放題なら対象外
 
@@ -52,6 +53,7 @@ KINDS = {
     "list-anime": "アニメ",
 }
 MIN_SCORE = 3.9
+EXCLUDE_COUNTRIES = ["韓国"]   # この国の作品は通知しない（ドラマ・映画）
 PAGES = 10            # 各一覧の何ページ目まで見るか（おすすめ順の上位）
 MAX_LINES = 15        # 通知本文に載せる件数（全件は filmarks_weekly.md で見る）
 
@@ -84,10 +86,39 @@ def norm(s):
 ALIAS_TO_SERVICE = {norm(a): name for name, al in SERVICE_ALIASES.items() for a in al}
 
 
+_pages = {}
+
+
+def detail(path):
+    if path not in _pages:
+        _pages[path] = get(BASE + path)
+        time.sleep(1)
+    return _pages[path]
+
+
+def countries(path):
+    """作品ページの製作国・地域（JSON-LD の countryOfOrigin とパンくず）を返す。"""
+    page = detail(path)
+    found = set()
+    for m in re.finditer(r'"countries":\s*(\[[^\]]*\]|"[^"]*")', page):
+        v = m.group(1)
+        if v != '"countryOfOrigin"':   # JSON-LD の @context 部分は飛ばす
+            found |= set(re.findall(r'"name":"([^"]+)"', v)) or set(re.findall(r'"([^"]+)"', v))
+    m = re.search(r'"position":2,"item":\{"@id":"https://filmarks\.com/list[^/]*/country/\d+","name":"([^"]+)"', page)
+    if m:
+        found.add(re.sub(r"(映画|ドラマ|アニメ)$", "", m.group(1)))
+    return found
+
+
+def excluded_country(path):
+    hit = [c for c in countries(path) for x in EXCLUDE_COUNTRIES if x in c]
+    return hit[0] if hit else None
+
+
 def svod_services(path):
     """作品ページから、契約中サブスクのうち見放題で配信しているサービス名を返す。
     読めなかったときは None。"""
-    page = get(BASE + path)
+    page = detail(path)
     blocks = VOD_BLOCK.findall(page)
     if not blocks:
         return None
@@ -117,13 +148,11 @@ def available_elsewhere(path, title, services):
     if not path.startswith("/movies/"):
         try:
             pages += same_title_pages(path, title)
-            time.sleep(1)
         except Exception as e:
             print("検索を読めませんでした:", title, e)
     for p in pages:
         try:
             avail = svod_services(p)
-            time.sleep(1)
         except Exception as e:
             print("作品ページを読めませんでした:", title, p, e)
             continue
@@ -279,6 +308,14 @@ def main():
         if f["notifiable"] and f["score"] is not None and f["score"] >= MIN_SCORE:
             if not path.startswith("/movies/") and norm(f["title"]) in known_titles:
                 print("記録済みの作品なので対象外:", f["title"])
+                continue
+            try:
+                c = excluded_country(path)
+            except Exception as e:
+                c = None
+                print("作品ページを読めませんでした:", f["title"], e)
+            if c:
+                print("除外する国の作品なので対象外:", f["title"], c)
                 continue
             reason = available_elsewhere(path, f["title"], f["services"])
             if reason:
