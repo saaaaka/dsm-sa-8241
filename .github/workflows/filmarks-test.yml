@@ -16,8 +16,8 @@ jobs:
           python-version: "3.12"
       - env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python tools/retest.py
+        run: python tools/probe.py
       - run: |
           git config user.name "filmarks-bot"
           git config user.email "filmarks-bot@users.noreply.github.com"
-          git add filmarks_test.md && git commit -m "お試し結果" && git push
+          git add filmarks_test.md 2>/dev/null; git diff --cached --quiet && exit 0; true && git commit -m "お試し結果" && git push
