@@ -6,6 +6,6 @@ jobs:
     steps:
       - run: |
           curl -sS -A "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1" -H "Accept-Language: ja" -o p.html -w "%{http_code} %{size_download}\n" https://filmarks.com/list/vod/prime_video
-          grep -o 'class="[^"]*cassette[^"]*"' p.html | sort | uniq -c | head -30
-          grep -o 'rating[^"]*"' p.html | sort | uniq -c | head -20
-          grep -oE '.{300}ゴジラ.{1500}' p.html | head -c 4000
+          python3 -c "import re;s=open('p.html').read();i=s.index('class=\"p-content-cassette\"');print(s[i:i+6000])"
+          curl -sS -A "Mozilla/5.0" -o d.html -w "%{http_code}\n" https://filmarks.com/list-drama/vod/netflix
+          python3 -c "import re;s=open('d.html').read();print(sorted(set(re.findall(r'href=.(/(?:dramas|animes|movies)/[^\"?]*)',s)))[:15]);print(len(re.findall('c-rating__score',s)))"
