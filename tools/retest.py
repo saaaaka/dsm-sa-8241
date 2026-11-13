@@ -14,11 +14,17 @@ for line in open("filmarks_weekly.md", encoding="utf-8"):
         continue
     title, path, kind, svcs, score = m.groups()
     services = [s.strip() for s in svcs.split("/")]
+    try:
+        c = F.excluded_country(path)
+    except Exception as e:
+        c = None; print("読めず:", title, e)
+    if c:
+        dropped.append((title, kind, f"{c}の作品")); print("除外:", title, c); continue
     reason = F.available_elsewhere(path, title, services)
     if reason:
         dropped.append((title, kind, reason)); print("除外:", title, reason); continue
     kept[path] = {"title": title, "kind": kind, "services": services, "score": float(score), "marks": 0}
-F.send_report(kept, datetime.date.today().isoformat(), "（お試し2）今週の追加")
+F.send_report(kept, datetime.date.today().isoformat(), "（お試し3）今週の追加")
 with open(F.REPORT_FILE, "a", encoding="utf-8") as fp:
     fp.write(f"\n## 除外した作品（{len(dropped)}）\n\n| 作品 | 種類 | 理由 |\n|---|---|---|\n")
     for t, k, r in dropped:
