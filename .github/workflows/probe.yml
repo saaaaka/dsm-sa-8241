@@ -1,0 +1,16 @@
+name: probe
+on: push
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          UA="Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
+          for u in dramas/9422/13347 movies/118700 dramas/18426/24665; do
+            echo "=== $u"
+            curl -sS -A "$UA" -H "Accept-Language: ja" "https://filmarks.com/$u" -o p.html
+            wc -c p.html
+            grep -o -i '[^<>]\{0,40\}vod[^<>]\{0,200\}' p.html | head -60
+            echo "--- svod/見放題"
+            grep -o '.\{0,300\}見放題.\{0,300\}' p.html | head -10
+          done
