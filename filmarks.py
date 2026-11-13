@@ -15,6 +15,8 @@
       見放題なら対象外
     ・ドラマ・アニメは、同じタイトルを別ページで記録済みなら対象外
       （Filmarks はサービスごとに別ページを作ることがあるため）
+    ・さらにドラマ・アニメは Filmarks の検索で同じタイトルの別ページを探し、
+      そちらで他の契約中サブスクが見放題なら対象外
 
 サブスクを増やす／減らすときは SERVICES を編集する。
   Filmarks の URL の slug: prime_video / netflix / unext / disneyplus / hulu
@@ -27,6 +29,7 @@ import os
 import re
 import sys
 import time
+import urllib.parse
 import urllib.error
 import urllib.request
 
@@ -90,6 +93,45 @@ def svod_services(path):
         return None
     return {ALIAS_TO_SERVICE[norm(name)] for name, body in blocks
             if "c2-tag-svod" in body and norm(name) in ALIAS_TO_SERVICE}
+
+
+SEARCH_HIT = re.compile(r'data-href="(/(?:dramas|animes)/\d+/\d+)".{0,600}?p-content-cassette__title">(.*?)</h3>', re.S)
+
+
+def same_title_pages(path, title):
+    """ドラマ・アニメで、同じタイトルの別ページを Filmarks の検索から探す。"""
+    kind = path.split("/")[1]
+    page = get(f"{BASE}/search/{kind}?q=" + urllib.parse.quote(title))
+    key = norm(title)
+    out = []
+    for p, t in SEARCH_HIT.findall(page):
+        if p != path and p not in out and norm(clean(t)) == key:
+            out.append(p)
+    return out[:5]
+
+
+def available_elsewhere(path, title, services):
+    """新しく入ったサービス（services）以外の契約中サブスクで、すでに見放題なら
+    その理由を返す。そうでなければ None。読めないところは飛ばす。"""
+    pages = [path]
+    if not path.startswith("/movies/"):
+        try:
+            pages += same_title_pages(path, title)
+            time.sleep(1)
+        except Exception as e:
+            print("検索を読めませんでした:", title, e)
+    for p in pages:
+        try:
+            avail = svod_services(p)
+            time.sleep(1)
+        except Exception as e:
+            print("作品ページを読めませんでした:", title, p, e)
+            continue
+        others = (avail or set()) - set(services)
+        if others:
+            where = "" if p == path else "（別ページ）"
+            return " / ".join(sorted(others)) + "で見放題" + where
+    return None
 
 
 def get(url):
@@ -238,17 +280,10 @@ def main():
             if not path.startswith("/movies/") and norm(f["title"]) in known_titles:
                 print("記録済みの作品なので対象外:", f["title"])
                 continue
-            try:
-                avail = svod_services(path)
-                time.sleep(1)
-            except Exception as e:
-                avail = None
-                print("作品ページを読めませんでした:", f["title"], e)
-            if avail is not None:
-                others = avail - set(f["services"])
-                if others:
-                    print("他の契約中サブスクで見放題なので対象外:", f["title"], "/".join(sorted(others)))
-                    continue
+            reason = available_elsewhere(path, f["title"], f["services"])
+            if reason:
+                print("他の契約中サブスクで見放題なので対象外:", f["title"], reason)
+                continue
             pending[path] = {k: f[k] for k in ("title", "kind", "services", "score", "marks")}
             pending[path]["added"] = today
             print("今週の追加に記録:", f["title"], f["score"])
