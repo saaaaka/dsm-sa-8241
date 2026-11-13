@@ -1,0 +1,23 @@
+name: Filmarks お試し通知
+on:
+  push:
+    branches: [tmp-filmarks-test]
+    paths: [tools/retest.py, .github/workflows/filmarks-test.yml]
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python tools/retest.py
+      - run: |
+          git config user.name "filmarks-bot"
+          git config user.email "filmarks-bot@users.noreply.github.com"
+          git add filmarks_test.md && git commit -m "お試し結果" && git push
