@@ -3,7 +3,7 @@ name: Filmarks 新着チェック
 on:
   schedule:
     - cron: "13 3 * * *"   # 毎日 12:13（日本時間）にチェックだけ（通知なし）
-    - cron: "0 9 * * 5"    # 金曜 18:00（日本時間）に今週の追加をランキングで通知
+    - cron: "30 2 * * 5"   # 金曜 11:30（日本時間）に今週の追加をランキングで通知
   workflow_dispatch:        # 手動でも実行できる
     inputs:
       report:
@@ -30,7 +30,7 @@ jobs:
       - name: 新着の高評価作品を確認して通知
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          REPORT: ${{ (github.event.schedule == '0 9 * * 5' || inputs.report) && '1' || '' }}
+          REPORT: ${{ (github.event.schedule == '30 2 * * 5' || inputs.report) && '1' || '' }}
         run: python filmarks.py
       - name: 確認済みリストを保存
         run: |
