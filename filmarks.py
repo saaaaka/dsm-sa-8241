@@ -175,11 +175,20 @@ def clean(s):
     return html.unescape(re.sub(r"<[^>]+>", "", s)).strip()
 
 
+DATA_HREF = re.compile(r'data-href="(/(?:movies|dramas|animes)/\d+(?:/\d+)?)(?:\?[^"]*)?"')
+
+
 def chunks(page):
-    """1作品ぶんずつのHTMLに分ける。"""
+    """1作品ぶんずつのHTMLに分ける。
+    作品のリンク（data-href）はカードの直前にあるので、前のかたまりの最後の data-href を
+    その作品のリンクとして先頭に付けておく（隣の作品のリンクを拾わないため）。"""
     parts = re.split(r'class="p-content-cassette(?=[\s"])', page)
     if len(parts) > 3:
-        return parts[1:]
+        out = []
+        for prev, c in zip(parts, parts[1:]):
+            own = DATA_HREF.findall(prev)
+            out.append((f'<a href="{own[-1]}"></a>' if own else "") + c)
+        return out
     # 予備: 作品リンクの出現位置で区切る
     pos, done = [], set()
     for m in WORK_LINK.finditer(page):
