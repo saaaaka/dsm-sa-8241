@@ -1,7 +1,10 @@
 import sys, re; sys.path.insert(0,".")
 import filmarks as F
-for pg in range(1,11):
-    h=F.get(f"{F.BASE}/list/vod/netflix"+(f"?page={pg}" if pg>1 else ""))
-    for c in F.chunks(h):
-        if "モノノ怪" in c or "ゴジラ" in c:
-            print("page",pg, F.WORK_LINK.findall(c)[:6], re.findall(r'data-href="([^"]+)"',c)[:3], (F.TITLE.search(c) or F.IMG_ALT.search(c)).group(1)[:40])
+bad=0; n=0
+for url in [f"{F.BASE}/list/vod/netflix?page=9", f"{F.BASE}/list-drama/vod/unext?page=3", f"{F.BASE}/list-anime/vod/prime_video"]:
+    for it in F.parse(F.get(url))[:8]:
+        h=F.detail(it["path"]); t=re.search(r'"@type":"(?:Movie|TVSeason)","title":"([^"]+)"',h)
+        real=t.group(1) if t else "?"; n+=1
+        ok=F.norm(real)==F.norm(it["title"]); bad+= not ok
+        print("OK " if ok else "NG ", it["path"], it["title"][:25], "|", real[:25])
+print("mismatch",bad,"/",n)
