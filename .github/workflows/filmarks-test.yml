@@ -16,7 +16,7 @@ jobs:
           python-version: "3.12"
       - env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python tools/retest.py
+        run: python tools/probe.py
       - run: |
           git config user.name "filmarks-bot"
           git config user.email "filmarks-bot@users.noreply.github.com"
