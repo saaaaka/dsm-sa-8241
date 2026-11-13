@@ -3,7 +3,8 @@
 
 仕組み:
   Filmarks の配信サービス別一覧（おすすめ順）の上位ページを読み、
-  まだ一度も見たことのない作品でスコアが MIN_SCORE 以上なら通知する。
+  「見放題」の作品のうち、まだ一度も見たことのない作品でスコアが MIN_SCORE 以上なら通知する。
+  （レンタル・購入のみの作品は対象外。レンタルから見放題に変わった作品は新着として扱う）
   初回は「今ある作品」を記録するだけで通知しない（大量通知を防ぐため）。
 
 サブスクを増やす／減らすときは SERVICES を編集する。
@@ -39,7 +40,7 @@ SEEN_FILE = "filmarks_seen.json"
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
-WORK_LINK = re.compile(r'href="(?:https://filmarks\.com)?(/(?:movies|dramas|animes)/\d+(?:/\d+)?)"')
+WORK_LINK = re.compile(r'href="(?:https://filmarks\.com)?(/(?:movies|dramas|animes)/\d+(?:/\d+)?)(?:\?[^"]*)?"')
 SCORE = re.compile(r'c-rating__score[^>]*>\s*([0-9]\.[0-9]|-)')
 TITLE = re.compile(r'p-content-cassette__title[^>]*>(.*?)</h3>', re.S)
 IMG_ALT = re.compile(r'<img[^>]*alt="([^"]+)"')
@@ -82,7 +83,9 @@ def parse(page):
         title = clean(t.group(1)) if t else link.group(1)
         s = score.group(1)
         items.append({"path": link.group(1), "title": title,
-                      "score": float(s) if s != "-" else None})
+                      "score": float(s) if s != "-" else None,
+                      # 見放題（サブスクで観られる）かどうか。レンタル・購入のみは対象外
+                      "svod": "label-svod" in c})
     return items
 
 
@@ -124,6 +127,8 @@ def main():
                     errors.append(f"{kind_name}/{svc_name}: 作品を読み取れませんでした（{len(items)}件）")
                     break
                 for it in items:
+                    if not it["svod"]:
+                        continue
                     f = found.setdefault(it["path"], {**it, "kind": kind_name, "services": [],
                                                       "notifiable": False})
                     if svc_name not in f["services"]:
