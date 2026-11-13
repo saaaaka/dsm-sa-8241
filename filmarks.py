@@ -18,6 +18,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 
 SERVICES = {
@@ -120,6 +121,10 @@ def main():
                 url = f"{BASE}/{kind_slug}/vod/{svc_slug}" + (f"?page={p}" if p > 1 else "")
                 try:
                     items = parse(get(url))
+                except urllib.error.HTTPError as e:
+                    if e.code != 404 or p == 1:   # 404 = 最終ページを過ぎただけ
+                        errors.append(f"{kind_name}/{svc_name} p{p}: {e}")
+                    break
                 except Exception as e:
                     errors.append(f"{kind_name}/{svc_name} p{p}: {e}")
                     break
