@@ -1,0 +1,9838 @@
+{
+"lists": [
+"list-anime/disneyplus",
+"list-anime/netflix",
+"list-anime/prime_video",
+"list-anime/unext",
+"list-drama/disneyplus",
+"list-drama/netflix",
+"list-drama/prime_video",
+"list-drama/unext",
+"list/disneyplus",
+"list/netflix",
+"list/prime_video",
+"list/unext"
+],
+"works": {
+"/animes/1/1": {
+"first_seen": "2026-11-13",
+"title": "ダンジョンに出会いを求めるのは間違っているだろうか"
+},
+"/animes/10/20": {
+"first_seen": "2026-11-13",
+"title": "FAIRY TAIL 第1期"
+},
+"/animes/1009/825": {
+"first_seen": "2026-11-13",
+"title": "ハッピーシュガーライフ"
+},
+"/animes/1023/2652": {
+"first_seen": "2026-11-13",
+"title": "ウマ娘 プリティーダービー Season 2"
+},
+"/animes/1023/5177": {
+"first_seen": "2026-11-13",
+"title": "ウマ娘 プリティーダービー Season 3"
+},
+"/animes/1023/841": {
+"first_seen": "2026-11-13",
+"title": "ウマ娘 プリティーダービー"
+},
+"/animes/1030/859": {
+"first_seen": "2026-11-13",
+"title": "かくりよの宿飯"
+},
+"/animes/1057/897": {
+"first_seen": "2026-11-13",
+"title": "恋は雨上がりのように"
+},
+"/animes/1074/1900": {
+"first_seen": "2026-11-13",
+"title": "ゆるキャン△ SEASON2"
+},
+"/animes/1074/5153": {
+"first_seen": "2026-11-13",
+"title": "ゆるキャン△ SEASON3"
+},
+"/animes/1074/916": {
+"first_seen": "2026-11-13",
+"title": "ゆるキャン△"
+},
+"/animes/1087/6579": {
+"first_seen": "2026-11-13",
+"title": "ブラッククローバー 2nd Season"
+},
+"/animes/1087/930": {
+"first_seen": "2026-11-13",
+"title": "転生貴族、鑑定スキルで成り上がる 第3期"
+},
+"/animes/1150/1011": {
+"first_seen": "2026-11-13",
+"title": "BORUTO-ボルト- NARUTO NEXT GENERATIONS"
+},
+"/animes/1195/1070": {
+"first_seen": "2026-11-13",
+"title": "異世界かるてっと"
+},
+"/animes/1204/1080": {
+"first_seen": "2026-11-13",
+"title": "輪るピングドラム"
+},
+"/animes/1206/1082": {
+"first_seen": "2026-11-13",
+"title": "宇宙よりも遠い場所"
+},
+"/animes/1208/1084": {
+"first_seen": "2026-11-13",
+"title": "キノの旅 -the Beautiful World- the Animated Series"
+},
+"/animes/121/180": {
+"first_seen": "2026-11-13",
+"title": "寄生獣 セイの格率"
+},
+"/animes/1213/1091": {
+"first_seen": "2026-11-13",
+"title": "斉木楠雄のΨ難 Ψ始動編"
+},
+"/animes/1215/1093": {
+"first_seen": "2026-11-13",
+"title": "Devilman Crybaby"
+},
+"/animes/1223/1101": {
+"first_seen": "2026-11-13",
+"title": "機動戦士Zガンダム"
+},
+"/animes/1231/1114": {
+"first_seen": "2026-11-13",
+"title": "空挺ドラゴンズ"
+},
+"/animes/1233/1116": {
+"first_seen": "2026-11-13",
+"title": "幼女戦記"
+},
+"/animes/1233/3772": {
+"first_seen": "2026-11-13",
+"title": "幼女戦記Ⅱ"
+},
+"/animes/1235/1120": {
+"first_seen": "2026-11-13",
+"title": "氷菓"
+},
+"/animes/1241/1127": {
+"first_seen": "2026-11-13",
+"title": "ドラゴンボールＺ"
+},
+"/animes/125/188": {
+"first_seen": "2026-11-13",
+"title": "七つの大罪"
+},
+"/animes/1254/1681": {
+"first_seen": "2026-11-13",
+"title": "波よ聞いてくれ"
+},
+"/animes/1271/1698": {
+"first_seen": "2026-11-13",
+"title": "彼女、お借りします"
+},
+"/animes/1273/1700": {
+"first_seen": "2026-11-13",
+"title": "GREAT PRETENDER"
+},
+"/animes/1280/1707": {
+"first_seen": "2026-11-13",
+"title": "日本沈没2020"
+},
+"/animes/1283/1710": {
+"first_seen": "2026-11-13",
+"title": "魔王学院の不適合者～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～"
+},
+"/animes/1304/1731": {
+"first_seen": "2026-11-13",
+"title": "呪術廻戦 第1期"
+},
+"/animes/1304/4502": {
+"first_seen": "2026-11-13",
+"title": "呪術廻戦 第2期 懐玉・玉折／渋谷事変"
+},
+"/animes/1304/6282": {
+"first_seen": "2026-11-13",
+"title": "呪術廻戦 第3期 死滅回游 前編"
+},
+"/animes/1310/1741": {
+"first_seen": "2026-11-13",
+"title": "ドラゴンクエスト ダイの大冒険"
+},
+"/animes/1318/1749": {
+"first_seen": "2026-11-13",
+"title": "不滅のあなたへ"
+},
+"/animes/1318/5473": {
+"first_seen": "2026-11-13",
+"title": "不滅のあなたへ Season3"
+},
+"/animes/1323/1754": {
+"first_seen": "2026-11-13",
+"title": "無能なナナ"
+},
+"/animes/1326/1758": {
+"first_seen": "2026-11-13",
+"title": "ワンピース 東の海編"
+},
+"/animes/1326/1765": {
+"first_seen": "2026-11-13",
+"title": "ワンピース ウォーターセブン編"
+},
+"/animes/1326/3627": {
+"first_seen": "2026-11-13",
+"title": "ワンピース 魚人島編"
+},
+"/animes/1326/3630": {
+"first_seen": "2026-11-13",
+"title": "ワンピース ゾウ編"
+},
+"/animes/1326/3632": {
+"first_seen": "2026-11-13",
+"title": "ワンピース ワノ国編"
+},
+"/animes/1326/5812": {
+"first_seen": "2026-11-13",
+"title": "BECK"
+},
+"/animes/1326/5856": {
+"first_seen": "2026-11-13",
+"title": "ワンピース エッグヘッド編"
+},
+"/animes/1330/1770": {
+"first_seen": "2026-11-13",
+"title": "あの日見た花の名前を僕達はまだ知らない。"
+},
+"/animes/1331/1771": {
+"first_seen": "2026-11-13",
+"title": "攻殻機動隊 SAC_2045 シーズン1"
+},
+"/animes/1335/1775": {
+"first_seen": "2026-11-13",
+"title": "悪魔城ドラキュラ －キャッスルヴァニア－ シーズン1"
+},
+"/animes/1344/1786": {
+"first_seen": "2026-11-13",
+"title": "モノノ怪"
+},
+"/animes/135/201": {
+"first_seen": "2026-11-13",
+"title": "からくりサーカス"
+},
+"/animes/136/202": {
+"first_seen": "2026-11-13",
+"title": "魔法少女サイト"
+},
+"/animes/1364/1811": {
+"first_seen": "2026-11-13",
+"title": "墓場鬼太郎"
+},
+"/animes/1374/1825": {
+"first_seen": "2026-11-13",
+"title": "ふしぎの海のナディア"
+},
+"/animes/1381/1833": {
+"first_seen": "2026-11-13",
+"title": "桜蘭高校ホスト部"
+},
+"/animes/1389/1845": {
+"first_seen": "2026-11-13",
+"title": "はたらく細胞BLACK"
+},
+"/animes/1397/1856": {
+"first_seen": "2026-11-13",
+"title": "HUNTER×HUNTER"
+},
+"/animes/1399/1858": {
+"first_seen": "2026-11-13",
+"title": "天元突破グレンラガン"
+},
+"/animes/140/207": {
+"first_seen": "2026-11-13",
+"title": "〈物語〉シリーズ セカンドシーズン"
+},
+"/animes/1400/1859": {
+"first_seen": "2026-11-13",
+"title": "うみねこのなく頃に"
+},
+"/animes/1402/1864": {
+"first_seen": "2026-11-13",
+"title": "ゴジラ S.P ＜シンギュラポイント＞"
+},
+"/animes/1403/1865": {
+"first_seen": "2026-11-13",
+"title": "天空侵犯"
+},
+"/animes/141/208": {
+"first_seen": "2026-11-13",
+"title": "バキ"
+},
+"/animes/1419/1884": {
+"first_seen": "2026-11-13",
+"title": "たまこまーけっと"
+},
+"/animes/142/210": {
+"first_seen": "2026-11-13",
+"title": "フリクリ"
+},
+"/animes/1429/1896": {
+"first_seen": "2026-11-13",
+"title": "ホリミヤ"
+},
+"/animes/1431/1898": {
+"first_seen": "2026-11-13",
+"title": "無職転生 ～異世界行ったら本気だす～ 第1クール"
+},
+"/animes/1431/3635": {
+"first_seen": "2026-11-13",
+"title": "無職転生 ～異世界行ったら本気だす～ 第2クール"
+},
+"/animes/1431/5651": {
+"first_seen": "2026-11-13",
+"title": "無職転生 II ～異世界行ったら本気だす～ 第2クール"
+},
+"/animes/1431/6089": {
+"first_seen": "2026-11-13",
+"title": "無職転生Ⅲ ～異世界行ったら本気だす～"
+},
+"/animes/1436/1907": {
+"first_seen": "2026-11-13",
+"title": "東京リベンジャーズ"
+},
+"/animes/1436/4249": {
+"first_seen": "2026-11-13",
+"title": "東京リベンジャーズ 聖夜決戦編"
+},
+"/animes/1436/6416": {
+"first_seen": "2026-11-13",
+"title": "薬屋のひとりごと 第3期 第2クール"
+},
+"/animes/1471/1957": {
+"first_seen": "2026-11-13",
+"title": "新世界より"
+},
+"/animes/1478/1967": {
+"first_seen": "2026-11-13",
+"title": "Serial experiments lain"
+},
+"/animes/1480/1971": {
+"first_seen": "2026-11-13",
+"title": "おジャ魔女どれみ"
+},
+"/animes/1489/1989": {
+"first_seen": "2026-11-13",
+"title": "王様ランキング"
+},
+"/animes/149/219": {
+"first_seen": "2026-11-13",
+"title": "ヴィンランド・サガ シーズン1"
+},
+"/animes/149/3819": {
+"first_seen": "2026-11-13",
+"title": "ヴィンランド・サガ シーズン2"
+},
+"/animes/1492/1993": {
+"first_seen": "2026-11-13",
+"title": "バイオハザード: インフィニット ダークネス"
+},
+"/animes/1493/1994": {
+"first_seen": "2026-11-13",
+"title": "ヴァンパイア・イン・ザ・ガーデン"
+},
+"/animes/1496/1997": {
+"first_seen": "2026-11-13",
+"title": "アルカナ・ファミリア"
+},
+"/animes/1501/2002": {
+"first_seen": "2026-11-13",
+"title": "Another"
+},
+"/animes/1505/2007": {
+"first_seen": "2026-11-13",
+"title": "TARI TARI"
+},
+"/animes/1521/2032": {
+"first_seen": "2026-11-13",
+"title": "テルマエ・ロマエ ノヴァエ"
+},
+"/animes/1522/2033": {
+"first_seen": "2026-11-13",
+"title": "リラックマと遊園地"
+},
+"/animes/1523/2034": {
+"first_seen": "2026-11-13",
+"title": "極主夫道 シーズン1 パート1"
+},
+"/animes/1524/2035": {
+"first_seen": "2026-11-13",
+"title": "スプリガン"
+},
+"/animes/1525/2036": {
+"first_seen": "2026-11-13",
+"title": "逆境無頼カイジ"
+},
+"/animes/1528/2040": {
+"first_seen": "2026-11-13",
+"title": "CLANNAD -クラナド-"
+},
+"/animes/1528/2041": {
+"first_seen": "2026-11-13",
+"title": "CLANNAD 〜AFTER STORY〜"
+},
+"/animes/1533/2046": {
+"first_seen": "2026-11-13",
+"title": "DEATH NOTE"
+},
+"/animes/1534/2047": {
+"first_seen": "2026-11-13",
+"title": "Occultic;Nine -オカルティック・ナイン-"
+},
+"/animes/1536/2050": {
+"first_seen": "2026-11-13",
+"title": "ソウルイーター"
+},
+"/animes/1552/2069": {
+"first_seen": "2026-11-13",
+"title": "美少女戦士セーラームーン"
+},
+"/animes/1553/2071": {
+"first_seen": "2026-11-13",
+"title": "ONE OUTS -ワンナウツ-"
+},
+"/animes/1563/2087": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ 反乱者たち シーズン1"
+},
+"/animes/1577/2107": {
+"first_seen": "2026-11-13",
+"title": "SHAMAN KING"
+},
+"/animes/1579/2109": {
+"first_seen": "2026-11-13",
+"title": "MONSTER"
+},
+"/animes/1587/2118": {
+"first_seen": "2026-11-13",
+"title": "BLEACH"
+},
+"/animes/1587/4237": {
+"first_seen": "2026-11-13",
+"title": "BLEACH 千年血戦篇"
+},
+"/animes/1587/5774": {
+"first_seen": "2026-11-13",
+"title": "BLEACH 千年血戦篇-相剋譚-"
+},
+"/animes/1587/6293": {
+"first_seen": "2026-11-13",
+"title": "BLEACH 千年血戦篇-禍進譚-"
+},
+"/animes/1589/2120": {
+"first_seen": "2026-11-13",
+"title": "宇宙兄弟"
+},
+"/animes/1630/2164": {
+"first_seen": "2026-11-13",
+"title": "NARUTO -ナルト-"
+},
+"/animes/1639/2173": {
+"first_seen": "2026-11-13",
+"title": "闘牌伝説 アカギ 〜闇に降り立った天才〜"
+},
+"/animes/1642/2176": {
+"first_seen": "2026-11-13",
+"title": "エルフェンリート"
+},
+"/animes/1662/2200": {
+"first_seen": "2026-11-13",
+"title": "リコリス・リコイル Friends are thieves of time."
+},
+"/animes/1667/2204": {
+"first_seen": "2026-11-13",
+"title": "はじめの一歩"
+},
+"/animes/167/241": {
+"first_seen": "2026-11-13",
+"title": "バクマン。"
+},
+"/animes/1691/2234": {
+"first_seen": "2026-11-13",
+"title": "灰羽連盟"
+},
+"/animes/1707/2250": {
+"first_seen": "2026-11-13",
+"title": "NINKU -忍空-"
+},
+"/animes/171/249": {
+"first_seen": "2026-11-13",
+"title": "食戟のソーマ"
+},
+"/animes/1749/2299": {
+"first_seen": "2026-11-13",
+"title": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました 第1期"
+},
+"/animes/1752/2303": {
+"first_seen": "2026-11-13",
+"title": "スライム倒して300年、知らないうちにレベルMAXになってました"
+},
+"/animes/1772/2326": {
+"first_seen": "2026-11-13",
+"title": "ファイアボール"
+},
+"/animes/1772/2328": {
+"first_seen": "2026-11-13",
+"title": "ファイアボール ユーモラス"
+},
+"/animes/1772/2332": {
+"first_seen": "2026-11-13",
+"title": "アウルハウス シーズン1"
+},
+"/animes/1799/2367": {
+"first_seen": "2026-11-13",
+"title": "魔法少女リリカルなのは"
+},
+"/animes/18/33": {
+"first_seen": "2026-11-13",
+"title": "ゴールデンカムイ"
+},
+"/animes/18/4201": {
+"first_seen": "2026-11-13",
+"title": "ゴールデンカムイ 第4期"
+},
+"/animes/18/5628": {
+"first_seen": "2026-11-13",
+"title": "ゴールデンカムイ 最終章"
+},
+"/animes/18/599": {
+"first_seen": "2026-11-13",
+"title": "ゴールデンカムイ 第3期"
+},
+"/animes/1846/2422": {
+"first_seen": "2026-11-13",
+"title": "終末のワルキューレ"
+},
+"/animes/1856/2434": {
+"first_seen": "2026-11-13",
+"title": "８６―エイティシックス―"
+},
+"/animes/186/276": {
+"first_seen": "2026-11-13",
+"title": "コードギアス 反逆のルルーシュ"
+},
+"/animes/186/277": {
+"first_seen": "2026-11-13",
+"title": "コードギアス 反逆のルルーシュR2"
+},
+"/animes/1874/2452": {
+"first_seen": "2026-11-13",
+"title": "チェンソーマン"
+},
+"/animes/189/284": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダムユニコーン RE:0096"
+},
+"/animes/19/35": {
+"first_seen": "2026-11-13",
+"title": "鋼の錬金術師 FULLMETAL ALCHEMIST"
+},
+"/animes/1909/2489": {
+"first_seen": "2026-11-13",
+"title": "マクロス7"
+},
+"/animes/191/286": {
+"first_seen": "2026-11-13",
+"title": "妄想代理人"
+},
+"/animes/195/291": {
+"first_seen": "2026-11-13",
+"title": "のんのんびより"
+},
+"/animes/1950/2538": {
+"first_seen": "2026-11-13",
+"title": "おおきく振りかぶって"
+},
+"/animes/1979/2572": {
+"first_seen": "2026-11-13",
+"title": "NANA-ナナ-"
+},
+"/animes/2/2969": {
+"first_seen": "2026-11-13",
+"title": "鬼滅の刃 遊郭編"
+},
+"/animes/2/3": {
+"first_seen": "2026-11-13",
+"title": "鬼滅の刃 竈門炭治郎 立志編"
+},
+"/animes/2/4005": {
+"first_seen": "2026-11-13",
+"title": "鬼滅の刃 無限列車編"
+},
+"/animes/2/4500": {
+"first_seen": "2026-11-13",
+"title": "鬼滅の刃 刀鍛冶の里編"
+},
+"/animes/2/5590": {
+"first_seen": "2026-11-13",
+"title": "鬼滅の刃 柱稽古編"
+},
+"/animes/200/299": {
+"first_seen": "2026-11-13",
+"title": "TIGER & BUNNY"
+},
+"/animes/2003/2599": {
+"first_seen": "2026-11-13",
+"title": "岸辺露伴は動かない"
+},
+"/animes/2036/2640": {
+"first_seen": "2026-11-13",
+"title": "ブルーピリオド"
+},
+"/animes/2041/2647": {
+"first_seen": "2026-11-13",
+"title": "聖女の魔力は万能です Season1"
+},
+"/animes/206/307": {
+"first_seen": "2026-11-13",
+"title": "ルパン三世 PART1"
+},
+"/animes/21/3638": {
+"first_seen": "2026-11-13",
+"title": "メイドインアビス 烈日の黄金郷"
+},
+"/animes/21/39": {
+"first_seen": "2026-11-13",
+"title": "メイドインアビス"
+},
+"/animes/211/317": {
+"first_seen": "2026-11-13",
+"title": "化物語"
+},
+"/animes/2121/2746": {
+"first_seen": "2026-11-13",
+"title": "探偵はもう、死んでいる。"
+},
+"/animes/2121/4961": {
+"first_seen": "2026-11-13",
+"title": "探偵はもう、死んでいる。Season2"
+},
+"/animes/214/320": {
+"first_seen": "2026-11-13",
+"title": "炎炎ノ消防隊"
+},
+"/animes/219/325": {
+"first_seen": "2026-11-13",
+"title": "血界戦線"
+},
+"/animes/22/40": {
+"first_seen": "2026-11-13",
+"title": "Re:ゼロから始める異世界生活"
+},
+"/animes/22/5429": {
+"first_seen": "2026-11-13",
+"title": "Re:ゼロから始める異世界生活 3rd season 襲撃編"
+},
+"/animes/22/595": {
+"first_seen": "2026-11-13",
+"title": "Re:ゼロから始める異世界生活 2nd season 前半クール"
+},
+"/animes/22/6434": {
+"first_seen": "2026-11-13",
+"title": "Re:ゼロから始める異世界生活 4th season 喪失編"
+},
+"/animes/220/327": {
+"first_seen": "2026-11-13",
+"title": "盾の勇者の成り上がり"
+},
+"/animes/2200/2841": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダムSEED DESTINY"
+},
+"/animes/2202/2846": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダム0083 STARDUST MEMORY"
+},
+"/animes/2203/2848": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダム　第08MS小隊"
+},
+"/animes/221/329": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダム00 セカンドシーズン"
+},
+"/animes/2235/2883": {
+"first_seen": "2026-11-13",
+"title": "地獄楽 第1期"
+},
+"/animes/2238/2887": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダムΖΖ"
+},
+"/animes/224/333": {
+"first_seen": "2026-11-13",
+"title": "Angel Beats!"
+},
+"/animes/225/334": {
+"first_seen": "2026-11-13",
+"title": "ぐらんぶる"
+},
+"/animes/2257/2909": {
+"first_seen": "2026-11-13",
+"title": "転生賢者の異世界ライフ ～第二の職業を得て、世界最強になりました～"
+},
+"/animes/2259/2911": {
+"first_seen": "2026-11-13",
+"title": "うらみちお兄さん"
+},
+"/animes/2266/2917": {
+"first_seen": "2026-11-13",
+"title": "サマータイムレンダ"
+},
+"/animes/228/337": {
+"first_seen": "2026-11-13",
+"title": "日常"
+},
+"/animes/23/41": {
+"first_seen": "2026-11-13",
+"title": "BANANA FISH"
+},
+"/animes/230/339": {
+"first_seen": "2026-11-13",
+"title": "弱虫ペダル"
+},
+"/animes/230/341": {
+"first_seen": "2026-11-13",
+"title": "弱虫ペダル NEW GENERATION"
+},
+"/animes/230/342": {
+"first_seen": "2026-11-13",
+"title": "弱虫ペダル GLORY LINE"
+},
+"/animes/2312/2977": {
+"first_seen": "2026-11-13",
+"title": "世界最高の暗殺者、異世界貴族に転生する"
+},
+"/animes/232/344": {
+"first_seen": "2026-11-13",
+"title": "賢者の孫"
+},
+"/animes/233/2363": {
+"first_seen": "2026-11-13",
+"title": "小林さんちのメイドラゴンS"
+},
+"/animes/233/345": {
+"first_seen": "2026-11-13",
+"title": "小林さんちのメイドラゴン"
+},
+"/animes/234/346": {
+"first_seen": "2026-11-13",
+"title": "斉木楠雄のΨ難"
+},
+"/animes/2366/3033": {
+"first_seen": "2026-11-13",
+"title": "オッドタクシー"
+},
+"/animes/239/353": {
+"first_seen": "2026-11-13",
+"title": "賭ケグルイ"
+},
+"/animes/240/355": {
+"first_seen": "2026-11-13",
+"title": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった..."
+},
+"/animes/243/359": {
+"first_seen": "2026-11-13",
+"title": "干物妹！うまるちゃん"
+},
+"/animes/2453/3134": {
+"first_seen": "2026-11-13",
+"title": "Vivy -Fluorite Eyeʼs Song-"
+},
+"/animes/2459/3144": {
+"first_seen": "2026-11-13",
+"title": "ぼっち・ざ・ろっく！"
+},
+"/animes/246/363": {
+"first_seen": "2026-11-13",
+"title": "黒子のバスケ 第1期"
+},
+"/animes/2499/3194": {
+"first_seen": "2026-11-13",
+"title": "悪魔くん"
+},
+"/animes/2513/3211": {
+"first_seen": "2026-11-13",
+"title": "陰の実力者になりたくて！"
+},
+"/animes/253/379": {
+"first_seen": "2026-11-13",
+"title": "幽☆遊☆白書"
+},
+"/animes/256/384": {
+"first_seen": "2026-11-13",
+"title": "ようこそ実力至上主義の教室へ"
+},
+"/animes/256/4529": {
+"first_seen": "2026-11-13",
+"title": "ようこそ実力至上主義の教室へ 2nd Season"
+},
+"/animes/256/4573": {
+"first_seen": "2026-11-13",
+"title": "ようこそ実力至上主義の教室へ 3rd Season"
+},
+"/animes/256/6156": {
+"first_seen": "2026-11-13",
+"title": "ようこそ実力至上主義の教室へ 4th Season 2年生編1学期"
+},
+"/animes/259/387": {
+"first_seen": "2026-11-13",
+"title": "地縛少年花子くん"
+},
+"/animes/26/44": {
+"first_seen": "2026-11-13",
+"title": "ドラゴンボール超"
+},
+"/animes/2605/3323": {
+"first_seen": "2026-11-13",
+"title": "見える子ちゃん"
+},
+"/animes/261/389": {
+"first_seen": "2026-11-13",
+"title": "Free!"
+},
+"/animes/2702/3438": {
+"first_seen": "2026-11-13",
+"title": "Dr.STONE NEW WORLD 第2クール"
+},
+"/animes/2717/3455": {
+"first_seen": "2026-11-13",
+"title": "カッコウの許嫁"
+},
+"/animes/273/3449": {
+"first_seen": "2026-11-13",
+"title": "ジョジョの奇妙な冒険 ストーンオーシャン"
+},
+"/animes/273/408": {
+"first_seen": "2026-11-13",
+"title": "ジョジョの奇妙な冒険"
+},
+"/animes/273/409": {
+"first_seen": "2026-11-13",
+"title": "ジョジョの奇妙な冒険 スターダストクルセイダース"
+},
+"/animes/273/410": {
+"first_seen": "2026-11-13",
+"title": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない"
+},
+"/animes/273/411": {
+"first_seen": "2026-11-13",
+"title": "ジョジョの奇妙な冒険 黄金の風"
+},
+"/animes/273/4643": {
+"first_seen": "2026-11-13",
+"title": "ジョジョの奇妙な冒険 ストーンオーシャン 第2クール"
+},
+"/animes/274/412": {
+"first_seen": "2026-11-13",
+"title": "BEASTARS"
+},
+"/animes/2751/3495": {
+"first_seen": "2026-11-13",
+"title": "風都探偵"
+},
+"/animes/278/417": {
+"first_seen": "2026-11-13",
+"title": "ヲタクに恋は難しい"
+},
+"/animes/28/46": {
+"first_seen": "2026-11-13",
+"title": "ソードアート・オンライン"
+},
+"/animes/28/47": {
+"first_seen": "2026-11-13",
+"title": "ソードアート・オンラインII"
+},
+"/animes/28/48": {
+"first_seen": "2026-11-13",
+"title": "ソードアート・オンライン アリシゼーション"
+},
+"/animes/28/49": {
+"first_seen": "2026-11-13",
+"title": "ソードアート・オンライン アリシゼーション War of Underworld"
+},
+"/animes/281/420": {
+"first_seen": "2026-11-13",
+"title": "痛いのは嫌なので防御力に極振りしたいと思います。"
+},
+"/animes/284/424": {
+"first_seen": "2026-11-13",
+"title": "四畳半神話大系"
+},
+"/animes/285/425": {
+"first_seen": "2026-11-13",
+"title": "亜人"
+},
+"/animes/285/426": {
+"first_seen": "2026-11-13",
+"title": "亜人 第2クール"
+},
+"/animes/287/428": {
+"first_seen": "2026-11-13",
+"title": "ソードアート・オンライン オルタナティブ ガンゲイル・オンライン"
+},
+"/animes/2875/3644": {
+"first_seen": "2026-11-13",
+"title": "古見さんは、コミュ症です。"
+},
+"/animes/288/430": {
+"first_seen": "2026-11-13",
+"title": "Fate/stay night: [Unlimited Blade Works] 2ndシーズン"
+},
+"/animes/2883/3654": {
+"first_seen": "2026-11-13",
+"title": "Sonny Boy"
+},
+"/animes/2950/3730": {
+"first_seen": "2026-11-13",
+"title": "アオアシ"
+},
+"/animes/2950/6489": {
+"first_seen": "2026-11-13",
+"title": "アオアシ Season2"
+},
+"/animes/296/438": {
+"first_seen": "2026-11-13",
+"title": "がっこうぐらし!"
+},
+"/animes/2983/3770": {
+"first_seen": "2026-11-13",
+"title": "異世界おじさん"
+},
+"/animes/2990/3782": {
+"first_seen": "2026-11-13",
+"title": "オラフが贈る物語"
+},
+"/animes/2991/3783": {
+"first_seen": "2026-11-13",
+"title": "超時空要塞マクロスII -LOVERS AGAIN-"
+},
+"/animes/3007/3801": {
+"first_seen": "2026-11-13",
+"title": "フィニアスとファーブ シーズン2"
+},
+"/animes/3008/3803": {
+"first_seen": "2026-11-13",
+"title": "マーベル ヒット・モンキー"
+},
+"/animes/302/446": {
+"first_seen": "2026-11-13",
+"title": "テニスの王子様"
+},
+"/animes/302/6767": {
+"first_seen": "2026-11-13",
+"title": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦"
+},
+"/animes/3029/3827": {
+"first_seen": "2026-11-13",
+"title": "こちら葛飾区亀有公園前派出所"
+},
+"/animes/3037/3840": {
+"first_seen": "2026-11-13",
+"title": "ホワット・イフ...?"
+},
+"/animes/3039/3846": {
+"first_seen": "2026-11-13",
+"title": "異世界薬局"
+},
+"/animes/306/452": {
+"first_seen": "2026-11-13",
+"title": "らき☆すた"
+},
+"/animes/312/465": {
+"first_seen": "2026-11-13",
+"title": "カウボーイビバップ"
+},
+"/animes/3129/3947": {
+"first_seen": "2026-11-13",
+"title": "四畳半タイムマシンブルース"
+},
+"/animes/313/466": {
+"first_seen": "2026-11-13",
+"title": "キャロル＆チューズデイ"
+},
+"/animes/3131/3949": {
+"first_seen": "2026-11-13",
+"title": "ブルーロック 第1期"
+},
+"/animes/3131/5424": {
+"first_seen": "2026-11-13",
+"title": "ブルーロック VS. U-20 JAPAN"
+},
+"/animes/314/3634": {
+"first_seen": "2026-11-13",
+"title": "進撃の巨人 The Final Season Part 2"
+},
+"/animes/314/467": {
+"first_seen": "2026-11-13",
+"title": "進撃の巨人 Season1"
+},
+"/animes/314/468": {
+"first_seen": "2026-11-13",
+"title": "進撃の巨人 Season2"
+},
+"/animes/314/4684": {
+"first_seen": "2026-11-13",
+"title": "進撃の巨人 The Final Season 完結編（前編）"
+},
+"/animes/314/469": {
+"first_seen": "2026-11-13",
+"title": "進撃の巨人 Season3"
+},
+"/animes/314/5709": {
+"first_seen": "2026-11-13",
+"title": "進撃の巨人 The Final Season 完結編（後編）"
+},
+"/animes/314/598": {
+"first_seen": "2026-11-13",
+"title": "進撃の巨人 The Final Season Part.1"
+},
+"/animes/3155/3979": {
+"first_seen": "2026-11-13",
+"title": "平家物語"
+},
+"/animes/3159/3985": {
+"first_seen": "2026-11-13",
+"title": "組長娘と世話係"
+},
+"/animes/3163/3992": {
+"first_seen": "2026-11-13",
+"title": "ブラック★★ロックシューター DAWN FALL"
+},
+"/animes/3177/4016": {
+"first_seen": "2026-11-13",
+"title": "コタローは1人暮らし"
+},
+"/animes/3184/4027": {
+"first_seen": "2026-11-13",
+"title": "アンダーニンジャ"
+},
+"/animes/319/477": {
+"first_seen": "2026-11-13",
+"title": "GANTZ 第1期"
+},
+"/animes/3192/4038": {
+"first_seen": "2026-11-13",
+"title": "その着せ替え人形は恋をする Season 1"
+},
+"/animes/3192/5472": {
+"first_seen": "2026-11-13",
+"title": "その着せ替え人形は恋をする Season 2"
+},
+"/animes/32/53": {
+"first_seen": "2026-11-13",
+"title": "甲鉄城のカバネリ"
+},
+"/animes/322/482": {
+"first_seen": "2026-11-13",
+"title": "地獄先生ぬ～べ～"
+},
+"/animes/323/483": {
+"first_seen": "2026-11-13",
+"title": "東京喰種トーキョーグール"
+},
+"/animes/323/484": {
+"first_seen": "2026-11-13",
+"title": "東京喰種トーキョーグール√A"
+},
+"/animes/323/485": {
+"first_seen": "2026-11-13",
+"title": "東京喰種トーキョーグール:re"
+},
+"/animes/3243/4112": {
+"first_seen": "2026-11-13",
+"title": "SPY×FAMILY Season1 第1クール"
+},
+"/animes/3243/5226": {
+"first_seen": "2026-11-13",
+"title": "SPY×FAMILY Season 2"
+},
+"/animes/3243/6064": {
+"first_seen": "2026-11-13",
+"title": "SPY×FAMILY Season 3"
+},
+"/animes/3249/4120": {
+"first_seen": "2026-11-13",
+"title": "トモダチゲーム"
+},
+"/animes/325/487": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダムSEED"
+},
+"/animes/3264/4142": {
+"first_seen": "2026-11-13",
+"title": "賭ケグルイ双（ツイン）"
+},
+"/animes/3265/4141": {
+"first_seen": "2026-11-13",
+"title": "名探偵コナン 犯人の犯沢さん"
+},
+"/animes/3266/4143": {
+"first_seen": "2026-11-13",
+"title": "名探偵コナン ゼロの日常"
+},
+"/animes/3269/4147": {
+"first_seen": "2026-11-13",
+"title": "よふかしのうた 第1期"
+},
+"/animes/3269/5974": {
+"first_seen": "2026-11-13",
+"title": "よふかしのうた Season2"
+},
+"/animes/3274/4153": {
+"first_seen": "2026-11-13",
+"title": "時光代理人 -LINK CLICK-"
+},
+"/animes/3277/4156": {
+"first_seen": "2026-11-13",
+"title": "パリピ孔明"
+},
+"/animes/3282/4161": {
+"first_seen": "2026-11-13",
+"title": "名探偵コナン 1996年"
+},
+"/animes/3284/4163": {
+"first_seen": "2026-11-13",
+"title": "スキップとローファー"
+},
+"/animes/3299/4221": {
+"first_seen": "2026-11-13",
+"title": "ミギとダリ"
+},
+"/animes/33/54": {
+"first_seen": "2026-11-13",
+"title": "青春ブタ野郎はバニーガール先輩の夢を見ない"
+},
+"/animes/3300/2121": {
+"first_seen": "2026-11-13",
+"title": "範馬刃牙 第1期"
+},
+"/animes/3303/4233": {
+"first_seen": "2026-11-13",
+"title": "ARCANE：アーケイン：League of Legends シーズン1"
+},
+"/animes/3304/4235": {
+"first_seen": "2026-11-13",
+"title": "るろうに剣心 -明治剣客浪漫譚- 序幕東京"
+},
+"/animes/331/493": {
+"first_seen": "2026-11-13",
+"title": "少女革命ウテナ"
+},
+"/animes/3314/4252": {
+"first_seen": "2026-11-13",
+"title": "NARUTO -ナルト- 疾風伝"
+},
+"/animes/3321/4261": {
+"first_seen": "2026-11-13",
+"title": "後宮の烏"
+},
+"/animes/3325/4266": {
+"first_seen": "2026-11-13",
+"title": "うる星やつら 第1期"
+},
+"/animes/3326/4267": {
+"first_seen": "2026-11-13",
+"title": "101匹わんちゃん"
+},
+"/animes/3327/4268": {
+"first_seen": "2026-11-13",
+"title": "リコリス・リコイル"
+},
+"/animes/3328/4269": {
+"first_seen": "2026-11-13",
+"title": "MFゴースト 1st Season"
+},
+"/animes/333/495": {
+"first_seen": "2026-11-13",
+"title": "猫物語（黒）"
+},
+"/animes/3330/4275": {
+"first_seen": "2026-11-13",
+"title": "フィニアスとファーブ シーズン1"
+},
+"/animes/3330/4277": {
+"first_seen": "2026-11-13",
+"title": "ピクルスとピーナッツ シーズン1"
+},
+"/animes/3330/4278": {
+"first_seen": "2026-11-13",
+"title": "ミッキーマウスのワンダフルワールド"
+},
+"/animes/3334/4287": {
+"first_seen": "2026-11-13",
+"title": "マクロスFRONTIER"
+},
+"/animes/3341/4314": {
+"first_seen": "2026-11-13",
+"title": "ザ・シンプソンズ シーズン1"
+},
+"/animes/3342/4315": {
+"first_seen": "2026-11-13",
+"title": "ラプンツェル ザ・シリーズ シーズン1"
+},
+"/animes/3353/4330": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ／フォース・オブ・デスティニー シーズン1"
+},
+"/animes/336/498": {
+"first_seen": "2026-11-13",
+"title": "ガールズ＆パンツァー"
+},
+"/animes/337/499": {
+"first_seen": "2026-11-13",
+"title": "ありふれた職業で世界最強"
+},
+"/animes/3381/4423": {
+"first_seen": "2026-11-13",
+"title": "リロ・アンド・スティッチ ザ・シリーズ シーズン1"
+},
+"/animes/3382/4426": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダム 水星の魔女"
+},
+"/animes/3383/4428": {
+"first_seen": "2026-11-13",
+"title": "ラプンツェル コロナ王国のひとコマ"
+},
+"/animes/3385/4432": {
+"first_seen": "2026-11-13",
+"title": "ちいかわ"
+},
+"/animes/3387/4436": {
+"first_seen": "2026-11-13",
+"title": "新くまのプーさん シーズン1"
+},
+"/animes/3396/4459": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ：ヤング・ジェダイ・アドベンチャー シーズン1"
+},
+"/animes/3399/4472": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ：ビジョンズ／九人目のジェダイ"
+},
+"/animes/3401/4474": {
+"first_seen": "2026-11-13",
+"title": "グーフィーのステイホーム教室"
+},
+"/animes/3415/4524": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ レジスタンス シーズン1"
+},
+"/animes/342/1768": {
+"first_seen": "2026-11-13",
+"title": "僕のヒーローアカデミア 第5期"
+},
+"/animes/342/4004": {
+"first_seen": "2026-11-13",
+"title": "僕のヒーローアカデミア 第6期"
+},
+"/animes/342/505": {
+"first_seen": "2026-11-13",
+"title": "僕のヒーローアカデミア 第1期"
+},
+"/animes/342/506": {
+"first_seen": "2026-11-13",
+"title": "僕のヒーローアカデミア 第2期"
+},
+"/animes/342/507": {
+"first_seen": "2026-11-13",
+"title": "僕のヒーローアカデミア 第3期"
+},
+"/animes/342/508": {
+"first_seen": "2026-11-13",
+"title": "僕のヒーローアカデミア 第4期"
+},
+"/animes/342/5430": {
+"first_seen": "2026-11-13",
+"title": "僕のヒーローアカデミア 第7期"
+},
+"/animes/342/6205": {
+"first_seen": "2026-11-13",
+"title": "僕のヒーローアカデミア FINAL SEASON"
+},
+"/animes/3421/4535": {
+"first_seen": "2026-11-13",
+"title": "マーベル ライジング：始動"
+},
+"/animes/3425/4540": {
+"first_seen": "2026-11-13",
+"title": "マーベル アルティメット・スパイダーマン シーズン1"
+},
+"/animes/343/509": {
+"first_seen": "2026-11-13",
+"title": "ドラゴンボール"
+},
+"/animes/344/510": {
+"first_seen": "2026-11-13",
+"title": "蟲師"
+},
+"/animes/346/514": {
+"first_seen": "2026-11-13",
+"title": "SLAM DUNK"
+},
+"/animes/3470/4604": {
+"first_seen": "2026-11-13",
+"title": "スティッチ!"
+},
+"/animes/3473/4607": {
+"first_seen": "2026-11-13",
+"title": "ダグの日常"
+},
+"/animes/3476/4613": {
+"first_seen": "2026-11-13",
+"title": "キム・ポッシブル シーズン1"
+},
+"/animes/348/516": {
+"first_seen": "2026-11-13",
+"title": "銀魂"
+},
+"/animes/348/517": {
+"first_seen": "2026-11-13",
+"title": "銀魂’（第2期・第2期延長戦）"
+},
+"/animes/348/518": {
+"first_seen": "2026-11-13",
+"title": "銀魂ﾟ（第3期）"
+},
+"/animes/348/519": {
+"first_seen": "2026-11-13",
+"title": "銀魂.（第4期）"
+},
+"/animes/3481/4623": {
+"first_seen": "2026-11-13",
+"title": "チップとデールの大作戦 レスキュー・レンジャーズ"
+},
+"/animes/3484/4631": {
+"first_seen": "2026-11-13",
+"title": "マーベル アベンジャーズ・アッセンブル シーズン1"
+},
+"/animes/3484/4632": {
+"first_seen": "2026-11-13",
+"title": "ライオン・キングのティモンとプンバァ シーズン1"
+},
+"/animes/3492/4646": {
+"first_seen": "2026-11-13",
+"title": "ファイアボール チャーミング"
+},
+"/animes/3493/4653": {
+"first_seen": "2026-11-13",
+"title": "ベイマックス ザ・シリーズ シーズン1"
+},
+"/animes/3493/4661": {
+"first_seen": "2026-11-13",
+"title": "ダックテイルズ シーズン1"
+},
+"/animes/35/56": {
+"first_seen": "2026-11-13",
+"title": "魔法少女まどか☆マギカ"
+},
+"/animes/3500/4672": {
+"first_seen": "2026-11-13",
+"title": "プーさんといっしょ シーズン1"
+},
+"/animes/3501/4673": {
+"first_seen": "2026-11-13",
+"title": "マーベル ガーディアンズ・オブ・ギャラクシー シーズン2"
+},
+"/animes/3505/4679": {
+"first_seen": "2026-11-13",
+"title": "マーベル アベンジャーズ 地球最強のヒーロー"
+},
+"/animes/3517/4707": {
+"first_seen": "2026-11-13",
+"title": "フューチュラマ シーズン1"
+},
+"/animes/3519/4709": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン・アンリミテッド"
+},
+"/animes/3525/4731": {
+"first_seen": "2026-11-13",
+"title": "フィニアスとファーブ シーズン3"
+},
+"/animes/3526/4735": {
+"first_seen": "2026-11-13",
+"title": "マーベル アントマン"
+},
+"/animes/3527/4736": {
+"first_seen": "2026-11-13",
+"title": "青のオーケストラ"
+},
+"/animes/3534/4754": {
+"first_seen": "2026-11-13",
+"title": "アメリカン・ドラゴン シーズン1"
+},
+"/animes/3551/4781": {
+"first_seen": "2026-11-13",
+"title": "キフ"
+},
+"/animes/3553/4784": {
+"first_seen": "2026-11-13",
+"title": "リセス ～ぼくらの休み時間～"
+},
+"/animes/3555/4788": {
+"first_seen": "2026-11-13",
+"title": "ヘラクレス"
+},
+"/animes/3557/4792": {
+"first_seen": "2026-11-13",
+"title": "クールドジ男子"
+},
+"/animes/356/528": {
+"first_seen": "2026-11-13",
+"title": "文豪ストレイドッグス 第1期"
+},
+"/animes/3569/4811": {
+"first_seen": "2026-11-13",
+"title": "マーベル ガーディアンズ・オブ・ギャラクシー シーズン1"
+},
+"/animes/3578/4827": {
+"first_seen": "2026-11-13",
+"title": "七つの大罪 黙示録の四騎士 第1期"
+},
+"/animes/358/532": {
+"first_seen": "2026-11-13",
+"title": "魔法使いの嫁 SEASON1"
+},
+"/animes/3580/4829": {
+"first_seen": "2026-11-13",
+"title": "マーベル スパイダーマン シーズン1"
+},
+"/animes/359/533": {
+"first_seen": "2026-11-13",
+"title": "オーバーロード"
+},
+"/animes/3590/4849": {
+"first_seen": "2026-11-13",
+"title": "三人の騎士の伝説"
+},
+"/animes/3591/4850": {
+"first_seen": "2026-11-13",
+"title": "ミッキーマウス！ シーズン1"
+},
+"/animes/3594/4854": {
+"first_seen": "2026-11-13",
+"title": "今日からわたし、神様！"
+},
+"/animes/3596/4856": {
+"first_seen": "2026-11-13",
+"title": "ベイマックス！"
+},
+"/animes/3598/4859": {
+"first_seen": "2026-11-13",
+"title": "デキる猫は今日も憂鬱"
+},
+"/animes/36/57": {
+"first_seen": "2026-11-13",
+"title": "STEINS;GATE"
+},
+"/animes/360/536": {
+"first_seen": "2026-11-13",
+"title": "魔入りました! 入間くん"
+},
+"/animes/3603/4870": {
+"first_seen": "2026-11-13",
+"title": "ディセンダント キケンな世界 シーズン1"
+},
+"/animes/3605/4872": {
+"first_seen": "2026-11-13",
+"title": "LEGO スター・ウォーズ／オールスターズ"
+},
+"/animes/3607/4875": {
+"first_seen": "2026-11-13",
+"title": "LEGO スター・ウォーズ／たたかえ！レジスタンス"
+},
+"/animes/3610/4880": {
+"first_seen": "2026-11-13",
+"title": "サイバーパンク エッジランナーズ"
+},
+"/animes/3610/6583": {
+"first_seen": "2026-11-13",
+"title": "サイバーパンク: エッジランナーズ2"
+},
+"/animes/3612/4882": {
+"first_seen": "2026-11-13",
+"title": "伊藤潤二『マニアック』"
+},
+"/animes/3613/4883": {
+"first_seen": "2026-11-13",
+"title": "【推しの子】"
+},
+"/animes/3613/5629": {
+"first_seen": "2026-11-13",
+"title": "【推しの子】第2期"
+},
+"/animes/3613/6196": {
+"first_seen": "2026-11-13",
+"title": "【推しの子】第3期"
+},
+"/animes/3616/4886": {
+"first_seen": "2026-11-13",
+"title": "ファンタスティック・フォー"
+},
+"/animes/362/1842": {
+"first_seen": "2026-11-13",
+"title": "Dr.STONE 第2期"
+},
+"/animes/362/4234": {
+"first_seen": "2026-11-13",
+"title": "Dr.STONE NEW WORLD 第1クール"
+},
+"/animes/362/538": {
+"first_seen": "2026-11-13",
+"title": "Dr.STONE"
+},
+"/animes/362/5879": {
+"first_seen": "2026-11-13",
+"title": "Dr.STONE SCIENCE FUTURE"
+},
+"/animes/362/6712": {
+"first_seen": "2026-11-13",
+"title": "Dr.STONE SCIENCE FUTURE 第3クール"
+},
+"/animes/3620/4892": {
+"first_seen": "2026-11-13",
+"title": "ふしぎの国 アンフィビア シーズン1"
+},
+"/animes/3624/4895": {
+"first_seen": "2026-11-13",
+"title": "リトル・マーメイド シーズン1"
+},
+"/animes/3625/4896": {
+"first_seen": "2026-11-13",
+"title": "インクレディブル・ハルク シーズン1"
+},
+"/animes/364/541": {
+"first_seen": "2026-11-13",
+"title": "偽物語"
+},
+"/animes/3651/4928": {
+"first_seen": "2026-11-13",
+"title": "マッシュル-MASHLE-"
+},
+"/animes/3651/5633": {
+"first_seen": "2026-11-13",
+"title": "マッシュル-MASHLE-  神覚者候補選抜試験編"
+},
+"/animes/3653/4930": {
+"first_seen": "2026-11-13",
+"title": "俺だけレベルアップな件 Season 1"
+},
+"/animes/3653/6008": {
+"first_seen": "2026-11-13",
+"title": "俺だけレベルアップな件 Season 2 -Arise from the Shadow-"
+},
+"/animes/3654/4931": {
+"first_seen": "2026-11-13",
+"title": "彼女が公爵邸に行った理由"
+},
+"/animes/3661/4940": {
+"first_seen": "2026-11-13",
+"title": "シャングリラ・フロンティア"
+},
+"/animes/3676/5995": {
+"first_seen": "2026-11-13",
+"title": "佐々木とピーちゃん Season2"
+},
+"/animes/3680/4968": {
+"first_seen": "2026-11-13",
+"title": "ダークギャザリング"
+},
+"/animes/3686/4975": {
+"first_seen": "2026-11-13",
+"title": "僕の心のヤバイやつ 第1期"
+},
+"/animes/3686/5586": {
+"first_seen": "2026-11-13",
+"title": "僕の心のヤバイやつ 第2期"
+},
+"/animes/3692/4984": {
+"first_seen": "2026-11-13",
+"title": "アイ・アム・グルート シーズン1"
+},
+"/animes/3693/4985": {
+"first_seen": "2026-11-13",
+"title": "カーズ・オン・ザ・ロード"
+},
+"/animes/3696/4988": {
+"first_seen": "2026-11-13",
+"title": "パパはグーフィー"
+},
+"/animes/3702/5000": {
+"first_seen": "2026-11-13",
+"title": "ダンジョン飯 第1期"
+},
+"/animes/3719/5023": {
+"first_seen": "2026-11-13",
+"title": "101匹わんちゃんストリート"
+},
+"/animes/3723/5027": {
+"first_seen": "2026-11-13",
+"title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～"
+},
+"/animes/3725/5030": {
+"first_seen": "2026-11-13",
+"title": "ロマンティック・キラー"
+},
+"/animes/3738/5045": {
+"first_seen": "2026-11-13",
+"title": "アンデッドアンラック"
+},
+"/animes/3739/5046": {
+"first_seen": "2026-11-13",
+"title": "羅小黒戦記 ぼくが選ぶ未来"
+},
+"/animes/3740/5047": {
+"first_seen": "2026-11-13",
+"title": "異世界のんびり農家"
+},
+"/animes/3759/5081": {
+"first_seen": "2026-11-13",
+"title": "マーベル ハルク：スマッシュ・ヒーローズ シーズン1"
+},
+"/animes/376/557": {
+"first_seen": "2026-11-13",
+"title": "とある科学の超電磁砲"
+},
+"/animes/3765/7126": {
+"first_seen": "2026-11-13",
+"title": "冰剣の魔術師が世界を統べるⅡ"
+},
+"/animes/377/560": {
+"first_seen": "2026-11-13",
+"title": "攻殻機動隊 STAND ALONE COMPLEX"
+},
+"/animes/3771/5099": {
+"first_seen": "2026-11-13",
+"title": "山田くんとLv999の恋をする"
+},
+"/animes/3774/5104": {
+"first_seen": "2026-11-13",
+"title": "外見至上主義"
+},
+"/animes/3783/5119": {
+"first_seen": "2026-11-13",
+"title": "お嬢と番犬くん"
+},
+"/animes/38/5895": {
+"first_seen": "2026-11-13",
+"title": "ドロヘドロ Season2"
+},
+"/animes/38/60": {
+"first_seen": "2026-11-13",
+"title": "ドロヘドロ"
+},
+"/animes/3802/5143": {
+"first_seen": "2026-11-13",
+"title": "天国大魔境"
+},
+"/animes/3810/5152": {
+"first_seen": "2026-11-13",
+"title": "Buddy Daddies"
+},
+"/animes/3818/5163": {
+"first_seen": "2026-11-13",
+"title": "ズートピア＋"
+},
+"/animes/3819/5164": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ：テイルズ・オブ・ジェダイ"
+},
+"/animes/382/566": {
+"first_seen": "2026-11-13",
+"title": "BLACK LAGOON The Second Barrage"
+},
+"/animes/3824/5169": {
+"first_seen": "2026-11-13",
+"title": "とんでもスキルで異世界放浪メシ"
+},
+"/animes/3824/5816": {
+"first_seen": "2026-11-13",
+"title": "とんでもスキルで異世界放浪メシ2"
+},
+"/animes/3830/5176": {
+"first_seen": "2026-11-13",
+"title": "転生したら第七王子だったので、気ままに魔術を極めます 第1期"
+},
+"/animes/3844/5200": {
+"first_seen": "2026-11-13",
+"title": "葬送のフリーレン"
+},
+"/animes/3844/6185": {
+"first_seen": "2026-11-13",
+"title": "葬送のフリーレン 第2期"
+},
+"/animes/3845/5201": {
+"first_seen": "2026-11-13",
+"title": "村井の恋"
+},
+"/animes/3847/5203": {
+"first_seen": "2026-11-13",
+"title": "即死チートが最強すぎて、異世界のやつらがまるで相手にならないんですが。"
+},
+"/animes/3850/5207": {
+"first_seen": "2026-11-13",
+"title": "戦隊大失格"
+},
+"/animes/3860/5217": {
+"first_seen": "2026-11-13",
+"title": "2.5次元の誘惑 第1期"
+},
+"/animes/3865/5222": {
+"first_seen": "2026-11-13",
+"title": "怪獣８号"
+},
+"/animes/3865/6126": {
+"first_seen": "2026-11-13",
+"title": "怪獣８号 第2期"
+},
+"/animes/3866/5223": {
+"first_seen": "2026-11-13",
+"title": "夜桜さんちの大作戦 第1期"
+},
+"/animes/3866/6197": {
+"first_seen": "2026-11-13",
+"title": "夜桜さんちの大作戦 第2期"
+},
+"/animes/3884/5255": {
+"first_seen": "2026-11-13",
+"title": "ゾン100～ゾンビになるまでにしたい100のこと～"
+},
+"/animes/389/573": {
+"first_seen": "2026-11-13",
+"title": "東のエデン"
+},
+"/animes/39/266": {
+"first_seen": "2026-11-13",
+"title": "キングダム 第3シリーズ"
+},
+"/animes/39/4048": {
+"first_seen": "2026-11-13",
+"title": "キングダム 第4シリーズ"
+},
+"/animes/39/5109": {
+"first_seen": "2026-11-13",
+"title": "キングダム 第5シリーズ"
+},
+"/animes/39/61": {
+"first_seen": "2026-11-13",
+"title": "キングダム 第1シリーズ"
+},
+"/animes/39/62": {
+"first_seen": "2026-11-13",
+"title": "キングダム 第2シリーズ"
+},
+"/animes/39/6474": {
+"first_seen": "2026-11-13",
+"title": "キングダム 第6シリーズ"
+},
+"/animes/3939/5322": {
+"first_seen": "2026-11-13",
+"title": "わたしの幸せな結婚 第一期"
+},
+"/animes/3939/5763": {
+"first_seen": "2026-11-13",
+"title": "わたしの幸せな結婚 第二期"
+},
+"/animes/394/580": {
+"first_seen": "2026-11-13",
+"title": "本好きの下剋上 司書になるためには手段を選んでいられません"
+},
+"/animes/3957/5353": {
+"first_seen": "2026-11-13",
+"title": "異修羅"
+},
+"/animes/3963/5359": {
+"first_seen": "2026-11-13",
+"title": "PLUTO"
+},
+"/animes/3964/5360": {
+"first_seen": "2026-11-13",
+"title": "薬屋のひとりごと 第1期"
+},
+"/animes/3964/5997": {
+"first_seen": "2026-11-13",
+"title": "薬屋のひとりごと 第2期"
+},
+"/animes/3973/5373": {
+"first_seen": "2026-11-13",
+"title": "外科医エリーゼ"
+},
+"/animes/3978/5378": {
+"first_seen": "2026-11-13",
+"title": "自動販売機に生まれ変わった俺は迷宮を彷徨う"
+},
+"/animes/3981/5388": {
+"first_seen": "2026-11-13",
+"title": "君のことが大大大大大好きな100人の彼女 第1期"
+},
+"/animes/3981/5890": {
+"first_seen": "2026-11-13",
+"title": "君のことが大大大大大好きな100人の彼女 第2期"
+},
+"/animes/3985/5392": {
+"first_seen": "2026-11-13",
+"title": "王様ランキング 勇気の宝箱"
+},
+"/animes/3989/5397": {
+"first_seen": "2026-11-13",
+"title": "時々ボソッとロシア語でデレる隣のアーリャさん"
+},
+"/animes/399/585": {
+"first_seen": "2026-11-13",
+"title": "君と僕。"
+},
+"/animes/3991/5399": {
+"first_seen": "2026-11-13",
+"title": "逃げ上手の若君"
+},
+"/animes/3991/6195": {
+"first_seen": "2026-11-13",
+"title": "逃げ上手の若君 第二期"
+},
+"/animes/4/6": {
+"first_seen": "2026-11-13",
+"title": "いぬやしき"
+},
+"/animes/40/63": {
+"first_seen": "2026-11-13",
+"title": "新世紀エヴァンゲリオン"
+},
+"/animes/401/589": {
+"first_seen": "2026-11-13",
+"title": "タッチ"
+},
+"/animes/4016/5437": {
+"first_seen": "2026-11-13",
+"title": "WIND BREAKER"
+},
+"/animes/4016/6085": {
+"first_seen": "2026-11-13",
+"title": "WIND BREAKER Season 2"
+},
+"/animes/4018/5439": {
+"first_seen": "2026-11-13",
+"title": "マーベル おしえて！スパイダーマン シーズン1"
+},
+"/animes/4021/5443": {
+"first_seen": "2026-11-13",
+"title": "鴨乃橋ロンの禁断推理 1st Season"
+},
+"/animes/4041/5479": {
+"first_seen": "2026-11-13",
+"title": "大奥"
+},
+"/animes/4052/5492": {
+"first_seen": "2026-11-13",
+"title": "転生貴族、鑑定スキルで成り上がる 第1期"
+},
+"/animes/407/601": {
+"first_seen": "2026-11-13",
+"title": "けいおん!"
+},
+"/animes/407/602": {
+"first_seen": "2026-11-13",
+"title": "けいおん!!"
+},
+"/animes/4083/5525": {
+"first_seen": "2026-11-13",
+"title": "メダリスト"
+},
+"/animes/41/64": {
+"first_seen": "2026-11-13",
+"title": "SHIROBAKO"
+},
+"/animes/4100/5541": {
+"first_seen": "2026-11-13",
+"title": "治癒魔法の間違った使い方"
+},
+"/animes/4120/5561": {
+"first_seen": "2026-11-13",
+"title": "新しい上司はど天然"
+},
+"/animes/4154/5608": {
+"first_seen": "2026-11-13",
+"title": "トロン：ライジング"
+},
+"/animes/4156/5612": {
+"first_seen": "2026-11-13",
+"title": "姫様“拷問”の時間です"
+},
+"/animes/4159/5616": {
+"first_seen": "2026-11-13",
+"title": "狼と香辛料 MERCHANT MEETS THE WISE WOLF"
+},
+"/animes/4161/5619": {
+"first_seen": "2026-11-13",
+"title": "Fate/strange Fake"
+},
+"/animes/4176/5640": {
+"first_seen": "2026-11-13",
+"title": "ゆびさきと恋々"
+},
+"/animes/4183/5648": {
+"first_seen": "2026-11-13",
+"title": "ザ・ファブル"
+},
+"/animes/4187/5656": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン：フレンドリー・ネイバーフッド"
+},
+"/animes/4191/5662": {
+"first_seen": "2026-11-13",
+"title": "バッド・バッチ"
+},
+"/animes/4195/5670": {
+"first_seen": "2026-11-13",
+"title": "ダックテイルズ ショーツ"
+},
+"/animes/4203/5678": {
+"first_seen": "2026-11-13",
+"title": "ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います"
+},
+"/animes/4204/5679": {
+"first_seen": "2026-11-13",
+"title": "LAZARUS ラザロ"
+},
+"/animes/4206/5682": {
+"first_seen": "2026-11-13",
+"title": "忘却バッテリー"
+},
+"/animes/422/1149": {
+"first_seen": "2026-11-13",
+"title": "夏目友人帳"
+},
+"/animes/4227/5703": {
+"first_seen": "2026-11-13",
+"title": "マーベル ロケットとグルート"
+},
+"/animes/4230/5708": {
+"first_seen": "2026-11-13",
+"title": "ループ7回目の悪役令嬢は、元敵国で自由気ままな花嫁生活を満喫する"
+},
+"/animes/4261/5744": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ：テイルズ・オブ・エンパイア"
+},
+"/animes/4276/5760": {
+"first_seen": "2026-11-13",
+"title": "マーベル フューチャー・アベンジャーズ"
+},
+"/animes/4278/5764": {
+"first_seen": "2026-11-13",
+"title": "スーパー・ヒーロー・ギャング"
+},
+"/animes/428/1162": {
+"first_seen": "2026-11-13",
+"title": "響け！ユーフォニアム"
+},
+"/animes/428/1163": {
+"first_seen": "2026-11-13",
+"title": "響け！ユーフォニアム２"
+},
+"/animes/428/4874": {
+"first_seen": "2026-11-13",
+"title": "響け！ユーフォニアム３"
+},
+"/animes/4281/5768": {
+"first_seen": "2026-11-13",
+"title": "Re:Monster"
+},
+"/animes/4282/5772": {
+"first_seen": "2026-11-13",
+"title": "7SEEDS シーズン1"
+},
+"/animes/429/1164": {
+"first_seen": "2026-11-13",
+"title": "舟を編む"
+},
+"/animes/4304/5798": {
+"first_seen": "2026-11-13",
+"title": "ドラゴンボールDAIMA"
+},
+"/animes/4305/5801": {
+"first_seen": "2026-11-13",
+"title": "Lv2からチートだった元勇者候補のまったり異世界ライフ"
+},
+"/animes/4315/5811": {
+"first_seen": "2026-11-13",
+"title": "来世は他人がいい"
+},
+"/animes/4324/5824": {
+"first_seen": "2026-11-13",
+"title": "HUNTER×HUNTER"
+},
+"/animes/4325/5826": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン＆アメイジング・フレンズ"
+},
+"/animes/4333/5836": {
+"first_seen": "2026-11-13",
+"title": "アオのハコ"
+},
+"/animes/4333/6436": {
+"first_seen": "2026-11-13",
+"title": "アオのハコ Season2"
+},
+"/animes/4335/5840": {
+"first_seen": "2026-11-13",
+"title": "ダンダダン 第1期"
+},
+"/animes/4338/5844": {
+"first_seen": "2026-11-13",
+"title": "かつて魔法少女と悪は敵対していた。"
+},
+"/animes/4346/5854": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダム 復讐のレクイエム"
+},
+"/animes/4353/5866": {
+"first_seen": "2026-11-13",
+"title": "ライジングインパクト シーズン1"
+},
+"/animes/4356/5870": {
+"first_seen": "2026-11-13",
+"title": "負けヒロインが多すぎる！"
+},
+"/animes/4369/5899": {
+"first_seen": "2026-11-13",
+"title": "小市民シリーズ 第1期"
+},
+"/animes/437/1173": {
+"first_seen": "2026-11-13",
+"title": "魔法少女育成計画"
+},
+"/animes/4387/5921": {
+"first_seen": "2026-11-13",
+"title": "Marvel's M.O.D.O.K."
+},
+"/animes/44/68": {
+"first_seen": "2026-11-13",
+"title": "ヒナまつり"
+},
+"/animes/4403/5938": {
+"first_seen": "2026-11-13",
+"title": "杖と剣のウィストリア 第1期"
+},
+"/animes/4403/6186": {
+"first_seen": "2026-11-13",
+"title": "杖と剣のウィストリア Season2"
+},
+"/animes/4413/5951": {
+"first_seen": "2026-11-13",
+"title": "嘆きの亡霊は引退したい"
+},
+"/animes/4419/5960": {
+"first_seen": "2026-11-13",
+"title": "ババンババンバンバンパイア"
+},
+"/animes/4427/5969": {
+"first_seen": "2026-11-13",
+"title": "一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる"
+},
+"/animes/4441/5990": {
+"first_seen": "2026-11-13",
+"title": "俺は全てを【パリイ】する〜逆勘違いの世界最強は冒険者になりたい〜"
+},
+"/animes/4442/5992": {
+"first_seen": "2026-11-13",
+"title": "勇者刑に処す 懲罰勇者9004隊刑務記録"
+},
+"/animes/4448/6007": {
+"first_seen": "2026-11-13",
+"title": "刃牙道"
+},
+"/animes/4468/6033": {
+"first_seen": "2026-11-13",
+"title": "X-メン シーズン1"
+},
+"/animes/4471/6036": {
+"first_seen": "2026-11-13",
+"title": "違国日記"
+},
+"/animes/4472/6037": {
+"first_seen": "2026-11-13",
+"title": "桃源暗鬼"
+},
+"/animes/4472/7074": {
+"first_seen": "2026-11-13",
+"title": "桃源暗鬼 ～日光・華厳の滝編～"
+},
+"/animes/4476/6042": {
+"first_seen": "2026-11-13",
+"title": "花ざかりの君たちへ"
+},
+"/animes/4479/6046": {
+"first_seen": "2026-11-13",
+"title": "ダーウィン事変"
+},
+"/animes/4481/6050": {
+"first_seen": "2026-11-13",
+"title": "光が死んだ夏"
+},
+"/animes/4482/6051": {
+"first_seen": "2026-11-13",
+"title": "攻殻機動隊 THE GHOST IN THE SHELL"
+},
+"/animes/4484/6054": {
+"first_seen": "2026-11-13",
+"title": "SAKAMOTO DAYS"
+},
+"/animes/4495/6068": {
+"first_seen": "2026-11-13",
+"title": "コードギアス 奪還のロゼ"
+},
+"/animes/4496/6069": {
+"first_seen": "2026-11-13",
+"title": "多聞くん今どっち！？"
+},
+"/animes/4507/6093": {
+"first_seen": "2026-11-13",
+"title": "クレバテス-魔獣の王と赤子と屍の勇者-"
+},
+"/animes/4512/6100": {
+"first_seen": "2026-11-13",
+"title": "火の鳥 エデンの宙"
+},
+"/animes/4516/6109": {
+"first_seen": "2026-11-13",
+"title": "らんま 1/2"
+},
+"/animes/4522/6115": {
+"first_seen": "2026-11-13",
+"title": "サラリーマンが異世界に行ったら四天王になった話"
+},
+"/animes/4523/6116": {
+"first_seen": "2026-11-13",
+"title": "チ。 ―地球の運動について―"
+},
+"/animes/4526/6552": {
+"first_seen": "2026-11-13",
+"title": "片田舎のおっさん、剣聖になるII"
+},
+"/animes/4529/6124": {
+"first_seen": "2026-11-13",
+"title": "サイレント・ウィッチ 沈黙の魔女の隠しごと"
+},
+"/animes/4532/6130": {
+"first_seen": "2026-11-13",
+"title": "ウィン OR ルーズ"
+},
+"/animes/4534/6133": {
+"first_seen": "2026-11-13",
+"title": "アラフォー男の異世界通販"
+},
+"/animes/4535/6134": {
+"first_seen": "2026-11-13",
+"title": "ウィッチウォッチ"
+},
+"/animes/4536/6135": {
+"first_seen": "2026-11-13",
+"title": "モンスターズ・ワーク シーズン1"
+},
+"/animes/4539/6138": {
+"first_seen": "2026-11-13",
+"title": "ガチアクタ"
+},
+"/animes/4540/6139": {
+"first_seen": "2026-11-13",
+"title": "青春ブタ野郎はサンタクロースの夢を見ない"
+},
+"/animes/4543/6142": {
+"first_seen": "2026-11-13",
+"title": "リコリス・リコイル Friends are thieves of time."
+},
+"/animes/4545/6148": {
+"first_seen": "2026-11-13",
+"title": "ウマ娘 シンデレラグレイ"
+},
+"/animes/4546/6149": {
+"first_seen": "2026-11-13",
+"title": "野生のラスボスが現れた！"
+},
+"/animes/4548/6151": {
+"first_seen": "2026-11-13",
+"title": "アポカリプスホテル"
+},
+"/animes/4552/6158": {
+"first_seen": "2026-11-13",
+"title": "Aランクパーティを離脱した俺は、元教え子たちと迷宮深部を目指す。"
+},
+"/animes/4554/6160": {
+"first_seen": "2026-11-13",
+"title": "追放された転生重騎士はゲーム知識で無双する"
+},
+"/animes/4560/6167": {
+"first_seen": "2026-11-13",
+"title": "薫る花は凛と咲く"
+},
+"/animes/4561/6168": {
+"first_seen": "2026-11-13",
+"title": "最後にひとつだけお願いしてもよろしいでしょうか"
+},
+"/animes/4564/6172": {
+"first_seen": "2026-11-13",
+"title": "CITY THE ANIMATION"
+},
+"/animes/4571/6187": {
+"first_seen": "2026-11-13",
+"title": "ブルーイ シーズン1"
+},
+"/animes/4583/6204": {
+"first_seen": "2026-11-13",
+"title": "九龍ジェネリックロマンス"
+},
+"/animes/4584/6206": {
+"first_seen": "2026-11-13",
+"title": "3年Z組銀八先生"
+},
+"/animes/4588/6209": {
+"first_seen": "2026-11-13",
+"title": "最強の王様、二度目の人生は何をする？"
+},
+"/animes/4590/6211": {
+"first_seen": "2026-11-13",
+"title": "私を喰べたい、ひとでなし"
+},
+"/animes/4597/6222": {
+"first_seen": "2026-11-13",
+"title": "君に届け"
+},
+"/animes/4598/6223": {
+"first_seen": "2026-11-13",
+"title": "夢中さ、きみに。"
+},
+"/animes/4606/6234": {
+"first_seen": "2026-11-13",
+"title": "『ディズニー ツイステッドワンダーランド ザ アニメーション』 シーズン1「エピソード オブ ハーツラビュル」"
+},
+"/animes/4607/6235": {
+"first_seen": "2026-11-13",
+"title": "キャッツ♥アイ"
+},
+"/animes/4608/6236": {
+"first_seen": "2026-11-13",
+"title": "完璧すぎて可愛げがないと婚約破棄された聖女は隣国に売られる"
+},
+"/animes/4610/6238": {
+"first_seen": "2026-11-13",
+"title": "正反対な君と僕"
+},
+"/animes/4618/6247": {
+"first_seen": "2026-11-13",
+"title": "機動戦士Gundam GQuuuuuuX"
+},
+"/animes/4631/6259": {
+"first_seen": "2026-11-13",
+"title": "デッドデッドデーモンズデデデデデストラクション アニメシリーズ"
+},
+"/animes/4638/6270": {
+"first_seen": "2026-11-13",
+"title": "えぶりでいホスト"
+},
+"/animes/4645/6284": {
+"first_seen": "2026-11-13",
+"title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS-"
+},
+"/animes/4666/6314": {
+"first_seen": "2026-11-13",
+"title": "UZUMAKI: Animated TV Series"
+},
+"/animes/4667/6315": {
+"first_seen": "2026-11-13",
+"title": "My Melody & Kuromi"
+},
+"/animes/4671/6320": {
+"first_seen": "2026-11-13",
+"title": "とんがり帽子のアトリエ"
+},
+"/animes/4683/6342": {
+"first_seen": "2026-11-13",
+"title": "異世界黙示録マイノグーラ～破滅の文明で始める世界征服～"
+},
+"/animes/4686/6346": {
+"first_seen": "2026-11-13",
+"title": "氷の城壁"
+},
+"/animes/4694/6357": {
+"first_seen": "2026-11-13",
+"title": "グノーシア"
+},
+"/animes/47/72": {
+"first_seen": "2026-11-13",
+"title": "ヴァイオレット・エヴァーガーデン"
+},
+"/animes/4706/6372": {
+"first_seen": "2026-11-13",
+"title": "死亡遊戯で飯を食う。"
+},
+"/animes/4708/6376": {
+"first_seen": "2026-11-13",
+"title": "とある暗部の少女共棲"
+},
+"/animes/4711/6379": {
+"first_seen": "2026-11-13",
+"title": "猫と竜"
+},
+"/animes/4714/6382": {
+"first_seen": "2026-11-13",
+"title": "きみが死ぬまで恋をしたい"
+},
+"/animes/4715/6383": {
+"first_seen": "2026-11-13",
+"title": "勇者パーティを追い出された器用貧乏"
+},
+"/animes/4719/6390": {
+"first_seen": "2026-11-13",
+"title": "フェルマーの料理"
+},
+"/animes/4720/6391": {
+"first_seen": "2026-11-13",
+"title": "転生した大聖女は、聖女であることをひた隠す"
+},
+"/animes/4722/6393": {
+"first_seen": "2026-11-13",
+"title": "矢野くんの普通の日々"
+},
+"/animes/4723/6394": {
+"first_seen": "2026-11-13",
+"title": "野原ひろし 昼メシの流儀"
+},
+"/animes/4727/6399": {
+"first_seen": "2026-11-13",
+"title": "上伊那ぼたん、酔へる姿は百合の花"
+},
+"/animes/4728/6400": {
+"first_seen": "2026-11-13",
+"title": "BLACK TORCH"
+},
+"/animes/4731/6405": {
+"first_seen": "2026-11-13",
+"title": "デッドアカウント"
+},
+"/animes/4736/6410": {
+"first_seen": "2026-11-13",
+"title": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～"
+},
+"/animes/4737/6411": {
+"first_seen": "2026-11-13",
+"title": "銀河特急 ミルキー☆サブウェイ"
+},
+"/animes/4764/6456": {
+"first_seen": "2026-11-13",
+"title": "無職の英雄 ～別にスキルなんか要らなかったんだが～"
+},
+"/animes/4766/6460": {
+"first_seen": "2026-11-13",
+"title": "BULLET/BULLET"
+},
+"/animes/4771/6466": {
+"first_seen": "2026-11-13",
+"title": "春夏秋冬代行者 春の舞"
+},
+"/animes/4776/6472": {
+"first_seen": "2026-11-13",
+"title": "信じていた仲間達にダンジョン奥地で殺されかけたがギフト『無限ガチャ』でレベル9999の仲間達を手に入れて元パーティーメンバーと世界に復讐＆『ざまぁ！』します！"
+},
+"/animes/4777/6475": {
+"first_seen": "2026-11-13",
+"title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～"
+},
+"/animes/4785/6484": {
+"first_seen": "2026-11-13",
+"title": "生徒会にも穴はある！"
+},
+"/animes/4786/6485": {
+"first_seen": "2026-11-13",
+"title": "悪魔バスター★スター・バタフライ シーズン1"
+},
+"/animes/4788/6487": {
+"first_seen": "2026-11-13",
+"title": "ブルーイ ミニストーリー"
+},
+"/animes/4793/6494": {
+"first_seen": "2026-11-13",
+"title": "うるわしの宵の月"
+},
+"/animes/4797/6498": {
+"first_seen": "2026-11-13",
+"title": "淡島百景"
+},
+"/animes/48/73": {
+"first_seen": "2026-11-13",
+"title": "とらドラ!"
+},
+"/animes/4809/6518": {
+"first_seen": "2026-11-13",
+"title": "タコピーの原罪"
+},
+"/animes/4815/6526": {
+"first_seen": "2026-11-13",
+"title": "クラスで2番目に可愛い女の子と友だちになった"
+},
+"/animes/4816/6528": {
+"first_seen": "2026-11-13",
+"title": "チップとデールの おかしなはなし シーズン1"
+},
+"/animes/4832/6557": {
+"first_seen": "2026-11-13",
+"title": "永久のユウグレ"
+},
+"/animes/4834/6560": {
+"first_seen": "2026-11-13",
+"title": "さよならララ"
+},
+"/animes/4840/6571": {
+"first_seen": "2026-11-13",
+"title": "転生貴族、鑑定スキルで成り上がる 第2期"
+},
+"/animes/4843/6575": {
+"first_seen": "2026-11-13",
+"title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～"
+},
+"/animes/4847/6582": {
+"first_seen": "2026-11-13",
+"title": "黄泉のツガイ"
+},
+"/animes/4851/6591": {
+"first_seen": "2026-11-13",
+"title": "MAO"
+},
+"/animes/4857/6598": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ ビンテージ：クローン大戦 2D マイクロシリーズ"
+},
+"/animes/4863/6608": {
+"first_seen": "2026-11-13",
+"title": "スノウボールアース"
+},
+"/animes/4866/7314": {
+"first_seen": "2026-11-13",
+"title": "ヘルヴァ・ボス シーズン3"
+},
+"/animes/4868/6616": {
+"first_seen": "2026-11-13",
+"title": "ミッキーマウスとロードレーサーズ シーズン1"
+},
+"/animes/4869/6617": {
+"first_seen": "2026-11-13",
+"title": "アイズ・オブ・ワカンダ"
+},
+"/animes/4882/6633": {
+"first_seen": "2026-11-13",
+"title": "あかね噺"
+},
+"/animes/4883/6635": {
+"first_seen": "2026-11-13",
+"title": "黒猫と魔女の教室"
+},
+"/animes/4900/6658": {
+"first_seen": "2026-11-13",
+"title": "LV999の村人"
+},
+"/animes/4903/6661": {
+"first_seen": "2026-11-13",
+"title": "LIAR GAME"
+},
+"/animes/4912/6673": {
+"first_seen": "2026-11-13",
+"title": "ソーラー・オポジット シーズン1"
+},
+"/animes/4912/6674": {
+"first_seen": "2026-11-13",
+"title": "マーベル バトルワールド：サノス・ストーンの謎"
+},
+"/animes/4913/6675": {
+"first_seen": "2026-11-13",
+"title": "マーベル・ゾンビーズ"
+},
+"/animes/4914/6676": {
+"first_seen": "2026-11-13",
+"title": "スーパーの裏でヤニ吸うふたり"
+},
+"/animes/4916/6678": {
+"first_seen": "2026-11-13",
+"title": "キルアオ"
+},
+"/animes/4928/6694": {
+"first_seen": "2026-11-13",
+"title": "手札が多めのビクトリア"
+},
+"/animes/4929/6695": {
+"first_seen": "2026-11-13",
+"title": "チェンソーマン 総集篇"
+},
+"/animes/4935/6703": {
+"first_seen": "2026-11-13",
+"title": "#ゾンビさがしてます"
+},
+"/animes/4941/6720": {
+"first_seen": "2026-11-13",
+"title": "ドックはおもちゃドクター シーズン2"
+},
+"/animes/4942/6721": {
+"first_seen": "2026-11-13",
+"title": "マリッジトキシン"
+},
+"/animes/4945/6724": {
+"first_seen": "2026-11-13",
+"title": "これ描いて死ね"
+},
+"/animes/4946/6725": {
+"first_seen": "2026-11-13",
+"title": "天幕のジャードゥーガル"
+},
+"/animes/4949/6728": {
+"first_seen": "2026-11-13",
+"title": "てつりょー！meet with 鉄道むすめ"
+},
+"/animes/4952/6731": {
+"first_seen": "2026-11-13",
+"title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。"
+},
+"/animes/4960/6743": {
+"first_seen": "2026-11-13",
+"title": "超巡！超条先輩"
+},
+"/animes/4961/6744": {
+"first_seen": "2026-11-13",
+"title": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった"
+},
+"/animes/4970/6756": {
+"first_seen": "2026-11-13",
+"title": "魔法騎士レイアース"
+},
+"/animes/4982/6777": {
+"first_seen": "2026-11-13",
+"title": "二十世紀電氣目録-ユーレカ・エヴリカ-"
+},
+"/animes/4983/6779": {
+"first_seen": "2026-11-13",
+"title": "LEGO マーベル／アベンジャーズ ストレンジ・テイルズ"
+},
+"/animes/4994/6799": {
+"first_seen": "2026-11-13",
+"title": "ラマだった王様 学校へ行こう シーズン1"
+},
+"/animes/4995/6802": {
+"first_seen": "2026-11-13",
+"title": "ダックテイル／わんぱくダック夢冒険"
+},
+"/animes/4998/6805": {
+"first_seen": "2026-11-13",
+"title": "ロメリア戦記"
+},
+"/animes/4999/6807": {
+"first_seen": "2026-11-13",
+"title": "アバローのプリンセス エレナ ショーツ シーズン1"
+},
+"/animes/5/7": {
+"first_seen": "2026-11-13",
+"title": "PSYCHO-PASS サイコパス"
+},
+"/animes/5/8": {
+"first_seen": "2026-11-13",
+"title": "PSYCHO-PASS サイコパス ２"
+},
+"/animes/50/75": {
+"first_seen": "2026-11-13",
+"title": "涼宮ハルヒの憂鬱"
+},
+"/animes/5000/6808": {
+"first_seen": "2026-11-13",
+"title": "NEEDY GIRL OVERDOSE"
+},
+"/animes/5008/6817": {
+"first_seen": "2026-11-13",
+"title": "マーベル FUNKO ショートストーリー シーズン1"
+},
+"/animes/5013/6821": {
+"first_seen": "2026-11-13",
+"title": "フューリー・ファイル"
+},
+"/animes/5016/6825": {
+"first_seen": "2026-11-13",
+"title": "左ききのエレン"
+},
+"/animes/5026/6846": {
+"first_seen": "2026-11-13",
+"title": "グロウアップショウ ～ひまわりのサーカス団～"
+},
+"/animes/5027/6849": {
+"first_seen": "2026-11-13",
+"title": "藤本タツキ17-26"
+},
+"/animes/5031/6853": {
+"first_seen": "2026-11-13",
+"title": "バンピリーナとバンパイアかぞく シーズン1"
+},
+"/animes/5033/6860": {
+"first_seen": "2026-11-13",
+"title": "アバローのプリンセス エレナ シーズン1"
+},
+"/animes/5034/6861": {
+"first_seen": "2026-11-13",
+"title": "マイロ・マーフィーの法則 シーズン1"
+},
+"/animes/5035/6863": {
+"first_seen": "2026-11-13",
+"title": "わたしの幸せな結婚 特別篇"
+},
+"/animes/5039/6868": {
+"first_seen": "2026-11-13",
+"title": "ベイマックス ザ・シリーズ ショーツ"
+},
+"/animes/5040/6869": {
+"first_seen": "2026-11-13",
+"title": "ミッキーとミニーの クリスマス・キャロル"
+},
+"/animes/5041/6874": {
+"first_seen": "2026-11-13",
+"title": "ガーゴイルズ シーズン1"
+},
+"/animes/5043/6876": {
+"first_seen": "2026-11-13",
+"title": "プリズム輪舞曲"
+},
+"/animes/5047/6881": {
+"first_seen": "2026-11-13",
+"title": "テイルスピン"
+},
+"/animes/5050/6886": {
+"first_seen": "2026-11-13",
+"title": "ゴースト&モリー シーズン1"
+},
+"/animes/5052/6888": {
+"first_seen": "2026-11-13",
+"title": "バンピリーナ モンスター・ガールズ・オン・ステージ！ シーズン1"
+},
+"/animes/5053/6889": {
+"first_seen": "2026-11-13",
+"title": "スイチュー！フレンズ シーズン1"
+},
+"/animes/5054/6891": {
+"first_seen": "2026-11-13",
+"title": "おしゃれにナンシー・クランシー ファンシーのつくりかた"
+},
+"/animes/5057/6895": {
+"first_seen": "2026-11-13",
+"title": "うちの弟どもがすみません"
+},
+"/animes/5061/6907": {
+"first_seen": "2026-11-13",
+"title": "令和のダラさん"
+},
+"/animes/5069/6921": {
+"first_seen": "2026-11-13",
+"title": "ビリー・ディリーのスーパードゥーパー・地底セカイ・サマー"
+},
+"/animes/5071/6923": {
+"first_seen": "2026-11-13",
+"title": "鉄鍋のジャン！"
+},
+"/animes/5072/6925": {
+"first_seen": "2026-11-13",
+"title": "おしゃれにナンシー・クランシー シーズン1"
+},
+"/animes/5075/6933": {
+"first_seen": "2026-11-13",
+"title": "パンどろぼう"
+},
+"/animes/5077/6936": {
+"first_seen": "2026-11-13",
+"title": "グレート・ノース シーズン1"
+},
+"/animes/5079/6939": {
+"first_seen": "2026-11-13",
+"title": "パグ・パグ・アドベンチャー シーズン1"
+},
+"/animes/5080/6942": {
+"first_seen": "2026-11-13",
+"title": "チビバース ストーリー"
+},
+"/animes/5081/6944": {
+"first_seen": "2026-11-13",
+"title": "ガミー・ベアーの冒険 シーズン1"
+},
+"/animes/5083/6949": {
+"first_seen": "2026-11-13",
+"title": "ヘンリー・ハグルモンスター シーズン1"
+},
+"/animes/5084/6951": {
+"first_seen": "2026-11-13",
+"title": "ミッキーマウス クラブハウスプラス"
+},
+"/animes/5086/6954": {
+"first_seen": "2026-11-13",
+"title": "ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～"
+},
+"/animes/5091/6961": {
+"first_seen": "2026-11-13",
+"title": "ゾンビーズ ザ・シリーズ ショーツ"
+},
+"/animes/5092/6963": {
+"first_seen": "2026-11-13",
+"title": "ミラキュラスの秘密 シーズン1"
+},
+"/animes/5093/6964": {
+"first_seen": "2026-11-13",
+"title": "学園NINJA ランディ シーズン1"
+},
+"/animes/5095/6971": {
+"first_seen": "2026-11-13",
+"title": "ロケッティア"
+},
+"/animes/5097/6974": {
+"first_seen": "2026-11-13",
+"title": "ホタルの嫁入り"
+},
+"/animes/5098/6976": {
+"first_seen": "2026-11-13",
+"title": "名探偵プリキュア！"
+},
+"/animes/510/1255": {
+"first_seen": "2026-11-13",
+"title": "暗殺教室"
+},
+"/animes/510/1256": {
+"first_seen": "2026-11-13",
+"title": "暗殺教室 第2期"
+},
+"/animes/5106/6985": {
+"first_seen": "2026-11-13",
+"title": "FX戦士くるみちゃん"
+},
+"/animes/5111/6991": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ：モール／シャドウ・ロード"
+},
+"/animes/5117/6998": {
+"first_seen": "2026-11-13",
+"title": "日本三國"
+},
+"/animes/5118/6999": {
+"first_seen": "2026-11-13",
+"title": "凶乱令嬢ニア・リストン 病弱令嬢に転生した神殺しの武人の華麗なる無双録"
+},
+"/animes/5121/7002": {
+"first_seen": "2026-11-13",
+"title": "ヤニねこ"
+},
+"/animes/5129/7012": {
+"first_seen": "2026-11-13",
+"title": "リトル・マーゴ・ストーリー"
+},
+"/animes/5130/7014": {
+"first_seen": "2026-11-13",
+"title": "「きみを愛する気はない」と言った次期公爵様がなぜか溺愛してきます"
+},
+"/animes/5132/7017": {
+"first_seen": "2026-11-13",
+"title": "だんでらいおん"
+},
+"/animes/5134/7020": {
+"first_seen": "2026-11-13",
+"title": "まほうのしまのマジックキャンパーズ"
+},
+"/animes/5142/7033": {
+"first_seen": "2026-11-13",
+"title": "転生ゴブリンだけど質問ある？"
+},
+"/animes/5143/7035": {
+"first_seen": "2026-11-13",
+"title": "ツムツム シーズン1"
+},
+"/animes/5153/7045": {
+"first_seen": "2026-11-13",
+"title": "TANK CHAIR-戦車椅子-"
+},
+"/animes/5158/7053": {
+"first_seen": "2026-11-13",
+"title": "デモンズ・クレスト"
+},
+"/animes/5164/7066": {
+"first_seen": "2026-11-13",
+"title": "マジカル★エクスプローラー"
+},
+"/animes/5187/7112": {
+"first_seen": "2026-11-13",
+"title": "世界最強の魔女、始めました"
+},
+"/animes/5203/7134": {
+"first_seen": "2026-11-13",
+"title": "マロニエ王国の七人の騎士"
+},
+"/animes/5207/7146": {
+"first_seen": "2026-11-13",
+"title": "湾岸ミッドナイト"
+},
+"/animes/5208/7147": {
+"first_seen": "2026-11-13",
+"title": "獣王武神ダンデヴァイン"
+},
+"/animes/5213/7152": {
+"first_seen": "2026-11-13",
+"title": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。 ～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～"
+},
+"/animes/5227/7175": {
+"first_seen": "2026-11-13",
+"title": "どうも、好きな人に惚れ薬を依頼された魔女です。"
+},
+"/animes/5247/7202": {
+"first_seen": "2026-11-13",
+"title": "怪奇ゾーン グラビティフォールズ ショーツ"
+},
+"/animes/5257/7212": {
+"first_seen": "2026-11-13",
+"title": "ドゥーミーズ"
+},
+"/animes/5273/7233": {
+"first_seen": "2026-11-13",
+"title": "彼方から"
+},
+"/animes/5300/7257": {
+"first_seen": "2026-11-13",
+"title": "LEGO スター・ウォーズ／ドロイド・テイルズ"
+},
+"/animes/5304/7262": {
+"first_seen": "2026-11-13",
+"title": "ドラゴンボール超 ビルス"
+},
+"/animes/5308/7270": {
+"first_seen": "2026-11-13",
+"title": "ケロロ軍曹☆"
+},
+"/animes/5309/7273": {
+"first_seen": "2026-11-13",
+"title": "ガールズ＆パンツァー もっとらぶらぶ作戦です！"
+},
+"/animes/539/1289": {
+"first_seen": "2026-11-13",
+"title": "機動戦士ガンダム 鉄血のオルフェンズ"
+},
+"/animes/543/1294": {
+"first_seen": "2026-11-13",
+"title": "ゆるゆり"
+},
+"/animes/55/4860": {
+"first_seen": "2026-11-13",
+"title": "この素晴らしい世界に祝福を！3"
+},
+"/animes/55/84": {
+"first_seen": "2026-11-13",
+"title": "この素晴らしい世界に祝福を！"
+},
+"/animes/55/85": {
+"first_seen": "2026-11-13",
+"title": "この素晴らしい世界に祝福を！2"
+},
+"/animes/550/1303": {
+"first_seen": "2026-11-13",
+"title": "すべてがFになる THE PERFECT INSIDER"
+},
+"/animes/552/1305": {
+"first_seen": "2026-11-13",
+"title": "ワールドトリガー"
+},
+"/animes/552/1847": {
+"first_seen": "2026-11-13",
+"title": "ワールドトリガー 2ndシーズン"
+},
+"/animes/56/86": {
+"first_seen": "2026-11-13",
+"title": "ワンパンマン 第1期"
+},
+"/animes/57/88": {
+"first_seen": "2026-11-13",
+"title": "鋼の錬金術師"
+},
+"/animes/60/92": {
+"first_seen": "2026-11-13",
+"title": "Fate/Zero 1stシーズン"
+},
+"/animes/603/1373": {
+"first_seen": "2026-11-13",
+"title": "俺物語!!"
+},
+"/animes/653/1437": {
+"first_seen": "2026-11-13",
+"title": "甘城ブリリアントパーク"
+},
+"/animes/669/1456": {
+"first_seen": "2026-11-13",
+"title": "ばらかもん"
+},
+"/animes/684/1475": {
+"first_seen": "2026-11-13",
+"title": "残響のテロル"
+},
+"/animes/686/1478": {
+"first_seen": "2026-11-13",
+"title": "黒執事"
+},
+"/animes/723/1518": {
+"first_seen": "2026-11-13",
+"title": "ピンポン THE ANIMATION"
+},
+"/animes/73/108": {
+"first_seen": "2026-11-13",
+"title": "クズの本懐"
+},
+"/animes/738/1537": {
+"first_seen": "2026-11-13",
+"title": "中二病でも恋がしたい!"
+},
+"/animes/741/1541": {
+"first_seen": "2026-11-13",
+"title": "銀の匙 Silver Spoon"
+},
+"/animes/757/1561": {
+"first_seen": "2026-11-13",
+"title": "境界の彼方"
+},
+"/animes/759/1563": {
+"first_seen": "2026-11-13",
+"title": "凪のあすから"
+},
+"/animes/76/111": {
+"first_seen": "2026-11-13",
+"title": "青の祓魔師"
+},
+"/animes/768/1574": {
+"first_seen": "2026-11-13",
+"title": "マギ The labyrinth of magic"
+},
+"/animes/79/117": {
+"first_seen": "2026-11-13",
+"title": "四月は君の嘘"
+},
+"/animes/80/118": {
+"first_seen": "2026-11-13",
+"title": "結城友奈は勇者である -結城友奈の章-"
+},
+"/animes/83/122": {
+"first_seen": "2026-11-13",
+"title": "モブサイコ100"
+},
+"/animes/833/1660": {
+"first_seen": "2026-11-13",
+"title": "ひぐらしのなく頃に"
+},
+"/animes/834/1662": {
+"first_seen": "2026-11-13",
+"title": "シティーハンター"
+},
+"/animes/847/611": {
+"first_seen": "2026-11-13",
+"title": "かくしごと"
+},
+"/animes/856/626": {
+"first_seen": "2026-11-13",
+"title": "やはり俺の青春ラブコメはまちがっている。"
+},
+"/animes/857/629": {
+"first_seen": "2026-11-13",
+"title": "映像研には手を出すな！"
+},
+"/animes/860/632": {
+"first_seen": "2026-11-13",
+"title": "ハイキュー!!"
+},
+"/animes/860/633": {
+"first_seen": "2026-11-13",
+"title": "ハイキュー!! セカンドシーズン"
+},
+"/animes/860/634": {
+"first_seen": "2026-11-13",
+"title": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校"
+},
+"/animes/860/635": {
+"first_seen": "2026-11-13",
+"title": "ハイキュー!! TO THE TOP"
+},
+"/animes/87/127": {
+"first_seen": "2026-11-13",
+"title": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～"
+},
+"/animes/887/668": {
+"first_seen": "2026-11-13",
+"title": "ちはやふる"
+},
+"/animes/901/684": {
+"first_seen": "2026-11-13",
+"title": "女子高生の無駄づかい"
+},
+"/animes/923/6503": {
+"first_seen": "2026-11-13",
+"title": "ダイヤのA actⅡ -Second Season-"
+},
+"/animes/923/717": {
+"first_seen": "2026-11-13",
+"title": "ダイヤのA"
+},
+"/animes/923/718": {
+"first_seen": "2026-11-13",
+"title": "ダイヤのA -SECOND SEASON-"
+},
+"/animes/923/719": {
+"first_seen": "2026-11-13",
+"title": "ダイヤのA actⅡ"
+},
+"/animes/945/749": {
+"first_seen": "2026-11-13",
+"title": "どろろ"
+},
+"/animes/95/139": {
+"first_seen": "2026-11-13",
+"title": "五等分の花嫁"
+},
+"/animes/96/140": {
+"first_seen": "2026-11-13",
+"title": "北斗の拳"
+},
+"/animes/97/142": {
+"first_seen": "2026-11-13",
+"title": "はたらく細胞"
+},
+"/animes/983/795": {
+"first_seen": "2026-11-13",
+"title": "ツルネ ―風舞高校弓道部―"
+},
+"/animes/984/1840": {
+"first_seen": "2026-11-13",
+"title": "転生したらスライムだった件 第2期 第1部"
+},
+"/animes/984/6183": {
+"first_seen": "2026-11-13",
+"title": "転生したらスライムだった件 第4期"
+},
+"/animes/984/796": {
+"first_seen": "2026-11-13",
+"title": "転生したらスライムだった件"
+},
+"/dramas/10043/14093": {
+"first_seen": "2026-11-13",
+"title": "幽☆遊☆白書"
+},
+"/dramas/10058/14108": {
+"first_seen": "2026-11-13",
+"title": "怪物"
+},
+"/dramas/10075/14128": {
+"first_seen": "2026-11-13",
+"title": "Sweet Home －俺と世界の絶望－"
+},
+"/dramas/10075/17503": {
+"first_seen": "2026-11-13",
+"title": "Sweet Home －俺と世界の絶望－  シーズン2"
+},
+"/dramas/10075/20139": {
+"first_seen": "2026-11-13",
+"title": "Sweet Home －俺と世界の絶望－ シーズン3"
+},
+"/dramas/10083/14134": {
+"first_seen": "2026-11-13",
+"title": "オビ＝ワン・ケノービ"
+},
+"/dramas/10084/14136": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ：キャシアン・アンドー"
+},
+"/dramas/10088/14139": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ：アソーカ"
+},
+"/dramas/10096/14147": {
+"first_seen": "2026-11-13",
+"title": "Lupin/ルパン パート1"
+},
+"/dramas/10096/23326": {
+"first_seen": "2026-11-13",
+"title": "Lupin/ルパン パート4"
+},
+"/dramas/101/368": {
+"first_seen": "2026-11-13",
+"title": "Scrubs〜恋のお騒がせ病棟 シーズン1"
+},
+"/dramas/1010/2163": {
+"first_seen": "2026-11-13",
+"title": "19番目のカルテ"
+},
+"/dramas/10176/14269": {
+"first_seen": "2026-11-13",
+"title": "ペントハウス"
+},
+"/dramas/10176/14270": {
+"first_seen": "2026-11-13",
+"title": "ペントハウス2"
+},
+"/dramas/10178/14272": {
+"first_seen": "2026-11-13",
+"title": "ヴィンチェンツォ"
+},
+"/dramas/1022/2176": {
+"first_seen": "2026-11-13",
+"title": "ブラックペアン"
+},
+"/dramas/1023/2177": {
+"first_seen": "2026-11-13",
+"title": "シグナル 長期未解決事件捜査班"
+},
+"/dramas/1026/2180": {
+"first_seen": "2026-11-13",
+"title": "きみが心に棲みついた"
+},
+"/dramas/10274/14376": {
+"first_seen": "2026-11-13",
+"title": "リコカツ"
+},
+"/dramas/103/376": {
+"first_seen": "2026-11-13",
+"title": "ふたりの男とひとりの女 シーズン3"
+},
+"/dramas/1030/2184": {
+"first_seen": "2026-11-13",
+"title": "この恋あたためますか"
+},
+"/dramas/10316/14426": {
+"first_seen": "2026-11-13",
+"title": "岸辺露伴は動かない"
+},
+"/dramas/10318/14428": {
+"first_seen": "2026-11-13",
+"title": "恋はDeepに"
+},
+"/dramas/10332/14440": {
+"first_seen": "2026-11-13",
+"title": "99.9－刑事専門弁護士－"
+},
+"/dramas/10334/14442": {
+"first_seen": "2026-11-13",
+"title": "ネメシス"
+},
+"/dramas/10355/14464": {
+"first_seen": "2026-11-13",
+"title": "ナビレラ －それでも蝶は舞う－"
+},
+"/dramas/1038/2195": {
+"first_seen": "2026-11-13",
+"title": "サム、マイウェイ～恋の一発逆転！～"
+},
+"/dramas/1059/2234": {
+"first_seen": "2026-11-13",
+"title": "コンビニのセッピョル"
+},
+"/dramas/106/383": {
+"first_seen": "2026-11-13",
+"title": "ローズウッド ～マイアミ私立検視ラボ"
+},
+"/dramas/10613/14793": {
+"first_seen": "2026-11-13",
+"title": "フィラデルフィアは今日も晴れ シーズン1"
+},
+"/dramas/10615/14795": {
+"first_seen": "2026-11-13",
+"title": "シークレット・インべージョン"
+},
+"/dramas/1062/2238": {
+"first_seen": "2026-11-13",
+"title": "おっさんずラブ"
+},
+"/dramas/10640/14824": {
+"first_seen": "2026-11-13",
+"title": "流星の絆"
+},
+"/dramas/10655/14842": {
+"first_seen": "2026-11-13",
+"title": "ビッグ・スカイ シーズン1"
+},
+"/dramas/10664/14854": {
+"first_seen": "2026-11-13",
+"title": "フォスター家の事情　シーズン１"
+},
+"/dramas/10678/14882": {
+"first_seen": "2026-11-13",
+"title": "ある日、私の家の玄関に滅亡が入ってきた"
+},
+"/dramas/10698/14916": {
+"first_seen": "2026-11-13",
+"title": "彼女はキレイだった"
+},
+"/dramas/1070/2257": {
+"first_seen": "2026-11-13",
+"title": "チア☆ダン"
+},
+"/dramas/1071/24428": {
+"first_seen": "2026-11-13",
+"title": "チンギスーVIVANT THE ORIGIN STORYー"
+},
+"/dramas/1072/2263": {
+"first_seen": "2026-11-13",
+"title": "まんぷく"
+},
+"/dramas/10732/14968": {
+"first_seen": "2026-11-13",
+"title": "復讐代行人～模範タクシー～／模範タクシー"
+},
+"/dramas/10732/18154": {
+"first_seen": "2026-11-13",
+"title": "復讐代行人2 ～模範タクシー～"
+},
+"/dramas/10732/22834": {
+"first_seen": "2026-11-13",
+"title": "復讐代行人3～模範タクシー～"
+},
+"/dramas/10737/14973": {
+"first_seen": "2026-11-13",
+"title": "九尾の狐とキケンな同居"
+},
+"/dramas/10776/15027": {
+"first_seen": "2026-11-13",
+"title": "SHOGUN 将軍"
+},
+"/dramas/10823/15087": {
+"first_seen": "2026-11-13",
+"title": "DOPESICK アメリカを蝕むオピオイド危機"
+},
+"/dramas/10824/15090": {
+"first_seen": "2026-11-13",
+"title": "NOTHING／ナッシング"
+},
+"/dramas/10875/15168": {
+"first_seen": "2026-11-13",
+"title": "わかっていても"
+},
+"/dramas/109/387": {
+"first_seen": "2026-11-13",
+"title": "ライフ・アンド・ベス シーズン1"
+},
+"/dramas/1091/2350": {
+"first_seen": "2026-11-13",
+"title": "ゆとりですがなにか"
+},
+"/dramas/1091/2351": {
+"first_seen": "2026-11-13",
+"title": "ゆとりですがなにか 純米吟醸純情編"
+},
+"/dramas/10916/15219": {
+"first_seen": "2026-11-13",
+"title": "パム&トミー"
+},
+"/dramas/1093/2353": {
+"first_seen": "2026-11-13",
+"title": "彼女はキレイだった"
+},
+"/dramas/1095/2355": {
+"first_seen": "2026-11-13",
+"title": "ハベクの新婦"
+},
+"/dramas/10963/15275": {
+"first_seen": "2026-11-13",
+"title": "恋です！～ヤンキー君と白杖ガール～"
+},
+"/dramas/10965/15277": {
+"first_seen": "2026-11-13",
+"title": "DCU"
+},
+"/dramas/10980/15296": {
+"first_seen": "2026-11-13",
+"title": "Love, ヴィクター シーズン1"
+},
+"/dramas/10984/15303": {
+"first_seen": "2026-11-13",
+"title": "ギフテッド 新世代X-MEN誕生"
+},
+"/dramas/1102/2367": {
+"first_seen": "2026-11-13",
+"title": "ああ、私の幽霊さま"
+},
+"/dramas/11075/15413": {
+"first_seen": "2026-11-13",
+"title": "怪物"
+},
+"/dramas/11075/16912": {
+"first_seen": "2026-11-13",
+"title": "ユミの細胞たち2"
+},
+"/dramas/11079/15417": {
+"first_seen": "2026-11-13",
+"title": "マーダーズ・イン・ビルディング シーズン1"
+},
+"/dramas/11097/15435": {
+"first_seen": "2026-11-13",
+"title": "真犯人フラグ"
+},
+"/dramas/11129/15471": {
+"first_seen": "2026-11-13",
+"title": "最愛"
+},
+"/dramas/1118/2391": {
+"first_seen": "2026-11-13",
+"title": "侵入者たちの晩餐"
+},
+"/dramas/11190/15543": {
+"first_seen": "2026-11-13",
+"title": "D.P. －脱走兵追跡官－"
+},
+"/dramas/11190/17401": {
+"first_seen": "2026-11-13",
+"title": "D.P. −脱走兵追跡官−: シーズン2"
+},
+"/dramas/11205/15564": {
+"first_seen": "2026-11-13",
+"title": "アバランチ"
+},
+"/dramas/11249/15619": {
+"first_seen": "2026-11-13",
+"title": "イカゲーム シーズン1"
+},
+"/dramas/11249/17005": {
+"first_seen": "2026-11-13",
+"title": "イカゲーム シーズン2"
+},
+"/dramas/11249/21006": {
+"first_seen": "2026-11-13",
+"title": "イカゲーム シーズン3"
+},
+"/dramas/11303/15687": {
+"first_seen": "2026-11-13",
+"title": "恋慕"
+},
+"/dramas/11338/15734": {
+"first_seen": "2026-11-13",
+"title": "私たちは幸運だった"
+},
+"/dramas/11357/15762": {
+"first_seen": "2026-11-13",
+"title": "マイネーム: 偽りと復讐"
+},
+"/dramas/11366/15773": {
+"first_seen": "2026-11-13",
+"title": "クジャクのダンス、誰が見た？"
+},
+"/dramas/11366/18089": {
+"first_seen": "2026-11-13",
+"title": "美しい彼 シーズン2"
+},
+"/dramas/11380/15787": {
+"first_seen": "2026-11-13",
+"title": "ホークアイ"
+},
+"/dramas/11401/15816": {
+"first_seen": "2026-11-13",
+"title": "エンジェル シーズン 1"
+},
+"/dramas/11433/15856": {
+"first_seen": "2026-11-13",
+"title": "正体"
+},
+"/dramas/11434/15857": {
+"first_seen": "2026-11-13",
+"title": "ドクターホワイト"
+},
+"/dramas/11448/15875": {
+"first_seen": "2026-11-13",
+"title": "ブラックペアン シーズン２"
+},
+"/dramas/11451/15879": {
+"first_seen": "2026-11-13",
+"title": "離婚しようよ"
+},
+"/dramas/11453/15883": {
+"first_seen": "2026-11-13",
+"title": "管理人は知っている"
+},
+"/dramas/11456/15888": {
+"first_seen": "2026-11-13",
+"title": "99.9-刑事専門弁護士- 完全新作SP新たな出会い篇"
+},
+"/dramas/1146/2428": {
+"first_seen": "2026-11-13",
+"title": "9-1-1：LA救命最前線"
+},
+"/dramas/11470/15905": {
+"first_seen": "2026-11-13",
+"title": "今、別れの途中です"
+},
+"/dramas/11471/15906": {
+"first_seen": "2026-11-13",
+"title": "大いなる遺産"
+},
+"/dramas/11473/15912": {
+"first_seen": "2026-11-13",
+"title": "YOU －君がすべて－ シーズン1"
+},
+"/dramas/11499/15950": {
+"first_seen": "2026-11-13",
+"title": "ムーンナイト"
+},
+"/dramas/11500/15951": {
+"first_seen": "2026-11-13",
+"title": "ミズ・マーベル"
+},
+"/dramas/11502/15954": {
+"first_seen": "2026-11-13",
+"title": "アイアンハート"
+},
+"/dramas/11503/15955": {
+"first_seen": "2026-11-13",
+"title": "アガサ・オール・アロング"
+},
+"/dramas/11525/15988": {
+"first_seen": "2026-11-13",
+"title": "おいハンサム!!"
+},
+"/dramas/11525/20065": {
+"first_seen": "2026-11-13",
+"title": "おいハンサム!!２"
+},
+"/dramas/1154/2437": {
+"first_seen": "2026-11-13",
+"title": "SPEC〜警視庁公安部公安第五課 未詳事件特別対策係事件簿〜"
+},
+"/dramas/11546/16016": {
+"first_seen": "2026-11-13",
+"title": "新春ドラマスペシャル 緊急取調室"
+},
+"/dramas/11562/16035": {
+"first_seen": "2026-11-13",
+"title": "その年、私たちは"
+},
+"/dramas/11563/16036": {
+"first_seen": "2026-11-13",
+"title": "ライバルズ"
+},
+"/dramas/1159/2442": {
+"first_seen": "2026-11-13",
+"title": "フランケンシュタインの恋"
+},
+"/dramas/11592/16079": {
+"first_seen": "2026-11-13",
+"title": "うぬぼれ刑事"
+},
+"/dramas/11599/16088": {
+"first_seen": "2026-11-13",
+"title": "おかえりモネ"
+},
+"/dramas/116/430": {
+"first_seen": "2026-11-13",
+"title": "ライ・トゥ・ミー　嘘の瞬間"
+},
+"/dramas/11621/16124": {
+"first_seen": "2026-11-13",
+"title": "半沢直樹 続編"
+},
+"/dramas/117/433": {
+"first_seen": "2026-11-13",
+"title": "glee/グリー　シーズン1"
+},
+"/dramas/11718/16239": {
+"first_seen": "2026-11-13",
+"title": "舞妓さんちのまかないさん"
+},
+"/dramas/11726/16247": {
+"first_seen": "2026-11-13",
+"title": "ドクター弁護士"
+},
+"/dramas/11731/16252": {
+"first_seen": "2026-11-13",
+"title": "ゴースト・ドクター"
+},
+"/dramas/11732/16253": {
+"first_seen": "2026-11-13",
+"title": "二十五、二十一"
+},
+"/dramas/11735/16256": {
+"first_seen": "2026-11-13",
+"title": "気象庁の人々: 社内恋愛は予測不能?!"
+},
+"/dramas/11737/16258": {
+"first_seen": "2026-11-13",
+"title": "財閥家の末息子〜Reborn Rich〜"
+},
+"/dramas/11738/16259": {
+"first_seen": "2026-11-13",
+"title": "39歳"
+},
+"/dramas/11767/16291": {
+"first_seen": "2026-11-13",
+"title": "元カレは天才詐欺師 ～38師機動隊～"
+},
+"/dramas/1177/2464": {
+"first_seen": "2026-11-13",
+"title": "ヤング・シェルドン シーズン1"
+},
+"/dramas/1177/7370": {
+"first_seen": "2026-11-13",
+"title": "アオハライド Season2"
+},
+"/dramas/118/439": {
+"first_seen": "2026-11-13",
+"title": "ボストン・リーガル"
+},
+"/dramas/1180/2466": {
+"first_seen": "2026-11-13",
+"title": "9-1-1: Lone Star シーズン1"
+},
+"/dramas/11802/16332": {
+"first_seen": "2026-11-13",
+"title": "キミと僕の警察学校"
+},
+"/dramas/11826/16360": {
+"first_seen": "2026-11-13",
+"title": "今、私たちの学校は..."
+},
+"/dramas/11827/16361": {
+"first_seen": "2026-11-13",
+"title": "未成年裁判"
+},
+"/dramas/11848/16384": {
+"first_seen": "2026-11-13",
+"title": "サムバディ"
+},
+"/dramas/11850/20556": {
+"first_seen": "2026-11-13",
+"title": "ティーチャー"
+},
+"/dramas/11855/16391": {
+"first_seen": "2026-11-13",
+"title": "ドロップアウト～シリコンバレーを騙した女"
+},
+"/dramas/11858/16395": {
+"first_seen": "2026-11-13",
+"title": "らんまん"
+},
+"/dramas/11885/16425": {
+"first_seen": "2026-11-13",
+"title": "最愛の敵～王たる宿命～"
+},
+"/dramas/11886/16426": {
+"first_seen": "2026-11-13",
+"title": "勇者ヨシヒコと導かれし七人"
+},
+"/dramas/11887/16431": {
+"first_seen": "2026-11-13",
+"title": "家族だから愛したんじゃなくて、愛したのが家族だった"
+},
+"/dramas/119/444": {
+"first_seen": "2026-11-13",
+"title": "アトムの童"
+},
+"/dramas/11905/16453": {
+"first_seen": "2026-11-13",
+"title": "グリッド"
+},
+"/dramas/11941/16506": {
+"first_seen": "2026-11-13",
+"title": "ターミナル・リスト"
+},
+"/dramas/11941/18220": {
+"first_seen": "2026-11-13",
+"title": "ターミナル・リスト シーズン2"
+},
+"/dramas/11942/16507": {
+"first_seen": "2026-11-13",
+"title": "緊急取調室 第2シーズン"
+},
+"/dramas/12007/16585": {
+"first_seen": "2026-11-13",
+"title": "明日、私は誰かのカノジョ"
+},
+"/dramas/12012/16591": {
+"first_seen": "2026-11-13",
+"title": "ビッグマウス"
+},
+"/dramas/12028/16608": {
+"first_seen": "2026-11-13",
+"title": "サウンドトラック #1"
+},
+"/dramas/1203/2499": {
+"first_seen": "2026-11-13",
+"title": "重版出来!"
+},
+"/dramas/1211/2508": {
+"first_seen": "2026-11-13",
+"title": "僕たちがやりました"
+},
+"/dramas/12119/16726": {
+"first_seen": "2026-11-13",
+"title": "GBI特別捜査官 ウィル・トレント"
+},
+"/dramas/1212/2509": {
+"first_seen": "2026-11-13",
+"title": "CRISIS 公安機動捜査隊特捜班"
+},
+"/dramas/12120/16728": {
+"first_seen": "2026-11-13",
+"title": "天才学級アント・ファーム シーズン1"
+},
+"/dramas/12196/16835": {
+"first_seen": "2026-11-13",
+"title": "酒飲みな都会の女たち"
+},
+"/dramas/12207/16849": {
+"first_seen": "2026-11-13",
+"title": "アザー・ブラック・ガール"
+},
+"/dramas/12231/16883": {
+"first_seen": "2026-11-13",
+"title": "HANNIBAL/ハンニバル"
+},
+"/dramas/12238/16889": {
+"first_seen": "2026-11-13",
+"title": "君の花になる"
+},
+"/dramas/1225/2528": {
+"first_seen": "2026-11-13",
+"title": "降り積もれ孤独な死よ"
+},
+"/dramas/12260/16915": {
+"first_seen": "2026-11-13",
+"title": "美男堂の事件手帳"
+},
+"/dramas/12272/16933": {
+"first_seen": "2026-11-13",
+"title": "あの日の君と"
+},
+"/dramas/12272/18583": {
+"first_seen": "2026-11-13",
+"title": "みなと商事コインランドリー2"
+},
+"/dramas/12274/16935": {
+"first_seen": "2026-11-13",
+"title": "初恋の悪魔"
+},
+"/dramas/12276/16939": {
+"first_seen": "2026-11-13",
+"title": "金田一少年の事件簿"
+},
+"/dramas/12291/16966": {
+"first_seen": "2026-11-13",
+"title": "ギレルモ・デル・トロの驚異の部屋"
+},
+"/dramas/12292/16967": {
+"first_seen": "2026-11-13",
+"title": "ウェンズデー シーズン1"
+},
+"/dramas/12292/18054": {
+"first_seen": "2026-11-13",
+"title": "ウェンズデー シーズン2"
+},
+"/dramas/123/458": {
+"first_seen": "2026-11-13",
+"title": "HOMELAND/ホームランド　シーズン1"
+},
+"/dramas/12312/16994": {
+"first_seen": "2026-11-13",
+"title": "すべて忘れてしまうから"
+},
+"/dramas/12322/22508": {
+"first_seen": "2026-11-13",
+"title": "私たちの青い夏 ファイナル・シーズン"
+},
+"/dramas/12325/17011": {
+"first_seen": "2026-11-13",
+"title": "怪物"
+},
+"/dramas/12337/17024": {
+"first_seen": "2026-11-13",
+"title": "フクロウと呼ばれた男"
+},
+"/dramas/12357/17050": {
+"first_seen": "2026-11-13",
+"title": "ウ・ヨンウ弁護士は天才肌"
+},
+"/dramas/12385/17090": {
+"first_seen": "2026-11-13",
+"title": "ザ・トラベルナース"
+},
+"/dramas/124/466": {
+"first_seen": "2026-11-13",
+"title": "TERRA NOVA/テラノバ"
+},
+"/dramas/12415/17126": {
+"first_seen": "2026-11-13",
+"title": "マイク・タイソン"
+},
+"/dramas/12482/17221": {
+"first_seen": "2026-11-13",
+"title": "デアデビル：ボーン・アゲイン"
+},
+"/dramas/12485/17226": {
+"first_seen": "2026-11-13",
+"title": "一流シェフのファミリーレストラン シーズン1"
+},
+"/dramas/12488/17229": {
+"first_seen": "2026-11-13",
+"title": "ケイゾク"
+},
+"/dramas/12496/17238": {
+"first_seen": "2026-11-13",
+"title": "星降る夜に"
+},
+"/dramas/12499/17241": {
+"first_seen": "2026-11-13",
+"title": "エルピス—希望、あるいは災い—"
+},
+"/dramas/125/467": {
+"first_seen": "2026-11-13",
+"title": "キリング/26日間　1"
+},
+"/dramas/12505/17247": {
+"first_seen": "2026-11-13",
+"title": "STATION 19 シーズン1"
+},
+"/dramas/1252/2582": {
+"first_seen": "2026-11-13",
+"title": "黒革の手帖"
+},
+"/dramas/12530/17275": {
+"first_seen": "2026-11-13",
+"title": "両刃の斧"
+},
+"/dramas/12538/17283": {
+"first_seen": "2026-11-13",
+"title": "拾われた男"
+},
+"/dramas/12553/17307": {
+"first_seen": "2026-11-13",
+"title": "シスターズ"
+},
+"/dramas/12593/17364": {
+"first_seen": "2026-11-13",
+"title": "闇金ウシジマくん"
+},
+"/dramas/12596/17367": {
+"first_seen": "2026-11-13",
+"title": "恋と弾丸"
+},
+"/dramas/12600/17372": {
+"first_seen": "2026-11-13",
+"title": "オール・イズ・フェア 女神たちの法廷"
+},
+"/dramas/12617/17391": {
+"first_seen": "2026-11-13",
+"title": "ラスト・マン・スタンディング シーズン1"
+},
+"/dramas/12619/17396": {
+"first_seen": "2026-11-13",
+"title": "パンドラの果実～科学犯罪捜査ファイル～ Season3"
+},
+"/dramas/12620/17397": {
+"first_seen": "2026-11-13",
+"title": "ゴールデンスプーン"
+},
+"/dramas/12629/17409": {
+"first_seen": "2026-11-13",
+"title": "皇妃エリザベート シーズン1"
+},
+"/dramas/12629/24658": {
+"first_seen": "2026-11-13",
+"title": "シンデレラ クロゼット"
+},
+"/dramas/1265/2614": {
+"first_seen": "2026-11-13",
+"title": "あなたのことはそれほど"
+},
+"/dramas/12669/17458": {
+"first_seen": "2026-11-13",
+"title": "素晴らしき日々"
+},
+"/dramas/12672/17461": {
+"first_seen": "2026-11-13",
+"title": "コネクト"
+},
+"/dramas/12675/17465": {
+"first_seen": "2026-11-13",
+"title": "忍びの家 House of Ninjas"
+},
+"/dramas/12690/17482": {
+"first_seen": "2026-11-13",
+"title": "エンジェルフライト 国際霊柩送還士"
+},
+"/dramas/12697/17494": {
+"first_seen": "2026-11-13",
+"title": "THE DAYS"
+},
+"/dramas/127/472": {
+"first_seen": "2026-11-13",
+"title": "スリーピー・ホロウ"
+},
+"/dramas/12702/17501": {
+"first_seen": "2026-11-13",
+"title": "シー・ハルク：ザ・アトーニー"
+},
+"/dramas/12708/17509": {
+"first_seen": "2026-11-13",
+"title": "ダーマー"
+},
+"/dramas/1272/14849": {
+"first_seen": "2026-11-13",
+"title": "緊急取調室 第4シーズン"
+},
+"/dramas/1272/2620": {
+"first_seen": "2026-11-13",
+"title": "早春晴朗"
+},
+"/dramas/12750/17568": {
+"first_seen": "2026-11-13",
+"title": "デブとラブと過ちと！"
+},
+"/dramas/1277/2626": {
+"first_seen": "2026-11-13",
+"title": "ヒーラー~最高の恋人~"
+},
+"/dramas/12793/17624": {
+"first_seen": "2026-11-13",
+"title": "恋する美食の宮廷記"
+},
+"/dramas/12801/17636": {
+"first_seen": "2026-11-13",
+"title": "最悪の悪"
+},
+"/dramas/12807/17646": {
+"first_seen": "2026-11-13",
+"title": "リトル・ファイアー〜彼女たちの秘密 シーズン1"
+},
+"/dramas/12810/17648": {
+"first_seen": "2026-11-13",
+"title": "作りたい女と食べたい女"
+},
+"/dramas/12811/17649": {
+"first_seen": "2026-11-13",
+"title": "リミットレス with クリス・ヘムズワース"
+},
+"/dramas/12813/17653": {
+"first_seen": "2026-11-13",
+"title": "終わってない！40代わたしのリスタート"
+},
+"/dramas/12816/17658": {
+"first_seen": "2026-11-13",
+"title": "リーズナブル・ダウト 推定無罪 シーズン1"
+},
+"/dramas/12822/17668": {
+"first_seen": "2026-11-13",
+"title": "フェンス"
+},
+"/dramas/12835/17685": {
+"first_seen": "2026-11-13",
+"title": "クリアリング 囚われの子供たち"
+},
+"/dramas/12842/17694": {
+"first_seen": "2026-11-13",
+"title": "代理リベンジ"
+},
+"/dramas/12849/17705": {
+"first_seen": "2026-11-13",
+"title": "ザ・グローリー ～輝かしき復讐～"
+},
+"/dramas/12868/17729": {
+"first_seen": "2026-11-13",
+"title": "ブラッドハウンド"
+},
+"/dramas/12878/17743": {
+"first_seen": "2026-11-13",
+"title": "フィクサー Season1"
+},
+"/dramas/12883/17749": {
+"first_seen": "2026-11-13",
+"title": "TRUST/トラスト ゲティ家のスキャンダル"
+},
+"/dramas/1289/2640": {
+"first_seen": "2026-11-13",
+"title": "ブラッキッシュ シーズン1"
+},
+"/dramas/12911/17797": {
+"first_seen": "2026-11-13",
+"title": "夢中さ、きみに。"
+},
+"/dramas/12911/20665": {
+"first_seen": "2026-11-13",
+"title": "À Table！〜ノスタルジックな休日〜"
+},
+"/dramas/12912/17798": {
+"first_seen": "2026-11-13",
+"title": "ブラッシュアップライフ"
+},
+"/dramas/12940/17838": {
+"first_seen": "2026-11-13",
+"title": "カジノ"
+},
+"/dramas/12941/17840": {
+"first_seen": "2026-11-13",
+"title": "アボット エレメンタリー"
+},
+"/dramas/12942/17839": {
+"first_seen": "2026-11-13",
+"title": "生まれ変わってもよろしく"
+},
+"/dramas/12950/17848": {
+"first_seen": "2026-11-13",
+"title": "流れ星"
+},
+"/dramas/12966/17868": {
+"first_seen": "2026-11-13",
+"title": "クリミナル・マインド 国際捜査班 シーズン1"
+},
+"/dramas/12969/17873": {
+"first_seen": "2026-11-13",
+"title": "キワドい2人-K2-池袋署刑事課神崎・黒木"
+},
+"/dramas/12974/17879": {
+"first_seen": "2026-11-13",
+"title": "FBI アカデミー クラス ’09"
+},
+"/dramas/12984/17891": {
+"first_seen": "2026-11-13",
+"title": "夕暮れに、手をつなぐ"
+},
+"/dramas/12985/17892": {
+"first_seen": "2026-11-13",
+"title": "君へダイブ"
+},
+"/dramas/12986/17894": {
+"first_seen": "2026-11-13",
+"title": "ワンダーハッチ -空飛ぶ竜の島-"
+},
+"/dramas/1309/2673": {
+"first_seen": "2026-11-13",
+"title": "ドクター異邦人"
+},
+"/dramas/13091/18032": {
+"first_seen": "2026-11-13",
+"title": "グロテスク"
+},
+"/dramas/131/484": {
+"first_seen": "2026-11-13",
+"title": "ストレイン 沈黙のエクリプス"
+},
+"/dramas/13110/18051": {
+"first_seen": "2026-11-13",
+"title": "悪鬼"
+},
+"/dramas/13112/18052": {
+"first_seen": "2026-11-13",
+"title": "0.5の男"
+},
+"/dramas/1313/2680": {
+"first_seen": "2026-11-13",
+"title": "すいか"
+},
+"/dramas/13162/18114": {
+"first_seen": "2026-11-13",
+"title": "セレブリティ"
+},
+"/dramas/13169/18122": {
+"first_seen": "2026-11-13",
+"title": "キング・ザ・ランド"
+},
+"/dramas/13171/18123": {
+"first_seen": "2026-11-13",
+"title": "この恋は不可抗力"
+},
+"/dramas/132/488": {
+"first_seen": "2026-11-13",
+"title": "Empire/エンパイア 成功の代償"
+},
+"/dramas/1322/2710": {
+"first_seen": "2026-11-13",
+"title": "東京タラレバ娘"
+},
+"/dramas/13243/18212": {
+"first_seen": "2026-11-13",
+"title": "アダルト"
+},
+"/dramas/13245/18214": {
+"first_seen": "2026-11-13",
+"title": "あのときキスしておけば"
+},
+"/dramas/13258/18231": {
+"first_seen": "2026-11-13",
+"title": "恋人～あの日聞いた花の咲く音～"
+},
+"/dramas/13265/18241": {
+"first_seen": "2026-11-13",
+"title": "合理的にあり得ない ～探偵・上水流涼子の解明～"
+},
+"/dramas/13266/18243": {
+"first_seen": "2026-11-13",
+"title": "タイガー&ドラゴン"
+},
+"/dramas/13273/18251": {
+"first_seen": "2026-11-13",
+"title": "日曜の夜ぐらいは..."
+},
+"/dramas/13275/18253": {
+"first_seen": "2026-11-13",
+"title": "わたしのお嫁くん"
+},
+"/dramas/13311/18302": {
+"first_seen": "2026-11-13",
+"title": "虎に翼"
+},
+"/dramas/13313/18304": {
+"first_seen": "2026-11-13",
+"title": "VIVANT 第2シーズン"
+},
+"/dramas/13326/18318": {
+"first_seen": "2026-11-13",
+"title": "パンドラ　偽りの楽園"
+},
+"/dramas/13345/18340": {
+"first_seen": "2026-11-13",
+"title": "TOKYO MER～隅田川ミッション～"
+},
+"/dramas/13347/18344": {
+"first_seen": "2026-11-13",
+"title": "リスキーな結婚相手"
+},
+"/dramas/13371/18387": {
+"first_seen": "2026-11-13",
+"title": "BEEF／ビーフ"
+},
+"/dramas/134/493": {
+"first_seen": "2026-11-13",
+"title": "サンズ・オブ・アナーキー"
+},
+"/dramas/13403/18428": {
+"first_seen": "2026-11-13",
+"title": "シークレットファミリー"
+},
+"/dramas/1344/2740": {
+"first_seen": "2026-11-13",
+"title": "ちょっとステキな物語"
+},
+"/dramas/13440/18472": {
+"first_seen": "2026-11-13",
+"title": "JUSTIFIED 俺の正義 : クライムシティ デトロイト"
+},
+"/dramas/13441/18473": {
+"first_seen": "2026-11-13",
+"title": "サニーwithチャンス シーズン1"
+},
+"/dramas/13504/18557": {
+"first_seen": "2026-11-13",
+"title": "ハヤブサ消防団"
+},
+"/dramas/13521/18576": {
+"first_seen": "2026-11-13",
+"title": "エージェント・オブ・シールド　シーズン1"
+},
+"/dramas/13548/18610": {
+"first_seen": "2026-11-13",
+"title": "ロング・ロード・ホーム シーズン1"
+},
+"/dramas/13557/18622": {
+"first_seen": "2026-11-13",
+"title": "セイントＸ"
+},
+"/dramas/13559/18624": {
+"first_seen": "2026-11-13",
+"title": "トリリオンゲーム"
+},
+"/dramas/13567/18639": {
+"first_seen": "2026-11-13",
+"title": "マイファミリー"
+},
+"/dramas/13571/18642": {
+"first_seen": "2026-11-13",
+"title": "こっち向いてよ向井くん"
+},
+"/dramas/13585/18657": {
+"first_seen": "2026-11-13",
+"title": "弱いヒーロー Class1"
+},
+"/dramas/13587/18659": {
+"first_seen": "2026-11-13",
+"title": "殺し屋たちの店"
+},
+"/dramas/13622/18697": {
+"first_seen": "2026-11-13",
+"title": "真夏のシンデレラ"
+},
+"/dramas/13642/18721": {
+"first_seen": "2026-11-13",
+"title": "フル・モンティ"
+},
+"/dramas/13649/18730": {
+"first_seen": "2026-11-13",
+"title": "最高の教師 1年後、私は生徒に■された"
+},
+"/dramas/13691/18798": {
+"first_seen": "2026-11-13",
+"title": "レッド・スワン"
+},
+"/dramas/13697/18804": {
+"first_seen": "2026-11-13",
+"title": "アオハライド Season1"
+},
+"/dramas/13697/19693": {
+"first_seen": "2026-11-13",
+"title": "探偵が早すぎる 春のトリック返し祭り"
+},
+"/dramas/1370/2792": {
+"first_seen": "2026-11-13",
+"title": "義母と娘のブルース"
+},
+"/dramas/13710/18820": {
+"first_seen": "2026-11-13",
+"title": "天才少女ドギー・カメアロハ シーズン1"
+},
+"/dramas/13732/18843": {
+"first_seen": "2026-11-13",
+"title": "ママとわたしと過去と未来 シーズン1"
+},
+"/dramas/1374/2796": {
+"first_seen": "2026-11-13",
+"title": "よくおごってくれる綺麗なお姉さん"
+},
+"/dramas/139/509": {
+"first_seen": "2026-11-13",
+"title": "スクリーム・クイーンズ"
+},
+"/dramas/13914/19075": {
+"first_seen": "2026-11-13",
+"title": "ごくせん 第3シリーズ"
+},
+"/dramas/1395/2819": {
+"first_seen": "2026-11-13",
+"title": "アイドルアイ"
+},
+"/dramas/14014/19190": {
+"first_seen": "2026-11-13",
+"title": "フェルマーの料理"
+},
+"/dramas/14030/19208": {
+"first_seen": "2026-11-13",
+"title": "天狗の台所"
+},
+"/dramas/14095/19286": {
+"first_seen": "2026-11-13",
+"title": "マイホームヒーロー"
+},
+"/dramas/14101/19292": {
+"first_seen": "2026-11-13",
+"title": "いちばんすきな花"
+},
+"/dramas/14119/19314": {
+"first_seen": "2026-11-13",
+"title": "誘拐の日"
+},
+"/dramas/14134/19331": {
+"first_seen": "2026-11-13",
+"title": "UP! 幸せをつかまえよう"
+},
+"/dramas/14213/19429": {
+"first_seen": "2026-11-13",
+"title": "君となら恋をしてみても"
+},
+"/dramas/14276/21630": {
+"first_seen": "2026-11-13",
+"title": "ファラウェイ・ダウンズ"
+},
+"/dramas/14302/19531": {
+"first_seen": "2026-11-13",
+"title": "無人島のディーバ"
+},
+"/dramas/14312/19543": {
+"first_seen": "2026-11-13",
+"title": "完璧な結婚のお手本"
+},
+"/dramas/1434/2879": {
+"first_seen": "2026-11-13",
+"title": "アオハライド Season2"
+},
+"/dramas/14351/19584": {
+"first_seen": "2026-11-13",
+"title": "あんぱん"
+},
+"/dramas/14372/19606": {
+"first_seen": "2026-11-13",
+"title": "しあわせへのセラピー"
+},
+"/dramas/14376/19611": {
+"first_seen": "2026-11-13",
+"title": "海に眠るダイヤモンド"
+},
+"/dramas/14382/19618": {
+"first_seen": "2026-11-13",
+"title": "マイ・デーモン"
+},
+"/dramas/14389/19628": {
+"first_seen": "2026-11-13",
+"title": "舟を編む 〜私、辞書つくります～"
+},
+"/dramas/1439/2887": {
+"first_seen": "2026-11-13",
+"title": "GOOD LUCK!!"
+},
+"/dramas/14394/19636": {
+"first_seen": "2026-11-13",
+"title": "DEVS／デヴス"
+},
+"/dramas/14450/19705": {
+"first_seen": "2026-11-13",
+"title": "リブート"
+},
+"/dramas/14454/19709": {
+"first_seen": "2026-11-13",
+"title": "愛していると言ってくれ"
+},
+"/dramas/14460/19715": {
+"first_seen": "2026-11-13",
+"title": "運の悪い日"
+},
+"/dramas/14464/19719": {
+"first_seen": "2026-11-13",
+"title": "マーダー・イン・ザ・ワールドエンド"
+},
+"/dramas/14468/19722": {
+"first_seen": "2026-11-13",
+"title": "1122 いいふうふ"
+},
+"/dramas/14477/19732": {
+"first_seen": "2026-11-13",
+"title": "ミセス・アメリカ～時代に挑んだ女たち～"
+},
+"/dramas/14491/19751": {
+"first_seen": "2026-11-13",
+"title": "もうすぐ死にます"
+},
+"/dramas/1452/7367": {
+"first_seen": "2026-11-13",
+"title": "家売るオンナの逆襲"
+},
+"/dramas/14520/19790": {
+"first_seen": "2026-11-13",
+"title": "緊急取調室～女ともだち～"
+},
+"/dramas/14523/19793": {
+"first_seen": "2026-11-13",
+"title": "サウンドトラック #2"
+},
+"/dramas/14556/19835": {
+"first_seen": "2026-11-13",
+"title": "マエストラ"
+},
+"/dramas/14557/19836": {
+"first_seen": "2026-11-13",
+"title": "私の夫と結婚して"
+},
+"/dramas/14635/19932": {
+"first_seen": "2026-11-13",
+"title": "RoOT / ルート"
+},
+"/dramas/14693/20002": {
+"first_seen": "2026-11-13",
+"title": "涙の女王"
+},
+"/dramas/14696/20005": {
+"first_seen": "2026-11-13",
+"title": "Missナイト & Missデイ"
+},
+"/dramas/14700/20009": {
+"first_seen": "2026-11-13",
+"title": "組み立て式家族～僕らの恋の在処～"
+},
+"/dramas/14717/20037": {
+"first_seen": "2026-11-13",
+"title": "七夕の国"
+},
+"/dramas/14743/20062": {
+"first_seen": "2026-11-13",
+"title": "カノジョは嘘を愛しすぎてる"
+},
+"/dramas/14788/20118": {
+"first_seen": "2026-11-13",
+"title": "アンチヒーロー"
+},
+"/dramas/14792/20122": {
+"first_seen": "2026-11-13",
+"title": "放課後カルテ"
+},
+"/dramas/14795/20129": {
+"first_seen": "2026-11-13",
+"title": "ブラック・ダヴ"
+},
+"/dramas/14795/23358": {
+"first_seen": "2026-11-13",
+"title": "ブラック・ダヴ シーズン2"
+},
+"/dramas/14804/20138": {
+"first_seen": "2026-11-13",
+"title": "The 8 Show ～極限のマネーショー～"
+},
+"/dramas/14806/20141": {
+"first_seen": "2026-11-13",
+"title": "ヒエラルキー"
+},
+"/dramas/14823/20162": {
+"first_seen": "2026-11-13",
+"title": "地面師たち"
+},
+"/dramas/14824/20163": {
+"first_seen": "2026-11-13",
+"title": "さよならのつづき"
+},
+"/dramas/14826/20165": {
+"first_seen": "2026-11-13",
+"title": "ウエディング・インポッシブル"
+},
+"/dramas/14862/20206": {
+"first_seen": "2026-11-13",
+"title": "アンメット ある脳外科医の日記"
+},
+"/dramas/14874/20220": {
+"first_seen": "2026-11-13",
+"title": "予期せぬ相続者"
+},
+"/dramas/14911/20271": {
+"first_seen": "2026-11-13",
+"title": "東京タワー"
+},
+"/dramas/14918/20279": {
+"first_seen": "2026-11-13",
+"title": "ソンジェ背負って走れ"
+},
+"/dramas/14920/20281": {
+"first_seen": "2026-11-13",
+"title": "トリガー ニュースの裏側"
+},
+"/dramas/14969/20335": {
+"first_seen": "2026-11-13",
+"title": "２５時、赤坂で"
+},
+"/dramas/14984/20349": {
+"first_seen": "2026-11-13",
+"title": "豊臣兄弟！"
+},
+"/dramas/14985/20351": {
+"first_seen": "2026-11-13",
+"title": "十角館の殺人"
+},
+"/dramas/14988/20354": {
+"first_seen": "2026-11-13",
+"title": "スペシャルドラマ『グランメゾン東京』"
+},
+"/dramas/15001/20368": {
+"first_seen": "2026-11-13",
+"title": "サムシクおじさん"
+},
+"/dramas/15003/20370": {
+"first_seen": "2026-11-13",
+"title": "暴君"
+},
+"/dramas/15004/20371": {
+"first_seen": "2026-11-13",
+"title": "照明店の客人たち"
+},
+"/dramas/15005/20372": {
+"first_seen": "2026-11-13",
+"title": "江南Bサイド"
+},
+"/dramas/15006/20373": {
+"first_seen": "2026-11-13",
+"title": "捜査班長 1958"
+},
+"/dramas/15012/20379": {
+"first_seen": "2026-11-13",
+"title": "老害の人"
+},
+"/dramas/15031/20402": {
+"first_seen": "2026-11-13",
+"title": "反逆のネル"
+},
+"/dramas/15064/20445": {
+"first_seen": "2026-11-13",
+"title": "Shrink―精神科医ヨワイ―"
+},
+"/dramas/15083/20473": {
+"first_seen": "2026-11-13",
+"title": "トラッカー シーズン1"
+},
+"/dramas/15110/20502": {
+"first_seen": "2026-11-13",
+"title": "パイン ならず者たち"
+},
+"/dramas/15115/20507": {
+"first_seen": "2026-11-13",
+"title": "ナインパズル"
+},
+"/dramas/15185/20591": {
+"first_seen": "2026-11-13",
+"title": "ドクター・フー"
+},
+"/dramas/15192/20600": {
+"first_seen": "2026-11-13",
+"title": "西園寺さんは家事をしない"
+},
+"/dramas/15201/20614": {
+"first_seen": "2026-11-13",
+"title": "ベイビーわるきゅーれ エブリデイ！"
+},
+"/dramas/15215/20630": {
+"first_seen": "2026-11-13",
+"title": "タカラのびいどろ"
+},
+"/dramas/15233/20650": {
+"first_seen": "2026-11-13",
+"title": "しょせん他人事ですから ～とある弁護士の本音の仕事～"
+},
+"/dramas/15239/20659": {
+"first_seen": "2026-11-13",
+"title": "新宿野戦病院"
+},
+"/dramas/15245/20666": {
+"first_seen": "2026-11-13",
+"title": "アンダー・ザ・ブリッジ"
+},
+"/dramas/15246/20667": {
+"first_seen": "2026-11-13",
+"title": "団地のふたり"
+},
+"/dramas/15256/20680": {
+"first_seen": "2026-11-13",
+"title": "うぬぼれ刑事"
+},
+"/dramas/15269/20700": {
+"first_seen": "2026-11-13",
+"title": "クリッパーズ"
+},
+"/dramas/15283/20717": {
+"first_seen": "2026-11-13",
+"title": "とと姉ちゃん"
+},
+"/dramas/15287/20722": {
+"first_seen": "2026-11-13",
+"title": "北極星"
+},
+"/dramas/15307/20750": {
+"first_seen": "2026-11-13",
+"title": "NYPDブルー シーズン1"
+},
+"/dramas/15355/20805": {
+"first_seen": "2026-11-13",
+"title": "宙わたる教室"
+},
+"/dramas/1539/3007": {
+"first_seen": "2026-11-13",
+"title": "掟上今日子の備忘録"
+},
+"/dramas/15390/22649": {
+"first_seen": "2026-11-13",
+"title": "コスメティック・プレイラバー Season2"
+},
+"/dramas/15405/20874": {
+"first_seen": "2026-11-13",
+"title": "自由研究には向かない殺人"
+},
+"/dramas/15440/20914": {
+"first_seen": "2026-11-13",
+"title": "偶然かな。"
+},
+"/dramas/15486/20975": {
+"first_seen": "2026-11-13",
+"title": "NO WAY OUT：ザ・ルーレット"
+},
+"/dramas/15498/20995": {
+"first_seen": "2026-11-13",
+"title": "となりのMr.パーフェクト"
+},
+"/dramas/15501/20998": {
+"first_seen": "2026-11-13",
+"title": "深夜２時のシンデレラ"
+},
+"/dramas/15561/21065": {
+"first_seen": "2026-11-13",
+"title": "悪魔なカノジョは裁判官"
+},
+"/dramas/15569/21073": {
+"first_seen": "2026-11-13",
+"title": "ハイパーナイフ 闇の天才外科医"
+},
+"/dramas/15576/21086": {
+"first_seen": "2026-11-13",
+"title": "全領域異常解決室"
+},
+"/dramas/15615/21136": {
+"first_seen": "2026-11-13",
+"title": "ノックオフ"
+},
+"/dramas/15617/21138": {
+"first_seen": "2026-11-13",
+"title": "モンスター"
+},
+"/dramas/15671/21215": {
+"first_seen": "2026-11-13",
+"title": "未成年～未熟な俺たちは不器用に進行中～"
+},
+"/dramas/15676/21223": {
+"first_seen": "2026-11-13",
+"title": "パリ 1986"
+},
+"/dramas/15713/21286": {
+"first_seen": "2026-11-13",
+"title": "ハイ・ポテンシャル"
+},
+"/dramas/15714/21287": {
+"first_seen": "2026-11-13",
+"title": "ドクター・オデッセイ"
+},
+"/dramas/1575/3050": {
+"first_seen": "2026-11-13",
+"title": "おっさんずラブ-リターンズ-"
+},
+"/dramas/15751/21331": {
+"first_seen": "2026-11-13",
+"title": "東京サラダボウル"
+},
+"/dramas/15753/21334": {
+"first_seen": "2026-11-13",
+"title": "宇宙探査艦オーヴィル シーズン1"
+},
+"/dramas/15758/21339": {
+"first_seen": "2026-11-13",
+"title": "スロウトレイン"
+},
+"/dramas/15762/21343": {
+"first_seen": "2026-11-13",
+"title": "テル・ミー・ライズ シーズン1"
+},
+"/dramas/15763/21345": {
+"first_seen": "2026-11-13",
+"title": "セイ・ナッシング"
+},
+"/dramas/15777/21368": {
+"first_seen": "2026-11-13",
+"title": "その電話が鳴るとき"
+},
+"/dramas/15805/21396": {
+"first_seen": "2026-11-13",
+"title": "阿修羅のごとく"
+},
+"/dramas/1583/3057": {
+"first_seen": "2026-11-13",
+"title": "デスノート"
+},
+"/dramas/15835/21429": {
+"first_seen": "2026-11-13",
+"title": "ホットスポット"
+},
+"/dramas/15865/21466": {
+"first_seen": "2026-11-13",
+"title": "濁流"
+},
+"/dramas/15875/21476": {
+"first_seen": "2026-11-13",
+"title": "まどか26歳、研修医やってます！"
+},
+"/dramas/15897/21509": {
+"first_seen": "2026-11-13",
+"title": "御曹司に恋はムズすぎる"
+},
+"/dramas/15908/21521": {
+"first_seen": "2026-11-13",
+"title": "御上先生"
+},
+"/dramas/15939/21552": {
+"first_seen": "2026-11-13",
+"title": "ホンノウスイッチ"
+},
+"/dramas/15949/21561": {
+"first_seen": "2026-11-13",
+"title": "ふったらどしゃぶり"
+},
+"/dramas/15994/21621": {
+"first_seen": "2026-11-13",
+"title": "わたしの完璧な秘書"
+},
+"/dramas/16003/21632": {
+"first_seen": "2026-11-13",
+"title": "パラダイス"
+},
+"/dramas/1603/3085": {
+"first_seen": "2026-11-13",
+"title": "ニッポンノワール ―刑事Yの反乱 ―"
+},
+"/dramas/16033/21669": {
+"first_seen": "2026-11-13",
+"title": "トクスリ5兄弟をよろしく！～マッコリは甘い恋の味～"
+},
+"/dramas/16034/21670": {
+"first_seen": "2026-11-13",
+"title": "クジャクのダンス、誰が見た？"
+},
+"/dramas/16142/21787": {
+"first_seen": "2026-11-13",
+"title": "エイリアン：アース"
+},
+"/dramas/16190/21843": {
+"first_seen": "2026-11-13",
+"title": "イクサガミ シーズン1"
+},
+"/dramas/16195/21852": {
+"first_seen": "2026-11-13",
+"title": "王様に捧ぐ薬指"
+},
+"/dramas/16198/21855": {
+"first_seen": "2026-11-13",
+"title": "石子と羽男―そんなコトで訴えます？―"
+},
+"/dramas/16204/21862": {
+"first_seen": "2026-11-13",
+"title": "ウンジュンとサンヨン"
+},
+"/dramas/16210/21871": {
+"first_seen": "2026-11-13",
+"title": "魔法のランプにお願い"
+},
+"/dramas/16211/21872": {
+"first_seen": "2026-11-13",
+"title": "あなたが殺した"
+},
+"/dramas/16212/21873": {
+"first_seen": "2026-11-13",
+"title": "恋の通訳、できますか?"
+},
+"/dramas/16213/21874": {
+"first_seen": "2026-11-13",
+"title": "告白の代価"
+},
+"/dramas/16216/21877": {
+"first_seen": "2026-11-13",
+"title": "時速493キロの恋"
+},
+"/dramas/16228/21890": {
+"first_seen": "2026-11-13",
+"title": "なんで私が神説教"
+},
+"/dramas/16231/21893": {
+"first_seen": "2026-11-13",
+"title": "匿名の恋人たち"
+},
+"/dramas/16243/21907": {
+"first_seen": "2026-11-13",
+"title": "交渉の技術"
+},
+"/dramas/16291/21969": {
+"first_seen": "2026-11-13",
+"title": "ハーディ・ボーイズ シーズン1"
+},
+"/dramas/16301/21978": {
+"first_seen": "2026-11-13",
+"title": "99.9－刑事専門弁護士－SEASONII"
+},
+"/dramas/16305/21983": {
+"first_seen": "2026-11-13",
+"title": "あなたを奪ったその日から"
+},
+"/dramas/16308/21986": {
+"first_seen": "2026-11-13",
+"title": "天久鷹央の推理カルテ"
+},
+"/dramas/16318/22000": {
+"first_seen": "2026-11-13",
+"title": "ダメマネ！ －ダメなタレント、マネージメントしますー"
+},
+"/dramas/16326/22007": {
+"first_seen": "2026-11-13",
+"title": "アドレセンス"
+},
+"/dramas/16336/22017": {
+"first_seen": "2026-11-13",
+"title": "グッド・アメリカン・ファミリー"
+},
+"/dramas/16347/22036": {
+"first_seen": "2026-11-13",
+"title": "あやしいパートナー"
+},
+"/dramas/16348/22037": {
+"first_seen": "2026-11-13",
+"title": "アメリカン・ボーン・チャイニーズ 僕らの西遊記"
+},
+"/dramas/16358/22048": {
+"first_seen": "2026-11-13",
+"title": "あのときキスしておけば"
+},
+"/dramas/16373/22064": {
+"first_seen": "2026-11-13",
+"title": "パーフェクト・ファミリー 娘が消えた日"
+},
+"/dramas/16420/22123": {
+"first_seen": "2026-11-13",
+"title": "私たちの映画"
+},
+"/dramas/16449/22158": {
+"first_seen": "2026-11-13",
+"title": "未知のソウル"
+},
+"/dramas/16462/22177": {
+"first_seen": "2026-11-13",
+"title": "労務士ノ・ムジン"
+},
+"/dramas/16463/22178": {
+"first_seen": "2026-11-13",
+"title": "金曜ドラマ『Ｔシャツが乾くまで』サイドストーリー"
+},
+"/dramas/16476/22191": {
+"first_seen": "2026-11-13",
+"title": "私の夫と結婚して"
+},
+"/dramas/16483/22203": {
+"first_seen": "2026-11-13",
+"title": "真田十勇士 SHADOWS OF THE TEN NINJA"
+},
+"/dramas/16489/22214": {
+"first_seen": "2026-11-13",
+"title": "モブランド"
+},
+"/dramas/16500/22229": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ：アコライト"
+},
+"/dramas/16526/22266": {
+"first_seen": "2026-11-13",
+"title": "ベター・シングス シーズン1"
+},
+"/dramas/16535/22275": {
+"first_seen": "2026-11-13",
+"title": "下町ロケット"
+},
+"/dramas/16537/22276": {
+"first_seen": "2026-11-13",
+"title": "巫女と彦星"
+},
+"/dramas/16553/22295": {
+"first_seen": "2026-11-13",
+"title": "僕達はまだその星の校則を知らない"
+},
+"/dramas/16562/22307": {
+"first_seen": "2026-11-13",
+"title": "ドクターX ～外科医・大門未知子～第7シリーズ"
+},
+"/dramas/16572/22318": {
+"first_seen": "2026-11-13",
+"title": "40までにしたい10のこと"
+},
+"/dramas/16602/24422": {
+"first_seen": "2026-11-13",
+"title": "私があなたといる理由2〜グアムを訪れた8人の男女の10日間〜"
+},
+"/dramas/16610/22372": {
+"first_seen": "2026-11-13",
+"title": "レプリカ 元妻の復讐"
+},
+"/dramas/16614/22377": {
+"first_seen": "2026-11-13",
+"title": "アメリカン・ホラー・ストーリーズ シーズン1"
+},
+"/dramas/16621/22384": {
+"first_seen": "2026-11-13",
+"title": "台北女子図鑑"
+},
+"/dramas/1665/3153": {
+"first_seen": "2026-11-13",
+"title": "深夜食堂"
+},
+"/dramas/1665/3154": {
+"first_seen": "2026-11-13",
+"title": "深夜食堂 ２"
+},
+"/dramas/16650/22415": {
+"first_seen": "2026-11-13",
+"title": "再婚承認を要求します"
+},
+"/dramas/16653/22419": {
+"first_seen": "2026-11-13",
+"title": "華麗なる一族"
+},
+"/dramas/16660/22429": {
+"first_seen": "2026-11-13",
+"title": "優しい男の物語"
+},
+"/dramas/16671/22443": {
+"first_seen": "2026-11-13",
+"title": "ライオンの隠れ家"
+},
+"/dramas/16710/22488": {
+"first_seen": "2026-11-13",
+"title": "法医学医 ダニエル・ハロウ シーズン1"
+},
+"/dramas/1672/3163": {
+"first_seen": "2026-11-13",
+"title": "Nのために"
+},
+"/dramas/16745/22547": {
+"first_seen": "2026-11-13",
+"title": "暴君のシェフ"
+},
+"/dramas/16746/22548": {
+"first_seen": "2026-11-13",
+"title": "俺の家の話"
+},
+"/dramas/16777/22594": {
+"first_seen": "2026-11-13",
+"title": "素晴らしき新世界"
+},
+"/dramas/16789/22610": {
+"first_seen": "2026-11-13",
+"title": "修学旅行で仲良くないグループに入りました"
+},
+"/dramas/16792/22613": {
+"first_seen": "2026-11-13",
+"title": "グランメゾン東京"
+},
+"/dramas/16793/22614": {
+"first_seen": "2026-11-13",
+"title": "ダウンタイム"
+},
+"/dramas/16794/22615": {
+"first_seen": "2026-11-13",
+"title": "シナントロープ"
+},
+"/dramas/16803/22624": {
+"first_seen": "2026-11-13",
+"title": "アルジャーノンに花束を"
+},
+"/dramas/16817/22645": {
+"first_seen": "2026-11-13",
+"title": "ちょっとだけエスパー"
+},
+"/dramas/16853/22696": {
+"first_seen": "2026-11-13",
+"title": "リトル・アメリカ シーズン1"
+},
+"/dramas/1687/3177": {
+"first_seen": "2026-11-13",
+"title": "MOZU Season1〜百舌の叫ぶ夜〜"
+},
+"/dramas/16876/22722": {
+"first_seen": "2026-11-13",
+"title": "もしもこの世が舞台なら、楽屋はどこにあるのだろう"
+},
+"/dramas/16892/22740": {
+"first_seen": "2026-11-13",
+"title": "伝説の頭 翔"
+},
+"/dramas/16905/22755": {
+"first_seen": "2026-11-13",
+"title": "スキャンダルイブ"
+},
+"/dramas/16915/22774": {
+"first_seen": "2026-11-13",
+"title": "ライオンの隠れ家"
+},
+"/dramas/16916/22775": {
+"first_seen": "2026-11-13",
+"title": "俺のこと、なんか言ってた？"
+},
+"/dramas/16937/22804": {
+"first_seen": "2026-11-13",
+"title": "独身女の禁酒ライフ シーズン1"
+},
+"/dramas/16957/22827": {
+"first_seen": "2026-11-13",
+"title": "BEAST －私のなかの獣－"
+},
+"/dramas/16992/22867": {
+"first_seen": "2026-11-13",
+"title": "新年早々 不適切にもほどがある！ ～真⾯⽬な話、しちゃダメですか？～"
+},
+"/dramas/17021/22898": {
+"first_seen": "2026-11-13",
+"title": "ダイナマイト・キス"
+},
+"/dramas/17022/22899": {
+"first_seen": "2026-11-13",
+"title": "俺たちの箱根駅伝"
+},
+"/dramas/17023/22900": {
+"first_seen": "2026-11-13",
+"title": "九条の大罪"
+},
+"/dramas/17057/22937": {
+"first_seen": "2026-11-13",
+"title": "海に眠るダイヤモンド"
+},
+"/dramas/17062/22945": {
+"first_seen": "2026-11-13",
+"title": "シングル・ペアレンツ シーズン1"
+},
+"/dramas/17066/22951": {
+"first_seen": "2026-11-13",
+"title": "家庭教師の岸騎士です。"
+},
+"/dramas/17086/23001": {
+"first_seen": "2026-11-13",
+"title": "スパイダー・ノワール"
+},
+"/dramas/17096/23013": {
+"first_seen": "2026-11-13",
+"title": "テミスの不確かな法廷"
+},
+"/dramas/17114/23037": {
+"first_seen": "2026-11-13",
+"title": "TRICK2"
+},
+"/dramas/17134/23059": {
+"first_seen": "2026-11-13",
+"title": "プロボノ: アナタの正義救います"
+},
+"/dramas/17139/23064": {
+"first_seen": "2026-11-13",
+"title": "メリーベリーラブ"
+},
+"/dramas/17142/23069": {
+"first_seen": "2026-11-13",
+"title": "21世紀の大君夫人"
+},
+"/dramas/17148/23076": {
+"first_seen": "2026-11-13",
+"title": "ヘルストローム"
+},
+"/dramas/17158/23092": {
+"first_seen": "2026-11-13",
+"title": "アルジャーノンに花束を"
+},
+"/dramas/17161/23095": {
+"first_seen": "2026-11-13",
+"title": "惡の華"
+},
+"/dramas/17191/23128": {
+"first_seen": "2026-11-13",
+"title": "二度目の裁判"
+},
+"/dramas/17194/23135": {
+"first_seen": "2026-11-13",
+"title": "冬のなんかさ、春のなんかね"
+},
+"/dramas/1728/3226": {
+"first_seen": "2026-11-13",
+"title": "GOOD LUCK!!"
+},
+"/dramas/17281/23230": {
+"first_seen": "2026-11-13",
+"title": "ヴィランズ 偽札ゲーム"
+},
+"/dramas/17334/23306": {
+"first_seen": "2026-11-13",
+"title": "ザ・ロイヤルファミリー"
+},
+"/dramas/17344/23317": {
+"first_seen": "2026-11-13",
+"title": "SとX"
+},
+"/dramas/17347/23327": {
+"first_seen": "2026-11-13",
+"title": "サラ・キムという女"
+},
+"/dramas/17362/23350": {
+"first_seen": "2026-11-13",
+"title": "ザ・ボローズ"
+},
+"/dramas/17371/23363": {
+"first_seen": "2026-11-13",
+"title": "捜索者の血"
+},
+"/dramas/17378/23368": {
+"first_seen": "2026-11-13",
+"title": "野ブタ。をプロデュース"
+},
+"/dramas/17397/23390": {
+"first_seen": "2026-11-13",
+"title": "君がきらめく季節に"
+},
+"/dramas/17407/23404": {
+"first_seen": "2026-11-13",
+"title": "マンスリー彼氏"
+},
+"/dramas/17411/23410": {
+"first_seen": "2026-11-13",
+"title": "最後列からの声"
+},
+"/dramas/17412/23411": {
+"first_seen": "2026-11-13",
+"title": "本日も完売しました"
+},
+"/dramas/17413/23412": {
+"first_seen": "2026-11-13",
+"title": "鉄槌教師"
+},
+"/dramas/17415/23414": {
+"first_seen": "2026-11-13",
+"title": "誰だって無価値な自分と闘っている"
+},
+"/dramas/17416/23415": {
+"first_seen": "2026-11-13",
+"title": "なりすましの鼠"
+},
+"/dramas/17417/23416": {
+"first_seen": "2026-11-13",
+"title": "恋は飴模様"
+},
+"/dramas/17421/23420": {
+"first_seen": "2026-11-13",
+"title": "LOST10"
+},
+"/dramas/17423/23422": {
+"first_seen": "2026-11-13",
+"title": "ハートにチャージして"
+},
+"/dramas/17441/23442": {
+"first_seen": "2026-11-13",
+"title": "喧嘩独学"
+},
+"/dramas/17443/23444": {
+"first_seen": "2026-11-13",
+"title": "ガス人間"
+},
+"/dramas/17457/23461": {
+"first_seen": "2026-11-13",
+"title": "しあわせは食べて寝て待て～早春の養生編～"
+},
+"/dramas/17492/23504": {
+"first_seen": "2026-11-13",
+"title": "残念ながら明日も出勤です！"
+},
+"/dramas/17495/23508": {
+"first_seen": "2026-11-13",
+"title": "ヤング シャーロック ～オックスフォード事件簿～"
+},
+"/dramas/17500/23513": {
+"first_seen": "2026-11-13",
+"title": "銀河の一票"
+},
+"/dramas/17549/23579": {
+"first_seen": "2026-11-13",
+"title": "税金で買った本"
+},
+"/dramas/17573/23608": {
+"first_seen": "2026-11-13",
+"title": "ミッドナイトタクシー"
+},
+"/dramas/17592/23629": {
+"first_seen": "2026-11-13",
+"title": "クロエマ"
+},
+"/dramas/17636/23685": {
+"first_seen": "2026-11-13",
+"title": "かかし"
+},
+"/dramas/17637/23686": {
+"first_seen": "2026-11-13",
+"title": "逐玉: 翡翠の君"
+},
+"/dramas/17693/23749": {
+"first_seen": "2026-11-13",
+"title": "ヒーテッド・ライバルリー"
+},
+"/dramas/1771/3285": {
+"first_seen": "2026-11-13",
+"title": "医龍 Team Medical Dragon"
+},
+"/dramas/17790/23865": {
+"first_seen": "2026-11-13",
+"title": "マイファミリー"
+},
+"/dramas/17805/23887": {
+"first_seen": "2026-11-13",
+"title": "シェアハウス・ウィズ・ヴァンパイア シーズン1"
+},
+"/dramas/17807/23891": {
+"first_seen": "2026-11-13",
+"title": "告白－25年目の秘密－"
+},
+"/dramas/17815/23904": {
+"first_seen": "2026-11-13",
+"title": "犯罪者"
+},
+"/dramas/17829/23922": {
+"first_seen": "2026-11-13",
+"title": "君は夏のなか"
+},
+"/dramas/1784/3304": {
+"first_seen": "2026-11-13",
+"title": "POSE／ポーズ シーズン1"
+},
+"/dramas/17850/23947": {
+"first_seen": "2026-11-13",
+"title": "南田南弁護士は天才肌"
+},
+"/dramas/17863/23964": {
+"first_seen": "2026-11-13",
+"title": "池袋ウエストゲートパーク スペシャル スープの回"
+},
+"/dramas/17866/23967": {
+"first_seen": "2026-11-13",
+"title": "ザ・オールドマン～元CIAの葛藤 シーズン1"
+},
+"/dramas/1788/3314": {
+"first_seen": "2026-11-13",
+"title": "高嶺の花"
+},
+"/dramas/17888/23995": {
+"first_seen": "2026-11-13",
+"title": "恋は命がけ"
+},
+"/dramas/1789/3317": {
+"first_seen": "2026-11-13",
+"title": "dele"
+},
+"/dramas/17899/24007": {
+"first_seen": "2026-11-13",
+"title": "オフキャンパス"
+},
+"/dramas/17917/24029": {
+"first_seen": "2026-11-13",
+"title": "幸せになりたいマサムネ君"
+},
+"/dramas/18003/24139": {
+"first_seen": "2026-11-13",
+"title": "恋する共感細胞"
+},
+"/dramas/18004/24140": {
+"first_seen": "2026-11-13",
+"title": "マンションのお仕事"
+},
+"/dramas/18005/24141": {
+"first_seen": "2026-11-13",
+"title": "グランメゾン東京"
+},
+"/dramas/18027/24173": {
+"first_seen": "2026-11-13",
+"title": "伝説の頭 翔"
+},
+"/dramas/18050/24206": {
+"first_seen": "2026-11-13",
+"title": "コウノドリ"
+},
+"/dramas/18072/24232": {
+"first_seen": "2026-11-13",
+"title": "おいしい給食 season4"
+},
+"/dramas/18079/24239": {
+"first_seen": "2026-11-13",
+"title": "フォーハンズ 〜2人のソナタ〜"
+},
+"/dramas/18097/24266": {
+"first_seen": "2026-11-13",
+"title": "いくつもの鋭い破片"
+},
+"/dramas/18099/24268": {
+"first_seen": "2026-11-13",
+"title": "VIVANT"
+},
+"/dramas/18126/24297": {
+"first_seen": "2026-11-13",
+"title": "仮面ライダーマイス"
+},
+"/dramas/18140/24315": {
+"first_seen": "2026-11-13",
+"title": "ニーグリー"
+},
+"/dramas/18189/24368": {
+"first_seen": "2026-11-13",
+"title": "モンスター: リジー・ボーデンの物語"
+},
+"/dramas/18193/24372": {
+"first_seen": "2026-11-13",
+"title": "不適切にもほどがある！"
+},
+"/dramas/18196/24375": {
+"first_seen": "2026-11-13",
+"title": "ヴィジョンクエスト"
+},
+"/dramas/18198/24378": {
+"first_seen": "2026-11-13",
+"title": "サ道2026～人生をサボりながら、ととのう～"
+},
+"/dramas/18199/24379": {
+"first_seen": "2026-11-13",
+"title": "赤灯えれじい"
+},
+"/dramas/18202/24382": {
+"first_seen": "2026-11-13",
+"title": "VIVANT"
+},
+"/dramas/18217/24397": {
+"first_seen": "2026-11-13",
+"title": "VIVANT"
+},
+"/dramas/18220/24401": {
+"first_seen": "2026-11-13",
+"title": "フューリアス：奪う女と追う女"
+},
+"/dramas/18222/24404": {
+"first_seen": "2026-11-13",
+"title": "まめとむぎ"
+},
+"/dramas/18226/24415": {
+"first_seen": "2026-11-13",
+"title": "俺はもう我慢しない～宝くじ当たったけど会社辞めません～"
+},
+"/dramas/18228/24418": {
+"first_seen": "2026-11-13",
+"title": "コントが始まる"
+},
+"/dramas/18229/24419": {
+"first_seen": "2026-11-13",
+"title": "溺愛カレシの作り方 〜セから本命になる女の子の話〜"
+},
+"/dramas/18232/24425": {
+"first_seen": "2026-11-13",
+"title": "ライフトレード"
+},
+"/dramas/18243/24437": {
+"first_seen": "2026-11-13",
+"title": "妻を引退します"
+},
+"/dramas/18244/24438": {
+"first_seen": "2026-11-13",
+"title": "ドラゴン桜（2021）"
+},
+"/dramas/18245/24439": {
+"first_seen": "2026-11-13",
+"title": "再生のウズメ"
+},
+"/dramas/18246/24441": {
+"first_seen": "2026-11-13",
+"title": "おいしいのつくりかた"
+},
+"/dramas/18258/24459": {
+"first_seen": "2026-11-13",
+"title": "100日の嘘"
+},
+"/dramas/18259/24460": {
+"first_seen": "2026-11-13",
+"title": "VIVANT"
+},
+"/dramas/18260/24461": {
+"first_seen": "2026-11-13",
+"title": "ドクターX ～白衣のマフィア～"
+},
+"/dramas/18279/24483": {
+"first_seen": "2026-11-13",
+"title": "十六夜膳房"
+},
+"/dramas/18282/24487": {
+"first_seen": "2026-11-13",
+"title": "大空港～GATE24～"
+},
+"/dramas/18289/24494": {
+"first_seen": "2026-11-13",
+"title": "仮面教師〜妻を亡くしたその日から"
+},
+"/dramas/18298/24506": {
+"first_seen": "2026-11-13",
+"title": "小麦とバターと復讐と"
+},
+"/dramas/18323/24535": {
+"first_seen": "2026-11-13",
+"title": "クリスタル・レイク / 殺人鬼の母"
+},
+"/dramas/18333/24546": {
+"first_seen": "2026-11-13",
+"title": "BELOW/ビロウ"
+},
+"/dramas/18334/24547": {
+"first_seen": "2026-11-13",
+"title": "薬屋のひとりごと"
+},
+"/dramas/18349/24571": {
+"first_seen": "2026-11-13",
+"title": "私を震えさせて"
+},
+"/dramas/1836/3366": {
+"first_seen": "2026-11-13",
+"title": "JIN -仁- 完結編"
+},
+"/dramas/18363/24585": {
+"first_seen": "2026-11-13",
+"title": "完璧な嘘"
+},
+"/dramas/18364/24586": {
+"first_seen": "2026-11-13",
+"title": "ファイナル・テーブル"
+},
+"/dramas/18381/24608": {
+"first_seen": "2026-11-13",
+"title": "不適切にもほどがある！"
+},
+"/dramas/18420/24657": {
+"first_seen": "2026-11-13",
+"title": "The Body －私たちの十字架－"
+},
+"/dramas/18422/24660": {
+"first_seen": "2026-11-13",
+"title": "ラブストーリー ジョン＆キャロリン"
+},
+"/dramas/18453/24698": {
+"first_seen": "2026-11-13",
+"title": "キアロスクーロ: 光と闇の事件簿"
+},
+"/dramas/18454/24703": {
+"first_seen": "2026-11-13",
+"title": "救急救命室の奇跡"
+},
+"/dramas/18478/24735": {
+"first_seen": "2026-11-13",
+"title": "Ghosts"
+},
+"/dramas/1865/3402": {
+"first_seen": "2026-11-13",
+"title": "救命病棟24時 第1シリーズ"
+},
+"/dramas/1867/3411": {
+"first_seen": "2026-11-13",
+"title": "半沢直樹"
+},
+"/dramas/1867/9418": {
+"first_seen": "2026-11-13",
+"title": "じゃあ、あんたが作ってみろよ"
+},
+"/dramas/1870/3413": {
+"first_seen": "2026-11-13",
+"title": "ガリレオ（第１シーズン）"
+},
+"/dramas/190/710": {
+"first_seen": "2026-11-13",
+"title": "クロサギ（新シリーズ2022）"
+},
+"/dramas/1915/3477": {
+"first_seen": "2026-11-13",
+"title": "35歳の高校生"
+},
+"/dramas/1931/3493": {
+"first_seen": "2026-11-13",
+"title": "空飛ぶ広報室"
+},
+"/dramas/1932/3495": {
+"first_seen": "2026-11-13",
+"title": "降り積もれ孤独な死よ"
+},
+"/dramas/1959/3523": {
+"first_seen": "2026-11-13",
+"title": "石子と羽男―そんなコトで訴えます？―"
+},
+"/dramas/1966/16644": {
+"first_seen": "2026-11-13",
+"title": "軍師官兵衛"
+},
+"/dramas/1966/3531": {
+"first_seen": "2026-11-13",
+"title": "探偵が早すぎる"
+},
+"/dramas/2043/3645": {
+"first_seen": "2026-11-13",
+"title": "僕のヤバイ妻"
+},
+"/dramas/205/775": {
+"first_seen": "2026-11-13",
+"title": "SUITS/スーツ シーズン1"
+},
+"/dramas/2120/3743": {
+"first_seen": "2026-11-13",
+"title": "家政婦のミタ"
+},
+"/dramas/2221/3854": {
+"first_seen": "2026-11-13",
+"title": "マルモのおきて"
+},
+"/dramas/2227/3861": {
+"first_seen": "2026-11-13",
+"title": "JIN -仁-"
+},
+"/dramas/223/856": {
+"first_seen": "2026-11-13",
+"title": "ミストレス ～溺れる女たち～　シーズン1"
+},
+"/dramas/2234/3873": {
+"first_seen": "2026-11-13",
+"title": "BOSS 1stシーズン"
+},
+"/dramas/224/857": {
+"first_seen": "2026-11-13",
+"title": "エイリアス　シーズン1"
+},
+"/dramas/225/862": {
+"first_seen": "2026-11-13",
+"title": "LOST　シーズン1"
+},
+"/dramas/226/868": {
+"first_seen": "2026-11-13",
+"title": "デスパレートな妻たち　シーズン1"
+},
+"/dramas/227/876": {
+"first_seen": "2026-11-13",
+"title": "グレイズ・アナトミー　シーズン1"
+},
+"/dramas/230/897": {
+"first_seen": "2026-11-13",
+"title": "アグリー・ベティ シーズン1"
+},
+"/dramas/231/901": {
+"first_seen": "2026-11-13",
+"title": "知ってるワイフ"
+},
+"/dramas/232/911": {
+"first_seen": "2026-11-13",
+"title": "ヴァンパイア検事"
+},
+"/dramas/234/916": {
+"first_seen": "2026-11-13",
+"title": "ブラザーズ＆シスターズ　シーズン1"
+},
+"/dramas/235/921": {
+"first_seen": "2026-11-13",
+"title": "プライベート・プラクティス：LA診療所　シーズン1"
+},
+"/dramas/2398/4063": {
+"first_seen": "2026-11-13",
+"title": "華麗なる一族"
+},
+"/dramas/240/931": {
+"first_seen": "2026-11-13",
+"title": "キャッスル／ミステリー作家のNY事件簿　シーズン1"
+},
+"/dramas/2402/4069": {
+"first_seen": "2026-11-13",
+"title": "浪漫ドクター キム・サブ"
+},
+"/dramas/2407/4074": {
+"first_seen": "2026-11-13",
+"title": "ブラックペアン シーズン２"
+},
+"/dramas/2407/4076": {
+"first_seen": "2026-11-13",
+"title": "ブラッディ・マンディ Season2"
+},
+"/dramas/242/942": {
+"first_seen": "2026-11-13",
+"title": "スキャンダル　シーズン1"
+},
+"/dramas/244/949": {
+"first_seen": "2026-11-13",
+"title": "ウータン・クラン：アメリカン・サーガ シーズン1"
+},
+"/dramas/2458/4136": {
+"first_seen": "2026-11-13",
+"title": "白い春"
+},
+"/dramas/2529/4223": {
+"first_seen": "2026-11-13",
+"title": "おつかれさま"
+},
+"/dramas/254/968": {
+"first_seen": "2026-11-13",
+"title": "熱血司祭 シーズン2"
+},
+"/dramas/256/2547": {
+"first_seen": "2026-11-13",
+"title": "殺人を無罪にする方法　シーズン3"
+},
+"/dramas/257/975": {
+"first_seen": "2026-11-13",
+"title": "デアデビル　シーズン1"
+},
+"/dramas/258/977": {
+"first_seen": "2026-11-13",
+"title": "マーベル／ジェシカ・ジョーンズ　シーズン1"
+},
+"/dramas/259/978": {
+"first_seen": "2026-11-13",
+"title": "クワンティコ／FBIアカデミーの真実　シーズン１"
+},
+"/dramas/2592/4310": {
+"first_seen": "2026-11-13",
+"title": "ROOKIES"
+},
+"/dramas/2593/4311": {
+"first_seen": "2026-11-13",
+"title": "ごくせん 第1シリーズ"
+},
+"/dramas/2680/4420": {
+"first_seen": "2026-11-13",
+"title": "山田太郎ものがたり"
+},
+"/dramas/2712/4474": {
+"first_seen": "2026-11-13",
+"title": "シグナル"
+},
+"/dramas/2767/4530": {
+"first_seen": "2026-11-13",
+"title": "のだめカンタービレ"
+},
+"/dramas/2787/4559": {
+"first_seen": "2026-11-13",
+"title": "Dr.コトー診療所"
+},
+"/dramas/2812/4591": {
+"first_seen": "2026-11-13",
+"title": "結婚できない男"
+},
+"/dramas/2859/4666": {
+"first_seen": "2026-11-13",
+"title": "白夜行"
+},
+"/dramas/2864/4675": {
+"first_seen": "2026-11-13",
+"title": "アンフェア"
+},
+"/dramas/2882/20076": {
+"first_seen": "2026-11-13",
+"title": "ブラックケーキ"
+},
+"/dramas/29/124": {
+"first_seen": "2026-11-13",
+"title": "ゴシップガール<ファースト・シーズン>"
+},
+"/dramas/2922/4743": {
+"first_seen": "2026-11-13",
+"title": "女王の教室"
+},
+"/dramas/2957/4785": {
+"first_seen": "2026-11-13",
+"title": "ドラゴン桜"
+},
+"/dramas/300/1105": {
+"first_seen": "2026-11-13",
+"title": "ウォーキング・デッド"
+},
+"/dramas/300/1106": {
+"first_seen": "2026-11-13",
+"title": "ウォーキング・デッド2"
+},
+"/dramas/300/1107": {
+"first_seen": "2026-11-13",
+"title": "ウォーキング・デッド3"
+},
+"/dramas/300/1108": {
+"first_seen": "2026-11-13",
+"title": "ウォーキング・デッド4"
+},
+"/dramas/300/1109": {
+"first_seen": "2026-11-13",
+"title": "ウォーキング・デッド5"
+},
+"/dramas/300/1110": {
+"first_seen": "2026-11-13",
+"title": "ウォーキング・デッド6"
+},
+"/dramas/300/1404": {
+"first_seen": "2026-11-13",
+"title": "ウォーキング・デッド7"
+},
+"/dramas/300/1463": {
+"first_seen": "2026-11-13",
+"title": "ブラックペアン シーズン２"
+},
+"/dramas/300/14999": {
+"first_seen": "2026-11-13",
+"title": "おっさんずラブ-リターンズ-"
+},
+"/dramas/300/3540": {
+"first_seen": "2026-11-13",
+"title": "あまちゃん"
+},
+"/dramas/300/8675": {
+"first_seen": "2026-11-13",
+"title": "ウォーキング・デッド シーズン10"
+},
+"/dramas/302/1113": {
+"first_seen": "2026-11-13",
+"title": "SHERLOCK/シャーロック"
+},
+"/dramas/302/1114": {
+"first_seen": "2026-11-13",
+"title": "夕暮れに、手をつなぐ"
+},
+"/dramas/302/1115": {
+"first_seen": "2026-11-13",
+"title": "SHERLOCK/シャーロック シーズン3"
+},
+"/dramas/302/1116": {
+"first_seen": "2026-11-13",
+"title": "SHERLOCK/シャーロック シーズン4"
+},
+"/dramas/3042/4880": {
+"first_seen": "2026-11-13",
+"title": "世界の中心で、愛をさけぶ"
+},
+"/dramas/3054/4893": {
+"first_seen": "2026-11-13",
+"title": "オレンジデイズ"
+},
+"/dramas/3129/4994": {
+"first_seen": "2026-11-13",
+"title": "TOKYO MER～走る緊急救命室～"
+},
+"/dramas/3129/4999": {
+"first_seen": "2026-11-13",
+"title": "微笑む人"
+},
+"/dramas/3235/5130": {
+"first_seen": "2026-11-13",
+"title": "ナースのお仕事"
+},
+"/dramas/3279/5186": {
+"first_seen": "2026-11-13",
+"title": "恋ノチカラ"
+},
+"/dramas/33/139": {
+"first_seen": "2026-11-13",
+"title": "THE MENTALIST/メンタリスト<ファースト・シーズン>"
+},
+"/dramas/342/1197": {
+"first_seen": "2026-11-13",
+"title": "君には届かない。"
+},
+"/dramas/3452/5382": {
+"first_seen": "2026-11-13",
+"title": "LINK：ふたりのシンパシー"
+},
+"/dramas/347/1203": {
+"first_seen": "2026-11-13",
+"title": "ブレイキング･バッド　SEASON 1"
+},
+"/dramas/350/1214": {
+"first_seen": "2026-11-13",
+"title": "ブル～ス一家は大暴走！ シーズン1"
+},
+"/dramas/354/1235": {
+"first_seen": "2026-11-13",
+"title": "オレンジ・イズ・ニュー・ブラック シーズン1"
+},
+"/dramas/357/1244": {
+"first_seen": "2026-11-13",
+"title": "社内お見合い"
+},
+"/dramas/360/1252": {
+"first_seen": "2026-11-13",
+"title": "ピーキー・ブラインダーズ シーズン1"
+},
+"/dramas/3601/5573": {
+"first_seen": "2026-11-13",
+"title": "刑務所のルールブック／賢い監房生活（原題）"
+},
+"/dramas/361/1255": {
+"first_seen": "2026-11-13",
+"title": "Marvel ルーク・ケイジ シーズン1"
+},
+"/dramas/362/1256": {
+"first_seen": "2026-11-13",
+"title": "Marvel アイアン・フィスト シーズン1"
+},
+"/dramas/3668/5650": {
+"first_seen": "2026-11-13",
+"title": "自白"
+},
+"/dramas/3674/5654": {
+"first_seen": "2026-11-13",
+"title": "中学聖日記"
+},
+"/dramas/3681/5661": {
+"first_seen": "2026-11-13",
+"title": "警部補 古畑任三郎 1st"
+},
+"/dramas/369/1272": {
+"first_seen": "2026-11-13",
+"title": "ナルコス シーズン1"
+},
+"/dramas/3790/5791": {
+"first_seen": "2026-11-13",
+"title": "キャスター"
+},
+"/dramas/3875/5884": {
+"first_seen": "2026-11-13",
+"title": "キス・シックス・センス"
+},
+"/dramas/389/11488": {
+"first_seen": "2026-11-13",
+"title": "ストレンジャー・シングス 未知の世界 シーズン4"
+},
+"/dramas/389/1303": {
+"first_seen": "2026-11-13",
+"title": "不適切にもほどがある！"
+},
+"/dramas/389/1616": {
+"first_seen": "2026-11-13",
+"title": "ストレンジャー・シングス 未知の世界 シーズン2"
+},
+"/dramas/389/20925": {
+"first_seen": "2026-11-13",
+"title": "ストレンジャー・シングス 未知の世界 シーズン5"
+},
+"/dramas/389/2813": {
+"first_seen": "2026-11-13",
+"title": "ストレンジャー・シングス 未知の世界 シーズン3"
+},
+"/dramas/3908/5922": {
+"first_seen": "2026-11-13",
+"title": "DOPE　麻薬取締部特捜課"
+},
+"/dramas/4051/6116": {
+"first_seen": "2026-11-13",
+"title": "大恋愛～僕を忘れる君と"
+},
+"/dramas/4082/6148": {
+"first_seen": "2026-11-13",
+"title": "ロングバケーション"
+},
+"/dramas/4158/6235": {
+"first_seen": "2026-11-13",
+"title": "キム秘書はいったい、なぜ?"
+},
+"/dramas/4332/6428": {
+"first_seen": "2026-11-13",
+"title": "力の強い女ト・ボンスン"
+},
+"/dramas/438/1394": {
+"first_seen": "2026-11-13",
+"title": "THIS IS US/ディス・イズ・アス 36歳、これから"
+},
+"/dramas/4388/6492": {
+"first_seen": "2026-11-13",
+"title": "トラップ ～最も残酷な愛～"
+},
+"/dramas/442/1408": {
+"first_seen": "2026-11-13",
+"title": "Marvel ザ・ディフェンダーズ"
+},
+"/dramas/4499/6629": {
+"first_seen": "2026-11-13",
+"title": "マーベル クローク＆ダガー"
+},
+"/dramas/4553/6772": {
+"first_seen": "2026-11-13",
+"title": "獣になれない私たち"
+},
+"/dramas/4659/6965": {
+"first_seen": "2026-11-13",
+"title": "東京ラブストーリー"
+},
+"/dramas/471/1471": {
+"first_seen": "2026-11-13",
+"title": "モダン･ファミリー シーズン1"
+},
+"/dramas/472/1473": {
+"first_seen": "2026-11-13",
+"title": "アトランタ"
+},
+"/dramas/5/33": {
+"first_seen": "2026-11-13",
+"title": "さまよう刃"
+},
+"/dramas/5005/7389": {
+"first_seen": "2026-11-13",
+"title": "メル・ブルックス／珍説世界史 PART II"
+},
+"/dramas/5008/7393": {
+"first_seen": "2026-11-13",
+"title": "ザ・ホーンティング・オブ・ヒルハウス"
+},
+"/dramas/5013/7407": {
+"first_seen": "2026-11-13",
+"title": "マニフェスト 828便の謎 シーズン1"
+},
+"/dramas/5020/23171": {
+"first_seen": "2026-11-13",
+"title": "ザ・ボーイズ ファイナル・シーズン"
+},
+"/dramas/5020/7419": {
+"first_seen": "2026-11-13",
+"title": "ザ・ボーイズ シーズン1"
+},
+"/dramas/513/1546": {
+"first_seen": "2026-11-13",
+"title": "マインドハンター シーズン1"
+},
+"/dramas/516/1551": {
+"first_seen": "2026-11-13",
+"title": "Marvel パニッシャー シーズン1"
+},
+"/dramas/5229/7654": {
+"first_seen": "2026-11-13",
+"title": "初めて恋をした日に読む話"
+},
+"/dramas/5231/7656": {
+"first_seen": "2026-11-13",
+"title": "メゾン・ド・ポリス"
+},
+"/dramas/5249/7746": {
+"first_seen": "2026-11-13",
+"title": "冬のソナタ"
+},
+"/dramas/5251/7677": {
+"first_seen": "2026-11-13",
+"title": "全裸監督"
+},
+"/dramas/5373/7817": {
+"first_seen": "2026-11-13",
+"title": "ミストレス～愛に惑う女たち～"
+},
+"/dramas/5401/7846": {
+"first_seen": "2026-11-13",
+"title": "マンダロリアン シーズン1"
+},
+"/dramas/5402/7847": {
+"first_seen": "2026-11-13",
+"title": "マヤンズ M.C. 〜サンズ・オブ・アナーキー外伝〜 シーズン1"
+},
+"/dramas/5506/7950": {
+"first_seen": "2026-11-13",
+"title": "3年A組ー今から皆さんは、人質ですー"
+},
+"/dramas/5535/7980": {
+"first_seen": "2026-11-13",
+"title": "わたしに運命の恋なんてありえないって思ってた"
+},
+"/dramas/5565/8028": {
+"first_seen": "2026-11-13",
+"title": "元カレは天才詐欺師 ～38師機動隊～"
+},
+"/dramas/5571/8035": {
+"first_seen": "2026-11-13",
+"title": "空から降る一億の星"
+},
+"/dramas/558/1621": {
+"first_seen": "2026-11-13",
+"title": "ジ・アメリカンズ 極秘潜入スパイ シーズン1"
+},
+"/dramas/5588/8053": {
+"first_seen": "2026-11-13",
+"title": "ラブ♡セラピー A POEM A DAY"
+},
+"/dramas/5610/8074": {
+"first_seen": "2026-11-13",
+"title": "私のIDはカンナム美人"
+},
+"/dramas/5611/8075": {
+"first_seen": "2026-11-13",
+"title": "面白南極料理人"
+},
+"/dramas/568/1653": {
+"first_seen": "2026-11-13",
+"title": "POWER／パワー　シーズン1"
+},
+"/dramas/572/1662": {
+"first_seen": "2026-11-13",
+"title": "ライン・オブ・デューティ シーズン1"
+},
+"/dramas/5726/8193": {
+"first_seen": "2026-11-13",
+"title": "PJ ～航空救難団～"
+},
+"/dramas/5792/8264": {
+"first_seen": "2026-11-13",
+"title": "ハーレーはド真ん中 シーズン1"
+},
+"/dramas/5793/8265": {
+"first_seen": "2026-11-13",
+"title": "デッドリー・クラス"
+},
+"/dramas/5859/8342": {
+"first_seen": "2026-11-13",
+"title": "ボイス～112の奇跡～"
+},
+"/dramas/5862/8346": {
+"first_seen": "2026-11-13",
+"title": "THE K2～キミだけを守りたい～"
+},
+"/dramas/6007/8523": {
+"first_seen": "2026-11-13",
+"title": "The Good Mothers"
+},
+"/dramas/6030/8550": {
+"first_seen": "2026-11-13",
+"title": "わたし、定時で帰ります。"
+},
+"/dramas/6031/18684": {
+"first_seen": "2026-11-13",
+"title": "きのう何食べた？ season2"
+},
+"/dramas/6031/8551": {
+"first_seen": "2026-11-13",
+"title": "きのう何食べた？"
+},
+"/dramas/6055/8586": {
+"first_seen": "2026-11-13",
+"title": "あなたの番です"
+},
+"/dramas/6082/8620": {
+"first_seen": "2026-11-13",
+"title": "パーフェクトワールド"
+},
+"/dramas/6120/8708": {
+"first_seen": "2026-11-13",
+"title": "セイラム 魔女の棲む町 シーズン1"
+},
+"/dramas/6130/8721": {
+"first_seen": "2026-11-13",
+"title": "SKYキャッスル～上流階級の妻たち～"
+},
+"/dramas/6134/8729": {
+"first_seen": "2026-11-13",
+"title": "ジーニアス：キング牧師とマルコムX"
+},
+"/dramas/6139/8736": {
+"first_seen": "2026-11-13",
+"title": "悪党〜加害者追跡調査〜"
+},
+"/dramas/6146/8745": {
+"first_seen": "2026-11-13",
+"title": "ゴールデンカムイ ―北海道刺青囚人争奪編―"
+},
+"/dramas/6175/8787": {
+"first_seen": "2026-11-13",
+"title": "ノーサイド・ゲーム"
+},
+"/dramas/618/1717": {
+"first_seen": "2026-11-13",
+"title": "ナイン～9回の時間旅行～"
+},
+"/dramas/619/1718": {
+"first_seen": "2026-11-13",
+"title": "マーベル インヒューマンズ シーズン1"
+},
+"/dramas/6228/8848": {
+"first_seen": "2026-11-13",
+"title": "やりすぎ配信！ ビザードバーク シーズン1"
+},
+"/dramas/6229/8850": {
+"first_seen": "2026-11-13",
+"title": "バツイチ男の大ピンチ！"
+},
+"/dramas/6235/8873": {
+"first_seen": "2026-11-13",
+"title": "ジョナス シーズン1"
+},
+"/dramas/6237/8878": {
+"first_seen": "2026-11-13",
+"title": "ママと恋に落ちるまで シーズン1"
+},
+"/dramas/6239/8889": {
+"first_seen": "2026-11-13",
+"title": "うわさのツインズ リブとマディ シーズン1"
+},
+"/dramas/6254/8923": {
+"first_seen": "2026-11-13",
+"title": "ナショナル・トレジャー　一族の謎"
+},
+"/dramas/6257/8928": {
+"first_seen": "2026-11-13",
+"title": "トゥルーライズ"
+},
+"/dramas/6269/8941": {
+"first_seen": "2026-11-13",
+"title": "俺のスカート、 どこ行った?"
+},
+"/dramas/6272/8943": {
+"first_seen": "2026-11-13",
+"title": "シェキラ! シーズン1"
+},
+"/dramas/6273/8946": {
+"first_seen": "2026-11-13",
+"title": "正義の異邦人：ミープとアンネの日記"
+},
+"/dramas/6318/9015": {
+"first_seen": "2026-11-13",
+"title": "ハンティング・ワイブス"
+},
+"/dramas/6339/9049": {
+"first_seen": "2026-11-13",
+"title": "マイ･ディア･ミスター ～私のおじさん～"
+},
+"/dramas/6377/9103": {
+"first_seen": "2026-11-13",
+"title": "パーセプション 天才教授の推理ノート シーズン1"
+},
+"/dramas/6463/9217": {
+"first_seen": "2026-11-13",
+"title": "パーシー・ジャクソンとオリンポスの神々"
+},
+"/dramas/6482/9252": {
+"first_seen": "2026-11-13",
+"title": "デッド・トゥ・ミー ～さようならの裏に～ シーズン1"
+},
+"/dramas/6540/9359": {
+"first_seen": "2026-11-13",
+"title": "凪のお暇"
+},
+"/dramas/6622/9493": {
+"first_seen": "2026-11-13",
+"title": "血の呪い"
+},
+"/dramas/6625/9501": {
+"first_seen": "2026-11-13",
+"title": "ライオンの隠れ家"
+},
+"/dramas/6644/9535": {
+"first_seen": "2026-11-13",
+"title": "パラレル"
+},
+"/dramas/6652/9550": {
+"first_seen": "2026-11-13",
+"title": "これは経費で落ちません！"
+},
+"/dramas/6680/9579": {
+"first_seen": "2026-11-13",
+"title": "彼女の私生活"
+},
+"/dramas/6682/9581": {
+"first_seen": "2026-11-13",
+"title": "ある春の夜に"
+},
+"/dramas/6683/9582": {
+"first_seen": "2026-11-13",
+"title": "教場"
+},
+"/dramas/6704/9615": {
+"first_seen": "2026-11-13",
+"title": "家族狩り"
+},
+"/dramas/6761/9700": {
+"first_seen": "2026-11-13",
+"title": "TOKYO MER～走る緊急救命室～"
+},
+"/dramas/6782/9725": {
+"first_seen": "2026-11-13",
+"title": "ウォッチャー 不正捜査官たちの真実"
+},
+"/dramas/6807/9760": {
+"first_seen": "2026-11-13",
+"title": "グッド・トラブル シーズン1"
+},
+"/dramas/6903/9913": {
+"first_seen": "2026-11-13",
+"title": "勇者ヨシヒコと悪霊の鍵"
+},
+"/dramas/6997/10041": {
+"first_seen": "2026-11-13",
+"title": "キンドレッド 時間を超えた絆"
+},
+"/dramas/7017/10069": {
+"first_seen": "2026-11-13",
+"title": "シロでもクロでもない世界で、パンダは笑う。"
+},
+"/dramas/7105/10198": {
+"first_seen": "2026-11-13",
+"title": "パパと恋に落ちるまで シーズン1"
+},
+"/dramas/711/1809": {
+"first_seen": "2026-11-13",
+"title": "ボーイ・ミーツ・ワールド シーズン1"
+},
+"/dramas/713/1811": {
+"first_seen": "2026-11-13",
+"title": "スノーフォール シーズン1"
+},
+"/dramas/7175/10294": {
+"first_seen": "2026-11-13",
+"title": "9-1-1: ナッシュビル"
+},
+"/dramas/7201/10325": {
+"first_seen": "2026-11-13",
+"title": "今際の国のアリス"
+},
+"/dramas/7264/10454": {
+"first_seen": "2026-11-13",
+"title": "ロキ シーズン1"
+},
+"/dramas/7268/10478": {
+"first_seen": "2026-11-13",
+"title": "イングリッシュ・ティーチャー"
+},
+"/dramas/7407/10700": {
+"first_seen": "2026-11-13",
+"title": "同期のサクラ"
+},
+"/dramas/7431/10729": {
+"first_seen": "2026-11-13",
+"title": "おいしい給食"
+},
+"/dramas/7431/15342": {
+"first_seen": "2026-11-13",
+"title": "おいしい給食 season2"
+},
+"/dramas/7431/18433": {
+"first_seen": "2026-11-13",
+"title": "おいしい給食 season3"
+},
+"/dramas/7479/10824": {
+"first_seen": "2026-11-13",
+"title": "僕だけに見える君"
+},
+"/dramas/75/273": {
+"first_seen": "2026-11-13",
+"title": "X-ファイル　シーズン1"
+},
+"/dramas/750/1853": {
+"first_seen": "2026-11-13",
+"title": "翳りゆく夏"
+},
+"/dramas/7556/10895": {
+"first_seen": "2026-11-13",
+"title": "死役所"
+},
+"/dramas/7561/10906": {
+"first_seen": "2026-11-13",
+"title": "エミリー、パリへ行く シーズン1"
+},
+"/dramas/7561/17534": {
+"first_seen": "2026-11-13",
+"title": "エミリー、パリへ行く シーズン3"
+},
+"/dramas/7561/20124": {
+"first_seen": "2026-11-13",
+"title": "エミリー、パリへ行く シーズン4"
+},
+"/dramas/7561/22942": {
+"first_seen": "2026-11-13",
+"title": "エミリー、パリへ行く シーズン5"
+},
+"/dramas/7605/11031": {
+"first_seen": "2026-11-13",
+"title": "ハイスクール・ミュージカル：ザ・ミュージカル"
+},
+"/dramas/7636/11103": {
+"first_seen": "2026-11-13",
+"title": "ようこそ 誰もいない遊園地へ シーズン1"
+},
+"/dramas/768/1871": {
+"first_seen": "2026-11-13",
+"title": "ボーダーズ 警視庁特殊事件対策班"
+},
+"/dramas/77/287": {
+"first_seen": "2026-11-13",
+"title": "アリー my Love　シーズン2"
+},
+"/dramas/771/1877": {
+"first_seen": "2026-11-13",
+"title": "W -君と僕の世界-"
+},
+"/dramas/7714/11233": {
+"first_seen": "2026-11-13",
+"title": "Why Women Kill ～ファビュラスな女たち～ シーズン1"
+},
+"/dramas/790/1895": {
+"first_seen": "2026-11-13",
+"title": "パンとスープとネコ日和"
+},
+"/dramas/792/1897": {
+"first_seen": "2026-11-13",
+"title": "雲が描いた月明かり"
+},
+"/dramas/799/1904": {
+"first_seen": "2026-11-13",
+"title": "コーヒープリンス1号店"
+},
+"/dramas/802/1907": {
+"first_seen": "2026-11-13",
+"title": "恋はチーズ・イン・ザ・トラップ"
+},
+"/dramas/804/1909": {
+"first_seen": "2026-11-13",
+"title": "ダーク シーズン1"
+},
+"/dramas/8042/11683": {
+"first_seen": "2026-11-13",
+"title": "テセウスの船"
+},
+"/dramas/8043/11684": {
+"first_seen": "2026-11-13",
+"title": "新参者"
+},
+"/dramas/806/1911": {
+"first_seen": "2026-11-13",
+"title": "太陽を抱く月"
+},
+"/dramas/81/308": {
+"first_seen": "2026-11-13",
+"title": "DEATH & DETAIL 事実は語る"
+},
+"/dramas/82/323": {
+"first_seen": "2026-11-13",
+"title": "エージェント・カーター　シーズン1"
+},
+"/dramas/822/1931": {
+"first_seen": "2026-11-13",
+"title": "マイネーム・イズ・アール　シーズン１"
+},
+"/dramas/8222/11886": {
+"first_seen": "2026-11-13",
+"title": "きのう何食べた？お正月スペシャル"
+},
+"/dramas/8227/11892": {
+"first_seen": "2026-11-13",
+"title": "恋はつづくよどこまでも"
+},
+"/dramas/8285/11958": {
+"first_seen": "2026-11-13",
+"title": "妻、小学生になる。"
+},
+"/dramas/83/325": {
+"first_seen": "2026-11-13",
+"title": "24 -TWENTY FOUR- レガシー"
+},
+"/dramas/830/1943": {
+"first_seen": "2026-11-13",
+"title": "トキメキ☆成均館スキャンダル"
+},
+"/dramas/8307/11980": {
+"first_seen": "2026-11-13",
+"title": "知らなくていいコト"
+},
+"/dramas/834/1951": {
+"first_seen": "2026-11-13",
+"title": "逃げるは恥だが役に立つ"
+},
+"/dramas/835/1952": {
+"first_seen": "2026-11-13",
+"title": "地味にスゴイ! 校閲ガール・河野悦子"
+},
+"/dramas/838/1961": {
+"first_seen": "2026-11-13",
+"title": "真田丸"
+},
+"/dramas/839/1962": {
+"first_seen": "2026-11-13",
+"title": "軍検事ドーベルマン"
+},
+"/dramas/847/1972": {
+"first_seen": "2026-11-13",
+"title": "ラストマン－全盲の捜査官－"
+},
+"/dramas/8509/12200": {
+"first_seen": "2026-11-13",
+"title": "ストーブリーグ"
+},
+"/dramas/8563/12260": {
+"first_seen": "2026-11-13",
+"title": "鎌倉殿の13人"
+},
+"/dramas/8569/12266": {
+"first_seen": "2026-11-13",
+"title": "災"
+},
+"/dramas/861/1990": {
+"first_seen": "2026-11-13",
+"title": "クロサギ（新シリーズ2022）"
+},
+"/dramas/862/1991": {
+"first_seen": "2026-11-13",
+"title": "池袋ウエストゲートパーク"
+},
+"/dramas/865/1994": {
+"first_seen": "2026-11-13",
+"title": "金釵の花嫁"
+},
+"/dramas/8650/12354": {
+"first_seen": "2026-11-13",
+"title": "愛の不時着"
+},
+"/dramas/868/1997": {
+"first_seen": "2026-11-13",
+"title": "やまとなでしこ"
+},
+"/dramas/8681/12416": {
+"first_seen": "2026-11-13",
+"title": "死にたい夜にかぎって"
+},
+"/dramas/8694/12429": {
+"first_seen": "2026-11-13",
+"title": "美食探偵 明智五郎"
+},
+"/dramas/872/2001": {
+"first_seen": "2026-11-13",
+"title": "華麗なる一族"
+},
+"/dramas/8735/12478": {
+"first_seen": "2026-11-13",
+"title": "アンサング・シンデレラ 病院薬剤師の処方箋"
+},
+"/dramas/8751/12497": {
+"first_seen": "2026-11-13",
+"title": "私の家政夫ナギサさん"
+},
+"/dramas/8760/12513": {
+"first_seen": "2026-11-13",
+"title": "今日は天気雨"
+},
+"/dramas/88/335": {
+"first_seen": "2026-11-13",
+"title": "プリズン・ブレイク"
+},
+"/dramas/883/2013": {
+"first_seen": "2026-11-13",
+"title": "監獄のお姫さま"
+},
+"/dramas/885/2015": {
+"first_seen": "2026-11-13",
+"title": "俺の家の話"
+},
+"/dramas/894/2025": {
+"first_seen": "2026-11-13",
+"title": "流星の絆"
+},
+"/dramas/900/2032": {
+"first_seen": "2026-11-13",
+"title": "知ってるワイフ"
+},
+"/dramas/902/2034": {
+"first_seen": "2026-11-13",
+"title": "いつかこの恋を思い出してきっと泣いてしまう"
+},
+"/dramas/904/2036": {
+"first_seen": "2026-11-13",
+"title": "anone"
+},
+"/dramas/906/2038": {
+"first_seen": "2026-11-13",
+"title": "アンナチュラル"
+},
+"/dramas/907/2039": {
+"first_seen": "2026-11-13",
+"title": "コンフィデンスマンJP"
+},
+"/dramas/908/2040": {
+"first_seen": "2026-11-13",
+"title": "花のち晴れ～花男 Next Season～"
+},
+"/dramas/912/2046": {
+"first_seen": "2026-11-13",
+"title": "奥様は、取り扱い注意"
+},
+"/dramas/9135/12986": {
+"first_seen": "2026-11-13",
+"title": "賢い医師生活"
+},
+"/dramas/917/2051": {
+"first_seen": "2026-11-13",
+"title": "セトウツミ～オリジナルドラマ～"
+},
+"/dramas/9252/13137": {
+"first_seen": "2026-11-13",
+"title": "妻、小学生になる。"
+},
+"/dramas/93/355": {
+"first_seen": "2026-11-13",
+"title": "アメリカン・ホラー・ストーリー"
+},
+"/dramas/939/2072": {
+"first_seen": "2026-11-13",
+"title": "TOKYO MER～走る緊急救命室～"
+},
+"/dramas/94/360": {
+"first_seen": "2026-11-13",
+"title": "アメリカン・クライム・ストーリー / O・J・シンプソン事件"
+},
+"/dramas/940/2074": {
+"first_seen": "2026-11-13",
+"title": "ドクターX ～外科医・大門未知子～第1シリーズ"
+},
+"/dramas/940/2075": {
+"first_seen": "2026-11-13",
+"title": "スカーレット"
+},
+"/dramas/940/2076": {
+"first_seen": "2026-11-13",
+"title": "悪女（わる）～働くのがカッコ悪いなんて誰が言った？～"
+},
+"/dramas/940/2077": {
+"first_seen": "2026-11-13",
+"title": "ドクターX ～外科医・大門未知子～第4シリーズ"
+},
+"/dramas/940/2078": {
+"first_seen": "2026-11-13",
+"title": "ドクターX ～外科医・大門未知子～第5シリーズ"
+},
+"/dramas/940/9830": {
+"first_seen": "2026-11-13",
+"title": "ドクターX～外科医・大門未知子～ 第6シリーズ"
+},
+"/dramas/9400/13324": {
+"first_seen": "2026-11-13",
+"title": "悪の花"
+},
+"/dramas/9423/13349": {
+"first_seen": "2026-11-13",
+"title": "殺意の道程"
+},
+"/dramas/9425/13350": {
+"first_seen": "2026-11-13",
+"title": "30歳まで童貞だと魔法使いになれるらしい"
+},
+"/dramas/946/2084": {
+"first_seen": "2026-11-13",
+"title": "トッケビ～君がくれた愛しい日々～"
+},
+"/dramas/9465/13401": {
+"first_seen": "2026-11-13",
+"title": "カムカムエヴリバディ"
+},
+"/dramas/947/2085": {
+"first_seen": "2026-11-13",
+"title": "恋のゴールドメダル～僕が恋したキム・ボクジュ～"
+},
+"/dramas/9570/13520": {
+"first_seen": "2026-11-13",
+"title": "七人の秘書"
+},
+"/dramas/959/2096": {
+"first_seen": "2026-11-13",
+"title": "あなたが眠っている間に"
+},
+"/dramas/9596/13550": {
+"first_seen": "2026-11-13",
+"title": "【推しの子】"
+},
+"/dramas/960/2097": {
+"first_seen": "2026-11-13",
+"title": "秘密の森〜深い闇の向こうに〜"
+},
+"/dramas/9605/13559": {
+"first_seen": "2026-11-13",
+"title": "フロム -閉ざされた街- シーズン1"
+},
+"/dramas/961/2098": {
+"first_seen": "2026-11-13",
+"title": "ピノキオ"
+},
+"/dramas/9619/13575": {
+"first_seen": "2026-11-13",
+"title": "ごめんね青春！"
+},
+"/dramas/9623/13579": {
+"first_seen": "2026-11-13",
+"title": "新聞記者"
+},
+"/dramas/9742/13731": {
+"first_seen": "2026-11-13",
+"title": "ウチの娘は、彼氏が出来ない!!"
+},
+"/dramas/9745/13739": {
+"first_seen": "2026-11-13",
+"title": "君と世界が終わる日に Season1"
+},
+"/dramas/9749/13745": {
+"first_seen": "2026-11-13",
+"title": "ひよっこ"
+},
+"/dramas/9784/13781": {
+"first_seen": "2026-11-13",
+"title": "クイーンズ・ギャンビット"
+},
+"/dramas/9820/22950": {
+"first_seen": "2026-11-13",
+"title": "ブリジャートン家 シーズン4"
+},
+"/dramas/9842/13848": {
+"first_seen": "2026-11-13",
+"title": "天国と地獄～サイコな2人～"
+},
+"/dramas/9886/13917": {
+"first_seen": "2026-11-13",
+"title": "軍検事ドーベルマン"
+},
+"/dramas/9926/13956": {
+"first_seen": "2026-11-13",
+"title": "キャスター"
+},
+"/dramas/9962/13997": {
+"first_seen": "2026-11-13",
+"title": "ロード・オブ・ザ・リング: 力の指輪 シーズン1"
+},
+"/dramas/9962/17883": {
+"first_seen": "2026-11-13",
+"title": "ロード・オブ・ザ・リング: 力の指輪 シーズン2"
+},
+"/dramas/9963/14000": {
+"first_seen": "2026-11-13",
+"title": "都会の男女の恋愛法"
+},
+"/dramas/9964/14001": {
+"first_seen": "2026-11-13",
+"title": "それでも僕らは走り続ける"
+},
+"/dramas/9990/14028": {
+"first_seen": "2026-11-13",
+"title": "First Love 初恋"
+},
+"/dramas/9993/14033": {
+"first_seen": "2026-11-13",
+"title": "イチケイのカラス"
+},
+"/dramas/9999/14039": {
+"first_seen": "2026-11-13",
+"title": "サンクチュアリ -聖域-"
+},
+"/movies/100152": {
+"first_seen": "2026-11-13",
+"title": "プレデター：ザ・プレイ"
+},
+"/movies/100263": {
+"first_seen": "2026-11-13",
+"title": "ONE PIECE FILM RED"
+},
+"/movies/10042": {
+"first_seen": "2026-11-13",
+"title": "インデペンデンス・デイ"
+},
+"/movies/100622": {
+"first_seen": "2026-11-13",
+"title": "エブリシング・エブリウェア・オール・アット・ワンス"
+},
+"/movies/100650": {
+"first_seen": "2026-11-13",
+"title": "すずめの戸締まり"
+},
+"/movies/100955": {
+"first_seen": "2026-11-13",
+"title": "ケイコ 目を澄ませて"
+},
+"/movies/101059": {
+"first_seen": "2026-11-13",
+"title": "X エックス"
+},
+"/movies/101248": {
+"first_seen": "2026-11-13",
+"title": "フレッシュ"
+},
+"/movies/1014": {
+"first_seen": "2026-11-13",
+"title": "ムーラン・ルージュ"
+},
+"/movies/101624": {
+"first_seen": "2026-11-13",
+"title": "今夜、世界からこの恋が消えても"
+},
+"/movies/101912": {
+"first_seen": "2026-11-13",
+"title": "神は見返りを求める"
+},
+"/movies/102060": {
+"first_seen": "2026-11-13",
+"title": "ヴェノム：ザ・ラストダンス"
+},
+"/movies/102448": {
+"first_seen": "2026-11-13",
+"title": "恋する惑星 4Kレストア版"
+},
+"/movies/10247": {
+"first_seen": "2026-11-13",
+"title": "ホーカス ポーカス"
+},
+"/movies/102653": {
+"first_seen": "2026-11-13",
+"title": "リバー、流れないでよ"
+},
+"/movies/102817": {
+"first_seen": "2026-11-13",
+"title": "ゴールデンカムイ"
+},
+"/movies/103044": {
+"first_seen": "2026-11-13",
+"title": "リアル・ペイン〜心の旅〜"
+},
+"/movies/103092": {
+"first_seen": "2026-11-13",
+"title": "ウィキッド ふたりの魔女"
+},
+"/movies/103093": {
+"first_seen": "2026-11-13",
+"title": "ウィキッド 永遠の約束"
+},
+"/movies/103784": {
+"first_seen": "2026-11-13",
+"title": "ザ・メニュー"
+},
+"/movies/103793": {
+"first_seen": "2026-11-13",
+"title": "カラオケ行こ！"
+},
+"/movies/103861": {
+"first_seen": "2026-11-13",
+"title": "FALL／フォール"
+},
+"/movies/104098": {
+"first_seen": "2026-11-13",
+"title": "バーバリアン"
+},
+"/movies/104176": {
+"first_seen": "2026-11-13",
+"title": "エゴイスト"
+},
+"/movies/104212": {
+"first_seen": "2026-11-13",
+"title": "映画ドラえもん のび太と空の理想郷（ユートピア）"
+},
+"/movies/104529": {
+"first_seen": "2026-11-13",
+"title": "サンダーボルツ*"
+},
+"/movies/104530": {
+"first_seen": "2026-11-13",
+"title": "ファンタスティック４：ファースト・ステップ"
+},
+"/movies/104579": {
+"first_seen": "2026-11-13",
+"title": "Pearl パール"
+},
+"/movies/104655": {
+"first_seen": "2026-11-13",
+"title": "顔を捨てた男"
+},
+"/movies/104677": {
+"first_seen": "2026-11-13",
+"title": "映画ドラえもん のび太のひみつ道具博物館（ミュージアム）"
+},
+"/movies/104708": {
+"first_seen": "2026-11-13",
+"title": "ジョーカー：フォリ・ア・ドゥ"
+},
+"/movies/104817": {
+"first_seen": "2026-11-13",
+"title": "ちひろさん"
+},
+"/movies/104880": {
+"first_seen": "2026-11-13",
+"title": "なのに、千輝くんが甘すぎる。"
+},
+"/movies/104909": {
+"first_seen": "2026-11-13",
+"title": "フォールガイ"
+},
+"/movies/104975": {
+"first_seen": "2026-11-13",
+"title": "バイオレント・ナイト"
+},
+"/movies/105374": {
+"first_seen": "2026-11-13",
+"title": "正欲"
+},
+"/movies/105386": {
+"first_seen": "2026-11-13",
+"title": "ウィッシュ"
+},
+"/movies/105391": {
+"first_seen": "2026-11-13",
+"title": "ライオン・キング：ムファサ"
+},
+"/movies/105398": {
+"first_seen": "2026-11-13",
+"title": "西部戦線異状なし"
+},
+"/movies/105613": {
+"first_seen": "2026-11-13",
+"title": "aftersun／アフターサン"
+},
+"/movies/105671": {
+"first_seen": "2026-11-13",
+"title": "デッドプール＆ウルヴァリン"
+},
+"/movies/105841": {
+"first_seen": "2026-11-13",
+"title": "オーメン"
+},
+"/movies/106312": {
+"first_seen": "2026-11-13",
+"title": "オットーという男"
+},
+"/movies/106496": {
+"first_seen": "2026-11-13",
+"title": "ゴジラ-1.0"
+},
+"/movies/106550": {
+"first_seen": "2026-11-13",
+"title": "怪物"
+},
+"/movies/106633": {
+"first_seen": "2026-11-13",
+"title": "ミステリと言う勿れ"
+},
+"/movies/106662": {
+"first_seen": "2026-11-13",
+"title": "マイ・エレメント"
+},
+"/movies/106864": {
+"first_seen": "2026-11-13",
+"title": "最後まで行く"
+},
+"/movies/107135": {
+"first_seen": "2026-11-13",
+"title": "ミッキー17"
+},
+"/movies/107217": {
+"first_seen": "2026-11-13",
+"title": "オーシャンズ13"
+},
+"/movies/107290": {
+"first_seen": "2026-11-13",
+"title": "キングダム 運命の炎"
+},
+"/movies/107291": {
+"first_seen": "2026-11-13",
+"title": "ゴジラxコング 新たなる帝国"
+},
+"/movies/107372": {
+"first_seen": "2026-11-13",
+"title": "キリエのうた"
+},
+"/movies/107452": {
+"first_seen": "2026-11-13",
+"title": "ベイビーわるきゅーれ 2ベイビー"
+},
+"/movies/107469": {
+"first_seen": "2026-11-13",
+"title": "岸辺露伴 ルーヴルへ行く"
+},
+"/movies/107521": {
+"first_seen": "2026-11-13",
+"title": "ザ・キラー"
+},
+"/movies/107773": {
+"first_seen": "2026-11-13",
+"title": "終わらない週末"
+},
+"/movies/107870": {
+"first_seen": "2026-11-13",
+"title": "パスト ライブス／再会"
+},
+"/movies/108145": {
+"first_seen": "2026-11-13",
+"title": "ブギーマン"
+},
+"/movies/108265": {
+"first_seen": "2026-11-13",
+"title": "夜明けのすべて"
+},
+"/movies/108734": {
+"first_seen": "2026-11-13",
+"title": "片思い世界"
+},
+"/movies/108855": {
+"first_seen": "2026-11-13",
+"title": "はたらく細胞"
+},
+"/movies/109076": {
+"first_seen": "2026-11-13",
+"title": "ミッシング"
+},
+"/movies/109191": {
+"first_seen": "2026-11-13",
+"title": "ライド・オン"
+},
+"/movies/109454": {
+"first_seen": "2026-11-13",
+"title": "PERFECT DAYS"
+},
+"/movies/109465": {
+"first_seen": "2026-11-13",
+"title": "落下の解剖学"
+},
+"/movies/109468": {
+"first_seen": "2026-11-13",
+"title": "関心領域"
+},
+"/movies/109477": {
+"first_seen": "2026-11-13",
+"title": "ゆとりですがなにか インターナショナル"
+},
+"/movies/109489": {
+"first_seen": "2026-11-13",
+"title": "リロ＆スティッチ"
+},
+"/movies/109669": {
+"first_seen": "2026-11-13",
+"title": "グランツーリスモ"
+},
+"/movies/109705": {
+"first_seen": "2026-11-13",
+"title": "犯罪都市 NO WAY OUT"
+},
+"/movies/109836": {
+"first_seen": "2026-11-13",
+"title": "あの花が咲く丘で、君とまた出会えたら。"
+},
+"/movies/109937": {
+"first_seen": "2026-11-13",
+"title": "哀れなるものたち"
+},
+"/movies/110170": {
+"first_seen": "2026-11-13",
+"title": "名探偵ポアロ：ベネチアの亡霊"
+},
+"/movies/110299": {
+"first_seen": "2026-11-13",
+"title": "ACIDE／アシッド"
+},
+"/movies/110590": {
+"first_seen": "2026-11-13",
+"title": "星つなぎのエリオ"
+},
+"/movies/110643": {
+"first_seen": "2026-11-13",
+"title": "入国審査"
+},
+"/movies/110703": {
+"first_seen": "2026-11-13",
+"title": "ミッション：インポッシブル／ファイナル・レコニング"
+},
+"/movies/110824": {
+"first_seen": "2026-11-13",
+"title": "月"
+},
+"/movies/110845": {
+"first_seen": "2026-11-13",
+"title": "スーパーマン"
+},
+"/movies/11121": {
+"first_seen": "2026-11-13",
+"title": "ジョー・ブラックをよろしく"
+},
+"/movies/11122": {
+"first_seen": "2026-11-13",
+"title": "恋人たちの予感"
+},
+"/movies/111308": {
+"first_seen": "2026-11-13",
+"title": "市子"
+},
+"/movies/111631": {
+"first_seen": "2026-11-13",
+"title": "52ヘルツのクジラたち"
+},
+"/movies/111800": {
+"first_seen": "2026-11-13",
+"title": "ハイキュー!! ゴミ捨て場の決戦"
+},
+"/movies/112244": {
+"first_seen": "2026-11-13",
+"title": "ドリーム・シナリオ"
+},
+"/movies/112259": {
+"first_seen": "2026-11-13",
+"title": "アメリ デジタルリマスター版"
+},
+"/movies/11228": {
+"first_seen": "2026-11-13",
+"title": "イン・ハー・シューズ"
+},
+"/movies/112327": {
+"first_seen": "2026-11-13",
+"title": "若き見知らぬ者たち"
+},
+"/movies/112457": {
+"first_seen": "2026-11-13",
+"title": "ワンス・アポン・ア・スタジオ -100年の思い出-"
+},
+"/movies/112460": {
+"first_seen": "2026-11-13",
+"title": "ロボット・ドリームズ"
+},
+"/movies/112479": {
+"first_seen": "2026-11-13",
+"title": "シンシン／SING SING"
+},
+"/movies/112630": {
+"first_seen": "2026-11-13",
+"title": "ゴールド・ボーイ"
+},
+"/movies/112764": {
+"first_seen": "2026-11-13",
+"title": "青春18×2 君へと続く道"
+},
+"/movies/112930": {
+"first_seen": "2026-11-13",
+"title": "あんのこと"
+},
+"/movies/11304": {
+"first_seen": "2026-11-13",
+"title": "グレムリン"
+},
+"/movies/113065": {
+"first_seen": "2026-11-13",
+"title": "ビーキーパー"
+},
+"/movies/113600": {
+"first_seen": "2026-11-13",
+"title": "ディア・ファミリー"
+},
+"/movies/113750": {
+"first_seen": "2026-11-13",
+"title": "インサイド・ヘッド２"
+},
+"/movies/113769": {
+"first_seen": "2026-11-13",
+"title": "恋わずらいのエリー"
+},
+"/movies/113802": {
+"first_seen": "2026-11-13",
+"title": "侍タイムスリッパー"
+},
+"/movies/113842": {
+"first_seen": "2026-11-13",
+"title": "ぼくが生きてる、ふたつの世界"
+},
+"/movies/113843": {
+"first_seen": "2026-11-13",
+"title": "ラストマイル"
+},
+"/movies/113892": {
+"first_seen": "2026-11-13",
+"title": "キングダム 大将軍の帰還"
+},
+"/movies/113906": {
+"first_seen": "2026-11-13",
+"title": "シビル・ウォー アメリカ最後の日"
+},
+"/movies/113910": {
+"first_seen": "2026-11-13",
+"title": "愛はステロイド"
+},
+"/movies/113963": {
+"first_seen": "2026-11-13",
+"title": "劇場版 チェンソーマン レゼ篇"
+},
+"/movies/114075": {
+"first_seen": "2026-11-13",
+"title": "スオミの話をしよう"
+},
+"/movies/114176": {
+"first_seen": "2026-11-13",
+"title": "ため息つかせて"
+},
+"/movies/114208": {
+"first_seen": "2026-11-13",
+"title": "ゴジラ-1.0／C"
+},
+"/movies/114240": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ／マンダロリアン・アンド・グローグー"
+},
+"/movies/114261": {
+"first_seen": "2026-11-13",
+"title": "おくびょう鳥が歌うほうへ"
+},
+"/movies/114266": {
+"first_seen": "2026-11-13",
+"title": "オーメン：ザ・ファースト"
+},
+"/movies/114460": {
+"first_seen": "2026-11-13",
+"title": "アビゲイル"
+},
+"/movies/114534": {
+"first_seen": "2026-11-13",
+"title": "余命一年の僕が、余命半年の君と出会った話。"
+},
+"/movies/114621": {
+"first_seen": "2026-11-13",
+"title": "ふたりで終わらせる／IT ENDS WITH US"
+},
+"/movies/114683": {
+"first_seen": "2026-11-13",
+"title": "ツイスターズ"
+},
+"/movies/114794": {
+"first_seen": "2026-11-13",
+"title": "モアナと伝説の海２"
+},
+"/movies/114872": {
+"first_seen": "2026-11-13",
+"title": "ルックバック"
+},
+"/movies/114886": {
+"first_seen": "2026-11-13",
+"title": "エイリアン：ロムルス"
+},
+"/movies/115164": {
+"first_seen": "2026-11-13",
+"title": "新幹線大爆破"
+},
+"/movies/115169": {
+"first_seen": "2026-11-13",
+"title": "ぼくのお日さま"
+},
+"/movies/115195": {
+"first_seen": "2026-11-13",
+"title": "35年目のラブレター"
+},
+"/movies/115241": {
+"first_seen": "2026-11-13",
+"title": "国宝"
+},
+"/movies/115306": {
+"first_seen": "2026-11-13",
+"title": "野生の島のロズ"
+},
+"/movies/115496": {
+"first_seen": "2026-11-13",
+"title": "室井慎次　敗れざる者"
+},
+"/movies/115502": {
+"first_seen": "2026-11-13",
+"title": "レンタル・ファミリー"
+},
+"/movies/115729": {
+"first_seen": "2026-11-13",
+"title": "ウルヴァリン:X-MEN ZERO"
+},
+"/movies/115741": {
+"first_seen": "2026-11-13",
+"title": "サユリ"
+},
+"/movies/115819": {
+"first_seen": "2026-11-13",
+"title": "ブルーピリオド"
+},
+"/movies/115976": {
+"first_seen": "2026-11-13",
+"title": "教皇選挙"
+},
+"/movies/11603": {
+"first_seen": "2026-11-13",
+"title": "シャイニング"
+},
+"/movies/116036": {
+"first_seen": "2026-11-13",
+"title": "サブスタンス"
+},
+"/movies/116039": {
+"first_seen": "2026-11-13",
+"title": "ANORA アノーラ"
+},
+"/movies/116091": {
+"first_seen": "2026-11-13",
+"title": "ナミビアの砂漠"
+},
+"/movies/116103": {
+"first_seen": "2026-11-13",
+"title": "ロングレッグス"
+},
+"/movies/116214": {
+"first_seen": "2026-11-13",
+"title": "フロム・ダスク・ティル・ドーン"
+},
+"/movies/116237": {
+"first_seen": "2026-11-13",
+"title": "ベイビーわるきゅーれ ナイスデイズ"
+},
+"/movies/116469": {
+"first_seen": "2026-11-13",
+"title": "チャチャ"
+},
+"/movies/116565": {
+"first_seen": "2026-11-13",
+"title": "トワイライト・ウォリアーズ 決戦！九龍城砦"
+},
+"/movies/116690": {
+"first_seen": "2026-11-13",
+"title": "アングリースクワッド 公務員と7人の詐欺師"
+},
+"/movies/116724": {
+"first_seen": "2026-11-13",
+"title": "宝島"
+},
+"/movies/116767": {
+"first_seen": "2026-11-13",
+"title": "ひゃくえむ。"
+},
+"/movies/116998": {
+"first_seen": "2026-11-13",
+"title": "グランメゾン・パリ"
+},
+"/movies/117088": {
+"first_seen": "2026-11-13",
+"title": "ナイブズ・アウト：ウェイク・アップ・デッドマン"
+},
+"/movies/11725": {
+"first_seen": "2026-11-13",
+"title": "ホビット 決戦のゆくえ"
+},
+"/movies/117408": {
+"first_seen": "2026-11-13",
+"title": "異端者の家"
+},
+"/movies/117556": {
+"first_seen": "2026-11-13",
+"title": "シン・ゴジラ"
+},
+"/movies/117563": {
+"first_seen": "2026-11-13",
+"title": "正体"
+},
+"/movies/117965": {
+"first_seen": "2026-11-13",
+"title": "名もなき者／A COMPLETE UNKNOWN"
+},
+"/movies/118029": {
+"first_seen": "2026-11-13",
+"title": "花まんま"
+},
+"/movies/118093": {
+"first_seen": "2026-11-13",
+"title": "ファーストキス　1ST KISS"
+},
+"/movies/118136": {
+"first_seen": "2026-11-13",
+"title": "トイ・ストーリー５"
+},
+"/movies/118138": {
+"first_seen": "2026-11-13",
+"title": "ズートピア２"
+},
+"/movies/118139": {
+"first_seen": "2026-11-13",
+"title": "私がビーバーになる時"
+},
+"/movies/118234": {
+"first_seen": "2026-11-13",
+"title": "366日"
+},
+"/movies/118310": {
+"first_seen": "2026-11-13",
+"title": "サンセット・サンライズ"
+},
+"/movies/1185": {
+"first_seen": "2026-11-13",
+"title": "GO"
+},
+"/movies/118660": {
+"first_seen": "2026-11-13",
+"title": "敵"
+},
+"/movies/118677": {
+"first_seen": "2026-11-13",
+"title": "今日の空が一番好き、とまだ言えない僕は"
+},
+"/movies/118757": {
+"first_seen": "2026-11-13",
+"title": "秒速5センチメートル"
+},
+"/movies/118879": {
+"first_seen": "2026-11-13",
+"title": "爆弾"
+},
+"/movies/119046": {
+"first_seen": "2026-11-13",
+"title": "罪人たち"
+},
+"/movies/119119": {
+"first_seen": "2026-11-13",
+"title": "ブラック・ショーマン"
+},
+"/movies/119366": {
+"first_seen": "2026-11-13",
+"title": "シン・ゴジラ"
+},
+"/movies/119755": {
+"first_seen": "2026-11-13",
+"title": "籠の中の乙女　4Kレストア版"
+},
+"/movies/119972": {
+"first_seen": "2026-11-13",
+"title": "THE MONKEY／ザ・モンキー"
+},
+"/movies/120063": {
+"first_seen": "2026-11-13",
+"title": "プレデター：バッドランド"
+},
+"/movies/12008": {
+"first_seen": "2026-11-13",
+"title": "クリムゾン・タイド"
+},
+"/movies/120090": {
+"first_seen": "2026-11-13",
+"title": "近畿地方のある場所について"
+},
+"/movies/120192": {
+"first_seen": "2026-11-13",
+"title": "映画クレヨンしんちゃん 超華麗！灼熱のカスカベダンサーズ"
+},
+"/movies/120268": {
+"first_seen": "2026-11-13",
+"title": "ドールハウス"
+},
+"/movies/120294": {
+"first_seen": "2026-11-13",
+"title": "ファイナル・デッドブラッド"
+},
+"/movies/120338": {
+"first_seen": "2026-11-13",
+"title": "ホウセンカ"
+},
+"/movies/120406": {
+"first_seen": "2026-11-13",
+"title": "８番出口"
+},
+"/movies/12050": {
+"first_seen": "2026-11-13",
+"title": "ザ・ロック"
+},
+"/movies/120887": {
+"first_seen": "2026-11-13",
+"title": "TOKYOタクシー"
+},
+"/movies/120893": {
+"first_seen": "2026-11-13",
+"title": "ストロベリームーン 余命半年の恋"
+},
+"/movies/12100": {
+"first_seen": "2026-11-13",
+"title": "シックス・センス"
+},
+"/movies/121047": {
+"first_seen": "2026-11-13",
+"title": "フランケンシュタイン"
+},
+"/movies/121053": {
+"first_seen": "2026-11-13",
+"title": "第10客室の女"
+},
+"/movies/121152": {
+"first_seen": "2026-11-13",
+"title": "空飛ぶペンギン"
+},
+"/movies/12121": {
+"first_seen": "2026-11-13",
+"title": "Love Letter"
+},
+"/movies/12123": {
+"first_seen": "2026-11-13",
+"title": "幸せへのキセキ"
+},
+"/movies/12150": {
+"first_seen": "2026-11-13",
+"title": "ジュマンジ"
+},
+"/movies/121882": {
+"first_seen": "2026-11-13",
+"title": "FUJIKO"
+},
+"/movies/121958": {
+"first_seen": "2026-11-13",
+"title": "マテリアリスト 結婚の条件"
+},
+"/movies/121982": {
+"first_seen": "2026-11-13",
+"title": "ワン・バトル・アフター・アナザー"
+},
+"/movies/122012": {
+"first_seen": "2026-11-13",
+"title": "でっちあげ　～殺人教師と呼ばれた男"
+},
+"/movies/122236": {
+"first_seen": "2026-11-13",
+"title": "愚か者の身分"
+},
+"/movies/122263": {
+"first_seen": "2026-11-13",
+"title": "シラート"
+},
+"/movies/122599": {
+"first_seen": "2026-11-13",
+"title": "ローズ家～崖っぷちの夫婦～"
+},
+"/movies/122615": {
+"first_seen": "2026-11-13",
+"title": "死霊館 最後の儀式"
+},
+"/movies/122869": {
+"first_seen": "2026-11-13",
+"title": "ロングウォーク"
+},
+"/movies/122932": {
+"first_seen": "2026-11-13",
+"title": "WEAPONS／ウェポンズ"
+},
+"/movies/122972": {
+"first_seen": "2026-11-13",
+"title": "トリツカレ男"
+},
+"/movies/123181": {
+"first_seen": "2026-11-13",
+"title": "リンダ リンダ リンダ 4K"
+},
+"/movies/123298": {
+"first_seen": "2026-11-13",
+"title": "ロッキー・ホラー・ショー"
+},
+"/movies/123321": {
+"first_seen": "2026-11-13",
+"title": "プラダを着た悪魔２"
+},
+"/movies/123333": {
+"first_seen": "2026-11-13",
+"title": "大統領のケーキ"
+},
+"/movies/123582": {
+"first_seen": "2026-11-13",
+"title": "プロジェクト・ヘイル・メアリー"
+},
+"/movies/123626": {
+"first_seen": "2026-11-13",
+"title": "NEW GROUP"
+},
+"/movies/123690": {
+"first_seen": "2026-11-13",
+"title": "栄光のバックホーム"
+},
+"/movies/123808": {
+"first_seen": "2026-11-13",
+"title": "ブゴニア"
+},
+"/movies/124312": {
+"first_seen": "2026-11-13",
+"title": "シャドウズ・エッジ"
+},
+"/movies/124438": {
+"first_seen": "2026-11-13",
+"title": "マーティ・シュプリーム 世界をつかめ"
+},
+"/movies/124598": {
+"first_seen": "2026-11-13",
+"title": "Ryuichi Sakamoto: Diaries"
+},
+"/movies/124703": {
+"first_seen": "2026-11-13",
+"title": "これって生きてる？"
+},
+"/movies/124710": {
+"first_seen": "2026-11-13",
+"title": "ゴールデンカムイ 網走監獄襲撃編"
+},
+"/movies/124812": {
+"first_seen": "2026-11-13",
+"title": "木挽町のあだ討ち"
+},
+"/movies/124884": {
+"first_seen": "2026-11-13",
+"title": "夜勤事件"
+},
+"/movies/125018": {
+"first_seen": "2026-11-13",
+"title": "SAKAMOTO DAYS"
+},
+"/movies/12523": {
+"first_seen": "2026-11-13",
+"title": "GHOST IN THE SHELL 攻殻機動隊"
+},
+"/movies/125400": {
+"first_seen": "2026-11-13",
+"title": "HELP/復讐島"
+},
+"/movies/125437": {
+"first_seen": "2026-11-13",
+"title": "おさるのベン"
+},
+"/movies/125804": {
+"first_seen": "2026-11-13",
+"title": "超かぐや姫！"
+},
+"/movies/126086": {
+"first_seen": "2026-11-13",
+"title": "ひつじ探偵団"
+},
+"/movies/126182": {
+"first_seen": "2026-11-13",
+"title": "ザ・フライ"
+},
+"/movies/126203": {
+"first_seen": "2026-11-13",
+"title": "クレヨンしんちゃん 暗黒タマタマ大追跡"
+},
+"/movies/126491": {
+"first_seen": "2026-11-13",
+"title": "廃用身"
+},
+"/movies/126702": {
+"first_seen": "2026-11-13",
+"title": "ウォー・マシーン: 未知なる侵略者"
+},
+"/movies/126704": {
+"first_seen": "2026-11-13",
+"title": "親愛なる八本脚の友だち"
+},
+"/movies/126708": {
+"first_seen": "2026-11-13",
+"title": "ウィスパーマン"
+},
+"/movies/126725": {
+"first_seen": "2026-11-13",
+"title": "ユナボマー"
+},
+"/movies/126730": {
+"first_seen": "2026-11-13",
+"title": "ザ・ラストハウス"
+},
+"/movies/126926": {
+"first_seen": "2026-11-13",
+"title": "もしもの愛"
+},
+"/movies/126990": {
+"first_seen": "2026-11-13",
+"title": "余命一年、男をかう"
+},
+"/movies/127392": {
+"first_seen": "2026-11-13",
+"title": "ひなぎく 4Kレストア版"
+},
+"/movies/12785": {
+"first_seen": "2026-11-13",
+"title": "ナイト ミュージアム"
+},
+"/movies/12825": {
+"first_seen": "2026-11-13",
+"title": "ゴッドファーザー"
+},
+"/movies/128361": {
+"first_seen": "2026-11-13",
+"title": "パニッシャー：ワン・ラスト・キル"
+},
+"/movies/128870": {
+"first_seen": "2026-11-13",
+"title": "ボイスメールで恋をして"
+},
+"/movies/12907": {
+"first_seen": "2026-11-13",
+"title": "エンパイア・オブ・ライト"
+},
+"/movies/129574": {
+"first_seen": "2026-11-13",
+"title": "オアシス：ドント・ルック・バック・イン・アンガー"
+},
+"/movies/130024": {
+"first_seen": "2026-11-13",
+"title": "キャンプ・ロック3"
+},
+"/movies/13034": {
+"first_seen": "2026-11-13",
+"title": "サイドウェイ"
+},
+"/movies/130643": {
+"first_seen": "2026-11-13",
+"title": "てんてん　ずっと独身でいるつもり？"
+},
+"/movies/130860": {
+"first_seen": "2026-11-13",
+"title": "コリジョン"
+},
+"/movies/131286": {
+"first_seen": "2026-11-13",
+"title": "ゴス家のワン! ダフル・クリスマス"
+},
+"/movies/131289": {
+"first_seen": "2026-11-13",
+"title": "アヴェドン"
+},
+"/movies/131530": {
+"first_seen": "2026-11-13",
+"title": "グッド・ロイヤー"
+},
+"/movies/131533": {
+"first_seen": "2026-11-13",
+"title": "アレン"
+},
+"/movies/13537": {
+"first_seen": "2026-11-13",
+"title": "コンパニオン"
+},
+"/movies/13573": {
+"first_seen": "2026-11-13",
+"title": "ファンタジア"
+},
+"/movies/13580": {
+"first_seen": "2026-11-13",
+"title": "PERFECT BLUE"
+},
+"/movies/1402": {
+"first_seen": "2026-11-13",
+"title": "プリンセスと魔法のキス"
+},
+"/movies/14224": {
+"first_seen": "2026-11-13",
+"title": "レインマン"
+},
+"/movies/14275": {
+"first_seen": "2026-11-13",
+"title": "ダークナイト ライジング"
+},
+"/movies/14294": {
+"first_seen": "2026-11-13",
+"title": "カーズ"
+},
+"/movies/14348": {
+"first_seen": "2026-11-13",
+"title": "ハリー・ポッターと賢者の石"
+},
+"/movies/14421": {
+"first_seen": "2026-11-13",
+"title": "羊たちの沈黙"
+},
+"/movies/14460": {
+"first_seen": "2026-11-13",
+"title": "メリー・ポピンズ"
+},
+"/movies/14645": {
+"first_seen": "2026-11-13",
+"title": "クヒオ大佐"
+},
+"/movies/14733": {
+"first_seen": "2026-11-13",
+"title": "バオ"
+},
+"/movies/14752": {
+"first_seen": "2026-11-13",
+"title": "ホーム・アローン"
+},
+"/movies/15154": {
+"first_seen": "2026-11-13",
+"title": "カイジ 人生逆転ゲーム"
+},
+"/movies/15239": {
+"first_seen": "2026-11-13",
+"title": "コンタクト"
+},
+"/movies/15420": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピードX3 TOKYO DRIFT"
+},
+"/movies/15464": {
+"first_seen": "2026-11-13",
+"title": "ポカホンタス"
+},
+"/movies/15476": {
+"first_seen": "2026-11-13",
+"title": "モテキ"
+},
+"/movies/15872": {
+"first_seen": "2026-11-13",
+"title": "プリティ・ウーマン"
+},
+"/movies/16021": {
+"first_seen": "2026-11-13",
+"title": "ONE PIECE FILM Z ワンピース フィルム ゼット"
+},
+"/movies/16029": {
+"first_seen": "2026-11-13",
+"title": "火垂るの墓"
+},
+"/movies/16059": {
+"first_seen": "2026-11-13",
+"title": "あるスキャンダルの覚え書き"
+},
+"/movies/16105": {
+"first_seen": "2026-11-13",
+"title": "鍵泥棒のメソッド"
+},
+"/movies/16236": {
+"first_seen": "2026-11-13",
+"title": "容疑者Xの献身"
+},
+"/movies/16314": {
+"first_seen": "2026-11-13",
+"title": "アンブレイカブル"
+},
+"/movies/1652": {
+"first_seen": "2026-11-13",
+"title": "ライオン・キング"
+},
+"/movies/16543": {
+"first_seen": "2026-11-13",
+"title": "ふしぎの国のアリス"
+},
+"/movies/1657": {
+"first_seen": "2026-11-13",
+"title": "ビートルジュース"
+},
+"/movies/16650": {
+"first_seen": "2026-11-13",
+"title": "ハリー・ポッターと秘密の部屋"
+},
+"/movies/16716": {
+"first_seen": "2026-11-13",
+"title": "ナイトメアー・ビフォア・クリスマス"
+},
+"/movies/16830": {
+"first_seen": "2026-11-13",
+"title": "ハウエルズ家のちょっとおかしなお葬式"
+},
+"/movies/16857": {
+"first_seen": "2026-11-13",
+"title": "アイデンティティー"
+},
+"/movies/16900": {
+"first_seen": "2026-11-13",
+"title": "グリーンマイル"
+},
+"/movies/1706": {
+"first_seen": "2026-11-13",
+"title": "探偵はBARにいる"
+},
+"/movies/17148": {
+"first_seen": "2026-11-13",
+"title": "しあわせの隠れ場所"
+},
+"/movies/17192": {
+"first_seen": "2026-11-13",
+"title": "ソウ"
+},
+"/movies/17193": {
+"first_seen": "2026-11-13",
+"title": "パーシー・ジャクソンとオリンポスの神々"
+},
+"/movies/17221": {
+"first_seen": "2026-11-13",
+"title": "スピード"
+},
+"/movies/17241": {
+"first_seen": "2026-11-13",
+"title": "オーシャンズ11"
+},
+"/movies/17312": {
+"first_seen": "2026-11-13",
+"title": "モンスターズ・インク"
+},
+"/movies/17452": {
+"first_seen": "2026-11-13",
+"title": "シャッター アイランド"
+},
+"/movies/17571": {
+"first_seen": "2026-11-13",
+"title": "パプリカ"
+},
+"/movies/17675": {
+"first_seen": "2026-11-13",
+"title": "メン・イン・ブラック"
+},
+"/movies/17781": {
+"first_seen": "2026-11-13",
+"title": "ミセス・ダウト"
+},
+"/movies/17797": {
+"first_seen": "2026-11-13",
+"title": "遊星からの物体X"
+},
+"/movies/18064": {
+"first_seen": "2026-11-13",
+"title": "2001年宇宙の旅"
+},
+"/movies/18303": {
+"first_seen": "2026-11-13",
+"title": "回路"
+},
+"/movies/18316": {
+"first_seen": "2026-11-13",
+"title": "ダンボ"
+},
+"/movies/18325": {
+"first_seen": "2026-11-13",
+"title": "ハプニング"
+},
+"/movies/18393": {
+"first_seen": "2026-11-13",
+"title": "アラジン"
+},
+"/movies/18612": {
+"first_seen": "2026-11-13",
+"title": "メリーに首ったけ"
+},
+"/movies/18744": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピード MAX"
+},
+"/movies/18944": {
+"first_seen": "2026-11-13",
+"title": "ユージュアル・サスペクツ"
+},
+"/movies/19037": {
+"first_seen": "2026-11-13",
+"title": "フィフス・エレメント"
+},
+"/movies/19078": {
+"first_seen": "2026-11-13",
+"title": "マトリックス"
+},
+"/movies/19118": {
+"first_seen": "2026-11-13",
+"title": "猿の惑星"
+},
+"/movies/19119": {
+"first_seen": "2026-11-13",
+"title": "ショーシャンクの空に"
+},
+"/movies/1917": {
+"first_seen": "2026-11-13",
+"title": "パイレーツ・オブ・カリビアン／生命（いのち）の泉"
+},
+"/movies/19506": {
+"first_seen": "2026-11-13",
+"title": "天使にラブ・ソングを…"
+},
+"/movies/19562": {
+"first_seen": "2026-11-13",
+"title": "ザ・ビーチ"
+},
+"/movies/1996": {
+"first_seen": "2026-11-13",
+"title": "トゥルーマン・ショー"
+},
+"/movies/2027": {
+"first_seen": "2026-11-13",
+"title": "重力ピエロ"
+},
+"/movies/20690": {
+"first_seen": "2026-11-13",
+"title": "ラブ・アクチュアリー"
+},
+"/movies/20696": {
+"first_seen": "2026-11-13",
+"title": "TAXI NY"
+},
+"/movies/20737": {
+"first_seen": "2026-11-13",
+"title": "きみに読む物語"
+},
+"/movies/20924": {
+"first_seen": "2026-11-13",
+"title": "パイレーツ・オブ・カリビアン／ワールド・エンド"
+},
+"/movies/20956": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ エピソード4／新たなる希望"
+},
+"/movies/21258": {
+"first_seen": "2026-11-13",
+"title": "ライフ・イズ・ビューティフル"
+},
+"/movies/2151": {
+"first_seen": "2026-11-13",
+"title": "プラダを着た悪魔"
+},
+"/movies/21550": {
+"first_seen": "2026-11-13",
+"title": "バック・トゥ・ザ・フューチャー PART2"
+},
+"/movies/21705": {
+"first_seen": "2026-11-13",
+"title": "天才マックスの世界"
+},
+"/movies/21817": {
+"first_seen": "2026-11-13",
+"title": "魔法にかけられて"
+},
+"/movies/22118": {
+"first_seen": "2026-11-13",
+"title": "ヘラクレス"
+},
+"/movies/22634": {
+"first_seen": "2026-11-13",
+"title": "マイティ・ソー"
+},
+"/movies/22736": {
+"first_seen": "2026-11-13",
+"title": "秒速5センチメートル"
+},
+"/movies/22767": {
+"first_seen": "2026-11-13",
+"title": "バットマン ビギンズ"
+},
+"/movies/22785": {
+"first_seen": "2026-11-13",
+"title": "白雪姫"
+},
+"/movies/22848": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン"
+},
+"/movies/22866": {
+"first_seen": "2026-11-13",
+"title": "ベイブ"
+},
+"/movies/22995": {
+"first_seen": "2026-11-13",
+"title": "ナルニア国物語／第2章:カスピアン王子の角笛"
+},
+"/movies/23017": {
+"first_seen": "2026-11-13",
+"title": "リトル・ミス・サンシャイン"
+},
+"/movies/23084": {
+"first_seen": "2026-11-13",
+"title": "わんわん物語"
+},
+"/movies/23101": {
+"first_seen": "2026-11-13",
+"title": "月とキャベツ"
+},
+"/movies/23123": {
+"first_seen": "2026-11-13",
+"title": "スティング"
+},
+"/movies/23200": {
+"first_seen": "2026-11-13",
+"title": "シザーハンズ"
+},
+"/movies/23289": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ エピソード2／クローンの攻撃"
+},
+"/movies/2334": {
+"first_seen": "2026-11-13",
+"title": "ホーンテッドマンション"
+},
+"/movies/23424": {
+"first_seen": "2026-11-13",
+"title": "真実の行方"
+},
+"/movies/23552": {
+"first_seen": "2026-11-13",
+"title": "フロム・ヘル"
+},
+"/movies/23585": {
+"first_seen": "2026-11-13",
+"title": "ナイトメア・アリー"
+},
+"/movies/23613": {
+"first_seen": "2026-11-13",
+"title": "（500）日のサマー"
+},
+"/movies/2371": {
+"first_seen": "2026-11-13",
+"title": "ムーラン"
+},
+"/movies/23722": {
+"first_seen": "2026-11-13",
+"title": "タイタンズを忘れない"
+},
+"/movies/23804": {
+"first_seen": "2026-11-13",
+"title": "室井慎次　生き続ける者"
+},
+"/movies/23972": {
+"first_seen": "2026-11-13",
+"title": "ナイト＆デイ"
+},
+"/movies/24247": {
+"first_seen": "2026-11-13",
+"title": "新世紀エヴァンゲリオン劇場版 Air／まごころを、君に"
+},
+"/movies/24544": {
+"first_seen": "2026-11-13",
+"title": "時をかける少女"
+},
+"/movies/24598": {
+"first_seen": "2026-11-13",
+"title": "アイアンマン"
+},
+"/movies/24714": {
+"first_seen": "2026-11-13",
+"title": "トップガン"
+},
+"/movies/24770": {
+"first_seen": "2026-11-13",
+"title": "るろうに剣心"
+},
+"/movies/24821": {
+"first_seen": "2026-11-13",
+"title": "最強のふたり"
+},
+"/movies/2503": {
+"first_seen": "2026-11-13",
+"title": "青い春"
+},
+"/movies/25364": {
+"first_seen": "2026-11-13",
+"title": "プレステージ"
+},
+"/movies/254": {
+"first_seen": "2026-11-13",
+"title": "ラスト・ソング"
+},
+"/movies/25464": {
+"first_seen": "2026-11-13",
+"title": "時計じかけのオレンジ"
+},
+"/movies/25518": {
+"first_seen": "2026-11-13",
+"title": "アイ,ロボット"
+},
+"/movies/25641": {
+"first_seen": "2026-11-13",
+"title": "ゴジラVSビオランテ"
+},
+"/movies/2568": {
+"first_seen": "2026-11-13",
+"title": "スタンド・バイ・ミー"
+},
+"/movies/25748": {
+"first_seen": "2026-11-13",
+"title": "ディープ・インパクト"
+},
+"/movies/25757": {
+"first_seen": "2026-11-13",
+"title": "バンク・ジョブ"
+},
+"/movies/25772": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ エピソード3／シスの復讐"
+},
+"/movies/25871": {
+"first_seen": "2026-11-13",
+"title": "オーシャンズ12"
+},
+"/movies/2588": {
+"first_seen": "2026-11-13",
+"title": "ターミネーター"
+},
+"/movies/25994": {
+"first_seen": "2026-11-13",
+"title": "僕はラジオ"
+},
+"/movies/25998": {
+"first_seen": "2026-11-13",
+"title": "ホーム・アローン2"
+},
+"/movies/26004": {
+"first_seen": "2026-11-13",
+"title": "GANTZ"
+},
+"/movies/26112": {
+"first_seen": "2026-11-13",
+"title": "ミッドナイト・イン・パリ"
+},
+"/movies/2613": {
+"first_seen": "2026-11-13",
+"title": "プリティ・プリンセス"
+},
+"/movies/26303": {
+"first_seen": "2026-11-13",
+"title": "メン・イン・ブラック2"
+},
+"/movies/26320": {
+"first_seen": "2026-11-13",
+"title": "アバター"
+},
+"/movies/26499": {
+"first_seen": "2026-11-13",
+"title": "101匹わんちゃん"
+},
+"/movies/26500": {
+"first_seen": "2026-11-13",
+"title": "ダンサー・イン・ザ・ダーク"
+},
+"/movies/26555": {
+"first_seen": "2026-11-13",
+"title": "おおかみこどもの雨と雪"
+},
+"/movies/26585": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ エピソード5／帝国の逆襲"
+},
+"/movies/26645": {
+"first_seen": "2026-11-13",
+"title": "JAWS／ジョーズ"
+},
+"/movies/26701": {
+"first_seen": "2026-11-13",
+"title": "パルプ・フィクション"
+},
+"/movies/26731": {
+"first_seen": "2026-11-13",
+"title": "ルビー・スパークス"
+},
+"/movies/268": {
+"first_seen": "2026-11-13",
+"title": "ターミナル"
+},
+"/movies/26884": {
+"first_seen": "2026-11-13",
+"title": "ウォーリー"
+},
+"/movies/26995": {
+"first_seen": "2026-11-13",
+"title": "トレジャー・プラネット"
+},
+"/movies/27143": {
+"first_seen": "2026-11-13",
+"title": "リリイ・シュシュのすべて"
+},
+"/movies/27379": {
+"first_seen": "2026-11-13",
+"title": "チキン・リトル"
+},
+"/movies/27515": {
+"first_seen": "2026-11-13",
+"title": "ニュー・シネマ・パラダイス"
+},
+"/movies/27561": {
+"first_seen": "2026-11-13",
+"title": "ビフォア・サンセット"
+},
+"/movies/27770": {
+"first_seen": "2026-11-13",
+"title": "フェイス／オフ"
+},
+"/movies/27840": {
+"first_seen": "2026-11-13",
+"title": "イエスマン “YES”は人生のパスワード"
+},
+"/movies/27947": {
+"first_seen": "2026-11-13",
+"title": "アメリカン・サイコ"
+},
+"/movies/28153": {
+"first_seen": "2026-11-13",
+"title": "ナイト・オン・ザ・プラネット"
+},
+"/movies/28262": {
+"first_seen": "2026-11-13",
+"title": "パリ、テキサス"
+},
+"/movies/28368": {
+"first_seen": "2026-11-13",
+"title": "キサラギ"
+},
+"/movies/2849": {
+"first_seen": "2026-11-13",
+"title": "アイアンマン2"
+},
+"/movies/28593": {
+"first_seen": "2026-11-13",
+"title": "ロード・オブ・ザ・リング／王の帰還"
+},
+"/movies/28786": {
+"first_seen": "2026-11-13",
+"title": "ディパーテッド"
+},
+"/movies/28788": {
+"first_seen": "2026-11-13",
+"title": "ファイト・クラブ"
+},
+"/movies/28794": {
+"first_seen": "2026-11-13",
+"title": "悪人"
+},
+"/movies/28843": {
+"first_seen": "2026-11-13",
+"title": "ハリー・ポッターと謎のプリンス"
+},
+"/movies/29105": {
+"first_seen": "2026-11-13",
+"title": "ジュラシック・パーク"
+},
+"/movies/29263": {
+"first_seen": "2026-11-13",
+"title": "エイリアン2"
+},
+"/movies/29364": {
+"first_seen": "2026-11-13",
+"title": "X-MEN:ファースト・ジェネレーション"
+},
+"/movies/29374": {
+"first_seen": "2026-11-13",
+"title": "名探偵コナン エピソード“ONE” 小さくなった名探偵"
+},
+"/movies/29494": {
+"first_seen": "2026-11-13",
+"title": "クール・ランニング"
+},
+"/movies/2954": {
+"first_seen": "2026-11-13",
+"title": "エイリアン3"
+},
+"/movies/29605": {
+"first_seen": "2026-11-13",
+"title": "サマーウォーズ"
+},
+"/movies/297": {
+"first_seen": "2026-11-13",
+"title": "ザ・ロイヤル・テネンバウムズ"
+},
+"/movies/29792": {
+"first_seen": "2026-11-13",
+"title": "グッド・ウィル・ハンティング／旅立ち"
+},
+"/movies/29814": {
+"first_seen": "2026-11-13",
+"title": "レミーのおいしいレストラン"
+},
+"/movies/30147": {
+"first_seen": "2026-11-13",
+"title": "リストラ・マン"
+},
+"/movies/30160": {
+"first_seen": "2026-11-13",
+"title": "ウォール街"
+},
+"/movies/30436": {
+"first_seen": "2026-11-13",
+"title": "アリス・イン・ワンダーランド"
+},
+"/movies/30617": {
+"first_seen": "2026-11-13",
+"title": "ブレイブハート"
+},
+"/movies/30661": {
+"first_seen": "2026-11-13",
+"title": "101"
+},
+"/movies/30768": {
+"first_seen": "2026-11-13",
+"title": "バイオハザード"
+},
+"/movies/30871": {
+"first_seen": "2026-11-13",
+"title": "Mr.インクレディブル"
+},
+"/movies/31059": {
+"first_seen": "2026-11-13",
+"title": "バッドボーイズ"
+},
+"/movies/31281": {
+"first_seen": "2026-11-13",
+"title": "ノートルダムの鐘"
+},
+"/movies/31374": {
+"first_seen": "2026-11-13",
+"title": "ROCK YOU！ [ロック・ユー！]"
+},
+"/movies/31511": {
+"first_seen": "2026-11-13",
+"title": "ニキータ"
+},
+"/movies/31562": {
+"first_seen": "2026-11-13",
+"title": "ミクロキッズ"
+},
+"/movies/31778": {
+"first_seen": "2026-11-13",
+"title": "フォレスト・ガンプ／一期一会"
+},
+"/movies/31783": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン2"
+},
+"/movies/31849": {
+"first_seen": "2026-11-13",
+"title": "塔の上のラプンツェル"
+},
+"/movies/31926": {
+"first_seen": "2026-11-13",
+"title": "GO"
+},
+"/movies/31934": {
+"first_seen": "2026-11-13",
+"title": "トイ・ストーリー3"
+},
+"/movies/3206": {
+"first_seen": "2026-11-13",
+"title": "ALWAYS 三丁目の夕日"
+},
+"/movies/32118": {
+"first_seen": "2026-11-13",
+"title": "蛇にピアス"
+},
+"/movies/32239": {
+"first_seen": "2026-11-13",
+"title": "カールじいさんの空飛ぶ家"
+},
+"/movies/32267": {
+"first_seen": "2026-11-13",
+"title": "告白"
+},
+"/movies/32336": {
+"first_seen": "2026-11-13",
+"title": "最凶女装計画"
+},
+"/movies/3242": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ エピソード1／ファントム・メナス"
+},
+"/movies/32569": {
+"first_seen": "2026-11-13",
+"title": "トレインスポッティング"
+},
+"/movies/32944": {
+"first_seen": "2026-11-13",
+"title": "南極料理人"
+},
+"/movies/33077": {
+"first_seen": "2026-11-13",
+"title": "DEATH NOTE デスノート"
+},
+"/movies/3308": {
+"first_seen": "2026-11-13",
+"title": "ナショナル・トレジャー"
+},
+"/movies/33501": {
+"first_seen": "2026-11-13",
+"title": "ゴジラ"
+},
+"/movies/33832": {
+"first_seen": "2026-11-13",
+"title": "ダークナイト"
+},
+"/movies/33915": {
+"first_seen": "2026-11-13",
+"title": "ダンボ"
+},
+"/movies/34012": {
+"first_seen": "2026-11-13",
+"title": "ドクター・ドリトル2"
+},
+"/movies/3404": {
+"first_seen": "2026-11-13",
+"title": "シンデレラ"
+},
+"/movies/34139": {
+"first_seen": "2026-11-13",
+"title": "ロミオ&ジュリエット"
+},
+"/movies/34146": {
+"first_seen": "2026-11-13",
+"title": "X-MEN2"
+},
+"/movies/34444": {
+"first_seen": "2026-11-13",
+"title": "アメリ"
+},
+"/movies/3479": {
+"first_seen": "2026-11-13",
+"title": "アイス・エイジ"
+},
+"/movies/34813": {
+"first_seen": "2026-11-13",
+"title": "グリーン・ホーネット"
+},
+"/movies/34881": {
+"first_seen": "2026-11-13",
+"title": "そんな彼なら捨てちゃえば？"
+},
+"/movies/34984": {
+"first_seen": "2026-11-13",
+"title": "ツレがうつになりまして。"
+},
+"/movies/35140": {
+"first_seen": "2026-11-13",
+"title": "ハリー・ポッターとアズカバンの囚人"
+},
+"/movies/35249": {
+"first_seen": "2026-11-13",
+"title": "ロード・オブ・ザ・リング"
+},
+"/movies/35544": {
+"first_seen": "2026-11-13",
+"title": "ラスト・ハウス・オン・ザ・レフト -鮮血の美学-"
+},
+"/movies/35865": {
+"first_seen": "2026-11-13",
+"title": "ファミリー・ゲーム／双子の天使"
+},
+"/movies/35869": {
+"first_seen": "2026-11-13",
+"title": "ノッティングヒルの恋人"
+},
+"/movies/3632": {
+"first_seen": "2026-11-13",
+"title": "ダ・ヴィンチ・コード"
+},
+"/movies/36359": {
+"first_seen": "2026-11-13",
+"title": "白雪姫"
+},
+"/movies/36365": {
+"first_seen": "2026-11-13",
+"title": "トイ・ストーリー"
+},
+"/movies/36395": {
+"first_seen": "2026-11-13",
+"title": "アルマゲドン"
+},
+"/movies/36407": {
+"first_seen": "2026-11-13",
+"title": "ハチミツとクローバー"
+},
+"/movies/36452": {
+"first_seen": "2026-11-13",
+"title": "ロード・オブ・ザ・リング／二つの塔"
+},
+"/movies/36582": {
+"first_seen": "2026-11-13",
+"title": "マスク"
+},
+"/movies/36615": {
+"first_seen": "2026-11-13",
+"title": "ベスト・キッド"
+},
+"/movies/37019": {
+"first_seen": "2026-11-13",
+"title": "ビフォア・サンライズ 恋人までの距離"
+},
+"/movies/37116": {
+"first_seen": "2026-11-13",
+"title": "アキラ AKIRA"
+},
+"/movies/37267": {
+"first_seen": "2026-11-13",
+"title": "ナルニア国物語／第1章:ライオンと魔女"
+},
+"/movies/37306": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ エピソード6／ジェダイの帰還"
+},
+"/movies/37393": {
+"first_seen": "2026-11-13",
+"title": "キャプテン・アメリカ／ザ・ファースト・アベンジャー"
+},
+"/movies/3759": {
+"first_seen": "2026-11-13",
+"title": "眠れる森の美女"
+},
+"/movies/37609": {
+"first_seen": "2026-11-13",
+"title": "アベンジャーズ"
+},
+"/movies/37632": {
+"first_seen": "2026-11-13",
+"title": "X-メン"
+},
+"/movies/37633": {
+"first_seen": "2026-11-13",
+"title": "フランケンウィニー"
+},
+"/movies/37673": {
+"first_seen": "2026-11-13",
+"title": "E.T."
+},
+"/movies/37928": {
+"first_seen": "2026-11-13",
+"title": "天使のくれた時間"
+},
+"/movies/37949": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピード"
+},
+"/movies/38030": {
+"first_seen": "2026-11-13",
+"title": "ハリー・ポッターと炎のゴブレット"
+},
+"/movies/3825": {
+"first_seen": "2026-11-13",
+"title": "天使にラブ・ソングを2"
+},
+"/movies/38370": {
+"first_seen": "2026-11-13",
+"title": "太陽を盗んだ男"
+},
+"/movies/38380": {
+"first_seen": "2026-11-13",
+"title": "メメント"
+},
+"/movies/38425": {
+"first_seen": "2026-11-13",
+"title": "デイ・アフター・トゥモロー"
+},
+"/movies/38589": {
+"first_seen": "2026-11-13",
+"title": "リトル・マーメイド"
+},
+"/movies/38633": {
+"first_seen": "2026-11-13",
+"title": "ミスト"
+},
+"/movies/38676": {
+"first_seen": "2026-11-13",
+"title": "エイリアン4"
+},
+"/movies/387": {
+"first_seen": "2026-11-13",
+"title": "50／50  フィフティ・フィフティ"
+},
+"/movies/3965": {
+"first_seen": "2026-11-13",
+"title": "チャーリーとチョコレート工場"
+},
+"/movies/405": {
+"first_seen": "2026-11-13",
+"title": "フライトプラン"
+},
+"/movies/4140": {
+"first_seen": "2026-11-13",
+"title": "クレヨンしんちゃん 嵐を呼ぶアッパレ！戦国大合戦"
+},
+"/movies/4172": {
+"first_seen": "2026-11-13",
+"title": "レディ・オア・ノット"
+},
+"/movies/427": {
+"first_seen": "2026-11-13",
+"title": "ベンジャミン・バトン 数奇な人生"
+},
+"/movies/4279": {
+"first_seen": "2026-11-13",
+"title": "ピノキオ"
+},
+"/movies/4519": {
+"first_seen": "2026-11-13",
+"title": "マーベル・スタジオ スペシャル・プレゼンテーション：ウェアウルフ・バイ・ナイト"
+},
+"/movies/45248": {
+"first_seen": "2026-11-13",
+"title": "パニック・フライト"
+},
+"/movies/4531": {
+"first_seen": "2026-11-13",
+"title": "劇場版 空の境界／第一章 俯瞰風景"
+},
+"/movies/4552": {
+"first_seen": "2026-11-13",
+"title": "ダージリン急行"
+},
+"/movies/45761": {
+"first_seen": "2026-11-13",
+"title": "ディック&ジェーン 復讐は最高！"
+},
+"/movies/4648": {
+"first_seen": "2026-11-13",
+"title": "グラディエーター"
+},
+"/movies/4650": {
+"first_seen": "2026-11-13",
+"title": "トロン：レガシー"
+},
+"/movies/4654": {
+"first_seen": "2026-11-13",
+"title": "プリティ・プリンセス2／ロイヤル・ウェディング"
+},
+"/movies/4663": {
+"first_seen": "2026-11-13",
+"title": "クローズZERO"
+},
+"/movies/4708": {
+"first_seen": "2026-11-13",
+"title": "ブリジット・ジョーンズの日記"
+},
+"/movies/50169": {
+"first_seen": "2026-11-13",
+"title": "ザ・ダイバー"
+},
+"/movies/5039": {
+"first_seen": "2026-11-13",
+"title": "災 劇場版"
+},
+"/movies/50797": {
+"first_seen": "2026-11-13",
+"title": "グレイテスト・ゲーム"
+},
+"/movies/5111": {
+"first_seen": "2026-11-13",
+"title": "バグズ・ライフ"
+},
+"/movies/52904": {
+"first_seen": "2026-11-13",
+"title": "アイアンマン3"
+},
+"/movies/52913": {
+"first_seen": "2026-11-13",
+"title": "舟を編む"
+},
+"/movies/53067": {
+"first_seen": "2026-11-13",
+"title": "テッド"
+},
+"/movies/53081": {
+"first_seen": "2026-11-13",
+"title": "ウルヴァリン: SAMURAI"
+},
+"/movies/53379": {
+"first_seen": "2026-11-13",
+"title": "私ときどきレッサーパンダ"
+},
+"/movies/53406": {
+"first_seen": "2026-11-13",
+"title": "リトル・マーメイドII Return to The Sea"
+},
+"/movies/53445": {
+"first_seen": "2026-11-13",
+"title": "ティンカー・ベルと輝く羽の秘密"
+},
+"/movies/53525": {
+"first_seen": "2026-11-13",
+"title": "ワールド・ウォーZ"
+},
+"/movies/53528": {
+"first_seen": "2026-11-13",
+"title": "真夏の方程式"
+},
+"/movies/53623": {
+"first_seen": "2026-11-13",
+"title": "モンスターズ・ユニバーシティ"
+},
+"/movies/53737": {
+"first_seen": "2026-11-13",
+"title": "ヒットマン"
+},
+"/movies/53753": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピード EURO MISSION"
+},
+"/movies/538": {
+"first_seen": "2026-11-13",
+"title": "アンストッパブル"
+},
+"/movies/53954": {
+"first_seen": "2026-11-13",
+"title": "きっと、うまくいく"
+},
+"/movies/54194": {
+"first_seen": "2026-11-13",
+"title": "ドクター・ドリトル"
+},
+"/movies/54344": {
+"first_seen": "2026-11-13",
+"title": "ウォーム・ボディーズ"
+},
+"/movies/54374": {
+"first_seen": "2026-11-13",
+"title": "言の葉の庭"
+},
+"/movies/54393": {
+"first_seen": "2026-11-13",
+"title": "永遠の0"
+},
+"/movies/54486": {
+"first_seen": "2026-11-13",
+"title": "キャンプ・ロック"
+},
+"/movies/54690": {
+"first_seen": "2026-11-13",
+"title": "ハイスクール・ミュージカル"
+},
+"/movies/54691": {
+"first_seen": "2026-11-13",
+"title": "ハイスクール・ミュージカル2"
+},
+"/movies/54723": {
+"first_seen": "2026-11-13",
+"title": "グランド・イリュージョン"
+},
+"/movies/5478": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピードX2"
+},
+"/movies/54904": {
+"first_seen": "2026-11-13",
+"title": "シンデレラIII 戻された時計の針"
+},
+"/movies/55241": {
+"first_seen": "2026-11-13",
+"title": "アナと雪の女王"
+},
+"/movies/55433": {
+"first_seen": "2026-11-13",
+"title": "ウルフ・オブ・ウォールストリート"
+},
+"/movies/55458": {
+"first_seen": "2026-11-13",
+"title": "マイティ・ソー／ダーク・ワールド"
+},
+"/movies/55487": {
+"first_seen": "2026-11-13",
+"title": "劇場版 魔法少女まどか☆マギカ 新編 叛逆の物語"
+},
+"/movies/55572": {
+"first_seen": "2026-11-13",
+"title": "インターステラー"
+},
+"/movies/55611": {
+"first_seen": "2026-11-13",
+"title": "グランド・ブダペスト・ホテル"
+},
+"/movies/55652": {
+"first_seen": "2026-11-13",
+"title": "キャプテン・アメリカ／ウィンター・ソルジャー"
+},
+"/movies/55672": {
+"first_seen": "2026-11-13",
+"title": "ガーディアンズ・オブ・ギャラクシー"
+},
+"/movies/55846": {
+"first_seen": "2026-11-13",
+"title": "アベンジャーズ／エイジ・オブ・ウルトロン"
+},
+"/movies/5603": {
+"first_seen": "2026-11-13",
+"title": "インセプション"
+},
+"/movies/56214": {
+"first_seen": "2026-11-13",
+"title": "ウォルト・ディズニーの約束"
+},
+"/movies/56233": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ／フォースの覚醒"
+},
+"/movies/56354": {
+"first_seen": "2026-11-13",
+"title": "アバウト・タイム 愛おしい時間について"
+},
+"/movies/56379": {
+"first_seen": "2026-11-13",
+"title": "ファインディング・ドリー"
+},
+"/movies/56401": {
+"first_seen": "2026-11-13",
+"title": "シンデレラ"
+},
+"/movies/56504": {
+"first_seen": "2026-11-13",
+"title": "パージ"
+},
+"/movies/56519": {
+"first_seen": "2026-11-13",
+"title": "クレヨンしんちゃん ガチンコ！逆襲のロボとーちゃん"
+},
+"/movies/56531": {
+"first_seen": "2026-11-13",
+"title": "X-MEN:フューチャー＆パスト"
+},
+"/movies/56536": {
+"first_seen": "2026-11-13",
+"title": "STAND BY ME ドラえもん"
+},
+"/movies/56539": {
+"first_seen": "2026-11-13",
+"title": "GODZILLA ゴジラ"
+},
+"/movies/56543": {
+"first_seen": "2026-11-13",
+"title": "アリス・イン・ワンダーランド／時間の旅"
+},
+"/movies/56646": {
+"first_seen": "2026-11-13",
+"title": "チョコレートドーナツ"
+},
+"/movies/56767": {
+"first_seen": "2026-11-13",
+"title": "インサイド・ヘッド"
+},
+"/movies/56770": {
+"first_seen": "2026-11-13",
+"title": "マッドマックス 怒りのデス・ロード"
+},
+"/movies/56771": {
+"first_seen": "2026-11-13",
+"title": "マペットのクリスマス・キャロル"
+},
+"/movies/56840": {
+"first_seen": "2026-11-13",
+"title": "ナイト ミュージアム エジプト王の秘密"
+},
+"/movies/56885": {
+"first_seen": "2026-11-13",
+"title": "猿の惑星：新世紀（ライジング）"
+},
+"/movies/56901": {
+"first_seen": "2026-11-13",
+"title": "トゥモローランド"
+},
+"/movies/56911": {
+"first_seen": "2026-11-13",
+"title": "ベイマックス"
+},
+"/movies/56966": {
+"first_seen": "2026-11-13",
+"title": "ゴーン・ガール"
+},
+"/movies/57007": {
+"first_seen": "2026-11-13",
+"title": "アントマン"
+},
+"/movies/57328": {
+"first_seen": "2026-11-13",
+"title": "ジョン・ウィック"
+},
+"/movies/57588": {
+"first_seen": "2026-11-13",
+"title": "パディントン"
+},
+"/movies/57984": {
+"first_seen": "2026-11-13",
+"title": "メイズ・ランナー"
+},
+"/movies/58161": {
+"first_seen": "2026-11-13",
+"title": "きっと、星のせいじゃない。"
+},
+"/movies/5817": {
+"first_seen": "2026-11-13",
+"title": "ヒース・レジャーの恋のからさわぎ"
+},
+"/movies/58204": {
+"first_seen": "2026-11-13",
+"title": "楽園追放 - Expelled from  Paradise -"
+},
+"/movies/58567": {
+"first_seen": "2026-11-13",
+"title": "海街diary"
+},
+"/movies/58584": {
+"first_seen": "2026-11-13",
+"title": "X-MEN:アポカリプス"
+},
+"/movies/58614": {
+"first_seen": "2026-11-13",
+"title": "シェフ 三ツ星フードトラック始めました"
+},
+"/movies/58658": {
+"first_seen": "2026-11-13",
+"title": "百円の恋"
+},
+"/movies/58718": {
+"first_seen": "2026-11-13",
+"title": "スネーク・アイズ"
+},
+"/movies/58795": {
+"first_seen": "2026-11-13",
+"title": "わたしを離さないで"
+},
+"/movies/58836": {
+"first_seen": "2026-11-13",
+"title": "マイ・インターン"
+},
+"/movies/58895": {
+"first_seen": "2026-11-13",
+"title": "レヴェナント：蘇えりし者"
+},
+"/movies/59159": {
+"first_seen": "2026-11-13",
+"title": "雨の日は会えない、晴れた日は君を想う"
+},
+"/movies/59161": {
+"first_seen": "2026-11-13",
+"title": "世界一キライなあなたに"
+},
+"/movies/59209": {
+"first_seen": "2026-11-13",
+"title": "スターシップ・トゥルーパーズ"
+},
+"/movies/59360": {
+"first_seen": "2026-11-13",
+"title": "キングスマン"
+},
+"/movies/59364": {
+"first_seen": "2026-11-13",
+"title": "ゴジラ キング・オブ・モンスターズ"
+},
+"/movies/59532": {
+"first_seen": "2026-11-13",
+"title": "ドクター・ストレンジ"
+},
+"/movies/59597": {
+"first_seen": "2026-11-13",
+"title": "アナと雪の女王／エルサのサプライズ"
+},
+"/movies/59603": {
+"first_seen": "2026-11-13",
+"title": "ガーディアンズ・オブ・ギャラクシー：リミックス"
+},
+"/movies/59606": {
+"first_seen": "2026-11-13",
+"title": "オデッセイ"
+},
+"/movies/59730": {
+"first_seen": "2026-11-13",
+"title": "デッドプール"
+},
+"/movies/59751": {
+"first_seen": "2026-11-13",
+"title": "セッション"
+},
+"/movies/59810": {
+"first_seen": "2026-11-13",
+"title": "アバター：ウェイ・オブ・ウォーター"
+},
+"/movies/60103": {
+"first_seen": "2026-11-13",
+"title": "ズートピア"
+},
+"/movies/60104": {
+"first_seen": "2026-11-13",
+"title": "モアナと伝説の海"
+},
+"/movies/60188": {
+"first_seen": "2026-11-13",
+"title": "トイ・ストーリー４"
+},
+"/movies/60216": {
+"first_seen": "2026-11-13",
+"title": "ナイトクローラー"
+},
+"/movies/60235": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピード SKY MISSION"
+},
+"/movies/60253": {
+"first_seen": "2026-11-13",
+"title": "ミス・ペレグリンと奇妙なこどもたち"
+},
+"/movies/60284": {
+"first_seen": "2026-11-13",
+"title": "メイズ・ランナー2：砂漠の迷宮"
+},
+"/movies/60372": {
+"first_seen": "2026-11-13",
+"title": "ビリギャル"
+},
+"/movies/60408": {
+"first_seen": "2026-11-13",
+"title": "旅と日々"
+},
+"/movies/60409": {
+"first_seen": "2026-11-13",
+"title": "シビル・ウォー／キャプテン・アメリカ"
+},
+"/movies/60411": {
+"first_seen": "2026-11-13",
+"title": "ブラックパンサー"
+},
+"/movies/60412": {
+"first_seen": "2026-11-13",
+"title": "キャプテン・マーベル"
+},
+"/movies/60414": {
+"first_seen": "2026-11-13",
+"title": "アベンジャーズ／エンドゲーム"
+},
+"/movies/60428": {
+"first_seen": "2026-11-13",
+"title": "ファンタスティック・ビーストと魔法使いの旅"
+},
+"/movies/60554": {
+"first_seen": "2026-11-13",
+"title": "日本のいちばん長い日"
+},
+"/movies/60573": {
+"first_seen": "2026-11-13",
+"title": "バケモノの子"
+},
+"/movies/60578": {
+"first_seen": "2026-11-13",
+"title": "怒り"
+},
+"/movies/60744": {
+"first_seen": "2026-11-13",
+"title": "名探偵コナン 江戸川コナン失踪事件 史上最悪の2日間"
+},
+"/movies/60827": {
+"first_seen": "2026-11-13",
+"title": "エイリアン：コヴェナント"
+},
+"/movies/60905": {
+"first_seen": "2026-11-13",
+"title": "グレイテスト・ショーマン"
+},
+"/movies/61311": {
+"first_seen": "2026-11-13",
+"title": "ブラック・スワン"
+},
+"/movies/61312": {
+"first_seen": "2026-11-13",
+"title": "スター・ウォーズ／スカイウォーカーの夜明け"
+},
+"/movies/61335": {
+"first_seen": "2026-11-13",
+"title": "愛しのローズマリー"
+},
+"/movies/61351": {
+"first_seen": "2026-11-13",
+"title": "コン・エアー"
+},
+"/movies/61426": {
+"first_seen": "2026-11-13",
+"title": "ミッキーのクリスマスキャロル"
+},
+"/movies/61839": {
+"first_seen": "2026-11-13",
+"title": "ローグ・ワン／スター・ウォーズ・ストーリー"
+},
+"/movies/62215": {
+"first_seen": "2026-11-13",
+"title": "ラ・ラ・ランド"
+},
+"/movies/62220": {
+"first_seen": "2026-11-13",
+"title": "インクレディブル・ファミリー"
+},
+"/movies/62358": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピード ICE BREAK"
+},
+"/movies/62569": {
+"first_seen": "2026-11-13",
+"title": "猿の惑星：聖戦記（グレート・ウォー）"
+},
+"/movies/62621": {
+"first_seen": "2026-11-13",
+"title": "俺物語！！"
+},
+"/movies/62637": {
+"first_seen": "2026-11-13",
+"title": "ロブスター"
+},
+"/movies/62662": {
+"first_seen": "2026-11-13",
+"title": "TOO YOUNG TO DIE！ 若くして死ぬ"
+},
+"/movies/62772": {
+"first_seen": "2026-11-13",
+"title": "湯を沸かすほどの熱い愛"
+},
+"/movies/62932": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン：ホームカミング"
+},
+"/movies/63485": {
+"first_seen": "2026-11-13",
+"title": "ハリー・ポッターと不死鳥の騎士団"
+},
+"/movies/63747": {
+"first_seen": "2026-11-13",
+"title": "レディ・プレイヤー1"
+},
+"/movies/63759": {
+"first_seen": "2026-11-13",
+"title": "ジュマンジ／ウェルカム・トゥ・ジャングル"
+},
+"/movies/63840": {
+"first_seen": "2026-11-13",
+"title": "ベイビー・ドライバー"
+},
+"/movies/63866": {
+"first_seen": "2026-11-13",
+"title": "エンツォ　レーサーになりたかった犬とある家族の物語"
+},
+"/movies/643": {
+"first_seen": "2026-11-13",
+"title": "ラブ・アゲイン"
+},
+"/movies/64333": {
+"first_seen": "2026-11-13",
+"title": "ダウンサイズ"
+},
+"/movies/64759": {
+"first_seen": "2026-11-13",
+"title": "メッセージ"
+},
+"/movies/64776": {
+"first_seen": "2026-11-13",
+"title": "美女と野獣"
+},
+"/movies/64777": {
+"first_seen": "2026-11-13",
+"title": "リメンバー・ミー"
+},
+"/movies/64804": {
+"first_seen": "2026-11-13",
+"title": "溺れるナイフ"
+},
+"/movies/6491": {
+"first_seen": "2026-11-13",
+"title": "ガタカ"
+},
+"/movies/64919": {
+"first_seen": "2026-11-13",
+"title": "ゴジラvsコング"
+},
+"/movies/64923": {
+"first_seen": "2026-11-13",
+"title": "キングスマン：ゴールデン・サークル"
+},
+"/movies/65312": {
+"first_seen": "2026-11-13",
+"title": "ダリアン"
+},
+"/movies/65465": {
+"first_seen": "2026-11-13",
+"title": "ファンタスティック・フォー [超能力ユニット]"
+},
+"/movies/65520": {
+"first_seen": "2026-11-13",
+"title": "ミュージアム"
+},
+"/movies/6571": {
+"first_seen": "2026-11-13",
+"title": "イノセント・ガーデン"
+},
+"/movies/65829": {
+"first_seen": "2026-11-13",
+"title": "日本で一番悪い奴ら"
+},
+"/movies/65867": {
+"first_seen": "2026-11-13",
+"title": "ONE PIECE FILM GOLD"
+},
+"/movies/65931": {
+"first_seen": "2026-11-13",
+"title": "君の名は。"
+},
+"/movies/66158": {
+"first_seen": "2026-11-13",
+"title": "ダンケルク"
+},
+"/movies/66284": {
+"first_seen": "2026-11-13",
+"title": "ぼくは明日、昨日のきみとデートする"
+},
+"/movies/66759": {
+"first_seen": "2026-11-13",
+"title": "パターソン"
+},
+"/movies/66874": {
+"first_seen": "2026-11-13",
+"title": "SING／シング"
+},
+"/movies/66996": {
+"first_seen": "2026-11-13",
+"title": "リトル・マーメイド"
+},
+"/movies/67234": {
+"first_seen": "2026-11-13",
+"title": "インディ・ジョーンズと運命のダイヤル"
+},
+"/movies/67551": {
+"first_seen": "2026-11-13",
+"title": "ゴジラ-1.0／C"
+},
+"/movies/67566": {
+"first_seen": "2026-11-13",
+"title": "デッドプール２"
+},
+"/movies/67871": {
+"first_seen": "2026-11-13",
+"title": "マレフィセント2"
+},
+"/movies/68060": {
+"first_seen": "2026-11-13",
+"title": "IT／イット “それ”が見えたら、終わり。"
+},
+"/movies/68074": {
+"first_seen": "2026-11-13",
+"title": "LOGAN ローガン"
+},
+"/movies/68386": {
+"first_seen": "2026-11-13",
+"title": "ハン・ソロ／スター・ウォーズ・ストーリー"
+},
+"/movies/68424": {
+"first_seen": "2026-11-13",
+"title": "ナイト ミュージアム2"
+},
+"/movies/68425": {
+"first_seen": "2026-11-13",
+"title": "思いやりのススメ"
+},
+"/movies/68546": {
+"first_seen": "2026-11-13",
+"title": "哭声 コクソン"
+},
+"/movies/68660": {
+"first_seen": "2026-11-13",
+"title": "ワンダー 君は太陽"
+},
+"/movies/6890": {
+"first_seen": "2026-11-13",
+"title": "バック・トゥ・ザ・フューチャーPART3"
+},
+"/movies/68932": {
+"first_seen": "2026-11-13",
+"title": "シュガー・ラッシュ：オンライン"
+},
+"/movies/69076": {
+"first_seen": "2026-11-13",
+"title": "聖なる鹿殺し キリング・オブ・ア・セイクリッド・ディア"
+},
+"/movies/69103": {
+"first_seen": "2026-11-13",
+"title": "ゴーン・ベイビー・ゴーン"
+},
+"/movies/69145": {
+"first_seen": "2026-11-13",
+"title": "僕のワンダフル・ライフ"
+},
+"/movies/69369": {
+"first_seen": "2026-11-13",
+"title": "キル・ビル Vol.1"
+},
+"/movies/69387": {
+"first_seen": "2026-11-13",
+"title": "映画ドラえもん のび太の南極カチコチ大冒険"
+},
+"/movies/69390": {
+"first_seen": "2026-11-13",
+"title": "新感染 ファイナル・エクスプレス"
+},
+"/movies/69664": {
+"first_seen": "2026-11-13",
+"title": "シュガー・ラッシュ"
+},
+"/movies/69870": {
+"first_seen": "2026-11-13",
+"title": "君の名前で僕を呼んで"
+},
+"/movies/69894": {
+"first_seen": "2026-11-13",
+"title": "オーシャンズ8"
+},
+"/movies/69926": {
+"first_seen": "2026-11-13",
+"title": "くるみ割り人形と秘密の王国"
+},
+"/movies/70080": {
+"first_seen": "2026-11-13",
+"title": "君の膵臓をたべたい"
+},
+"/movies/70540": {
+"first_seen": "2026-11-13",
+"title": "オリエント急行殺人事件"
+},
+"/movies/70717": {
+"first_seen": "2026-11-13",
+"title": "ゲット・アウト"
+},
+"/movies/70750": {
+"first_seen": "2026-11-13",
+"title": "ムーラン"
+},
+"/movies/70963": {
+"first_seen": "2026-11-13",
+"title": "カーズ／クロスロード"
+},
+"/movies/70964": {
+"first_seen": "2026-11-13",
+"title": "マインクラフト／ザ・ムービー"
+},
+"/movies/70977": {
+"first_seen": "2026-11-13",
+"title": "亜人"
+},
+"/movies/71001": {
+"first_seen": "2026-11-13",
+"title": "gifted／ギフテッド"
+},
+"/movies/71378": {
+"first_seen": "2026-11-13",
+"title": "ディセンダント2"
+},
+"/movies/71554": {
+"first_seen": "2026-11-13",
+"title": "エイリアン"
+},
+"/movies/71577": {
+"first_seen": "2026-11-13",
+"title": "メアリと魔女の花"
+},
+"/movies/71586": {
+"first_seen": "2026-11-13",
+"title": "クルエラ"
+},
+"/movies/71657": {
+"first_seen": "2026-11-13",
+"title": "犬ヶ島"
+},
+"/movies/72264": {
+"first_seen": "2026-11-13",
+"title": "DESTINY 鎌倉ものがたり"
+},
+"/movies/72412": {
+"first_seen": "2026-11-13",
+"title": "インビジブル・ゲスト 悪魔の証明"
+},
+"/movies/7257": {
+"first_seen": "2026-11-13",
+"title": "オールド・ボーイ"
+},
+"/movies/7270": {
+"first_seen": "2026-11-13",
+"title": "劇場版モノノ怪 第三章 蛇神"
+},
+"/movies/7273": {
+"first_seen": "2026-11-13",
+"title": "96時間"
+},
+"/movies/72802": {
+"first_seen": "2026-11-13",
+"title": "孤狼の血"
+},
+"/movies/73035": {
+"first_seen": "2026-11-13",
+"title": "リバーズ・エッジ"
+},
+"/movies/73566": {
+"first_seen": "2026-11-13",
+"title": "シェイプ・オブ・ウォーター"
+},
+"/movies/73620": {
+"first_seen": "2026-11-13",
+"title": "アバター：ファイヤー・アンド・アッシュ"
+},
+"/movies/73705": {
+"first_seen": "2026-11-13",
+"title": "ライオン・キング"
+},
+"/movies/73709": {
+"first_seen": "2026-11-13",
+"title": "ボヘミアン・ラプソディ"
+},
+"/movies/73730": {
+"first_seen": "2026-11-13",
+"title": "ニュー・ミュータント"
+},
+"/movies/73731": {
+"first_seen": "2026-11-13",
+"title": "X-MEN:ダーク・フェニックス"
+},
+"/movies/73749": {
+"first_seen": "2026-11-13",
+"title": "ミスター・ガラス"
+},
+"/movies/73802": {
+"first_seen": "2026-11-13",
+"title": "マイティ・ソー バトルロイヤル"
+},
+"/movies/73887": {
+"first_seen": "2026-11-13",
+"title": "劇場版 Fate/stay night Heaven's Feel I. presage flower"
+},
+"/movies/74129": {
+"first_seen": "2026-11-13",
+"title": "女王陛下のお気に入り"
+},
+"/movies/7420": {
+"first_seen": "2026-11-13",
+"title": "バック・トゥ・ザ・フューチャー"
+},
+"/movies/7461": {
+"first_seen": "2026-11-13",
+"title": "X-MEN:ファイナル ディシジョン"
+},
+"/movies/75103": {
+"first_seen": "2026-11-13",
+"title": "トップガン マーヴェリック"
+},
+"/movies/75835": {
+"first_seen": "2026-11-13",
+"title": "カクテル"
+},
+"/movies/76158": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン：ファー・フロム・ホーム"
+},
+"/movies/76273": {
+"first_seen": "2026-11-13",
+"title": "ジョン・ウィック：パラベラム"
+},
+"/movies/76556": {
+"first_seen": "2026-11-13",
+"title": "SUNNY 強い気持ち・強い愛"
+},
+"/movies/76712": {
+"first_seen": "2026-11-13",
+"title": "マスカレード・ホテル"
+},
+"/movies/76912": {
+"first_seen": "2026-11-13",
+"title": "カメラを止めるな！"
+},
+"/movies/77067": {
+"first_seen": "2026-11-13",
+"title": "劇場版 Fate/stay night Heaven's Feel II. lost butterfly"
+},
+"/movies/77248": {
+"first_seen": "2026-11-13",
+"title": "トロン：アレス"
+},
+"/movies/77270": {
+"first_seen": "2026-11-13",
+"title": "プーと大人になった僕"
+},
+"/movies/77486": {
+"first_seen": "2026-11-13",
+"title": "記憶の夜"
+},
+"/movies/77565": {
+"first_seen": "2026-11-13",
+"title": "億男"
+},
+"/movies/77566": {
+"first_seen": "2026-11-13",
+"title": "未来のミライ"
+},
+"/movies/7765": {
+"first_seen": "2026-11-13",
+"title": "あなたに降る夢"
+},
+"/movies/77796": {
+"first_seen": "2026-11-13",
+"title": "万引き家族"
+},
+"/movies/77968": {
+"first_seen": "2026-11-13",
+"title": "ワンス・アポン・ア・タイム・イン・ハリウッド"
+},
+"/movies/78007": {
+"first_seen": "2026-11-13",
+"title": "魔法にかけられて2"
+},
+"/movies/78019": {
+"first_seen": "2026-11-13",
+"title": "ガーディアンズ・オブ・ギャラクシー：VOLUME 3"
+},
+"/movies/7808": {
+"first_seen": "2026-11-13",
+"title": "I am Sam アイ・アム・サム"
+},
+"/movies/78350": {
+"first_seen": "2026-11-13",
+"title": "来る"
+},
+"/movies/78581": {
+"first_seen": "2026-11-13",
+"title": "ヘレディタリー／継承"
+},
+"/movies/79270": {
+"first_seen": "2026-11-13",
+"title": "バーニング  劇場版"
+},
+"/movies/79304": {
+"first_seen": "2026-11-13",
+"title": "ゾンビーズ"
+},
+"/movies/79546": {
+"first_seen": "2026-11-13",
+"title": "アラジン"
+},
+"/movies/79549": {
+"first_seen": "2026-11-13",
+"title": "ジュマンジ／ネクスト・レベル"
+},
+"/movies/79574": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピード／スーパーコンボ"
+},
+"/movies/79620": {
+"first_seen": "2026-11-13",
+"title": "レッド・ノーティス"
+},
+"/movies/79665": {
+"first_seen": "2026-11-13",
+"title": "孤狼の血 LEVEL2"
+},
+"/movies/79781": {
+"first_seen": "2026-11-13",
+"title": "愛がなんだ"
+},
+"/movies/79926": {
+"first_seen": "2026-11-13",
+"title": "ハニーVS.ダーリン 2年目の駆け引き"
+},
+"/movies/79952": {
+"first_seen": "2026-11-13",
+"title": "ザ・ファブル"
+},
+"/movies/80107": {
+"first_seen": "2026-11-13",
+"title": "ボーはおそれている"
+},
+"/movies/80153": {
+"first_seen": "2026-11-13",
+"title": "岬の兄妹"
+},
+"/movies/80325": {
+"first_seen": "2026-11-13",
+"title": "mid90s ミッドナインティーズ"
+},
+"/movies/80407": {
+"first_seen": "2026-11-13",
+"title": "ナルニア国物語／第3章:アスラン王と魔法の島"
+},
+"/movies/80411": {
+"first_seen": "2026-11-13",
+"title": "記憶にございません！"
+},
+"/movies/8043": {
+"first_seen": "2026-11-13",
+"title": "フランケンウィニー"
+},
+"/movies/80446": {
+"first_seen": "2026-11-13",
+"title": "ストーリー・オブ・マイライフ／わたしの若草物語"
+},
+"/movies/80582": {
+"first_seen": "2026-11-13",
+"title": "グリーンブック"
+},
+"/movies/80819": {
+"first_seen": "2026-11-13",
+"title": "ジョーカー"
+},
+"/movies/81143": {
+"first_seen": "2026-11-13",
+"title": "コンフィデンスマンJP ロマンス編"
+},
+"/movies/8147": {
+"first_seen": "2026-11-13",
+"title": "ラブ&ドラッグ"
+},
+"/movies/81473": {
+"first_seen": "2026-11-13",
+"title": "ウエスト・サイド・ストーリー"
+},
+"/movies/81693": {
+"first_seen": "2026-11-13",
+"title": "キングスマン：ファースト・エージェント"
+},
+"/movies/81734": {
+"first_seen": "2026-11-13",
+"title": "ファミリー・ツリー"
+},
+"/movies/82042": {
+"first_seen": "2026-11-13",
+"title": "人間失格 太宰治と3人の女たち"
+},
+"/movies/82051": {
+"first_seen": "2026-11-13",
+"title": "ジョジョ・ラビット"
+},
+"/movies/82120": {
+"first_seen": "2026-11-13",
+"title": "屍人荘の殺人"
+},
+"/movies/82210": {
+"first_seen": "2026-11-13",
+"title": "天気の子"
+},
+"/movies/82211": {
+"first_seen": "2026-11-13",
+"title": "2分の1の魔法"
+},
+"/movies/82219": {
+"first_seen": "2026-11-13",
+"title": "ドクター・ストレンジ／マルチバース・オブ・マッドネス"
+},
+"/movies/82391": {
+"first_seen": "2026-11-13",
+"title": "ONE PIECE STAMPEDE"
+},
+"/movies/82593": {
+"first_seen": "2026-11-13",
+"title": "クロニクル"
+},
+"/movies/82622": {
+"first_seen": "2026-11-13",
+"title": "蛇の道"
+},
+"/movies/8264": {
+"first_seen": "2026-11-13",
+"title": "ヘルプ 〜心がつなぐストーリー〜"
+},
+"/movies/82641": {
+"first_seen": "2026-11-13",
+"title": "劇場版メイドインアビス　深き魂の黎明"
+},
+"/movies/8270": {
+"first_seen": "2026-11-13",
+"title": "レオン"
+},
+"/movies/82810": {
+"first_seen": "2026-11-13",
+"title": "フォードvsフェラーリ"
+},
+"/movies/82861": {
+"first_seen": "2026-11-13",
+"title": "DUNE/デューン 砂の惑星"
+},
+"/movies/82978": {
+"first_seen": "2026-11-13",
+"title": "イエスタデイ"
+},
+"/movies/83171": {
+"first_seen": "2026-11-13",
+"title": "浅田家！"
+},
+"/movies/83210": {
+"first_seen": "2026-11-13",
+"title": "ナイル殺人事件"
+},
+"/movies/83342": {
+"first_seen": "2026-11-13",
+"title": "ミッドサマー"
+},
+"/movies/83583": {
+"first_seen": "2026-11-13",
+"title": "TENET テネット"
+},
+"/movies/83742": {
+"first_seen": "2026-11-13",
+"title": "今日から俺は!! 劇場版"
+},
+"/movies/83796": {
+"first_seen": "2026-11-13",
+"title": "パラサイト 半地下の家族"
+},
+"/movies/83841": {
+"first_seen": "2026-11-13",
+"title": "60セカンズ"
+},
+"/movies/83941": {
+"first_seen": "2026-11-13",
+"title": "フレンチ・ディスパッチ　ザ・リバティ、カンザス・イヴニング・サン別冊"
+},
+"/movies/84061": {
+"first_seen": "2026-11-13",
+"title": "ブラック・ウィドウ"
+},
+"/movies/84270": {
+"first_seen": "2026-11-13",
+"title": "エターナルズ"
+},
+"/movies/8432": {
+"first_seen": "2026-11-13",
+"title": "プライベート・ライアン"
+},
+"/movies/84366": {
+"first_seen": "2026-11-13",
+"title": "フリー・ガイ"
+},
+"/movies/84566": {
+"first_seen": "2026-11-13",
+"title": "架空OL日記"
+},
+"/movies/84602": {
+"first_seen": "2026-11-13",
+"title": "音楽"
+},
+"/movies/84807": {
+"first_seen": "2026-11-13",
+"title": "アナと雪の女王２"
+},
+"/movies/85255": {
+"first_seen": "2026-11-13",
+"title": "劇場"
+},
+"/movies/85345": {
+"first_seen": "2026-11-13",
+"title": "シャン・チー／テン・リングスの伝説"
+},
+"/movies/85347": {
+"first_seen": "2026-11-13",
+"title": "ソー：ラブ＆サンダー"
+},
+"/movies/85352": {
+"first_seen": "2026-11-13",
+"title": "ブラックパンサー／ワカンダ・フォーエバー"
+},
+"/movies/85482": {
+"first_seen": "2026-11-13",
+"title": "ヴェノム：レット・ゼア・ビー・カーネイジ"
+},
+"/movies/85555": {
+"first_seen": "2026-11-13",
+"title": "シン・ウルトラマン"
+},
+"/movies/85560": {
+"first_seen": "2026-11-13",
+"title": "1917 命をかけた伝令"
+},
+"/movies/85972": {
+"first_seen": "2026-11-13",
+"title": "街の上で"
+},
+"/movies/86672": {
+"first_seen": "2026-11-13",
+"title": "約束のネバーランド"
+},
+"/movies/867": {
+"first_seen": "2026-11-13",
+"title": "フル・モンティ"
+},
+"/movies/86717": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン：ノー・ウェイ・ホーム"
+},
+"/movies/86962": {
+"first_seen": "2026-11-13",
+"title": "劇場版「鬼滅の刃」無限列車編"
+},
+"/movies/86975": {
+"first_seen": "2026-11-13",
+"title": "ラーヤと龍の王国"
+},
+"/movies/87089": {
+"first_seen": "2026-11-13",
+"title": "ドロステのはてで僕ら"
+},
+"/movies/87364": {
+"first_seen": "2026-11-13",
+"title": "すばらしき世界"
+},
+"/movies/87474": {
+"first_seen": "2026-11-13",
+"title": "コンフィデンスマンJP プリンセス編"
+},
+"/movies/87476": {
+"first_seen": "2026-11-13",
+"title": "花束みたいな恋をした"
+},
+"/movies/87572": {
+"first_seen": "2026-11-13",
+"title": "ミッドナイトスワン"
+},
+"/movies/87647": {
+"first_seen": "2026-11-13",
+"title": "アントマン＆ワスプ：クアントマニア"
+},
+"/movies/88010": {
+"first_seen": "2026-11-13",
+"title": "ブレイブ 群青戦記"
+},
+"/movies/88689": {
+"first_seen": "2026-11-13",
+"title": "あの頃。"
+},
+"/movies/88789": {
+"first_seen": "2026-11-13",
+"title": "MOTHER マザー"
+},
+"/movies/88811": {
+"first_seen": "2026-11-13",
+"title": "ターミネーター ニュー・フェイト"
+},
+"/movies/88812": {
+"first_seen": "2026-11-13",
+"title": "マーベルズ"
+},
+"/movies/89503": {
+"first_seen": "2026-11-13",
+"title": "ダークナイト ライジング"
+},
+"/movies/89585": {
+"first_seen": "2026-11-13",
+"title": "空白"
+},
+"/movies/89965": {
+"first_seen": "2026-11-13",
+"title": "護られなかった者たちへ"
+},
+"/movies/9014": {
+"first_seen": "2026-11-13",
+"title": "ハイスクール・ミュージカル／ザ・ムービー"
+},
+"/movies/90606": {
+"first_seen": "2026-11-13",
+"title": "ジョン・ウィック：コンセクエンス"
+},
+"/movies/90932": {
+"first_seen": "2026-11-13",
+"title": "ヤクザと家族 The Family"
+},
+"/movies/91015": {
+"first_seen": "2026-11-13",
+"title": "キングダム2 遥かなる大地へ"
+},
+"/movies/91050": {
+"first_seen": "2026-11-13",
+"title": "あのこは貴族"
+},
+"/movies/9116": {
+"first_seen": "2026-11-13",
+"title": "最高の人生の見つけ方"
+},
+"/movies/91341": {
+"first_seen": "2026-11-13",
+"title": "スパイダーマン：アクロス・ザ・スパイダーバース"
+},
+"/movies/91447": {
+"first_seen": "2026-11-13",
+"title": "ライアー×ライアー"
+},
+"/movies/92087": {
+"first_seen": "2026-11-13",
+"title": "ノマドランド"
+},
+"/movies/9226": {
+"first_seen": "2026-11-13",
+"title": "ワイルド・スピード MEGA MAX"
+},
+"/movies/93130": {
+"first_seen": "2026-11-13",
+"title": "オールド"
+},
+"/movies/93269": {
+"first_seen": "2026-11-13",
+"title": "あの夏のルカ"
+},
+"/movies/93424": {
+"first_seen": "2026-11-13",
+"title": "マッドマックス：フュリオサ"
+},
+"/movies/9361": {
+"first_seen": "2026-11-13",
+"title": "セブン"
+},
+"/movies/93709": {
+"first_seen": "2026-11-13",
+"title": "ドライブ・マイ・カー"
+},
+"/movies/94105": {
+"first_seen": "2026-11-13",
+"title": "浅草キッド"
+},
+"/movies/94514": {
+"first_seen": "2026-11-13",
+"title": "竜とそばかすの姫"
+},
+"/movies/94623": {
+"first_seen": "2026-11-13",
+"title": "コンフィデンスマンJP 英雄編"
+},
+"/movies/95093": {
+"first_seen": "2026-11-13",
+"title": "ウォンカとチョコレート工場のはじまり"
+},
+"/movies/96041": {
+"first_seen": "2026-11-13",
+"title": "コマンドー"
+},
+"/movies/96257": {
+"first_seen": "2026-11-13",
+"title": "コーダ あいのうた"
+},
+"/movies/96267": {
+"first_seen": "2026-11-13",
+"title": "劇場版 呪術廻戦 0"
+},
+"/movies/96288": {
+"first_seen": "2026-11-13",
+"title": "隔たる世界の2人"
+},
+"/movies/96740": {
+"first_seen": "2026-11-13",
+"title": "サマー・オブ・ソウル（あるいは、革命がテレビ放映されなかった時）"
+},
+"/movies/96840": {
+"first_seen": "2026-11-13",
+"title": "べイビーわるきゅーれ"
+},
+"/movies/97342": {
+"first_seen": "2026-11-13",
+"title": "クレイヴン・ザ・ハンター"
+},
+"/movies/9750": {
+"first_seen": "2026-11-13",
+"title": "かもめ食堂"
+},
+"/movies/9783": {
+"first_seen": "2026-11-13",
+"title": "戦場のピアニスト"
+},
+"/movies/979": {
+"first_seen": "2026-11-13",
+"title": "パイレーツ・オブ・カリビアン／デッドマンズ・チェスト"
+},
+"/movies/97953": {
+"first_seen": "2026-11-13",
+"title": "流浪の月"
+},
+"/movies/97959": {
+"first_seen": "2026-11-13",
+"title": "ミラベルと魔法だらけの家"
+},
+"/movies/98034": {
+"first_seen": "2026-11-13",
+"title": "ホーム・アローン3"
+},
+"/movies/9819": {
+"first_seen": "2026-11-13",
+"title": "猿の惑星：創世記（ジェネシス）"
+},
+"/movies/9831": {
+"first_seen": "2026-11-13",
+"title": "クレヨンしんちゃん 嵐を呼ぶモーレツ！オトナ帝国の逆襲"
+},
+"/movies/98567": {
+"first_seen": "2026-11-13",
+"title": "笑いのカイブツ"
+},
+"/movies/98608": {
+"first_seen": "2026-11-13",
+"title": "アステロイド・シティ"
+},
+"/movies/98638": {
+"first_seen": "2026-11-13",
+"title": "余命10年"
+},
+"/movies/98659": {
+"first_seen": "2026-11-13",
+"title": "キャプテン・アメリカ：ブレイブ・ニュー・ワールド"
+},
+"/movies/98746": {
+"first_seen": "2026-11-13",
+"title": "死刑にいたる病"
+},
+"/movies/98833": {
+"first_seen": "2026-11-13",
+"title": "ある男"
+},
+"/movies/98858": {
+"first_seen": "2026-11-13",
+"title": "さがす"
+},
+"/movies/98991": {
+"first_seen": "2026-11-13",
+"title": "ちょっと思い出しただけ"
+},
+"/movies/99089": {
+"first_seen": "2026-11-13",
+"title": "ホーンテッドマンション"
+},
+"/movies/99300": {
+"first_seen": "2026-11-13",
+"title": "ザ・スーパーマリオブラザーズ・ムービー"
+},
+"/movies/99563": {
+"first_seen": "2026-11-13",
+"title": "オッペンハイマー"
+},
+"/movies/99722": {
+"first_seen": "2026-11-13",
+"title": "イニシェリン島の精霊"
+},
+"/movies/99735": {
+"first_seen": "2026-11-13",
+"title": "BLUE GIANT"
+},
+"/movies/99768": {
+"first_seen": "2026-11-13",
+"title": "ラーゲリより愛を込めて"
+},
+"/movies/99843": {
+"first_seen": "2026-11-13",
+"title": "デューン 砂の惑星PART2"
+}
+}
+}
