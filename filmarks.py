@@ -1,5 +1,9 @@
 """Filmarks の「動画配信サービス別」一覧を確認し、
-契約中のサブスクに新しく入った高評価作品（スコア4.0以上）を ntfy で通知する。
+契約中のサブスクに新しく入った高評価作品（スコア3.9以上）を週1回まとめて通知する。
+
+  毎日: 一覧をチェックして、新しく見つけた作品を「今週の追加」にためる（通知しない）
+  金曜18時（REPORT=1）: たまった作品をスコア順のランキングにして
+        filmarks_weekly.md に書き出し、ntfy で1通だけ通知する
 
 仕組み:
   Filmarks の配信サービス別一覧（おすすめ順）の上位ページを読み、
@@ -32,12 +36,15 @@ KINDS = {
     "list-drama": "ドラマ",
     "list-anime": "アニメ",
 }
-MIN_SCORE = 4.0
+MIN_SCORE = 3.9
 PAGES = 10            # 各一覧の何ページ目まで見るか（おすすめ順の上位）
-MAX_PUSH = 8          # 1回の実行で個別に通知する上限（超えた分はまとめて1通）
+MAX_LINES = 15        # 通知本文に載せる件数（全件は filmarks_weekly.md で見る）
 
 BASE = "https://filmarks.com"
 SEEN_FILE = "filmarks_seen.json"
+REPORT_FILE = "filmarks_weekly.md"
+REPORT_URL = "https://github.com/saaaaka/dsm-sa-8241/blob/main/filmarks_weekly.md"
+REPORT = os.environ.get("REPORT", "") == "1"
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
@@ -45,6 +52,7 @@ WORK_LINK = re.compile(r'href="(?:https://filmarks\.com)?(/(?:movies|dramas|anim
 SCORE = re.compile(r'c-rating__score[^>]*>\s*([0-9]\.[0-9]|-)')
 TITLE = re.compile(r'p-content-cassette__title[^>]*>(.*?)</h3>', re.S)
 IMG_ALT = re.compile(r'<img[^>]*alt="([^"]+)"')
+MARKS = re.compile(r'action--mark[^>]*>\s*<span>(\d+)')
 
 
 def get(url):
@@ -83,7 +91,9 @@ def parse(page):
         t = TITLE.search(c) or IMG_ALT.search(c)
         title = clean(t.group(1)) if t else link.group(1)
         s = score.group(1)
+        mk = MARKS.search(c)
         items.append({"path": link.group(1), "title": title,
+                      "marks": int(mk.group(1)) if mk else 0,
                       "score": float(s) if s != "-" else None,
                       # 見放題（サブスクで観られる）かどうか。レンタル・購入のみは対象外
                       "svod": "label-svod" in c})
@@ -101,6 +111,30 @@ def notify(title, body, click):
         data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
         headers={"Content-Type": "application/json"}, method="POST")
     urllib.request.urlopen(req, timeout=30)
+
+
+def send_report(pending, today):
+    ranked = sorted(pending.items(), key=lambda kv: (-kv[1]["score"], -kv[1]["marks"]))
+    lines = [f"# Filmarks 今週の追加（{today}）", "",
+             f"契約中のサブスクで見放題になった、スコア{MIN_SCORE}以上の作品です（スコア順）。", ""]
+    if ranked:
+        lines += ["| 順位 | 作品 | 種類 | 配信 | スコア |", "|---:|---|---|---|---:|"]
+        for i, (path, p) in enumerate(ranked, 1):
+            t = p["title"].replace("|", "｜")
+            lines.append(f"| {i} | [{t}]({BASE}{path}) | {p['kind']} | {' / '.join(p['services'])} | ★{p['score']} |")
+    else:
+        lines.append("今週は該当する作品はありませんでした。")
+    with open(REPORT_FILE, "w", encoding="utf-8") as fp:
+        fp.write("\n".join(lines) + "\n")
+
+    if ranked:
+        body = "\n".join(f"{i}. ★{p['score']} {p['title']}（{p['kind']}｜{' / '.join(p['services'])}）"
+                         for i, (_, p) in enumerate(ranked[:MAX_LINES], 1))
+        if len(ranked) > MAX_LINES:
+            body += f"\n…ほか{len(ranked) - MAX_LINES}作品（タップで全件）"
+        notify(f"今週の追加 {len(ranked)}作品", body, REPORT_URL)
+    else:
+        notify("今週の追加 0作品", f"スコア{MIN_SCORE}以上の新着はありませんでした。", REPORT_URL)
 
 
 def main():
@@ -150,31 +184,28 @@ def main():
         print("エラー:\n" + "\n".join(errors))
         sys.exit(1)
 
-    new_hits = []
+    pending = state.setdefault("pending", {})
     for path, f in found.items():
         if path in seen:
             continue
         seen[path] = {"title": f["title"], "first_seen": today}
         if f["notifiable"] and f["score"] is not None and f["score"] >= MIN_SCORE:
-            new_hits.append(f)
+            pending[path] = {k: f[k] for k in ("title", "kind", "services", "score", "marks")}
+            pending[path]["added"] = today
+            print("今週の追加に記録:", f["title"], f["score"])
+    # ためている作品のスコア・配信先を最新に
+    for path, p in pending.items():
+        if path in found:
+            f = found[path]
+            p.update(score=f["score"] or p["score"], marks=f["marks"] or p["marks"],
+                     services=sorted(set(p["services"]) | set(f["services"])))
 
     if first_run:
         print(f"初回: {len(found)}件を記録（通知なし）")
-        notify("Filmarks監視を開始しました",
-               f"{len(found)}作品を記録しました。次回から新しく入った★{MIN_SCORE}以上の作品を通知します。",
-               BASE)
-    else:
-        new_hits.sort(key=lambda f: -f["score"])
-        for f in new_hits[:MAX_PUSH]:
-            notify(f"★{f['score']} {f['title']}",
-                   f"{f['kind']}｜{' / '.join(f['services'])}",
-                   BASE + f["path"])
-        rest = new_hits[MAX_PUSH:]
-        if rest:
-            notify(f"ほかに{len(rest)}作品",
-                   "\n".join(f"★{f['score']} {f['title']}（{' / '.join(f['services'])}）" for f in rest),
-                   BASE)
-        print(f"新着の高評価: {len(new_hits)}件")
+    elif REPORT:
+        send_report(pending, today)
+        state["pending"] = {}
+    print(f"今週の追加（未通知）: {len(state['pending'])}件")
 
     if errors:
         print("エラー:\n" + "\n".join(errors))
