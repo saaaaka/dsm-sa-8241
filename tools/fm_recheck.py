@@ -2,7 +2,7 @@
 import re, sys, datetime
 sys.path.insert(0, ".")
 import filmarks as F
-rows = [l for l in open(F.REPORT_FILE, encoding="utf-8") if re.match(r"\| \d", l)]
+rows = [l for l in open("tools/fm_orig.md", encoding="utf-8") if re.match(r"\| \d", l)]
 keep = {}
 for l in rows:
     c = [x.strip() for x in l.strip().strip("|").split("|")]
@@ -16,7 +16,7 @@ for l in rows:
         rel = F.release_date(path)
     except Exception as e:
         rel = None; print("読めず:", title, e)
-    if rel and (datetime.date.today() - rel).days > F.RECENT_DAYS[kind]:
+    if rel is None or (datetime.date.today() - rel).days > F.RECENT_DAYS[kind]:
         print("古い:", title, rel); continue
     r = F.available_elsewhere(path, title, services)
     if r:

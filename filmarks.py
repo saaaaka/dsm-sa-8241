@@ -136,8 +136,14 @@ def ymd(m):
 def release_date(path):
     """作品ページから公開日（ドラマ・アニメはそのシーズンの開始日）を返す。"""
     page = detail(path)
-    m = RELEASE_LD.search(page) or RELEASE_TXT.search(page)
-    return ymd(m) if m else None
+    m = RELEASE_LD.search(page) or RELEASE_TXT.search(re.sub(r"<[^>]+>", " ", page))
+    if m:
+        return ymd(m)
+    m = re.search(r'"startDate":"(\d{4})-(\d{2})-(\d{2})', page)   # シリーズの開始日
+    if m:
+        return ymd(m)
+    m = re.search(r'(\d{4})年製作', page)                            # 製作年（年末扱い）
+    return datetime.date(int(m.group(1)), 12, 31) if m else None
 
 
 def svod_services(path):
@@ -362,7 +368,7 @@ def main():
                 print("公開日を読めませんでした:", f["title"], e)
                 rel = None
             limit = RECENT_DAYS.get(f["kind"])
-            if rel and limit and (datetime.date.today() - rel).days > limit:
+            if limit and (rel is None or (datetime.date.today() - rel).days > limit):
                 print("古い作品・古いシーズンなので対象外:", f["title"], rel)
                 continue
             try:
