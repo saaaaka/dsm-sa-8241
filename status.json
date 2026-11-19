@@ -1,5 +1,5 @@
 {
- "DSM": "OK 1427件",
+ "DSM": "OK 1428件",
  "NEIGHBORHOOD": "OK 338件",
  "CIBONE": "OK 60件",
  "THE TOKYO": "OK 180件",
@@ -8,5 +8,5 @@
  "電撃ホビー デジモン": "OK 10件",
  "コナミスタイル": "取得失敗: ブラウザでも HTTP 403",
  "わこうねっと": "OK 15件",
- "ARKnets": "取得失敗: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+ "ARKnets": "0件（ページ構成が変わった可能性）"
 }
