@@ -56,6 +56,10 @@ MIN_SCORE = 3.8
 EXCLUDE_COUNTRIES = ["韓国"]   # この国の作品は通知しない（ドラマ・映画）
 PAGES = 10            # 各一覧の何ページ目まで見るか（おすすめ順の上位）
 MAX_LINES = 15        # 通知本文に載せる件数（全件は filmarks_weekly.md で見る）
+# 作品ページの確認に使う時間の上限（分）。超えた分は記録せず次回に回す
+# （新着が大量にたまってもタイムアウトで何も保存されない、を防ぐ）
+CHECK_MINUTES = 25
+START = time.time()
 
 BASE = "https://filmarks.com"
 SEEN_FILE = "filmarks_seen.json"
@@ -310,11 +314,16 @@ def main():
     pending = state.setdefault("pending", {})
     # ドラマ・アニメは同じ作品がサービスごとに別ページになっていることがあるので、タイトルでも照合
     known_titles = {norm(w["title"]) for p, w in seen.items() if not p.startswith("/movies/")}
+    deferred = 0
     for path, f in found.items():
         if path in seen:
             continue
+        candidate = f["notifiable"] and f["score"] is not None and f["score"] >= MIN_SCORE
+        if candidate and time.time() - START > CHECK_MINUTES * 60:
+            deferred += 1   # 時間切れ: 記録せず次回の確認に回す
+            continue
         seen[path] = {"title": f["title"], "first_seen": today, "services": f["services"]}
-        if f["notifiable"] and f["score"] is not None and f["score"] >= MIN_SCORE:
+        if candidate:
             if not path.startswith("/movies/") and norm(f["title"]) in known_titles:
                 print("記録済みの作品なので対象外:", f["title"])
                 continue
@@ -339,6 +348,9 @@ def main():
             f = found[path]
             p.update(score=f["score"] or p["score"], marks=f["marks"] or p["marks"],
                      services=sorted(set(p["services"]) | set(f["services"])))
+
+    if deferred:
+        print(f"時間切れのため次回に回した作品: {deferred}件")
 
     if first_run:
         print(f"初回: {len(found)}件を記録（通知なし）")

@@ -21,7 +21,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -40,7 +40,7 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           REPORT: ${{ (steps.day.outputs.report == '1' || inputs.report) && '1' || '' }}
-        run: python filmarks.py
+        run: python -u filmarks.py
       - name: 確認済みリストを保存
         run: |
           git config user.name "filmarks-bot"
