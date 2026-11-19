@@ -53,6 +53,11 @@ KINDS = {
     "list-anime": "アニメ",
 }
 MIN_SCORE = 3.8
+# 新しさの判定（Filmarks には「配信開始日」がないため、公開日で代用する）
+#   ドラマ・アニメ: そのシーズンの開始日がこの日数以内なら「新シーズン」として通知。
+#     古いシーズンが一覧に浮上しただけのもの・放送中の最新話追加は通知しない
+#   映画: 公開（上映）日がこの日数以内のものだけ通知
+RECENT_DAYS = {"映画": 730, "ドラマ": 180, "アニメ": 180}
 EXCLUDE_COUNTRIES = ["韓国"]   # この国の作品は通知しない（ドラマ・映画）
 PAGES = 10            # 各一覧の何ページ目まで見るか（おすすめ順の上位）
 MAX_LINES = 15        # 通知本文に載せる件数（全件は filmarks_weekly.md で見る）
@@ -119,6 +124,22 @@ def excluded_country(path):
     return hit[0] if hit else None
 
 
+RELEASE_LD = re.compile(r'"releaseDate":"(\d{4})-(\d{2})-(\d{2})')
+RELEASE_TXT = re.compile(r'(?:上映日|公開日?|放送開始)[：:]?\s*(\d{4})年(\d{1,2})月(\d{1,2})日|(\d{4})年(\d{1,2})月(\d{1,2})日(?:公開|放送|配信)')
+
+
+def ymd(m):
+    g = [x for x in m.groups() if x]
+    return datetime.date(int(g[0]), int(g[1]), int(g[2]))
+
+
+def release_date(path):
+    """作品ページから公開日（ドラマ・アニメはそのシーズンの開始日）を返す。"""
+    page = detail(path)
+    m = RELEASE_LD.search(page) or RELEASE_TXT.search(page)
+    return ymd(m) if m else None
+
+
 def svod_services(path):
     """作品ページから、契約中サブスクのうち見放題で配信しているサービス名を返す。
     読めなかったときは None。"""
@@ -161,6 +182,8 @@ def available_elsewhere(path, title, services):
             print("作品ページを読めませんでした:", title, p, e)
             continue
         others = (avail or set()) - set(services)
+        if p == path and len(services) > 1:
+            return " / ".join(sorted(services)) + "の複数で見放題"
         if others:
             where = "" if p == path else "（別ページ）"
             return " / ".join(sorted(others)) + "で見放題" + where
@@ -213,9 +236,11 @@ def parse(page):
         title = clean(t.group(1)) if t else link.group(1)
         s = score.group(1)
         mk = MARKS.search(c)
+        rd = RELEASE_TXT.search(re.sub(r"<[^>]+>", " ", c))
         items.append({"path": link.group(1), "title": title,
                       "marks": int(mk.group(1)) if mk else 0,
                       "score": float(s) if s != "-" else None,
+                      "released": ymd(rd).isoformat() if rd else None,
                       # 見放題（サブスクで観られる）かどうか。レンタル・購入のみは対象外
                       "svod": "label-svod" in c})
     return items
@@ -326,6 +351,19 @@ def main():
         if candidate:
             if not path.startswith("/movies/") and norm(f["title"]) in known_titles:
                 print("記録済みの作品なので対象外:", f["title"])
+                continue
+            if len(f["services"]) > 1:
+                print("複数の契約中サブスクで見放題なので対象外:", f["title"], f["services"])
+                continue
+            rel = f.get("released")
+            try:
+                rel = datetime.date.fromisoformat(rel) if rel else release_date(path)
+            except Exception as e:
+                print("公開日を読めませんでした:", f["title"], e)
+                rel = None
+            limit = RECENT_DAYS.get(f["kind"])
+            if rel and limit and (datetime.date.today() - rel).days > limit:
+                print("古い作品・古いシーズンなので対象外:", f["title"], rel)
                 continue
             try:
                 c = excluded_country(path)
