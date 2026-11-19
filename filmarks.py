@@ -1,8 +1,8 @@
 """Filmarks の「動画配信サービス別」一覧を確認し、
-契約中のサブスクに新しく入った高評価作品（スコア3.8以上）を週1回まとめて通知する。
+契約中のサブスクに新しく入った高評価作品（スコア3.8以上）を3日に1回まとめて通知する。
 
-  毎日: 一覧をチェックして、新しく見つけた作品を「今週の追加」にためる（通知しない）
-  金曜11時30分（REPORT=1）: たまった作品をスコア順のランキングにして
+  毎日: 一覧をチェックして、新しく見つけた作品を「前回からの追加」にためる（通知しない）
+  3日に1回 18時（REPORT=1）: たまった作品をスコア順のランキングにして
         filmarks_weekly.md に書き出し、ntfy で1通だけ通知する
 
 仕組み:
@@ -230,7 +230,7 @@ def notify(title, body, click):
     urllib.request.urlopen(req, timeout=30)
 
 
-def send_report(pending, today, label="今週の追加"):
+def send_report(pending, today, label="前回からの追加"):
     ranked = sorted(pending.items(), key=lambda kv: (-kv[1]["score"], -kv[1]["marks"]))
     lines = [f"# Filmarks {label}（{today}）", "",
              f"契約中のサブスクで見放題になった、スコア{MIN_SCORE}以上の作品です（スコア順）。", ""]
@@ -240,7 +240,7 @@ def send_report(pending, today, label="今週の追加"):
             t = p["title"].replace("|", "｜")
             lines.append(f"| {i} | [{t}]({BASE}{path}) | {p['kind']} | {' / '.join(p['services'])} | ★{p['score']} |")
     else:
-        lines.append("今週は該当する作品はありませんでした。")
+        lines.append("前回の通知から、該当する作品はありませんでした。")
     with open(REPORT_FILE, "w", encoding="utf-8") as fp:
         fp.write("\n".join(lines) + "\n")
 
@@ -251,7 +251,7 @@ def send_report(pending, today, label="今週の追加"):
             body += f"\n…ほか{len(ranked) - MAX_LINES}作品（タップで全件）"
         notify(f"{label} {len(ranked)}作品", body, REPORT_URL)
     else:
-        notify("今週の追加 0作品", f"スコア{MIN_SCORE}以上の新着はありませんでした。", REPORT_URL)
+        notify(f"{label} 0作品", f"スコア{MIN_SCORE}以上の新着はありませんでした。", REPORT_URL)
 
 
 def main():
@@ -303,7 +303,7 @@ def main():
 
     if SAMPLE:
         hits = {p: f for p, f in found.items() if f["score"] is not None and f["score"] >= MIN_SCORE}
-        send_report(hits, today, "（サンプル）今週の追加")
+        send_report(hits, today, "（サンプル）前回からの追加")
         print(f"サンプル: {len(hits)}件")
         return
 
@@ -332,7 +332,7 @@ def main():
                 continue
             pending[path] = {k: f[k] for k in ("title", "kind", "services", "score", "marks")}
             pending[path]["added"] = today
-            print("今週の追加に記録:", f["title"], f["score"])
+            print("前回からの追加に記録:", f["title"], f["score"])
     # ためている作品のスコア・配信先を最新に
     for path, p in pending.items():
         if path in found:
@@ -345,7 +345,7 @@ def main():
     elif REPORT:
         send_report(pending, today)
         state["pending"] = {}
-    print(f"今週の追加（未通知）: {len(state['pending'])}件")
+    print(f"前回からの追加（未通知）: {len(state['pending'])}件")
 
     if errors:
         print("エラー:\n" + "\n".join(errors))

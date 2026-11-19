@@ -3,11 +3,11 @@ name: Filmarks 新着チェック
 on:
   schedule:
     - cron: "13 3 * * *"   # 毎日 12:13（日本時間）にチェックだけ（通知なし）
-    - cron: "30 2 * * 5"   # 金曜 11:30（日本時間）に今週の追加をランキングで通知
+    - cron: "0 9 * * *"    # 毎日 18:00（日本時間）。2026-11-19 から3日おきの日だけ通知
   workflow_dispatch:        # 手動でも実行できる
     inputs:
       report:
-        description: "今週の追加をすぐ通知する"
+        description: "前回からの追加をすぐ通知する"
         type: boolean
         default: false
 
@@ -27,10 +27,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: 通知する日か判定（2026-11-19 から3日おき）
+        id: day
+        env:
+          TZ: Asia/Tokyo
+        run: |
+          days=$(( ( $(date -d "$(date +%F)" +%s) - $(date -d 2026-11-19 +%s) ) / 86400 ))
+          if [ "${{ github.event.schedule }}" = "0 9 * * *" ] && [ $((days % 3)) -eq 0 ]; then
+            echo "report=1" >> "$GITHUB_OUTPUT"
+          fi
       - name: 新着の高評価作品を確認して通知
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          REPORT: ${{ (github.event.schedule == '30 2 * * 5' || inputs.report) && '1' || '' }}
+          REPORT: ${{ (steps.day.outputs.report == '1' || inputs.report) && '1' || '' }}
         run: python filmarks.py
       - name: 確認済みリストを保存
         run: |
