@@ -1,9 +1,0 @@
-name: fm pages
-on: workflow_dispatch
-jobs:
-  d:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    steps:
-      - uses: actions/checkout@v4
-      - run: python3 -u tools/fm_pages.py

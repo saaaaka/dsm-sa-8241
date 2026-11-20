@@ -1,4 +1,10 @@
-"""Filmarks の「動画配信サービス別」一覧を確認し、
+"""【方式】通知する日（3日に1回 18時）に、各サブスクの見放題作品を全ページ読んで
+前回の記録（filmarks_catalog.json）と比べ、新しく見られるようになった作品だけを通知する。
+古い作品でも「今まで契約中のどのサブスクでも見られなかった」なら通知する。
+ドラマ・アニメの最新話追加はページが増えないので通知されない。新シーズンは別ページなので通知される。
+（以下は旧方式の説明を含む）
+
+Filmarks の「動画配信サービス別」一覧を確認し、
 契約中のサブスクに新しく入った高評価作品（スコア3.8以上）を3日に1回まとめて通知する。
 
   毎日: 一覧をチェックして、新しく見つけた作品を「前回からの追加」にためる（通知しない）
@@ -289,87 +295,109 @@ def send_report(pending, today, label="前回からの追加"):
         notify(f"{label} 0作品", f"スコア{MIN_SCORE}以上の新着はありませんでした。", REPORT_URL)
 
 
-def main():
-    first_run = not os.path.exists(SEEN_FILE)
-    state = {"works": {}, "lists": []} if first_run else json.load(open(SEEN_FILE, encoding="utf-8"))
-    seen, known_lists = state["works"], set(state["lists"])
-    today = datetime.date.today().isoformat()
+CATALOG_FILE = "filmarks_catalog.json"
+WORKERS = 4          # 同時に読む一覧の数
+MAX_PAGES = 3000     # 念のための上限
 
-    found = {}   # path -> {title, score, kind, services, notifiable}
-    errors = []
-    ok_lists = set()
-    for kind_slug, kind_name in KINDS.items():
-        for svc_slug, svc_name in SERVICES.items():
-            list_id = f"{kind_slug}/{svc_slug}"
-            # 初めて読む一覧（サブスク追加時など）は記録だけして通知しない
-            notifiable = list_id in known_lists
-            for p in range(1, PAGES + 1):
-                url = f"{BASE}/{kind_slug}/vod/{svc_slug}" + (f"?page={p}" if p > 1 else "")
-                try:
-                    items = parse(get(url))
-                except urllib.error.HTTPError as e:
-                    if e.code != 404 or p == 1:   # 404 = 最終ページを過ぎただけ
-                        errors.append(f"{kind_name}/{svc_name} p{p}: {e}")
+
+def crawl(kind_slug, svc_slug):
+    """1つの一覧を最終ページまで読み、見放題作品を返す。(items, 読めなかったページ数)"""
+    items, failed, p = [], 0, 1
+    while p <= MAX_PAGES:
+        url = f"{BASE}/{kind_slug}/vod/{svc_slug}" + (f"?page={p}" if p > 1 else "")
+        page = None
+        for attempt in range(3):
+            try:
+                page = parse(get(url))
+                break
+            except urllib.error.HTTPError as e:
+                if e.code == 404:
+                    page = []
                     break
-                except Exception as e:
-                    errors.append(f"{kind_name}/{svc_name} p{p}: {e}")
-                    break
-                if p == 1 and len(items) < 5:
-                    errors.append(f"{kind_name}/{svc_name}: 作品を読み取れませんでした（{len(items)}件）")
-                    break
-                for it in items:
-                    if not it["svod"]:
-                        continue
-                    f = found.setdefault(it["path"], {**it, "kind": kind_name, "services": [],
-                                                      "notifiable": False})
-                    if svc_name not in f["services"]:
-                        f["services"].append(svc_name)
-                    f["notifiable"] = f["notifiable"] or notifiable
-                if p == 1:
-                    ok_lists.add(list_id)
-                print(f"{kind_name}/{svc_name} p{p}: {len(items)}件")
-                if not items:
-                    break
-                time.sleep(1)
+                time.sleep(5)
+            except Exception:
+                time.sleep(5)
+        if page is None:
+            failed += 1
+            if failed > 20:
+                break
+            p += 1
+            continue
+        if not page:
+            break
+        items += [it for it in page if it["svod"]]
+        p += 1
+        time.sleep(0.5)
+    print(f"{kind_slug}/{svc_slug}: {p - 1}ページ, 見放題{len(items)}件, 失敗{failed}ページ", flush=True)
+    return items, failed
+
+
+def load_catalog():
+    if os.path.exists(CATALOG_FILE):
+        return json.load(open(CATALOG_FILE, encoding="utf-8"))
+    cat = {"lists": {}, "titles": {}}
+    # 旧方式の記録（filmarks_seen.json）も「既知」として取り込む
+    if os.path.exists(SEEN_FILE):
+        old = json.load(open(SEEN_FILE, encoding="utf-8"))
+        kind_of = {"movies": "list", "dramas": "list-drama", "animes": "list-anime"}
+        slug_of = {v: k for k, v in SERVICES.items()}
+        for path, w in old.get("works", {}).items():
+            k = kind_of.get(path.split("/")[1])
+            for name in w.get("services", []):
+                if k and name in slug_of:
+                    cat["lists"].setdefault(f"{k}/{slug_of[name]}", []).append(path)
+            cat["titles"][path] = w.get("title", "")
+        # 旧方式で一部しか読んでいない一覧は「未完成」扱い（初回は通知しない）
+        cat["partial"] = True
+    return cat
+
+
+def main():
+    from concurrent.futures import ThreadPoolExecutor
+    today = datetime.date.today().isoformat()
+    cat = load_catalog()
+    building = cat.pop("partial", False) or not cat["lists"]
+    known = {lid: set(v) for lid, v in cat["lists"].items()}
+    titles = cat["titles"]
+    # 以前から契約中サブスクのどれかで見られた作品（＝新着ではない）
+    known_any = set().union(*known.values()) if known else set()
+    known_titles = {norm(t) for pth, t in titles.items() if not pth.startswith("/movies/")}
+
+    jobs = [(k, s) for k in KINDS for s in SERVICES]
+    with ThreadPoolExecutor(WORKERS) as ex:
+        results = dict(zip(jobs, ex.map(lambda j: crawl(*j), jobs)))
+
+    found = {}     # path -> 作品情報（今回の全一覧）
+    complete = set()
+    for (k, sv), (items, failed) in results.items():
+        lid = f"{k}/{sv}"
+        if items and failed == 0:
+            complete.add(lid)
+        for it in items:
+            f = found.setdefault(it["path"], {**it, "kind": KINDS[k], "services": [], "lists": []})
+            if SERVICES[sv] not in f["services"]:
+                f["services"].append(SERVICES[sv])
+            f["lists"].append(lid)
 
     if not found:
-        print("エラー:\n" + "\n".join(errors))
+        print("エラー: 一覧を読めませんでした")
         sys.exit(1)
 
-    if SAMPLE:
-        hits = {p: f for p, f in found.items() if f["score"] is not None and f["score"] >= MIN_SCORE}
-        send_report(hits, today, "（サンプル）前回からの追加")
-        print(f"サンプル: {len(hits)}件")
-        return
-
-    pending = state.setdefault("pending", {})
-    # ドラマ・アニメは同じ作品がサービスごとに別ページになっていることがあるので、タイトルでも照合
-    known_titles = {norm(w["title"]) for p, w in seen.items() if not p.startswith("/movies/")}
-    deferred = 0
-    for path, f in found.items():
-        if path in seen:
-            continue
-        candidate = f["notifiable"] and f["score"] is not None and f["score"] >= MIN_SCORE
-        if candidate and time.time() - START > CHECK_MINUTES * 60:
-            deferred += 1   # 時間切れ: 記録せず次回の確認に回す
-            continue
-        seen[path] = {"title": f["title"], "first_seen": today, "services": f["services"]}
-        if candidate:
-            if not path.startswith("/movies/") and norm(f["title"]) in known_titles:
-                print("記録済みの作品なので対象外:", f["title"])
+    hits = {}
+    if not building:
+        for path, f in found.items():
+            if path in known_any:
+                continue      # 前から契約中のどこかで見られた
+            new_lists = [l for l in f["lists"] if l in known]   # 前回も読めた一覧で初登場
+            if not new_lists:
+                continue
+            if f["score"] is None or f["score"] < MIN_SCORE:
                 continue
             if len(f["services"]) > 1:
                 print("複数の契約中サブスクで見放題なので対象外:", f["title"], f["services"])
                 continue
-            rel = f.get("released")
-            try:
-                rel = datetime.date.fromisoformat(rel) if rel else release_date(path)
-            except Exception as e:
-                print("公開日を読めませんでした:", f["title"], e)
-                rel = None
-            limit = RECENT_DAYS.get(f["kind"])
-            if limit and (rel is None or (datetime.date.today() - rel).days > limit):
-                print("古い作品・古いシーズンなので対象外:", f["title"], rel)
+            if not path.startswith("/movies/") and norm(f["title"]) in known_titles:
+                print("同じタイトルを記録済みなので対象外:", f["title"])
                 continue
             try:
                 c = excluded_country(path)
@@ -383,35 +411,25 @@ def main():
             if reason:
                 print("他の契約中サブスクで見放題なので対象外:", f["title"], reason)
                 continue
-            pending[path] = {k: f[k] for k in ("title", "kind", "services", "score", "marks")}
-            pending[path]["added"] = today
-            print("前回からの追加に記録:", f["title"], f["score"])
-    # ためている作品のスコア・配信先を最新に
-    for path, p in pending.items():
-        if path in found:
-            f = found[path]
-            p.update(score=f["score"] or p["score"], marks=f["marks"] or p["marks"],
-                     services=sorted(set(p["services"]) | set(f["services"])))
+            hits[path] = {k2: f[k2] for k2 in ("title", "kind", "services", "score", "marks")}
+            print("新着:", f["title"], f["score"], f["services"])
 
-    if deferred:
-        print(f"時間切れのため次回に回した作品: {deferred}件")
-
-    if first_run:
+    # 記録を更新（一度見られた作品は残し続ける：読み漏れで誤って新着扱いしないため）
+    for path, f in found.items():
+        titles[path] = f["title"]
+        for l in f["lists"]:
+            known.setdefault(l, set()).add(path)
+    cat = {"lists": {l: sorted(v) for l, v in known.items()}, "titles": titles}
+    if building:
         print(f"初回: {len(found)}件を記録（通知なし）")
+        notify("Filmarks 新着通知の準備完了",
+               f"見放題作品{len(found)}件を記録しました。次回から新しく見られるようになった作品を通知します。",
+               REPORT_URL)
     elif REPORT:
-        send_report(pending, today)
-        state["pending"] = {}
-    print(f"前回からの追加（未通知）: {len(state['pending'])}件")
-
-    if errors:
-        print("エラー:\n" + "\n".join(errors))
-
-    state["lists"] = sorted(known_lists | ok_lists)
-    with open(SEEN_FILE, "w", encoding="utf-8") as fp:
-        json.dump(state, fp, ensure_ascii=False, indent=0, sort_keys=True)
-
-    if errors and not found:
-        sys.exit(1)
+        send_report(hits, today)
+    print(f"新着: {len(hits)}件 / 読めた一覧 {len(complete)}/{len(jobs)}")
+    with open(CATALOG_FILE, "w", encoding="utf-8") as fp:
+        json.dump(cat, fp, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
 
 
 if __name__ == "__main__":
