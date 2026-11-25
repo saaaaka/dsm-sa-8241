@@ -1,12 +1,12 @@
 {
- "DSM": "OK 1445件",
- "NEIGHBORHOOD": "OK 339件",
+ "DSM": "OK 1467件",
+ "NEIGHBORHOOD": "OK 340件",
  "CIBONE": "OK 60件",
  "THE TOKYO": "OK 180件",
- "MOC-O": "OK 972件",
+ "MOC-O": "OK 971件",
  "メガホビ 遊戯王": "OK 8件",
  "電撃ホビー デジモン": "OK 10件",
  "コナミスタイル": "取得失敗: ブラウザでも HTTP 403",
  "わこうねっと": "OK 15件",
- "ARKnets": "OK 90件"
+ "ARKnets": "取得失敗: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }
