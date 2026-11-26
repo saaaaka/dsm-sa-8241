@@ -59,6 +59,8 @@ KINDS = {
     "list-anime": "アニメ",
 }
 MIN_SCORE = 3.8
+MIN_MARKS = 20      # 評価件数（Mark数）がこれ未満の作品は通知しない（件数が少ないとスコアが不安定なため）
+WAIT_DAYS = 90      # 件数不足の作品は、この日数のあいだ毎回見直し、基準の件数に届いたら通知する
 # 新しさの判定（Filmarks には「配信開始日」がないため、公開日で代用する）
 #   ドラマ・アニメ: そのシーズンの開始日がこの日数以内なら「新シーズン」として通知。
 #     古いシーズンが一覧に浮上しただけのもの・放送中の最新話追加は通知しない
@@ -271,22 +273,29 @@ def notify(title, body, click):
     urllib.request.urlopen(req, timeout=30)
 
 
+def country_text(p):
+    return "・".join(p.get("countries") or []) or "不明"
+
+
 def send_report(pending, today, label="前回からの追加"):
     ranked = sorted(pending.items(), key=lambda kv: (-kv[1]["score"], -kv[1]["marks"]))
     lines = [f"# Filmarks {label}（{today}）", "",
-             f"契約中のサブスクで見放題になった、スコア{MIN_SCORE}以上の作品です（スコア順）。", ""]
+             f"契約中のサブスクで見放題になった、スコア{MIN_SCORE}以上・評価{MIN_MARKS}件以上の作品です（スコア順）。", ""]
     if ranked:
-        lines += ["| 順位 | 作品 | 種類 | 配信 | スコア |", "|---:|---|---|---|---:|"]
+        lines += ["| 順位 | 作品 | 種類 | 作成国 | 配信 | スコア | 評価件数 |",
+                  "|---:|---|---|---|---|---:|---:|"]
         for i, (path, p) in enumerate(ranked, 1):
             t = p["title"].replace("|", "｜")
-            lines.append(f"| {i} | [{t}]({BASE}{path}) | {p['kind']} | {' / '.join(p['services'])} | ★{p['score']} |")
+            lines.append(f"| {i} | [{t}]({BASE}{path}) | {p['kind']} | {country_text(p)} | "
+                         f"{' / '.join(p['services'])} | ★{p['score']} | {p.get('marks', 0):,}件 |")
     else:
         lines.append("前回の通知から、該当する作品はありませんでした。")
     with open(REPORT_FILE, "w", encoding="utf-8") as fp:
         fp.write("\n".join(lines) + "\n")
 
     if ranked:
-        body = "\n".join(f"{i}. ★{p['score']} {p['title']}（{p['kind']}｜{' / '.join(p['services'])}）"
+        body = "\n".join(f"{i}. ★{p['score']}（{p.get('marks', 0):,}件） {p['title']}"
+                         f"（{p['kind']}｜{country_text(p)}｜{' / '.join(p['services'])}）"
                          for i, (_, p) in enumerate(ranked[:MAX_LINES], 1))
         if len(ranked) > MAX_LINES:
             body += f"\n…ほか{len(ranked) - MAX_LINES}作品（タップで全件）"
@@ -359,9 +368,13 @@ def main():
     building = cat.pop("partial", False) or not cat["lists"]
     known = {lid: set(v) for lid, v in cat["lists"].items()}
     titles = cat["titles"]
+    waiting = cat.get("waiting", {})   # 件数不足で保留中の作品 path -> 初めて見つけた日
+    new_waiting = {}
+    # 保留中の作品自身のタイトルは「記録済み」に数えない
+    known_titles = {norm(t) for pth, t in titles.items()
+                    if not pth.startswith("/movies/") and pth not in waiting}
     # 以前から契約中サブスクのどれかで見られた作品（＝新着ではない）
     known_any = set().union(*known.values()) if known else set()
-    known_titles = {norm(t) for pth, t in titles.items() if not pth.startswith("/movies/")}
 
     jobs = [(k, s) for k in KINDS for s in SERVICES]
     with ThreadPoolExecutor(WORKERS) as ex:
@@ -386,12 +399,18 @@ def main():
     hits = {}
     if not building:
         for path, f in found.items():
-            if path in known_any:
+            if path in known_any and path not in waiting:
                 continue      # 前から契約中のどこかで見られた
             new_lists = [l for l in f["lists"] if l in known]   # 前回も読めた一覧で初登場
             if not new_lists:
                 continue
             if f["score"] is None or f["score"] < MIN_SCORE:
+                continue
+            if f["marks"] < MIN_MARKS:
+                first = waiting.get(path, today)
+                if (datetime.date.fromisoformat(today) - datetime.date.fromisoformat(first)).days < WAIT_DAYS:
+                    new_waiting[path] = first     # スコアが基準以上なら、次回また見直す
+                print("評価件数が少ないので保留:", f["title"], f["marks"])
                 continue
             if len(f["services"]) > 1:
                 print("複数の契約中サブスクで見放題なので対象外:", f["title"], f["services"])
@@ -400,10 +419,11 @@ def main():
                 print("同じタイトルを記録済みなので対象外:", f["title"])
                 continue
             try:
-                c = excluded_country(path)
+                cs = countries(path)
             except Exception as e:
-                c = None
+                cs = set()
                 print("作品ページを読めませんでした:", f["title"], e)
+            c = next((x for x in cs for ex in EXCLUDE_COUNTRIES if ex in x), None)
             if c:
                 print("除外する国の作品なので対象外:", f["title"], c)
                 continue
@@ -412,6 +432,7 @@ def main():
                 print("他の契約中サブスクで見放題なので対象外:", f["title"], reason)
                 continue
             hits[path] = {k2: f[k2] for k2 in ("title", "kind", "services", "score", "marks")}
+            hits[path]["countries"] = sorted(cs)
             print("新着:", f["title"], f["score"], f["services"])
 
     # 記録を更新（一度見られた作品は残し続ける：読み漏れで誤って新着扱いしないため）
@@ -419,7 +440,8 @@ def main():
         titles[path] = f["title"]
         for l in f["lists"]:
             known.setdefault(l, set()).add(path)
-    cat = {"lists": {l: sorted(v) for l, v in known.items()}, "titles": titles}
+    cat = {"lists": {l: sorted(v) for l, v in known.items()}, "titles": titles,
+           "waiting": new_waiting}
     if building:
         print(f"初回: {len(found)}件を記録（通知なし）")
         notify("Filmarks 新着通知の準備完了",
